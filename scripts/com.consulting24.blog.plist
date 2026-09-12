@@ -10,7 +10,7 @@
         <string>/bin/sh</string>
         <string>-c</string>
         <!-- Publish Blogger batch → link all guides from the site → deploy -->
-        <string>/bin/bash /Users/master/panama-crypto-license/scripts/daily_blog.sh</string>
+        <string>/bin/bash /Users/mardosoo/consulting24/scripts/daily_blog.sh</string>
     </array>
 
     <!-- Run daily at 11:30 (offset from the boat job at 11:00) -->
@@ -23,13 +23,13 @@
     </dict>
 
     <key>WorkingDirectory</key>
-    <string>/Users/master/panama-crypto-license</string>
+    <string>/Users/mardosoo/consulting24</string>
 
     <key>StandardOutPath</key>
-    <string>/Users/master/panama-crypto-license/logs/consulting24_blog.stdout.log</string>
+    <string>/Users/mardosoo/consulting24/logs/consulting24_blog.stdout.log</string>
 
     <key>StandardErrorPath</key>
-    <string>/Users/master/panama-crypto-license/logs/consulting24_blog.stderr.log</string>
+    <string>/Users/mardosoo/consulting24/logs/consulting24_blog.stderr.log</string>
 
     <key>EnvironmentVariables</key>
     <dict>

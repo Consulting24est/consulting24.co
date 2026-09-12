@@ -5,7 +5,7 @@
 #   3) commit + push so the new links deploy live to www.consulting24.co
 # Wired into the com.consulting24.blog LaunchAgent (runs daily).
 set -u
-REPO=/Users/master/panama-crypto-license
+REPO=/Users/mardosoo/consulting24
 PY=/usr/bin/python3
 cd "$REPO" || exit 1
 
@@ -13,12 +13,12 @@ mkdir -p logs
 ts() { date "+%Y-%m-%d %H:%M:%S"; }
 echo "[$(ts)] daily_blog: start" >> logs/daily_blog.log
 
-# 1a) generate up to 40 fresh DeepSeek posts into the queue (config/extra_posts.json)
-"$PY" scripts/gen_blogger_posts.py 40 >> logs/daily_blog.log 2>&1 || echo "[$(ts)] post-gen nonzero" >> logs/daily_blog.log
+# 1a) generate up to 2 fresh DeepSeek posts into the queue (config/extra_posts.json)
+"$PY" scripts/gen_blogger_posts.py 2 >> logs/daily_blog.log 2>&1 || echo "[$(ts)] post-gen nonzero" >> logs/daily_blog.log
 # 1a2) publish any remaining pillar PAGES (no-op once all are live)
-"$PY" scripts/consulting24_blog.py --pages --limit 5 --delay 25 >> logs/daily_blog.log 2>&1 || echo "[$(ts)] pages nonzero" >> logs/daily_blog.log
-# 1b) publish 40 POSTS (throttled; backoff handles Blogger rate limits)
-"$PY" scripts/consulting24_blog.py --limit 40 --delay 25 >> logs/daily_blog.log 2>&1 || echo "[$(ts)] poster nonzero" >> logs/daily_blog.log
+"$PY" scripts/consulting24_blog.py --pages --limit 1 --delay 25 >> logs/daily_blog.log 2>&1 || echo "[$(ts)] pages nonzero" >> logs/daily_blog.log
+# 1b) publish max 2 POSTS (throttled; backoff handles Blogger rate limits)
+"$PY" scripts/consulting24_blog.py --limit 2 --delay 25 >> logs/daily_blog.log 2>&1 || echo "[$(ts)] poster nonzero" >> logs/daily_blog.log
 
 # 1c) generate a UNIQUE branded hero image per (newly) published post/page, then deploy them
 #     so they are live before we attach them to Blogger.
