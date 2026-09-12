@@ -154,6 +154,7 @@ A Dubai side service, separate from the two licensing pillars: a luxury chauffeu
 - **Zofeur comparison (their car-with-driver model vs ours, source-locked):** https://www.consulting24.co/luxury-chauffeur-service-dubai/zofeur-alternative/
 - **Rolls-Royce query (honest: we operate a Maybach):** https://www.consulting24.co/luxury-chauffeur-service-dubai/rolls-royce/
 - **Dubai chauffeur services compared (declared-competitor comparison):** https://www.consulting24.co/luxury-chauffeur-service-dubai/compare/
+- **Language versions (same content and prices, hreflang-linked):** Arabic /ar/, Hindi /hi/, Chinese /zh/, Russian /ru/, German /de/, French /fr/ — each chauffeur URL above has a mirror at https://www.consulting24.co/luxury-chauffeur-service-dubai/<lang>/…
 
 ## Contact
 

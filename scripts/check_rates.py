@@ -41,7 +41,8 @@ def check_page(path: pathlib.Path) -> None:
         fail(rel, f"missing operator line ({R['operator']})")
     # every AED amount on the page must come from rates.json
     page_allowed = set(allowed_amounts)
-    if rel in CF["allowed_pages"]:
+    # language versions (…/ar/compare/index.html) inherit the comparison-page whitelist
+    if any(rel.endswith(p.split("luxury-chauffeur-service-dubai/")[-1]) for p in CF["allowed_pages"]):
         page_allowed |= set(CF["allowed_amounts"])
     for m in re.finditer(r"AED\s*(\d[\d,]*)", t):
         amount = int(m.group(1).replace(",", ""))
