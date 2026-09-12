@@ -6,7 +6,7 @@
 # Wired into the com.consulting24.blog LaunchAgent (runs daily).
 set -u
 REPO=/Users/mardosoo/consulting24
-PY=/usr/bin/python3
+PY=/opt/homebrew/bin/python3
 cd "$REPO" || exit 1
 
 # Owner cap (Sept 2026): max 1-2 posts/day. Skip cleanly until Blogger is authorised on this machine
@@ -32,7 +32,7 @@ echo "[$(ts)] daily_blog: start" >> logs/daily_blog.log
 git add img/blog 2>/dev/null
 if ! git diff --cached --quiet 2>/dev/null; then
   git commit -q -m "daily: unique blog hero images" >> logs/daily_blog.log 2>&1
-  git push -q origin main >> logs/daily_blog.log 2>&1 && echo "[$(ts)] images pushed" >> logs/daily_blog.log
+  git push -q origin main >> logs/daily_blog.log 2>&1 && git push -q c24est main >> logs/daily_blog.log 2>&1 && echo "[$(ts)] images pushed (origin + live)" >> logs/daily_blog.log
   sleep 90   # let GitHub Pages deploy the new images before Blogger fetches them
 fi
 
@@ -60,7 +60,7 @@ git add blog/index.html config/blog_posted.json config/extra_posts.json config/e
         news/ news-sitemap.xml sitemap.xml config/news_items.json config/news_seen.json config/page_hashes.json 2>/dev/null
 if ! git diff --cached --quiet 2>/dev/null; then
   git commit -q -m "daily: publish Blogger batch + sync site blog links + news desk" >> logs/daily_blog.log 2>&1
-  git push -q origin main >> logs/daily_blog.log 2>&1 && echo "[$(ts)] pushed" >> logs/daily_blog.log
+  git push -q origin main >> logs/daily_blog.log 2>&1 && git push -q c24est main >> logs/daily_blog.log 2>&1 && echo "[$(ts)] pushed (origin + live)" >> logs/daily_blog.log
 else
   echo "[$(ts)] no changes to deploy" >> logs/daily_blog.log
 fi

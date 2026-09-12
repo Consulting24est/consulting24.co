@@ -502,3 +502,65 @@ Each post: unique angle, genuinely useful, internal links to /cost/, /requiremen
 - [ ] Custody vs non-custody: how your model changes your licensing obligations
 - [ ] Annual maintenance of a crypto company: filings, renewals and ongoing costs
 - [ ] How Consulting24 vets and coordinates local partners in advise-and-coordinate jurisdictions
+
+## Refill 2026-09-12 (2/day cadence — evergreen, licensing core + Dubai founder angle)
+- [ ] Panama crypto company: what the bank asks for at account opening in 2026
+- [ ] Panama S.A. vs Private Interest Foundation for holding crypto assets: a decision guide
+- [ ] Nominee directors in Panama: what they can and cannot do for a crypto company
+- [ ] How Panama's territorial tax system treats crypto trading income earned abroad
+- [ ] Panama crypto company for a Web3 gaming studio: structure, payments and pitfalls
+- [ ] Substance in Panama: what a crypto company actually needs on the ground
+- [ ] Panama UAF registration explained for crypto businesses
+- [ ] Panama crypto company annual costs 2026: franchise tax, resident agent, accounting
+- [ ] Opening a crypto OTC desk from Panama: licensing, banking and AML setup
+- [ ] Panama vs Costa Rica for a crypto company: taxes, banking and reputation
+- [ ] MiCA CASP authorisation timeline in Estonia: month-by-month expectations
+- [ ] Estonia crypto company after MiCA: what happened to VASP licences
+- [ ] Lithuania CASP capital requirements by service class: EUR 50k, 125k or 150k
+- [ ] Passporting a Lithuanian CASP licence across the EU: how notification works
+- [ ] MiCA white paper requirements for token issuers: a practical checklist
+- [ ] Choosing between Estonia and Lithuania for a MiCA CASP in 2026
+- [ ] Fit-and-proper tests for crypto company directors under MiCA
+- [ ] Outsourcing under MiCA: what a CASP may delegate and what it must keep in-house
+- [ ] Safeguarding client crypto assets under MiCA: segregation and custody rules
+- [ ] MiCA transitional periods by member state: who still has time and who does not
+- [ ] Dubai VARA licence vs Panama crypto company: a cost and timeline comparison
+- [ ] UAE corporate tax at 9%: what it means for a crypto holding structure
+- [ ] Free zone vs mainland in Dubai for a crypto-related consultancy
+- [ ] Relocating a founder to Dubai: residency, banking and the first 90 days
+- [ ] Buying property in Dubai as a foreign founder: what the process actually involves
+- [ ] Dubai golden visa routes for entrepreneurs and investors in 2026
+- [ ] Running an Estonian company while living in Dubai: tax residency questions answered
+- [ ] Panama company, Dubai residency: how the combination is typically structured
+- [ ] Why crypto founders meet advisors in cars, lounges and hotels in Dubai
+- [ ] Business travel in Dubai: how executives structure a working day between DIFC, DMCC and downtown
+- [ ] ECSPR licence in Estonia: the application file, section by section
+- [ ] Crowdfunding platform business plan: what Finantsinspektsioon expects to see
+- [ ] ECSPR own-funds requirement: how the EUR 25,000 floor is calculated
+- [ ] Investor protection under ECSPR: key investment information sheets explained
+- [ ] Lending-based vs investment-based crowdfunding under ECSPR
+- [ ] Passporting an ECSPR licence: adding member states after authorisation
+- [ ] Writing an AML policy for a crypto company: the ten sections regulators read first
+- [ ] Appointing an MLRO: qualifications, independence and typical cost
+- [ ] Travel Rule providers compared for small crypto companies
+- [ ] Sanctions screening for crypto transactions: tools and workflows that scale
+- [ ] Crypto company bookkeeping: valuing tokens, fees and staking rewards
+- [ ] Audit requirements for crypto companies in Estonia, Lithuania and Panama
+- [ ] How to answer a regulator's request for information without delaying your licence
+- [ ] Business continuity and ICT risk under DORA for crypto service providers
+- [ ] Marketing rules for crypto services in the EU: what MiCA allows in promotions
+- [ ] Handling a licence application rejection: appeal, reapply or relocate
+- [ ] Launching a stablecoin in 2026: EMT vs ART and where to incorporate
+- [ ] Tokenised real-world assets: licensing questions before the first issuance
+- [ ] Staking-as-a-service: which licence category it falls under in the EU
+- [ ] Crypto payment gateway for merchants: licensing map across Panama, EU and UAE
+- [ ] White-label exchange software and your licence: what regulators expect you to control
+- [ ] NFT marketplaces after MiCA: when a collection becomes a regulated asset
+- [ ] Crypto fund structures for a first-time manager: Panama, Cayman and Estonia compared
+- [ ] Exit planning for a licensed crypto company: selling the entity vs the licence
+- [ ] Bank de-risking of crypto companies: how to build a banking stack that survives
+- [ ] Crypto-friendly payment providers in 2026: what onboarding really requires
+- [ ] Second-jurisdiction strategy: when a crypto company should add a Panama or EU entity
+- [ ] The one-page crypto licensing decision matrix for founders
+- [ ] Case study structure: how a small exchange went from idea to licensed in 90 days
+- [ ] Ten questions to ask a crypto licensing consultant before paying a deposit
