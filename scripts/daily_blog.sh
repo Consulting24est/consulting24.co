@@ -9,6 +9,12 @@ REPO=/Users/mardosoo/consulting24
 PY=/usr/bin/python3
 cd "$REPO" || exit 1
 
+# Owner cap (Sept 2026): max 1-2 posts/day. Skip cleanly until Blogger is authorised on this machine
+# (one-time: python3 scripts/consulting24_blog.py --login).
+if [ ! -f "$HOME/.consulting24_blogger_token.json" ]; then
+  mkdir -p logs; echo "[$(date '+%Y-%m-%d %H:%M:%S')] daily_blog: SKIPPED — not authorised (run: python3 scripts/consulting24_blog.py --login)" >> logs/daily_blog.log; exit 0
+fi
+
 mkdir -p logs
 ts() { date "+%Y-%m-%d %H:%M:%S"; }
 echo "[$(ts)] daily_blog: start" >> logs/daily_blog.log

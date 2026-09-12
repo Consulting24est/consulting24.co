@@ -36,7 +36,7 @@ TOKEN_PATH  = pathlib.Path.home() / ".consulting24_blogger_token.json"
 SITE        = "https://www.consulting24.co"
 EMAIL       = "mardo@consulting24.co"
 PHONE       = "+372 58155779"
-DAILY_LIMIT = 5          # articles published per run/day
+DAILY_LIMIT = 2          # articles published per run/day (owner cap, Sept 2026: max 1-2/day)
 
 # Blogger only — no Drive access needed for this project.
 GOOGLE_SCOPES = ["https://www.googleapis.com/auth/blogger"]
