@@ -84,8 +84,8 @@
 "lastmod": "2026-09-12"
 },
 "https://www.consulting24.co/blog/": {
-"hash": "c4e922da86ff0facf450c476b266d789",
-"lastmod": "2026-07-24"
+"hash": "24050970f9b83f02c643824beb81d263",
+"lastmod": "2026-09-12"
 },
 "https://www.consulting24.co/blog/abu-dhabi-crypto-license-requirements-checklist-for-2026/": {
 "hash": "df5dc1c46f50c4ded32aed51260dc3a4",
@@ -3804,7 +3804,7 @@
 "lastmod": "2026-07-22"
 },
 "https://www.consulting24.co/news/": {
-"hash": "e42835a7ff1c64bdf8c7ce8622c99471",
+"hash": "08db7deb0aa022d052d49ba2f62b3194",
 "lastmod": "2026-09-12"
 },
 "https://www.consulting24.co/news/esma-tells-unauthorised-crypto-firms-to-wind-down-eu-operations-as-mica/": {
@@ -4237,6 +4237,10 @@
 },
 "https://www.consulting24.co/news/esma-to-host-data-day-2026-in-paris-on-24-november/": {
 "hash": "e79d4a0492c4766dd4416d50829b3618",
+"lastmod": "2026-09-12"
+},
+"https://www.consulting24.co/news/esma-publishes-latest-edition-of-its-newsletter/": {
+"hash": "7528dc34e69725a747741d1a69af8819",
 "lastmod": "2026-09-12"
 }
 }

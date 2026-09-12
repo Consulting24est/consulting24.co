@@ -6,7 +6,15 @@
     <atom:link href="https://www.consulting24.co/news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Regulatory developments affecting crypto licensing, each sourced to a primary regulator publication.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Sep 2026 20:53:18 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 20:59:58 +0000</lastBuildDate>
+    <item>
+      <title>ESMA publishes latest edition of its newsletter</title>
+      <link>https://www.consulting24.co/news/esma-publishes-latest-edition-of-its-newsletter/</link>
+      <guid isPermaLink="true">https://www.consulting24.co/news/esma-publishes-latest-edition-of-its-newsletter/</guid>
+      <pubDate>Sat, 12 Sep 2026 20:59:57 +0000</pubDate>
+      <description>ESMA has published the latest edition of its Spotlight on Markets newsletter, covering key activities and publications from June and July 2026.</description>
+      <source url="https://www.esma.europa.eu/press-news/esma-news/esma-publishes-latest-edition-its-newsletter-44">European Securities and Markets Authority (ESMA)</source>
+    </item>
     <item>
       <title>ESMA to host Data Day 2026 in Paris on 24 November</title>
       <link>https://www.consulting24.co/news/esma-to-host-data-day-2026-in-paris-on-24-november/</link>

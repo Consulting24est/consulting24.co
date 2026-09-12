@@ -2,6 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.consulting24.co/news/esma-publishes-latest-edition-of-its-newsletter/</loc>
+    <news:news>
+      <news:publication><news:name>Consulting24</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-09-12T20:59:57+00:00</news:publication_date>
+      <news:title>ESMA publishes latest edition of its newsletter</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.consulting24.co/news/esma-to-host-data-day-2026-in-paris-on-24-november/</loc>
     <news:news>
       <news:publication><news:name>Consulting24</news:name><news:language>en</news:language></news:publication>

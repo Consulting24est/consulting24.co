@@ -1,6 +1,6 @@
 {
   "publication": "Consulting24",
-  "updated": "2026-09-12T20:53:18+00:00",
+  "updated": "2026-09-12T20:59:57+00:00",
   "items": [
     {
       "slug": "esma-tells-unauthorised-crypto-firms-to-wind-down-eu-operations-as-mica",
@@ -76,6 +76,26 @@
       ],
       "published": "2026-09-12T20:53:18+00:00",
       "modified": "2026-09-12T20:53:18+00:00",
+      "corrections": []
+    },
+    {
+      "slug": "esma-publishes-latest-edition-of-its-newsletter",
+      "title": "ESMA publishes latest edition of its newsletter",
+      "summary": "ESMA has published the latest edition of its Spotlight on Markets newsletter, covering key activities and publications from June and July 2026.",
+      "body_html": "<p>The European Securities and Markets Authority (ESMA), the EU&#x27;s financial markets regulator and supervisor, has published today the latest edition of its Spotlight on Markets newsletter, covering key activities and publications from June and July 2026.</p>\n  <p>According to ESMA, this edition opens with the statement on the end of the MiCA transitional period, calling on unauthorised crypto-asset service providers to wind down their activities in an orderly manner while safeguarding clients&#x27; interests and protecting market integrity.</p>\n  <h2>Top news highlights</h2>\n  <p>ESMA said top news highlights include the final report on simplifying transaction reporting, identifying up to €1 billion in potential annual savings through a &quot;report once&quot; approach, ESMA&#x27;s call on firms to finalise preparations ahead of T+1 settlement deadlines, and the publication of 2025 Annual Report, focusing on stronger supervision, regulatory simplification and innovation.</p>\n  <h2>Key publications</h2>\n  <p>ESMA said key publications featured in this edition include the ESAs&#x27; first annual report on major ICT-related incidents under the Digital Operational Resilience Act (DORA); consultation on technical advice to simplify the EU Taxonomy disclosure framework and reduce reporting burdens for market participants.</p>\n  <p>The newsletter also covers ESMA&#x27;s authorisation of EuroCTP as the Consolidated Tape Provider for shares and exchange-traded funds.</p>\n  <h2>Other updates</h2>\n  <p>ESMA said other updates cover the selection of Etrading Software (Netherlands) B.V. as Consolidated Tape Provider for OTC derivatives, preliminary findings on the Active Account Requirement under EMIR, a report on the supervision of cross-border investment services, and the launch of Common Supervisory Actions on risk management functions and digital operational resilience for CASPs.</p>\n  <p>The Spotlight on Markets newsletter is published regularly and is available on ESMA&#x27;s website, according to ESMA. ESMA said that for regular updates, follow ESMA on LinkedIn, X and Instagram.</p>\n  <p>The document also lists related documents, including a newsletter dated 31/07/2026 with reference ESMA newsletter and the title Newsletter June and July 2026. It also lists more on the same topic, including items dated 01/06/2026, 10/04/2026, 13/02/2026 and 23/12/2025, each referring to ESMA publishing its latest edition of its newsletter or its Spotlight on Markets newsletter.</p>\n  <p class=\"callout\"><strong>What this means:</strong> EU rules set the floor for anyone serving EU clients, so a change here usually changes the sequencing of an application rather than the destination. Consulting24 delivers CASP-track company and licensing work directly in Estonia and Lithuania, and the binding constraint is normally the regulator&#x27;s queue rather than the incorporation.</p>",
+      "source_name": "European Securities and Markets Authority (ESMA)",
+      "source_url": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-latest-edition-its-newsletter-44",
+      "source_date": "2026-07-31",
+      "jurisdiction": "European Union",
+      "keywords": [
+        "crypto licence",
+        "regulation",
+        "ESMA",
+        "MiCA",
+        "CASP"
+      ],
+      "published": "2026-09-12T20:59:57+00:00",
+      "modified": "2026-09-12T20:59:57+00:00",
       "corrections": []
     }
   ]

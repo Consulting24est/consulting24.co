@@ -26928,5 +26928,218 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "panama-crypto-company-what-the-bank-asks-for-at-account-opening-in-2026",
+  "title": "Panama crypto company: what the bank asks for at account opening in 2026",
+  "keyword": "Panama crypto company: what",
+  "landing": "/panama-crypto-license/",
+  "lede": "Opening a bank account for a Panama crypto company in 2026 is less about finding a willing bank and more about proving where your money comes from. Here is what compliance teams actually ask for, and how to prepare before you approach them.",
+  "sections": [
+   [
+    "Why Panama still attracts crypto founders in 2026",
+    [
+     "Panama does not issue a dedicated crypto licence. Founders who want a Panama base typically incorporate a Sociedad Anonima, a standard Panamanian corporation, and then look for banking or payment rails that will serve a business with digital asset activity. The attraction is straightforward: territorial taxation means foreign source income is generally not taxed in Panama, and a Sociedad Anonima can be formed in roughly two to three weeks with a modest capital requirement. For founders running exchanges, OTC desks, token projects or crypto advisory firms, that combination remains appealing.",
+     "The catch is that banking is not part of the incorporation package. Panama is not a MiCA jurisdiction, and local banks are not obliged to serve crypto businesses. In practice, many Panama crypto companies end up with accounts at banks in Switzerland, Liechtenstein, Georgia, the UAE, Singapore or other jurisdictions that accept digital asset clients, while using the Panama entity as the holding and contracting vehicle. Some also use licensed payment institutions or EMI accounts for day to day operations.",
+     "That means the account opening process is really a due diligence process. The bank or payment institution is not evaluating your corporate documents in isolation. It is deciding whether it can explain your business to its own regulator and correspondent banks without taking on unacceptable risk. Everything you prepare should be aimed at making that explanation easy."
+    ]
+   ],
+   [
+    "The core corporate file the bank expects",
+    [
+     "Every bank starts with the entity itself. For a Panama Sociedad Anonima you should expect to provide the certificate of incorporation, the articles of association, the share certificate or register of members, and a certificate of good standing if the company is more than a few months old. Banks also ask for the appointment of directors and, where relevant, the resident agent details. Documents are usually required in Spanish with a certified English translation, and often apostilled or legalised for use abroad.",
+     "Beyond formation documents, the bank wants to see that the company is real and operating. That typically means a registered office address, a description of actual business activity, and evidence of commercial substance. For a crypto company, substance can be demonstrated through contracts with clients or counterparties, invoices, software licences, exchange or wallet provider agreements, and a clear explanation of which entity holds which assets. If the company has no employees in Panama, be ready to explain where the directors and key staff actually sit and why.",
+     "Ownership transparency is non negotiable. You will be asked for a full ownership chart down to ultimate beneficial owners, including any trusts, foundations or nominee arrangements. Nominee shareholding is common in Panama structures, but banks increasingly require a declaration of the underlying beneficial owner and will not open an account for an opaque nominee structure. If your cap table includes funds or other companies, expect to provide their formation documents and ownership details as well."
+    ]
+   ],
+   [
+    "KYC for directors, shareholders and signatories",
+    [
+     "Personal KYC is where many applications stall. Each director, beneficial owner and authorised signatory should expect to provide a passport or national ID, a recent proof of address such as a utility bill or bank statement, and a CV or professional profile. Banks often ask for two proofs of address, and some require them to be less than three months old. Certified copies or notarised documents are frequently requested, particularly for non residents.",
+     "Source of wealth and source of funds questions are standard. For founders, this means explaining how you built your capital: salary history, business exits, token allocations, trading profits, inheritance or investment returns. Vague answers are treated as red flags. If your wealth comes from crypto, be ready to show exchange statements, wallet histories, tax returns or audited accounts that support the story. The bank is not necessarily judging the asset class, but it must be able to document where the money came from.",
+     "References and background checks also appear. Some banks ask for a bank reference or a letter from your existing bank confirming the relationship and confirming there are no compliance concerns. Others run adverse media and sanctions screening on every named individual. Politically exposed person status must be declared. If any director has been involved in a failed company, a regulatory action or a crypto project that attracted enforcement attention, disclose it early with context rather than letting the bank discover it."
+    ]
+   ],
+   [
+    "Crypto specific questions: licences, custody and transaction flow",
+    [
+     "Because Panama has no dedicated crypto licence, the bank will look at what your company actually does and which other regulators touch it. If you operate an exchange, custody service, brokerage or payment service, expect questions about licences in other jurisdictions. A company that is registered or authorised under MiCA in the EU, or holds a VASP registration elsewhere, presents a clearer picture than one that claims to be unregulated by design. If you have no licence anywhere, be prepared to explain your controls, your target markets and why you believe you do not need one.",
+     "Custody and asset flow are central. The bank will ask whether the company holds client crypto, proprietary crypto, or both. It will want to know which wallets, custodians or exchanges are used, who controls the keys, and how client assets are segregated. For fiat flows, expect questions about the banks and payment providers you use, the currencies you settle in, and the expected monthly volumes and counterparties. A simple flow of funds diagram, showing fiat in, crypto out, fees retained and where profits sit, is often more persuasive than a long written policy.",
+     "Transaction monitoring is the next layer. Banks want to know how you screen wallets and counterparties, whether you use blockchain analytics, how you handle high risk exposure, and what your travel rule process looks like for transfers. If you serve retail customers, expect questions about onboarding, sanctions screening and chargeback or dispute handling. If you serve institutions, expect questions about contracts, audit rights and reporting. The bank is effectively asking whether your compliance function is strong enough that it will not inherit your problems."
+    ]
+   ],
+   [
+    "How to prepare and what to expect in practice",
+    [
+     "Preparation should start before you approach any bank. Assemble a single due diligence pack: corporate documents, ownership chart, KYC files for all principals, a business plan, a flow of funds diagram, AML and KYC policies, and evidence of any licences or registrations. Keep the pack in English and Spanish where possible. A well organised pack signals professionalism and shortens review times, which can otherwise run from a few weeks to several months depending on the bank and the complexity of the structure.",
+     "Choose the jurisdiction realistically. If your business is EU facing, a MiCA authorised CASP in the EU may be a better operating entity, with the Panama company acting as a holding or IP vehicle. Note that MiCA capital requirements for CASPs are tiered at EUR 50,000, 125,000 or 150,000 depending on the services provided, so the EU entity carries real regulatory cost. A Panama company can still be useful, but it will not by itself satisfy an EU bank or an EU regulator. Be honest about which entity does what.",
+     "Expect rejections and plan for them. Some banks will decline crypto activity outright, and that is not a reflection of your paperwork. Applying to several institutions in parallel, with a clear explanation of your business, improves your odds. If a bank asks for information you cannot provide, say so and offer an alternative form of evidence rather than leaving a gap. The founders who succeed are usually the ones who treat the bank as a long term partner and communicate changes in their business before the bank discovers them."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Does Panama issue a crypto licence in 2026?",
+    "No. Panama has no dedicated crypto licence. Crypto businesses typically incorporate a Sociedad Anonima and, if they need regulated status, obtain authorisation in another jurisdiction such as the EU under MiCA or a VASP regime elsewhere."
+   ],
+   [
+    "Can a Panama crypto company open a bank account in Panama?",
+    "It is possible but not guaranteed. Some Panamanian banks accept crypto related clients on a case by case basis, while others decline the sector entirely. Many founders use banks or payment institutions in Switzerland, Liechtenstein, Georgia, the UAE or Singapore instead."
+   ],
+   [
+    "What documents are needed for the corporate file?",
+    "Expect the certificate of incorporation, articles of association, share register, director appointments, certificate of good standing, registered office details and apostilled or legalised translations. Banks also ask for an ownership chart down to ultimate beneficial owners."
+   ],
+   [
+    "What KYC will directors and shareholders need to provide?",
+    "Passport or national ID, proof of address, a CV or profile, and often certified or notarised copies. Banks also ask for source of wealth and source of funds evidence, and may request bank references or run adverse media and sanctions checks."
+   ],
+   [
+    "How do I explain crypto source of funds to a bank?",
+    "Provide exchange statements, wallet histories, tax returns, audited accounts or sale agreements that trace your capital. Be specific about how you earned or acquired the assets, and avoid vague explanations that cannot be supported by documents."
+   ],
+   [
+    "Will the bank ask about my crypto licences in other countries?",
+    "Yes. If you hold a MiCA authorisation, a VASP registration or another licence, provide it. If you hold none, be ready to explain your controls, target markets and why you believe no licence is required in your operating jurisdictions."
+   ],
+   [
+    "What crypto specific policies should I prepare?",
+    "An AML and KYC policy, a wallet and counterparty screening process, a travel rule procedure, a custody and segregation policy, and a flow of funds diagram. Banks also want to know which blockchain analytics tools you use and how you handle high risk exposure."
+   ],
+   [
+    "How long does account opening take and what does it cost?",
+    "Timelines vary widely. Simple cases may take a few weeks, while complex crypto structures can take several months. Costs depend on the bank, the jurisdiction and whether you use a corporate service provider, so treat any quoted range as indicative only."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "panama-s-a-vs-private-interest-foundation-for-holding-crypto-assets-a-decision-g",
+  "title": "Panama S.A. vs Private Interest Foundation for holding crypto assets: a decision guide",
+  "keyword": "Panama S.A. vs Private",
+  "landing": "/panama-crypto-license/",
+  "lede": "Choosing between a Panama Sociedad Anonima and a Private Interest Foundation for holding crypto assets is not a branding exercise; it determines who legally owns the tokens, who can move them, and what happens when the founder dies or a counterparty sues. This guide compares both structures on control, succession, tax exposure, and exchange onboarding, so you can match the vehicle to the actual risk you are managing.",
+  "sections": [
+   [
+    "What each Panama structure actually is",
+    [
+     "A Sociedad Anonima (S.A.) is Panama's standard business corporation. It is formed by a minimum of three directors and at least one shareholder, who may be a nominee or another entity. The S.A. is a separate legal person that can open bank accounts, sign contracts with exchanges, and hold digital assets on its own balance sheet. Shares can be issued in bearer or registered form, and ownership is evidenced by a share register and share certificates. The S.A. is governed by its articles of incorporation and bylaws, and decisions are made by the board and the shareholders in proportion to their holdings.",
+     "A Private Interest Foundation (PIF) is a civil law vehicle unique to Panama, created by a founder through a foundation charter and private regulations. It has no shareholders and no owners in the corporate sense. Instead, it holds assets in a separate patrimony for the benefit of named beneficiaries. A foundation council administers the assets, and a protector may be appointed to oversee the council. The founder can be a beneficiary, a council member, or both, depending on how the charter is drafted. The key point is that legal title to the assets sits with the foundation, not with the founder or the beneficiaries.",
+     "For crypto specifically, the difference matters because exchanges and custodians treat these entities differently. An S.A. presents a conventional corporate counterparty with identifiable directors and shareholders. A PIF presents a trust-like structure that some compliance teams understand well and others do not. Neither is a crypto licence, and neither is regulated by Panama's banking or securities supervisor for the mere act of holding tokens."
+    ]
+   ],
+   [
+    "Control and day to day management of crypto assets",
+    [
+     "With an S.A., control follows the shareholding and the board mandate. If you hold the majority of shares and sit on the board, you can direct the company to sign with an exchange, move funds, or change custody arrangements. This is straightforward and familiar to counterparties. The trade off is exposure: the shares are an asset in your personal estate, and a creditor with a judgment against you may be able to attach them. If the S.A. itself is the account holder, a judgment against the company can reach the company's assets, including the crypto.",
+     "With a PIF, control is split between the founder, the foundation council, and any protector. The founder can reserve significant powers in the private regulations, including the ability to remove and replace council members and to change beneficiaries. However, once assets are transferred to the foundation, they are no longer owned by the founder. That separation is the core protective feature. If the founder is sued personally, the foundation's crypto is generally not the founder's property, provided the transfer was not made to defraud creditors and the foundation is properly administered.",
+     "In practice, many founders use a hybrid: a PIF owns the long term holdings, while an S.A. operates the trading or business activity. The PIF acts as a holding and succession layer, and the S.A. acts as the operating counterparty. This can simplify exchange onboarding because the S.A. is the account holder, while the PIF provides estate and creditor separation above it."
+    ]
+   ],
+   [
+    "Succession, incapacity, and continuity",
+    [
+     "An S.A. does not solve succession by itself. If you die holding shares, those shares form part of your estate and pass under your will or under Panama's intestacy rules if you have no will. The company continues to exist, but control of it may be frozen while probate or a succession process runs. In some jurisdictions, the heirs may face forced heirship claims, and the crypto held by the company could be pulled into that dispute. A shareholders agreement and a well drafted will can reduce friction, but they do not remove the underlying issue that the shares are personal assets.",
+     "A PIF is designed for continuity. The foundation charter and private regulations set out what happens on the death or incapacity of the founder, the council members, and the beneficiaries. The foundation does not die with the founder. The council continues to administer the assets, and the protector can step in if a council member is unable or unwilling to act. Beneficiaries can be named by class, and the founder can retain the right to change them during life. This makes a PIF a common choice for founders who want crypto to pass to family or to a cause without a public probate process.",
+     "Neither structure eliminates the need for careful drafting. A PIF with a single council member and no protector can still stall if that person becomes incapacitated. An S.A. with a single director and no succession plan can be equally stuck. The practical answer is to build redundancy into both: at least two signatories, clear replacement rules, and a written protocol for who can access keys and accounts if something goes wrong."
+    ]
+   ],
+   [
+    "Tax treatment and reporting realities",
+    [
+     "Panama taxes income from Panamanian sources. Income from foreign sources is generally not subject to Panamanian income tax for an S.A. or a PIF, provided the activities are conducted outside Panama and the assets are not located in Panama. For crypto, this means that gains on tokens held and traded outside Panama are typically outside the Panamanian tax net. However, the analysis is fact specific. If the S.A. has a Panama office, employees in Panama, or conducts trading from Panama, the source rules can change. A PIF is generally treated as a non taxpayer entity in Panama, but it may still have reporting and registration obligations.",
+     "The bigger tax question is usually not Panama but where you personally are tax resident. Panama's territorial system does not override the tax laws of your home country. If you are a US person, you may have US reporting obligations for the S.A. or the PIF, including foreign account and entity reporting. If you are an EU resident, your country of residence may tax you on the crypto gains regardless of the Panama structure. A Panama entity can be a useful holding layer, but it is not a magic eraser for personal tax residency.",
+     "Panama also applies an annual franchise tax to corporations and an annual fee to foundations. These are modest but not zero, and they must be paid to keep the entity in good standing. Late payment can lead to penalties and, eventually, dissolution. For crypto founders, the practical takeaway is to budget for ongoing maintenance and to keep the entity compliant, because an inactive or struck off entity is a weak counterparty for exchanges and banks."
+    ]
+   ],
+   [
+    "Exchange onboarding, banking, and counterparty acceptance",
+    [
+     "Tier one exchanges and custodians run know your customer and anti money laundering checks on the account holder. An S.A. is a familiar structure. Compliance teams can request the articles of incorporation, the share register, a certificate of good standing, proof of address, and identification for directors and beneficial owners. If the S.A. is owned by another entity or by a PIF, the exchange will look through to the ultimate beneficial owners. This is standard, but it takes time and documents.",
+     "A PIF can be accepted, but the onboarding is often slower because the structure is less common. The exchange may ask for the foundation charter, the private regulations, the foundation council resolution appointing the account signatories, and identification for the founder, the council, the protector, and the beneficiaries. Some exchanges will not onboard a PIF at all, or will only do so if the PIF is represented by an S.A. or a licensed intermediary. This is a practical constraint that should be tested before you commit to the structure.",
+     "Banking follows a similar pattern. Panama banks are cautious with crypto related activity, and many will not open accounts for entities whose main business is trading or holding digital assets. An S.A. with a clear operating business may have an easier time than a PIF whose only asset is crypto. For this reason, many founders keep the crypto custody with regulated exchanges or custodians and use the Panama entity for holding and succession, rather than expecting the entity to have a local bank account for crypto flows."
+    ]
+   ],
+   [
+    "How to decide, and where a licence fits",
+    [
+     "If your main goal is to hold crypto for the long term, protect it from personal creditors, and pass it to the next generation without probate, a PIF is usually the better fit. It separates legal ownership from you, it survives your death, and it can be drafted to give you significant control during your lifetime. The cost is more complex onboarding and a higher administrative burden. If your main goal is to operate a business, sign contracts, and be easily accepted by exchanges and banks, an S.A. is usually the better fit. It is simpler, cheaper, and more widely recognised.",
+     "Many founders do not choose one or the other. They use an S.A. as the operating company and a PIF as the holding and succession vehicle. The S.A. holds the exchange accounts and signs the trading agreements. The PIF owns the shares of the S.A. and holds the long term crypto reserves. This layered approach gives you counterparty acceptance at the operating level and asset protection at the ownership level. It also creates a clear governance path if you become incapacitated or die.",
+     "A Panama entity is not a crypto licence. If you are providing custody, exchange, brokerage, or other crypto services to third parties, you may need a licence in the jurisdiction where you operate or where your customers are. In the EU, MiCA is in force and crypto asset service providers need authorisation, with minimum capital requirements of EUR 50,000, 125,000, or 150,000 depending on the activity class. Panama does not currently issue a dedicated crypto licence, so a Panama S.A. or PIF is a holding and structuring tool, not a substitute for regulated authorisation where it is required.",
+     "Before you incorporate, map your actual risks. Are you protecting against creditors, taxes, probate, or regulatory action. Each risk points to a different structure. Then test the structure against the exchanges and banks you actually use. A structure that cannot open an account is not doing its job. Finally, get local tax advice in your country of residence. The Panama side is only half of the picture, and the half that usually matters most is where you live."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Can a Panama S.A. hold crypto assets directly?",
+    "Yes. A Panama S.A. is a separate legal person and can hold digital assets on its own balance sheet, open accounts with exchanges and custodians, and sign custody agreements. The main practical constraint is counterparty acceptance: some exchanges and banks are more comfortable with an S.A. than with a foundation, but they will still require full know your customer documentation on the company, its directors, and its ultimate beneficial owners."
+   ],
+   [
+    "Can a Panama Private Interest Foundation hold crypto assets directly?",
+    "Yes. A PIF can hold crypto assets in its own name as part of its patrimony. The foundation council administers the assets, and the founder can retain powers in the private regulations. However, not all exchanges will onboard a PIF, and those that do often require additional documents such as the foundation charter, private regulations, and a council resolution. It is wise to confirm acceptance with your intended exchange before you form the foundation."
+   ],
+   [
+    "Which structure is better for avoiding probate?",
+    "A Private Interest Foundation is generally better for probate avoidance because assets held by the foundation are not part of the founder's personal estate. The foundation continues after the founder's death, and the private regulations control how assets and benefits pass to beneficiaries. Shares in an S.A., by contrast, are personal assets and typically pass through your estate or will, which can trigger probate and potential forced heirship claims in some jurisdictions."
+   ],
+   [
+    "Does Panama tax crypto gains in an S.A. or a PIF?",
+    "Panama taxes income from Panamanian sources. Foreign source income is generally not subject to Panamanian income tax for an S.A. or a PIF, provided the activity is conducted outside Panama. Crypto gains realised outside Panama are typically outside the Panamanian tax net, but the analysis is fact specific. If the entity has a Panama office, employees, or conducts trading from Panama, the source rules can change. Personal tax residency in your home country is usually the more important issue."
+   ],
+   [
+    "How long does it take to set up a Panama S.A. or a Private Interest Foundation?",
+    "A Panama S.A. can typically be incorporated in a few days to a couple of weeks, depending on document preparation and notarisation. A Private Interest Foundation usually takes a similar timeframe, sometimes slightly longer because the charter and private regulations need more careful drafting. In both cases, the timeline assumes clean documentation and no unusual ownership or beneficiary complexity. You should also allow time for exchange onboarding, which can take weeks on its own."
+   ],
+   [
+    "Do I need a crypto licence in Panama to hold or trade crypto through an S.A. or PIF?",
+    "Panama does not currently issue a dedicated crypto licence, and merely holding crypto assets through an S.A. or a PIF is not a licensed activity. However, if you provide crypto services to third parties, such as custody, exchange, or brokerage, you may need authorisation in the jurisdiction where you operate or where your customers are located. In the EU, MiCA is in force and crypto asset service providers need authorisation with minimum capital of EUR 50,000, 125,000, or 150,000 depending on the activity class. A Panama entity is a structuring tool, not a substitute for a required licence."
+   ],
+   [
+    "Can a Panama foundation own a Panama S.A. that holds the crypto?",
+    "Yes. This layered structure is common. The PIF owns the shares of the S.A., and the S.A. holds the exchange accounts and crypto assets. This gives you a familiar corporate counterparty for exchanges and banks, while the foundation provides ownership separation and succession planning above the company. The exchange will still look through to the ultimate beneficial owners, so you should expect to document the foundation structure as part of onboarding."
+   ],
+   [
+    "What are the ongoing costs and compliance obligations for each structure?",
+    "Both structures have annual government fees and registered agent fees, and both must be kept in good standing to remain usable. An S.A. also has corporate formalities such as director and shareholder records, and may need to file certain documents depending on its activity. A PIF has foundation council records and must follow its charter and private regulations. Costs vary by provider and complexity, so treat any quote as a range and confirm what is included, especially registered agent services, annual filings, and any additional fees for changes to directors, council members, or beneficiaries."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
  }
 ]
