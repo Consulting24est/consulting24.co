@@ -29,6 +29,24 @@
    "feed": "esma",
    "title": "ESMA publishes latest edition of its newsletter",
    "published": true
+  },
+  "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment": {
+   "date": "2026-09-17T17:13:01+00:00",
+   "feed": "sec",
+   "title": "SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment",
+   "published": false
+  },
+  "https://www.fca.org.uk/news/press-releases/fca-and-partners-continues-crackdown-illegal-crypto-trading": {
+   "date": "2026-09-17T17:13:02+00:00",
+   "feed": "fca",
+   "title": "FCA and partners continues crackdown on illegal crypto trading",
+   "published": false
+  },
+  "https://www.fca.org.uk/news/press-releases/crypto-firms-get-guidance-how-new-regime-applies": {
+   "date": "2026-09-17T17:13:03+00:00",
+   "feed": "fca",
+   "title": "Crypto firms get guidance on how the new regime applies",
+   "published": false
   }
  }
 }
