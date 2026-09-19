@@ -38,6 +38,8 @@ PUB_NAME = "Consulting24"           # must match the publication name in Publish
 LANG = "en"
 WINDOW_HOURS = 48                   # Google News sitemap: last two days only
 WA = "https://wa.me/37258155779?text=Hi%2C%20I%27d%20like%20to%20ask%20about%20a%20crypto%20company%20setup."
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from site_header import HEADER, HEAD_ASSETS  # shared site header (scripts/site_header.py)
 
 # Markers from the 2026-07 fabrication incident. If any of these reappear in a news
 # item it is almost certainly a hallucination resurfacing, so refuse the publish.
@@ -306,14 +308,10 @@ def _head(title: str, desc: str, canon: str, ld: str, depth: int, keywords=None)
 <script type="application/ld+json">{ld}</script>
 <link rel="stylesheet" href="{css}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+{HEAD_ASSETS}
 </head><body>
 <a href="#main" class="skip">Skip to main content</a>
-<header class="top"><div class="top-inner">
-  <a href="/" class="brand">Crypto License <span>Consulting24</span></a>
-  <div class="top-cta"><a href="/news/" style="font-weight:700;color:var(--ink);font-size:.95rem;align-self:center">News</a><a href="/jurisdictions/" style="font-weight:700;color:var(--ink);font-size:.95rem;align-self:center">Jurisdictions</a><a href="/blog/" class="btn btn-ghost" style="padding:9px 15px;min-height:auto;font-size:.9rem">Blog</a>
-    <a href="{WA}" class="top-phone">Talk to an expert</a>
-    <a href="/#contact-top" class="btn btn-primary" style="padding:10px 16px;min-height:auto;font-size:.92rem">Free Consultation</a>
-  </div></div></header>'''
+{HEADER}'''
 
 
 FOOTER = '''<footer><div class="wrap"><div class="foot-grid">

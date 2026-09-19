@@ -14,7 +14,7 @@ endpoints, so it is citable by search + AI engines. This is the strategic moat's
 Run in the pipeline after build_data_json.py / build_licensing_index.py.
 """
 from __future__ import annotations
-import html, json, os
+import html, json, os, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://www.consulting24.co"
@@ -28,12 +28,8 @@ def _load(p):
     fp = os.path.join(ROOT, "data", p)
     return json.load(open(fp, encoding="utf-8")) if os.path.exists(fp) else None
 
-HEADER = f'''<header class="top"><div class="top-inner">
-  <a href="/" class="brand">Crypto License <span>Consulting24</span></a>
-  <div class="top-cta"><a href="/jurisdictions/" style="font-weight:700;color:var(--ink);font-size:.95rem;align-self:center">Jurisdictions</a><a href="/blog/" class="btn btn-ghost" style="padding:9px 15px;min-height:auto;font-size:.9rem">Blog</a>
-    <a href="{WA}" class="top-phone">Talk to an expert</a>
-    <a href="/#contact-top" class="btn btn-primary" style="padding:10px 16px;min-height:auto;font-size:.92rem">Free Consultation</a>
-  </div></div></header>'''
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from site_header import HEADER, HEAD_ASSETS  # shared site header (scripts/site_header.py)
 
 FOOTER = '''<footer><div class="wrap"><div class="foot-grid">
   <div><h2>Consulting24</h2><p style="color:#a3a3a3">500+ crypto licenses across Estonia, Lithuania, Panama and beyond.</p><p style="margin-top:14px"><strong style="color:#fff">WhatsApp / email</strong><br>mardo@consulting24.co</p></div>
@@ -56,6 +52,7 @@ def _head(title, desc, canon, extra_ld):
 <script type="application/ld+json">{extra_ld}</script>
 <link rel="stylesheet" href="../styles.css">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+{HEAD_ASSETS}
 </head><body>
 <a href="#main" class="skip">Skip to main content</a>
 {HEADER}'''

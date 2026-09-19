@@ -152,12 +152,8 @@ def url_ok(u):
         except Exception:
             return False
 
-HEADER = '''<header class="top"><div class="top-inner">
-  <a href="/" class="brand">Crypto License <span>Consulting24</span></a>
-  <div class="top-cta"><a href="/jurisdictions/" style="font-weight:700;color:var(--ink);font-size:.95rem;align-self:center">Jurisdictions</a><a href="/blog/" class="btn btn-ghost" style="padding:9px 15px;min-height:auto;font-size:.9rem">Blog</a>
-    <a href="''' + WA + '''" class="top-phone">Talk to an expert</a>
-    <a href="/#contact-top" class="btn btn-primary" style="padding:10px 16px;min-height:auto;font-size:.92rem">Free Consultation</a></div>
-</div></header>'''
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from site_header import HEADER, HEAD_ASSETS  # shared site header (scripts/site_header.py)
 ADVISOR = '''  <div class="advisor" style="display:flex;gap:18px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:28px 0">
     <picture><source srcset="/img/mardo-soo-profile.webp" type="image/webp"><img src="/img/mardo-soo-profile.jpg" alt="Mardo Soo, CEO of Consulting24" width="92" height="92" loading="lazy" style="width:92px;height:92px;border-radius:50%;object-fit:cover;flex:none;border:3px solid var(--accent-soft)"></picture>
     <div><strong style="display:block;font-size:1.05rem">Mardo Soo &middot; CEO, Consulting24</strong><span style="color:var(--ink-2);font-size:.92rem">Personally advises on jurisdiction selection. 500+ crypto licenses across Estonia, Lithuania &amp; Panama. <a href="https://www.linkedin.com/in/mardo-s-00a05ab0/" target="_blank" rel="noopener">LinkedIn &rarr;</a></span></div>
@@ -324,6 +320,7 @@ def assemble(slug, crumb, d, kind="landing"):
 </script>
 <link rel="stylesheet" href="{css}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+{HEAD_ASSETS}
 </head><body>
 <a href="#main" class="skip">Skip to main content</a>
 {HEADER}
