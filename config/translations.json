@@ -731,10 +731,61 @@
   }
  },
  "https://www.consulting24.co/poland-crypto-license/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "ff8d5241abc4bc1c46a8ae0b1a2e4d22",
+   "tokens": 19897
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "ff8d5241abc4bc1c46a8ae0b1a2e4d22",
+   "tokens": 18721
+  },
   "zh": {
    "date": "2026-09-21",
    "src": "ff8d5241abc4bc1c46a8ae0b1a2e4d22",
    "tokens": 16480
+  }
+ },
+ "https://www.consulting24.co/portugal-crypto-license/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "12bb77547c47a12d4d357aa8782ab318",
+   "tokens": 20035
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "12bb77547c47a12d4d357aa8782ab318",
+   "tokens": 18718
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "12bb77547c47a12d4d357aa8782ab318",
+   "tokens": 16340
+  }
+ },
+ "https://www.consulting24.co/qatar-crypto-license/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "a4edd6280ae81ed2e5fde6564d61bbe7",
+   "tokens": 21523
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "a4edd6280ae81ed2e5fde6564d61bbe7",
+   "tokens": 15384
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "a4edd6280ae81ed2e5fde6564d61bbe7",
+   "tokens": 13442
+  }
+ },
+ "https://www.consulting24.co/ready-made-crypto-license/": {
+  "zh": {
+   "date": "2026-09-21",
+   "src": "e0bfd8e63e14aa2fe2e301d8b4ee1738",
+   "tokens": 14464
   }
  },
  "https://www.consulting24.co/requirements/": {
