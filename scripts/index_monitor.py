@@ -51,10 +51,20 @@ def save_state(s):
 
 
 def sitemap_urls():
+    """Page URLs from sitemap.xml. Since 2026-09-21 sitemap.xml is a sitemap INDEX; follow
+    its local children (sitemap-pages.xml, sitemap-blog.xml, ...) and dedupe."""
     sm = os.path.join(ROOT, "sitemap.xml")
     if not os.path.exists(sm):
         return []
-    return re.findall(r"<loc>(.*?)</loc>", read(sm))
+    xml = read(sm)
+    if "<sitemapindex" not in xml:
+        return re.findall(r"<loc>(.*?)</loc>", xml)
+    urls = []
+    for child in re.findall(r"<loc>(.*?)</loc>", xml):
+        local = os.path.join(ROOT, child.rsplit("/", 1)[-1])
+        if os.path.exists(local):
+            urls.extend(re.findall(r"<loc>(.*?)</loc>", read(local)))
+    return list(dict.fromkeys(u for u in urls if u.startswith(BASE)))
 
 
 def days_since(iso):
