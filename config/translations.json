@@ -7599,10 +7599,428 @@
   }
  },
  "https://www.consulting24.co/crypto-wallet-custody-license-czech-republic/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "0f52ddafe9fda472e2595c90a79eeec3",
+   "tokens": 17736
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "0f52ddafe9fda472e2595c90a79eeec3",
+   "tokens": 17151
+  },
   "zh": {
    "date": "2026-09-21",
    "src": "0f52ddafe9fda472e2595c90a79eeec3",
    "tokens": 14938
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-dubai/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "5443f1e367ee110d469d6f8d54e15585",
+   "tokens": 18663
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "5443f1e367ee110d469d6f8d54e15585",
+   "tokens": 17926
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "5443f1e367ee110d469d6f8d54e15585",
+   "tokens": 15809
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-el-salvador/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "cdb10a00b2546ad2acbce326e22b9709",
+   "tokens": 16791
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "cdb10a00b2546ad2acbce326e22b9709",
+   "tokens": 16057
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "cdb10a00b2546ad2acbce326e22b9709",
+   "tokens": 14232
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-georgia/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "2b0f3d0a4bfdbe9bd32e5cb8d5b3734d",
+   "tokens": 18070
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "2b0f3d0a4bfdbe9bd32e5cb8d5b3734d",
+   "tokens": 16999
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "2b0f3d0a4bfdbe9bd32e5cb8d5b3734d",
+   "tokens": 14985
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-germany/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "2fa7b2484776db0ec045e81481ee1605",
+   "tokens": 18070
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "2fa7b2484776db0ec045e81481ee1605",
+   "tokens": 16942
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "2fa7b2484776db0ec045e81481ee1605",
+   "tokens": 15045
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-gibraltar/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "2756948c990291d56b6f491ffbdf46a0",
+   "tokens": 20060
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "2756948c990291d56b6f491ffbdf46a0",
+   "tokens": 18770
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "2756948c990291d56b6f491ffbdf46a0",
+   "tokens": 16521
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-indonesia/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "50e01e925465812ef8d12ee9c2ced350",
+   "tokens": 22634
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "50e01e925465812ef8d12ee9c2ced350",
+   "tokens": 16261
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "50e01e925465812ef8d12ee9c2ced350",
+   "tokens": 14127
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-ireland/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "8c467d8520650b3eed07df23ceedb747",
+   "tokens": 20412
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "8c467d8520650b3eed07df23ceedb747",
+   "tokens": 19088
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "8c467d8520650b3eed07df23ceedb747",
+   "tokens": 16590
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-isle-of-man/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "99a8a441217cc9f368c502c9654e1911",
+   "tokens": 16855
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "99a8a441217cc9f368c502c9654e1911",
+   "tokens": 16038
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "99a8a441217cc9f368c502c9654e1911",
+   "tokens": 13912
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-kazakhstan/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "4178ff1984928f97c4e8577760b15aee",
+   "tokens": 17873
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "4178ff1984928f97c4e8577760b15aee",
+   "tokens": 17167
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "4178ff1984928f97c4e8577760b15aee",
+   "tokens": 29451
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-labuan/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "d75c2ed273b9d0dd5c613faaf725e06b",
+   "tokens": 19612
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "d75c2ed273b9d0dd5c613faaf725e06b",
+   "tokens": 18693
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "d75c2ed273b9d0dd5c613faaf725e06b",
+   "tokens": 16207
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-liechtenstein/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "edff0234b5e0777a2b95ce8f2ab33520",
+   "tokens": 19345
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "edff0234b5e0777a2b95ce8f2ab33520",
+   "tokens": 18157
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "edff0234b5e0777a2b95ce8f2ab33520",
+   "tokens": 16128
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-luxembourg/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "94fae08b29ab081efc6d905be395658e",
+   "tokens": 16992
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "94fae08b29ab081efc6d905be395658e",
+   "tokens": 16075
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "94fae08b29ab081efc6d905be395658e",
+   "tokens": 14031
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-malta/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "afbe136e81b29cfafe5c4c2b1af2042b",
+   "tokens": 18627
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "afbe136e81b29cfafe5c4c2b1af2042b",
+   "tokens": 17609
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "afbe136e81b29cfafe5c4c2b1af2042b",
+   "tokens": 15703
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-philippines/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "5758cbe5a762cbcbe83b04b9c873ffc3",
+   "tokens": 18202
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "5758cbe5a762cbcbe83b04b9c873ffc3",
+   "tokens": 16913
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "5758cbe5a762cbcbe83b04b9c873ffc3",
+   "tokens": 14607
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-qatar/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "d9ee1757b8a5ca40efff7b4aa473a5d0",
+   "tokens": 17236
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "d9ee1757b8a5ca40efff7b4aa473a5d0",
+   "tokens": 16462
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "d9ee1757b8a5ca40efff7b4aa473a5d0",
+   "tokens": 14306
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-saint-lucia/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "e155844e82cf82f65424a60720863264",
+   "tokens": 16564
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "e155844e82cf82f65424a60720863264",
+   "tokens": 15796
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "e155844e82cf82f65424a60720863264",
+   "tokens": 13720
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-seychelles/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "e5ef2b6bd2e097c7fc9d6b4e3091faf0",
+   "tokens": 18768
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "e5ef2b6bd2e097c7fc9d6b4e3091faf0",
+   "tokens": 17811
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "e5ef2b6bd2e097c7fc9d6b4e3091faf0",
+   "tokens": 15588
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-singapore/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "7713216d124ec72383bc87e6a4aaf173",
+   "tokens": 21187
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "7713216d124ec72383bc87e6a4aaf173",
+   "tokens": 19956
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "7713216d124ec72383bc87e6a4aaf173",
+   "tokens": 17522
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-south-africa/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "7a553693966361b36b14e2c56ba7eaff",
+   "tokens": 18007
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "7a553693966361b36b14e2c56ba7eaff",
+   "tokens": 17131
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "7a553693966361b36b14e2c56ba7eaff",
+   "tokens": 22944
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-south-korea/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "1ce2c981871aef358df06ee1f24addf5",
+   "tokens": 18455
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "1ce2c981871aef358df06ee1f24addf5",
+   "tokens": 17457
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "1ce2c981871aef358df06ee1f24addf5",
+   "tokens": 15140
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-switzerland/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "96e2c816d53008e540f933d7931953c7",
+   "tokens": 18295
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "96e2c816d53008e540f933d7931953c7",
+   "tokens": 17176
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "96e2c816d53008e540f933d7931953c7",
+   "tokens": 14830
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-turkey/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "d989974a1595476d7be90140c00d5741",
+   "tokens": 16956
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "d989974a1595476d7be90140c00d5741",
+   "tokens": 16130
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "d989974a1595476d7be90140c00d5741",
+   "tokens": 13978
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-usa/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "810df26fe6925bd377100f456996c7fd",
+   "tokens": 24067
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "810df26fe6925bd377100f456996c7fd",
+   "tokens": 18120
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "810df26fe6925bd377100f456996c7fd",
+   "tokens": 15556
+  }
+ },
+ "https://www.consulting24.co/crypto-wallet-custody-license-vietnam/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "782a43a1336d8cec52349be12918a315",
+   "tokens": 16738
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "782a43a1336d8cec52349be12918a315",
+   "tokens": 15804
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "782a43a1336d8cec52349be12918a315",
+   "tokens": 32000
   }
  },
  "https://www.consulting24.co/crypto-wallet-custody-license/": {
@@ -7620,6 +8038,23 @@
    "date": "2026-09-21",
    "src": "f577fd14f00c455c6adf82ec9f98599c",
    "tokens": 13979
+  }
+ },
+ "https://www.consulting24.co/cryptocurrency-license/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "efe1f9fdebb21f6b0fb57d5662472e21",
+   "tokens": 15931
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "efe1f9fdebb21f6b0fb57d5662472e21",
+   "tokens": 15103
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "efe1f9fdebb21f6b0fb57d5662472e21",
+   "tokens": 13192
   }
  },
  "https://www.consulting24.co/cyprus-crypto-license/": {
@@ -7690,6 +8125,40 @@
    "tokens": 15708
   }
  },
+ "https://www.consulting24.co/ecspr-license-consultants/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "a246180b59287d7dd3af8a6fb90aef1e",
+   "tokens": 22555
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "a246180b59287d7dd3af8a6fb90aef1e",
+   "tokens": 21590
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "a246180b59287d7dd3af8a6fb90aef1e",
+   "tokens": 19689
+  }
+ },
+ "https://www.consulting24.co/editorial-policy/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "5fe041b5798cdd39894ab15233271d0a",
+   "tokens": 2390
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "5fe041b5798cdd39894ab15233271d0a",
+   "tokens": 2289
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "5fe041b5798cdd39894ab15233271d0a",
+   "tokens": 2025
+  }
+ },
  "https://www.consulting24.co/el-salvador-crypto-license/": {
   "ar": {
    "date": "2026-09-21",
@@ -7739,6 +8208,210 @@
    "date": "2026-09-21",
    "src": "adce7449ccc4c7b90aa0a8683b2c6299",
    "tokens": 7904
+  }
+ },
+ "https://www.consulting24.co/fastest-crypto-license-cayman-islands/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "46eefd83c1b47ba0132ac22f6b6e9018",
+   "tokens": 18533
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "46eefd83c1b47ba0132ac22f6b6e9018",
+   "tokens": 17602
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "46eefd83c1b47ba0132ac22f6b6e9018",
+   "tokens": 15585
+  }
+ },
+ "https://www.consulting24.co/fastest-crypto-license-cyprus/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "a537b51d0517129ceadebaa1a630ecd7",
+   "tokens": 16758
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "a537b51d0517129ceadebaa1a630ecd7",
+   "tokens": 15757
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "a537b51d0517129ceadebaa1a630ecd7",
+   "tokens": 13837
+  }
+ },
+ "https://www.consulting24.co/fastest-crypto-license-czech-republic/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "f401e44100ad368c5ae9c73b0b0b2b13",
+   "tokens": 18319
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "f401e44100ad368c5ae9c73b0b0b2b13",
+   "tokens": 17191
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "f401e44100ad368c5ae9c73b0b0b2b13",
+   "tokens": 14931
+  }
+ },
+ "https://www.consulting24.co/fastest-crypto-license-dubai/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "419000e7c8c779935f74e9ecfe704c41",
+   "tokens": 17176
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "419000e7c8c779935f74e9ecfe704c41",
+   "tokens": 16324
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "419000e7c8c779935f74e9ecfe704c41",
+   "tokens": 14300
+  }
+ },
+ "https://www.consulting24.co/fastest-crypto-license-el-salvador/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "e9e78795c71dd5630a3e9e18c787b7bf",
+   "tokens": 18964
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "e9e78795c71dd5630a3e9e18c787b7bf",
+   "tokens": 17712
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "e9e78795c71dd5630a3e9e18c787b7bf",
+   "tokens": 15578
+  }
+ },
+ "https://www.consulting24.co/fastest-crypto-license-estonia/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "7cb45a5e14099319af9fb7eb919074a5",
+   "tokens": 18000
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "7cb45a5e14099319af9fb7eb919074a5",
+   "tokens": 16923
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "7cb45a5e14099319af9fb7eb919074a5",
+   "tokens": 14947
+  }
+ },
+ "https://www.consulting24.co/fastest-crypto-license-lithuania/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "3965631dfc73c0543c5f88dff4a0b56a",
+   "tokens": 19428
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "3965631dfc73c0543c5f88dff4a0b56a",
+   "tokens": 18300
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "3965631dfc73c0543c5f88dff4a0b56a",
+   "tokens": 15959
+  }
+ },
+ "https://www.consulting24.co/fastest-crypto-license-malta/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "34b7689a59205e0174cb1eaf6ecbf134",
+   "tokens": 20607
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "34b7689a59205e0174cb1eaf6ecbf134",
+   "tokens": 19154
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "34b7689a59205e0174cb1eaf6ecbf134",
+   "tokens": 16926
+  }
+ },
+ "https://www.consulting24.co/fastest-crypto-license-panama/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "999c6f8dcae2b5fe29223f93adb158c8",
+   "tokens": 19057
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "999c6f8dcae2b5fe29223f93adb158c8",
+   "tokens": 17922
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "999c6f8dcae2b5fe29223f93adb158c8",
+   "tokens": 15817
+  }
+ },
+ "https://www.consulting24.co/fastest-crypto-license-poland/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "490f2e5a27990dc76c3361983335f5f7",
+   "tokens": 19402
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "490f2e5a27990dc76c3361983335f5f7",
+   "tokens": 18197
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "490f2e5a27990dc76c3361983335f5f7",
+   "tokens": 15662
+  }
+ },
+ "https://www.consulting24.co/fastest-crypto-license-singapore/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "692b06e2c9c7bb2cb544295e22c37430",
+   "tokens": 19824
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "692b06e2c9c7bb2cb544295e22c37430",
+   "tokens": 18612
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "692b06e2c9c7bb2cb544295e22c37430",
+   "tokens": 25114
+  }
+ },
+ "https://www.consulting24.co/fastest-crypto-license-switzerland/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "8c72ae1a6a83e9f5c34fccb20122c6ff",
+   "tokens": 17619
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "8c72ae1a6a83e9f5c34fccb20122c6ff",
+   "tokens": 16343
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "8c72ae1a6a83e9f5c34fccb20122c6ff",
+   "tokens": 14286
   }
  },
  "https://www.consulting24.co/fastest-crypto-license/": {
@@ -7841,6 +8514,210 @@
    "date": "2026-09-21",
    "src": "bdd0b54478998af4c8da1c0b9a69bffd",
    "tokens": 35026
+  }
+ },
+ "https://www.consulting24.co/how-to-get-a-crypto-license-cayman-islands/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "c651f29bc3fc039999e1792cacb5d44e",
+   "tokens": 20917
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "c651f29bc3fc039999e1792cacb5d44e",
+   "tokens": 19414
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "c651f29bc3fc039999e1792cacb5d44e",
+   "tokens": 16986
+  }
+ },
+ "https://www.consulting24.co/how-to-get-a-crypto-license-cyprus/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "9691906ae5d9a33599db28974c39220a",
+   "tokens": 17562
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "9691906ae5d9a33599db28974c39220a",
+   "tokens": 16723
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "9691906ae5d9a33599db28974c39220a",
+   "tokens": 14773
+  }
+ },
+ "https://www.consulting24.co/how-to-get-a-crypto-license-czech-republic/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "0b2c81c97ac059a2bd7f53d385b26858",
+   "tokens": 18528
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "0b2c81c97ac059a2bd7f53d385b26858",
+   "tokens": 17643
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "0b2c81c97ac059a2bd7f53d385b26858",
+   "tokens": 15373
+  }
+ },
+ "https://www.consulting24.co/how-to-get-a-crypto-license-dubai/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "de3c8da1fd293e1a11758acb426fc242",
+   "tokens": 19631
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "de3c8da1fd293e1a11758acb426fc242",
+   "tokens": 18702
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "de3c8da1fd293e1a11758acb426fc242",
+   "tokens": 16515
+  }
+ },
+ "https://www.consulting24.co/how-to-get-a-crypto-license-el-salvador/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "7349e1b427a1996bbbde0ecb256505b9",
+   "tokens": 18745
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "7349e1b427a1996bbbde0ecb256505b9",
+   "tokens": 17698
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "7349e1b427a1996bbbde0ecb256505b9",
+   "tokens": 15540
+  }
+ },
+ "https://www.consulting24.co/how-to-get-a-crypto-license-estonia/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "40ab44197bd99e13fc1e97c25186a430",
+   "tokens": 20045
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "40ab44197bd99e13fc1e97c25186a430",
+   "tokens": 18559
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "40ab44197bd99e13fc1e97c25186a430",
+   "tokens": 16231
+  }
+ },
+ "https://www.consulting24.co/how-to-get-a-crypto-license-lithuania/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "e45a35ec6eaea7810c866c603b14db52",
+   "tokens": 17314
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "e45a35ec6eaea7810c866c603b14db52",
+   "tokens": 16488
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "e45a35ec6eaea7810c866c603b14db52",
+   "tokens": 14445
+  }
+ },
+ "https://www.consulting24.co/how-to-get-a-crypto-license-malta/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "da5c973c7a343d4e972f87e6454552bf",
+   "tokens": 18335
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "da5c973c7a343d4e972f87e6454552bf",
+   "tokens": 17277
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "da5c973c7a343d4e972f87e6454552bf",
+   "tokens": 15547
+  }
+ },
+ "https://www.consulting24.co/how-to-get-a-crypto-license-panama/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "717f89abe2ff0e9f9065a23a02b26112",
+   "tokens": 18275
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "717f89abe2ff0e9f9065a23a02b26112",
+   "tokens": 17214
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "717f89abe2ff0e9f9065a23a02b26112",
+   "tokens": 15112
+  }
+ },
+ "https://www.consulting24.co/how-to-get-a-crypto-license-poland/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "6797300ff93ecd32583ea2f185f9c805",
+   "tokens": 22215
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "6797300ff93ecd32583ea2f185f9c805",
+   "tokens": 15876
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "6797300ff93ecd32583ea2f185f9c805",
+   "tokens": 13895
+  }
+ },
+ "https://www.consulting24.co/how-to-get-a-crypto-license-singapore/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "4e94b4c706d5a24b955fb419d08f1e31",
+   "tokens": 19003
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "4e94b4c706d5a24b955fb419d08f1e31",
+   "tokens": 17821
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "4e94b4c706d5a24b955fb419d08f1e31",
+   "tokens": 15515
+  }
+ },
+ "https://www.consulting24.co/how-to-get-a-crypto-license-switzerland/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "67420ea0bbcdfb6c480df785770d5410",
+   "tokens": 22435
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "67420ea0bbcdfb6c480df785770d5410",
+   "tokens": 15888
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "67420ea0bbcdfb6c480df785770d5410",
+   "tokens": 13996
   }
  },
  "https://www.consulting24.co/how-to-get-a-crypto-license/": {
@@ -7979,6 +8856,23 @@
    "tokens": 15817
   }
  },
+ "https://www.consulting24.co/licensing-index/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "3163b77de42781f148374bd9d5adb444",
+   "tokens": 5213
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "3163b77de42781f148374bd9d5adb444",
+   "tokens": 4988
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "3163b77de42781f148374bd9d5adb444",
+   "tokens": 4835
+  }
+ },
  "https://www.consulting24.co/lithuania-crypto-license/": {
   "ar": {
    "date": "2026-09-21",
@@ -8098,6 +8992,210 @@
    "tokens": 16040
   }
  },
+ "https://www.consulting24.co/offshore-crypto-license-cayman-islands/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "c2aaa6a7d8b9923a9544f81470774ca1",
+   "tokens": 19424
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "c2aaa6a7d8b9923a9544f81470774ca1",
+   "tokens": 18235
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "c2aaa6a7d8b9923a9544f81470774ca1",
+   "tokens": 16074
+  }
+ },
+ "https://www.consulting24.co/offshore-crypto-license-cyprus/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "8ad136507dc7f95c1b7eaa8e8cd68501",
+   "tokens": 18237
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "8ad136507dc7f95c1b7eaa8e8cd68501",
+   "tokens": 17075
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "8ad136507dc7f95c1b7eaa8e8cd68501",
+   "tokens": 15180
+  }
+ },
+ "https://www.consulting24.co/offshore-crypto-license-czech-republic/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "859184b6e249daa88ced08742a581f92",
+   "tokens": 18986
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "859184b6e249daa88ced08742a581f92",
+   "tokens": 17770
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "859184b6e249daa88ced08742a581f92",
+   "tokens": 15561
+  }
+ },
+ "https://www.consulting24.co/offshore-crypto-license-dubai/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "be110c00069cf005bc4357cda90dc5c2",
+   "tokens": 16949
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "be110c00069cf005bc4357cda90dc5c2",
+   "tokens": 15952
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "be110c00069cf005bc4357cda90dc5c2",
+   "tokens": 14140
+  }
+ },
+ "https://www.consulting24.co/offshore-crypto-license-el-salvador/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "fc6cf604156a1654add02282ad6d643a",
+   "tokens": 18124
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "fc6cf604156a1654add02282ad6d643a",
+   "tokens": 17015
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "fc6cf604156a1654add02282ad6d643a",
+   "tokens": 15062
+  }
+ },
+ "https://www.consulting24.co/offshore-crypto-license-estonia/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "29ba9edfdfece5336ac3d3180eb7b990",
+   "tokens": 23126
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "29ba9edfdfece5336ac3d3180eb7b990",
+   "tokens": 27466
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "29ba9edfdfece5336ac3d3180eb7b990",
+   "tokens": 14536
+  }
+ },
+ "https://www.consulting24.co/offshore-crypto-license-lithuania/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "3f9bf509397ce0fcaabb10da073f44d0",
+   "tokens": 17592
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "3f9bf509397ce0fcaabb10da073f44d0",
+   "tokens": 21799
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "3f9bf509397ce0fcaabb10da073f44d0",
+   "tokens": 14726
+  }
+ },
+ "https://www.consulting24.co/offshore-crypto-license-malta/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "b4cd950b3554987f964efdfb3968998d",
+   "tokens": 21873
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "b4cd950b3554987f964efdfb3968998d",
+   "tokens": 20307
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "b4cd950b3554987f964efdfb3968998d",
+   "tokens": 18050
+  }
+ },
+ "https://www.consulting24.co/offshore-crypto-license-panama/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "c9f148cd72ec13fd93929a4dd08900c8",
+   "tokens": 17184
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "c9f148cd72ec13fd93929a4dd08900c8",
+   "tokens": 16217
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "c9f148cd72ec13fd93929a4dd08900c8",
+   "tokens": 14402
+  }
+ },
+ "https://www.consulting24.co/offshore-crypto-license-poland/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "d0b2c9c9016a0c9c3e011faf6955a3a2",
+   "tokens": 18437
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "d0b2c9c9016a0c9c3e011faf6955a3a2",
+   "tokens": 17296
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "d0b2c9c9016a0c9c3e011faf6955a3a2",
+   "tokens": 15259
+  }
+ },
+ "https://www.consulting24.co/offshore-crypto-license-singapore/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "cbc60ad016b5835d34d9580319f87705",
+   "tokens": 17694
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "cbc60ad016b5835d34d9580319f87705",
+   "tokens": 16580
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "cbc60ad016b5835d34d9580319f87705",
+   "tokens": 14478
+  }
+ },
+ "https://www.consulting24.co/offshore-crypto-license-switzerland/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "7a24325637e4822ac7503c56f7b00180",
+   "tokens": 17899
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "7a24325637e4822ac7503c56f7b00180",
+   "tokens": 16773
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "7a24325637e4822ac7503c56f7b00180",
+   "tokens": 14686
+  }
+ },
  "https://www.consulting24.co/poland-crypto-license/": {
   "ar": {
    "date": "2026-09-21",
@@ -8147,6 +9245,40 @@
    "date": "2026-09-21",
    "src": "a4edd6280ae81ed2e5fde6564d61bbe7",
    "tokens": 13442
+  }
+ },
+ "https://www.consulting24.co/ready-made-crypto-license-cayman-islands/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "de56ef85ccc2bbc1cb966c8a424084af",
+   "tokens": 16985
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "de56ef85ccc2bbc1cb966c8a424084af",
+   "tokens": 16210
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "de56ef85ccc2bbc1cb966c8a424084af",
+   "tokens": 14394
+  }
+ },
+ "https://www.consulting24.co/ready-made-crypto-license-cyprus/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "b6f42f69d1037686923f148f90f1151b",
+   "tokens": 19089
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "b6f42f69d1037686923f148f90f1151b",
+   "tokens": 17960
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "b6f42f69d1037686923f148f90f1151b",
+   "tokens": 20799
   }
  },
  "https://www.consulting24.co/ready-made-crypto-license/": {
