@@ -36,6 +36,14 @@ try:
 except Exception as e:
     print(f"blog_inlinks step skipped (non-fatal): {e}")
 
+# 0d. Keep hreflang sets, language switchers and same-language internal links in sync on the
+# English pages and their /zh/ /es/ /ar/ versions (no API calls; translations themselves are
+# produced by scripts/translate_pages.py --translate, run separately).
+try:
+    subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "translate_pages.py"), "--link"], check=False)
+except Exception as e:
+    print(f"translate --link step skipped (non-fatal): {e}")
+
 def read(p):
     with open(p, encoding="utf-8") as f:
         return f.read()
@@ -97,17 +105,32 @@ def _urlset(rows):
             + "\n".join(f"  <url><loc>{u}</loc><lastmod>{lm}</lastmod></url>" for u, lm in rows)
             + "\n</urlset>\n")
 
-blog_rows, page_rows = [], []
+LANG_PREFIXES = ("zh", "es", "ar")          # translated landing pages live under /<lang>/
+buckets = {"sitemap-pages.xml": [], "sitemap-blog.xml": []}
+for lp in LANG_PREFIXES:
+    buckets[f"sitemap-{lp}.xml"] = []
 for url, path, url_path in sorted(pages):
     row = (url, _lastmod(url, path))
-    (blog_rows if url_path.startswith("/blog/") else page_rows).append(row)
+    first = url_path.strip("/").split("/")[0] if url_path else ""
+    if url_path.startswith("/blog/"):
+        buckets["sitemap-blog.xml"].append(row)
+    elif first in LANG_PREFIXES:
+        buckets[f"sitemap-{first}.xml"].append(row)
+    else:
+        buckets["sitemap-pages.xml"].append(row)
+page_rows, blog_rows = buckets["sitemap-pages.xml"], buckets["sitemap-blog.xml"]
 for u in list(_store):                                   # forget pages that no longer exist
     if u not in {p[0] for p in pages}:
         _store.pop(u)
 
 children = []
-for name, rows in (("sitemap-pages.xml", page_rows), ("sitemap-blog.xml", blog_rows)):
-    with open(os.path.join(ROOT, name), "w", encoding="utf-8") as f:
+for name, rows in buckets.items():
+    fpath = os.path.join(ROOT, name)
+    if not rows:                                   # no pages in that language yet
+        if os.path.exists(fpath):
+            os.remove(fpath)
+        continue
+    with open(fpath, "w", encoding="utf-8") as f:
         f.write(_urlset(rows))
     children.append((name, max((lm for _, lm in rows), default=_today)))
 if os.path.exists(os.path.join(ROOT, "news-sitemap.xml")):
@@ -119,7 +142,7 @@ index_xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
 with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f:
     f.write(index_xml)
 _json.dump(_store, open(_HASHFILE, "w"), indent=0)   # persist content hashes for next build
-print(f"sitemap.xml (index): {len(page_rows)} page URLs + {len(blog_rows)} blog URLs")
+print("sitemap.xml (index): " + ", ".join(f"{n} {len(r)}" for n, r in buckets.items() if r))
 
 # 3. IndexNow (Bing, Yandex, Seznam, Naver share the protocol) — DELTA ONLY.
 #    Submit just the URLs whose content changed since the last build (plus new and removed

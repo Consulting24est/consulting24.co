@@ -60,6 +60,7 @@ git add blog/ config/blog_posted.json config/extra_posts.json config/extra_pages
         news/ news-sitemap.xml sitemap.xml sitemap-pages.xml sitemap-blog.xml \
         config/news_items.json config/news_seen.json config/page_hashes.json \
         config/indexnow_queue.json config/indexnow_submitted.json \
+        zh es ar config/translations.json 'sitemap-*.xml' \
         '*-crypto-license/index.html' 'crypto-exchange-license-*/index.html' 2>/dev/null
 if ! git diff --cached --quiet 2>/dev/null; then
   git commit -q -m "daily: publish Blogger batch + sync site blog links + news desk" >> logs/daily_blog.log 2>&1

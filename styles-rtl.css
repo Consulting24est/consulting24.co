@@ -1,0 +1,21 @@
+/* RTL overlay for Arabic pages — loaded after styles.css only when <html dir="rtl"> */
+[dir=rtl] body{text-align:right}
+[dir=rtl] .breadcrumbs,[dir=rtl] th,[dir=rtl] td,[dir=rtl] .faq summary,[dir=rtl] .quickfacts dd,[dir=rtl] .quickfacts dt{text-align:right}
+[dir=rtl] .callout{border-left:0;border-right:4px solid var(--accent);border-radius:var(--radius) 0 0 var(--radius)}
+[dir=rtl] .answer-box{border-left:0!important;border-right:4px solid var(--accent)!important}
+[dir=rtl] article ul,[dir=rtl] article ol,[dir=rtl] .faq details p{padding-left:0;padding-right:24px}
+[dir=rtl] .faq summary::after{margin-left:0;margin-right:auto}
+[dir=rtl] .skip{left:auto;right:-9999px}
+[dir=rtl] .skip:focus{right:0}
+[dir=rtl] .top-phone::before{order:2}
+[dir=rtl] .btn{flex-direction:row-reverse}
+[dir=rtl] .cta-card{text-align:center}
+[dir=rtl] .foot-grid a,[dir=rtl] .foot-grid p{text-align:right}
+[dir=rtl] .t-wrap{direction:rtl}
+[dir=rtl] .hero{text-align:right}
+[dir=rtl] .mb-hero-scrim{background:linear-gradient(270deg,rgba(12,31,41,.95) 30%,rgba(12,31,41,.4) 100%)}
+[dir=rtl] .mb-rates .price{text-align:left}
+[dir=rtl] .mb-rates th[style]{text-align:left!important}
+[dir=rtl] .mb-who{flex-direction:row-reverse}
+[dir=rtl] .landing-link-hub a{margin:0 0 8px 10px}
+[dir=rtl] .primary-sources ul{padding-right:20px;padding-left:0}
