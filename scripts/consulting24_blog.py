@@ -551,8 +551,8 @@ def _dedupe_links(html: str, seen=None) -> str:
 
 def render_article(topic: dict) -> str:
     """Build the full ~2000-word post HTML from a topic spec."""
-    body = [_hero_photo(topic["keyword"], topic.get("slug","")), _hero_image(topic["keyword"]),
-            f"<p><strong>{topic['lede']}</strong></p>"]
+    body = [f"<p><strong>{topic['lede']}</strong></p>",
+            _hero_photo(topic["keyword"], topic.get("slug","")), _hero_image(topic["keyword"])]
     for i, (heading, paras) in enumerate(topic["sections"]):
         body.append(f"<h2>{heading}</h2>")
         for p in paras:
@@ -1669,7 +1669,7 @@ def _page_related(current_slug: str, blog_url: str = "", url_map: dict | None = 
     return f"<h2>Related guides</h2><ul>{sib}{ext}</ul>"
 
 def render_page(page: dict) -> str:
-    body = [_hero_photo(page["keyword"], page.get("slug","")), _hero_image(page["keyword"]), _tldr(page["tldr"])]
+    body = [_tldr(page["tldr"]), _hero_photo(page["keyword"], page.get("slug","")), _hero_image(page["keyword"])]
     for i, (heading, paras) in enumerate(page["sections"]):
         body.append(f"<h2>{heading}</h2>")
         for p in paras:

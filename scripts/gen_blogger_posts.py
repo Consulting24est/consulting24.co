@@ -115,7 +115,8 @@ def next_topics(n: int, have: set) -> list:
         m = re.match(r"- \[ \]\s*(.+)", line)
         if m:
             t = m.group(1).strip()
-            if slugify(t) not in have:
+            s = slugify(t)
+            if s not in have and s[:70].rstrip("-") not in have:   # daily_run.py cuts slugs at 70
                 out.append(t)
         if len(out) >= n: break
     return out
@@ -126,6 +127,11 @@ def main():
     have = {p["slug"] for p in existing}
     if POSTED.exists():
         have |= set(json.loads(POSTED.read_text()).get("posts", {}).keys())
+    # topics the website already covers under /blog/<slug>/ stay on www (no Blogger twin)
+    for d in (ROOT / "blog").iterdir():
+        f = d / "index.html"
+        if f.is_file() and "generated-redirect-stub" not in f.read_text()[:400]:
+            have.add(d.name)
     made = 0
     for title in next_topics(n, have):
         try:
