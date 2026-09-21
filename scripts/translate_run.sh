@@ -10,6 +10,10 @@ ROUND=${ROUND:-120}; WORKERS=${WORKERS:-12}; LANGS=${LANGS:-zh,es,ar}
 PY=${PY:-python3}
 ts() { date "+%Y-%m-%d %H:%M:%S"; }
 echo "[$(ts)] translate_run: start (round=$ROUND workers=$WORKERS langs=$LANGS)" >> logs/translate.log
+if ! "$PY" scripts/translate_pages.py --balance; then
+  echo "[$(ts)] translate_run: DeepSeek balance unavailable — top up at platform.deepseek.com and re-run" | tee -a logs/translate.log
+  exit 2
+fi
 while true; do
   out=$("$PY" scripts/translate_pages.py --translate --langs "$LANGS" --workers "$WORKERS" --max-tasks "$ROUND" 2>&1 | tail -3)
   echo "$out" | tail -1

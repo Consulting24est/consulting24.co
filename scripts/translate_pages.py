@@ -161,12 +161,28 @@ def call_deepseek(system, user, temperature=0.2, json_mode=False, retries=4):
             return msg, usage
         except urllib.error.HTTPError as e:
             last = f"HTTP {e.code} {e.read()[:200]!r}"
-            if e.code in (400, 401, 403):
+            if e.code in (400, 401, 402, 403):        # 402 = Insufficient Balance: retrying cannot help
                 break
         except Exception as e:  # timeouts, connection resets
             last = repr(e)
         time.sleep(5 * (attempt + 1))
     raise RuntimeError(f"DeepSeek failed: {last}")
+
+
+def check_balance():
+    """Pre-flight: DeepSeek's GET /user/balance. Returns (ok, summary)."""
+    req = urllib.request.Request("https://api.deepseek.com/user/balance",
+                                 headers={"Authorization": "Bearer " + deepseek_key()})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            j = json.load(r)
+    except urllib.error.HTTPError as e:
+        return False, f"balance check HTTP {e.code}"
+    except Exception as e:
+        return False, f"balance check failed: {e!r}"
+    infos = j.get("balance_infos") or []
+    summary = ", ".join(f"{b.get('total_balance')} {b.get('currency')}" for b in infos) or "no balance info"
+    return bool(j.get("is_available")), summary
 
 
 # ----------------------------------------------------------------------------- chunking
@@ -468,6 +484,11 @@ def do_link(pages):
 
 
 def do_translate(pages, langs, workers, max_tasks, only):
+    ok, summary = check_balance()
+    if not ok:
+        log(f"translate: DeepSeek account not available ({summary}) — top up at platform.deepseek.com, nothing started")
+        sys.exit(2)
+    log(f"translate: DeepSeek balance {summary}")
     st = load_state()
     all_slugs = {slug for slug, _ in pages}
     tasks = []
@@ -539,6 +560,10 @@ def main(argv):
     pages = landing_pages()
     if "--status" in argv:
         return do_status(pages)
+    if "--balance" in argv:
+        ok, summary = check_balance()
+        print(("OK " if ok else "UNAVAILABLE ") + summary)
+        sys.exit(0 if ok else 2)
     if "--link" in argv:
         return do_link(pages)
     if "--translate" in argv:
