@@ -1,5 +1,5 @@
 {
-  "_comment": "Legacy Wix URLs (pre-GitHub-Pages site) still in Google's index, now 404. Mapped to the closest live page so their signals consolidate instead of wasting crawl budget. Query-string variants (?lang=no) are caught by the same path stub. Junk profile-spam and off-topic news posts are intentionally omitted so Google drops them. Generate stubs: python3 scripts/redirects.py",
+  "_comment": "Legacy Wix URLs (pre-GitHub-Pages site) still in Google's index, now 404. Mapped to the closest live page so their signals consolidate instead of wasting crawl budget. Query-string variants (?lang=no) are caught by the same path stub. Junk profile-spam and off-topic news posts are intentionally omitted so Google drops them. Generate stubs: python3 scripts/redirects.py 2026-09-21: +15 dead Wix slugs still crawled by Bing (Site Explorer dead-link report).",
   "redirects": {
     "/home": "/",
     "/crypto-license-in-singapore": "/singapore-crypto-license/",
@@ -91,6 +91,21 @@
     "/blog/portugal-vs-panama-for-a-crypto-company-which-to-choose": "/blog/portugal-vs-panama-for-a-crypto-company-which-should-you-choose/",
     "/blog/panama-vs-dubai-vara-for-crypto-founders": "/panama-vs-dubai-crypto-license/",
     "/blog/panama-vs-el-salvador-for-crypto-businesses": "/el-salvador-vs-panama-crypto-license/",
-    "/blog/how-to-get-a-crypto-license-in-czech-republic-step-by-step-for-2026": "/blog/how-to-get-a-crypto-license-in-czech-republic-step-by-step/"
+    "/blog/how-to-get-a-crypto-license-in-czech-republic-step-by-step-for-2026": "/blog/how-to-get-a-crypto-license-in-czech-republic-step-by-step/",
+    "/crypto-license-switzerland": "/switzerland-crypto-license/",
+    "/crypto-license-cyprus": "/cyprus-crypto-license/",
+    "/crypto-license-el-salvador": "/el-salvador-crypto-license/",
+    "/cryptocurrency-license-in-dubai": "/dubai-crypto-license/",
+    "/crypto-trading-license-dubai": "/dubai-crypto-license/",
+    "/lithuania-cryptocurrency-license": "/lithuania-crypto-license/",
+    "/estonia-crypto-license-list": "/estonia-crypto-license/",
+    "/cryptocurrency-company-in-estonia": "/estonia-crypto-license/",
+    "/register-a-company-in-estonia": "/estonia-crypto-license/",
+    "/guide-to-establish-company-estonia": "/estonia-crypto-license/",
+    "/crypto-exchange-licensein-estonia": "/estonia-crypto-license/",
+    "/grow-crypto-businesses-in-estonia": "/estonia-crypto-license/",
+    "/start-a-company-in-malta": "/malta-crypto-license/",
+    "/uk-crypto-regulation": "/best-country-for-crypto-license/",
+    "/government-crypto-regulation": "/best-country-for-crypto-license/"
   }
 }

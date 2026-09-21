@@ -29,6 +29,13 @@ try:
 except Exception as e:
     print(f"news step skipped (non-fatal): {e}")
 
+# 0c. Guarantee every /blog/ post has >= 5 internal inlinks (hub "guides" blocks + sibling
+# ring). Runs before the sitemap so the content hashes below see the final HTML.
+try:
+    subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "blog_inlinks.py")], check=False)
+except Exception as e:
+    print(f"blog_inlinks step skipped (non-fatal): {e}")
+
 def read(p):
     with open(p, encoding="utf-8") as f:
         return f.read()
@@ -54,66 +61,124 @@ for path in glob.glob(os.path.join(ROOT, "**", "index.html"), recursive=True):
     url_path = "" if rel == "index.html" else "/" + os.path.dirname(rel) + "/"
     pages.append((BASE + (url_path or "/"), path, url_path))
 
-# 2. Build sitemap.xml
-def priority(url_path):
-    if url_path == "": return "1.0"
-    if url_path.startswith("/blog"): return "0.7"
-    return "0.9"
-
-# Content-hash lastmod: only bump a URL's lastmod when its content actually changes,
-# so crawlers can trust it (was file-mtime → 89% of URLs shared one bulk-rebuild date).
-import hashlib, json as _json
+# 2. Build the sitemaps.
+#    sitemap.xml is now a SITEMAP INDEX (same URL, so nothing has to be re-submitted in
+#    Bing/GSC/Yandex) pointing at:
+#      sitemap-pages.xml  — hubs, jurisdiction, activity, comparison and news pages
+#      sitemap-blog.xml   — /blog/ posts
+#      news-sitemap.xml   — Google-News-format feed built by news.py (48h window)
+#    Bing reports "URLs discovered" per child sitemap, so an under-indexed bucket is visible.
+#    changefreq/priority are dropped (ignored by every engine).
+#
+#    <lastmod> is a TEMPLATE-INSENSITIVE content hash (scripts/content_hash.py): a header,
+#    footer or script change no longer bumps 1,060 dates (Bing audit 2026-09-21).
+sys.path.insert(0, os.path.join(ROOT, "scripts"))
+from content_hash import content_digest
+import json as _json
 _HASHFILE = os.path.join(ROOT, "config", "page_hashes.json")
 try:
     _store = _json.load(open(_HASHFILE))
 except Exception:
     _store = {}
+_prev = {u: dict(v) for u, v in _store.items()}   # snapshot for the IndexNow delta below
 _today = datetime.date.today().isoformat()
 
 def _lastmod(url, path):
-    digest = hashlib.md5(read(path).encode("utf-8", "ignore")).hexdigest()
+    digest = content_digest(read(path))
     rec = _store.get(url)
     if rec and rec.get("hash") == digest:
         return rec["lastmod"]
     _store[url] = {"hash": digest, "lastmod": _today}
     return _today
 
-entries = []
-for url, path, url_path in sorted(pages):
-    lastmod = _lastmod(url, path)
-    entries.append(
-        f"  <url><loc>{url}</loc><lastmod>{lastmod}</lastmod>"
-        f"<changefreq>weekly</changefreq><priority>{priority(url_path)}</priority></url>"
-    )
-sitemap = ('<?xml version="1.0" encoding="UTF-8"?>\n'
-           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-           + "\n".join(entries) + "\n</urlset>\n")
-with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f:
-    f.write(sitemap)
-_json.dump(_store, open(_HASHFILE, "w"), indent=0)   # persist content hashes for next build
-print(f"sitemap.xml: {len(pages)} URLs")
+def _urlset(rows):
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+            + "\n".join(f"  <url><loc>{u}</loc><lastmod>{lm}</lastmod></url>" for u, lm in rows)
+            + "\n</urlset>\n")
 
-# 3. Ping IndexNow (Bing, Yandex, Seznam share the protocol)
+blog_rows, page_rows = [], []
+for url, path, url_path in sorted(pages):
+    row = (url, _lastmod(url, path))
+    (blog_rows if url_path.startswith("/blog/") else page_rows).append(row)
+for u in list(_store):                                   # forget pages that no longer exist
+    if u not in {p[0] for p in pages}:
+        _store.pop(u)
+
+children = []
+for name, rows in (("sitemap-pages.xml", page_rows), ("sitemap-blog.xml", blog_rows)):
+    with open(os.path.join(ROOT, name), "w", encoding="utf-8") as f:
+        f.write(_urlset(rows))
+    children.append((name, max((lm for _, lm in rows), default=_today)))
+if os.path.exists(os.path.join(ROOT, "news-sitemap.xml")):
+    children.append(("news-sitemap.xml", _today))
+index_xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+             '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+             + "\n".join(f"  <sitemap><loc>{BASE}/{n}</loc><lastmod>{lm}</lastmod></sitemap>" for n, lm in children)
+             + "\n</sitemapindex>\n")
+with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f:
+    f.write(index_xml)
+_json.dump(_store, open(_HASHFILE, "w"), indent=0)   # persist content hashes for next build
+print(f"sitemap.xml (index): {len(page_rows)} page URLs + {len(blog_rows)} blog URLs")
+
+# 3. IndexNow (Bing, Yandex, Seznam, Naver share the protocol) — DELTA ONLY.
+#    Submit just the URLs whose content changed since the last build (plus new and removed
+#    ones), through a persistent queue capped at INDEXNOW_CAP per calendar day. Before
+#    2026-09-21 every build pushed all ~1,060 URLs (216.7K lifetime submissions), which Bing
+#    treats as noise. INDEXNOW_SKIP=1 only queues (use before a deploy); INDEXNOW_FORCE_ALL=1
+#    queues every URL once (after a genuine site-wide content change).
+INDEXNOW_CAP = int(os.environ.get("INDEXNOW_CAP", "200"))
+_QUEUE = os.path.join(ROOT, "config", "indexnow_queue.json")
+_LOG = os.path.join(ROOT, "config", "indexnow_submitted.json")
+_cur = {u for (u, _, _) in pages}
+changed = [u for u in sorted(_cur) if _prev.get(u, {}).get("hash") != _store[u]["hash"]]
+removed = sorted(set(_prev) - _cur)
+if os.environ.get("INDEXNOW_FORCE_ALL"):
+    changed = sorted(_cur)
+try:
+    queue = _json.load(open(_QUEUE))
+except Exception:
+    queue = []
+queue = list(dict.fromkeys(queue + changed + removed))          # dedupe, keep order
+try:
+    submitted_log = _json.load(open(_LOG))
+except Exception:
+    submitted_log = {}
+already_today = len(submitted_log.get(_today, []))
+print(f"IndexNow delta: {len(changed)} changed, {len(removed)} removed, {len(queue)} queued, "
+      f"{already_today}/{INDEXNOW_CAP} submitted today")
 keyfile = os.path.join(ROOT, ".indexnow-key")
-if os.path.exists(keyfile):
+if os.environ.get("INDEXNOW_SKIP"):
+    print("IndexNow: INDEXNOW_SKIP set — queued only, nothing submitted")
+elif not os.path.exists(keyfile):
+    print("No .indexnow-key found; skipping IndexNow ping (queue kept)")
+elif queue and already_today < INDEXNOW_CAP:
     key = read(keyfile).strip()
-    url_list = [u for (u, _, _) in pages]
+    batch = queue[:INDEXNOW_CAP - already_today]
     payload = json.dumps({
         "host": "www.consulting24.co",
         "key": key,
         "keyLocation": f"{BASE}/{key}.txt",
-        "urlList": url_list,
+        "urlList": batch,
     }).encode()
     req = urllib.request.Request(
         "https://api.indexnow.org/indexnow",
         data=payload, headers={"Content-Type": "application/json"})
     try:
         with urllib.request.urlopen(req, timeout=20) as r:
-            print(f"IndexNow: HTTP {r.status} for {len(url_list)} URLs")
+            print(f"IndexNow: HTTP {r.status} for {len(batch)} URLs")
+        queue = queue[len(batch):]
+        submitted_log.setdefault(_today, []).extend(batch)
+        for d in [d for d in submitted_log if d < (datetime.date.today() - datetime.timedelta(days=60)).isoformat()]:
+            submitted_log.pop(d)                                  # keep the log to ~60 days
     except Exception as e:
-        print(f"IndexNow ping failed (non-fatal): {e}")
+        print(f"IndexNow ping failed (non-fatal, queue kept): {e}")
+elif queue:
+    print(f"IndexNow: daily cap reached, {len(queue)} URLs stay queued for tomorrow")
 else:
-    print("No .indexnow-key found; skipping IndexNow ping")
+    print("IndexNow: nothing changed, nothing submitted")
+_json.dump(queue, open(_QUEUE, "w"), indent=0)
+_json.dump(submitted_log, open(_LOG, "w"), indent=0)
 
 # 4. Submit sitemap to Bing Webmaster Tools via its API (SubmitFeed).
 # Key from Bing Webmaster Tools > Settings > API access > API Key.

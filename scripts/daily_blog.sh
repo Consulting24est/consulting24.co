@@ -56,8 +56,11 @@ if [ -n "$(git status --porcelain news/ | grep -v '_drafts')" ]; then
 fi
 
 # 3) deploy if anything changed
-git add blog/index.html config/blog_posted.json config/extra_posts.json config/extra_pages.json img/blog \
-        news/ news-sitemap.xml sitemap.xml config/news_items.json config/news_seen.json config/page_hashes.json 2>/dev/null
+git add blog/ config/blog_posted.json config/extra_posts.json config/extra_pages.json img/blog \
+        news/ news-sitemap.xml sitemap.xml sitemap-pages.xml sitemap-blog.xml \
+        config/news_items.json config/news_seen.json config/page_hashes.json \
+        config/indexnow_queue.json config/indexnow_submitted.json \
+        '*-crypto-license/index.html' 'crypto-exchange-license-*/index.html' 2>/dev/null
 if ! git diff --cached --quiet 2>/dev/null; then
   git commit -q -m "daily: publish Blogger batch + sync site blog links + news desk" >> logs/daily_blog.log 2>&1
   git push -q origin main >> logs/daily_blog.log 2>&1 && git push -q c24est main >> logs/daily_blog.log 2>&1 && echo "[$(ts)] pushed (origin + live)" >> logs/daily_blog.log
