@@ -31,9 +31,9 @@ Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>"
     git push -q origin main 2>>logs/translate.log
     # GitHub Pages errors a build when a new push lands while it is still building (builds
     # take up to 5 min at this site size), so wait for the live repo to be idle first.
-    for i in $(seq 1 30); do
-      st=$(gh api repos/Consulting24est/consulting24.co/pages/builds/latest --jq .status 2>/dev/null)
-      [ "$st" = "building" ] || break
+    for i in $(seq 1 40); do
+      st=$(gh run list --repo Consulting24est/consulting24.co --limit 1 --json status --jq '.[0].status' 2>/dev/null)
+      [ "$st" = "completed" ] || [ -z "$st" ] && break
       sleep 20
     done
     git push -q c24est main 2>>logs/translate.log \
