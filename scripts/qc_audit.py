@@ -48,6 +48,10 @@ def main():
         words, fails = audit(p)
         if fails:
             failed.append((rel(p), words, fails))
+    home = open(os.path.join(ROOT, "index.html"), encoding="utf-8").read()
+    for tag in ("yandex-verification", "google-site-verification"):
+        if f'name="{tag}"' not in home:
+            failed.append(("/", 0, [f"homepage lost the {tag} meta tag (Webmaster rights)"]))
     print(f"QC audit: {len(pages)} pages | {len(failed)} below standard")
     for u, w, f in failed:
         print(f"  FAIL {u}  -> {', '.join(f)}")

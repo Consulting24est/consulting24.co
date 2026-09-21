@@ -10,7 +10,7 @@ Brief composition is automated: known jurisdictions use a curated FACTS map
 rely on the generator's accuracy + QC gates. Deck-fed pages (e.g. Lithuania)
 keep their hand-verified figures unless overwritten here.
 """
-import os, re, sys, subprocess, importlib.util, datetime
+import json, os, re, sys, subprocess, importlib.util, datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 N_LANDING = int(os.environ.get("N_LANDING", "40"))
@@ -157,8 +157,20 @@ def run():
     _blog_queue = next_unchecked(os.path.join(ROOT, "blog", "topics.md"), N_BLOG)
     if not _blog_queue:
         print("WARNING: blog/topics.md is EXHAUSTED - 0 posts will publish. Refill the queue (quality over volume).")
+    _blogger_slugs = set()
+    for _f in ("config/blog_posted.json", "config/extra_posts.json"):
+        try:
+            _j = json.load(open(os.path.join(ROOT, _f)))
+            _blogger_slugs |= set(_j.get("posts", {}).keys()) if isinstance(_j, dict) else {p.get("slug") for p in _j}
+        except Exception:
+            pass
     for title in _blog_queue:
         slug = slugify(title)
+        _s80 = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")[:80].rstrip("-")
+        if slug in _blogger_slugs or _s80 in _blogger_slugs:
+            print(f"skip blog '{title}': already published on blog.consulting24.co")
+            mark_done(os.path.join(ROOT, "blog", "topics.md"), title)
+            continue
         kw = " ".join(title.split()[:4])
         brief = f"{title} | Educational, accurate 2026 guidance for crypto founders. Internal-link to relevant jurisdiction pages and Panama. Consulting24 context."
         ok, reason = False, ""

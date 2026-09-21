@@ -23,14 +23,39 @@ TARGET = ROOT / "blog" / "index.html"
 START  = "<!-- BLOGGER_GUIDES_START -->"
 END    = "<!-- BLOGGER_GUIDES_END -->"
 
-def load_items() -> list[dict]:
+MARKER = "<!-- generated-redirect-stub -->"
+
+def _norm_title(t: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", html.unescape(t).lower()).strip()
+
+def www_titles(htmltext: str) -> set[str]:
+    """Titles of the site's own /blog/ cards (outside the Blogger block)."""
+    s, e = htmltext.find(START), htmltext.find(END)
+    outside = htmltext if s < 0 or e < 0 else htmltext[:s] + htmltext[e:]
+    return {_norm_title(t) for t in re.findall(r'<a class="post-card"[^>]*>.*?<h2>(.*?)</h2>', outside, re.S)}
+
+def load_items(htmltext: str = "") -> list[dict]:
+    """One card per topic: a Blogger guide is listed only when the site has no
+    article of its own on that topic (same slug under /blog/, or same title)."""
     data = json.loads(STATE.read_text()) if STATE.exists() else {}
-    items = []
+    seen_titles = www_titles(htmltext) if htmltext else set()
+    items, skipped = [], 0
     for kind in ("pages", "posts"):                 # pillar pages first, then posts
         for slug, m in data.get(kind, {}).items():
-            if m.get("url") and m.get("title"):
-                items.append({"title": m["title"], "url": m["url"],
-                              "kind": "Pillar guide" if kind == "pages" else "Guide"})
+            if not (m.get("url") and m.get("title")):
+                continue
+            twin = ROOT / "blog" / slug / "index.html"
+            if kind == "posts" and twin.is_file() and MARKER not in twin.read_text()[:400]:
+                skipped += 1; continue                # the site has its own article
+            nt = _norm_title(m["title"])
+            if nt in seen_titles:
+                skipped += 1; continue                # same title already listed
+            seen_titles.add(nt)
+            url = m["url"].replace("https://consultinglegalnews.blogspot.com/", "https://blog.consulting24.co/")
+            items.append({"title": m["title"], "url": url,
+                          "kind": "Pillar guide" if kind == "pages" else "Guide"})
+    if skipped:
+        print(f"link_blogger: {skipped} Blogger items not listed (site already covers the topic).")
     return items
 
 def render_block(items: list[dict]) -> str:
@@ -55,8 +80,8 @@ def render_block(items: list[dict]) -> str:
 
 def main():
     check = "--check" in sys.argv
-    items = load_items()
     htmltext = TARGET.read_text()
+    items = load_items(htmltext)
     if START not in htmltext or END not in htmltext:
         sys.exit(f"ERROR: markers not found in {TARGET}")
     new_block = render_block(items)

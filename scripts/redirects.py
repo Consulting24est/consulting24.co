@@ -14,8 +14,11 @@ so the old URL's signals flow to the live target instead of sitting as a 404.
 
 Usage:
   python3 scripts/redirects.py            # generate/refresh all stubs
-  python3 scripts/redirects.py --check    # list what would change, exit 1 if out of date
+  python3 scripts/redirects.py --check    # list what would change, exit 1 if out of date or invalid
   python3 scripts/redirects.py --prune    # also delete stubs whose 'from' was removed from the map
+  python3 scripts/redirects.py --check --prune   # CI mode: also fails on unmanaged (hand-written) stubs
+
+Validation: a target may not be another redirect key (no chains) and must exist as a real page.
 
 Map format (config/redirects.json):
   {"redirects": {"/old-wix-page/": "/lithuania-crypto-license/", "/blog/old/": "/blog/"}}
@@ -79,10 +82,21 @@ def main():
     red = load_map()
     written = skipped = pruned = bad = 0
     managed = set()
+    sources = {norm_from(k).rstrip("/") + "/" for k in red}
     for src, target in red.items():
         of = out_file(src)
         if of is None:
             print(f"SKIP (cannot stub site root): {src}"); bad += 1; continue
+        # validate the target: no stub->stub chains, and the target page must exist
+        tpath = re.sub(r"^https?://[^/]+", "", abs_url(target))
+        if tpath.rstrip("/") + "/" in sources:
+            print(f"CHAIN (target is itself a redirect key): {src} -> {target}"); bad += 1; continue
+        if not target.startswith(("http://", "https://")) and tpath != "/":
+            tfile = ROOT / tpath.strip("/") / "index.html"
+            if tpath.lower().endswith((".html", ".htm", ".xml", ".txt", ".md")):
+                tfile = ROOT / tpath.strip("/")
+            if not tfile.exists():
+                print(f"TARGET MISSING: {src} -> {target} ({tfile.relative_to(ROOT)})"); bad += 1; continue
         # never clobber a real (non-stub) page
         if of.exists() and MARKER not in of.read_text():
             print(f"SKIP (real page exists, not overwriting): {of.relative_to(ROOT)}"); bad += 1; continue
@@ -107,7 +121,7 @@ def main():
                 pass
     print(f"redirects: {written} written, {skipped} unchanged, {pruned} pruned, {bad} skipped "
           f"({len(red)} in map)")
-    if check and written:
+    if check and (written or pruned or bad):
         sys.exit(1)
 
 if __name__ == "__main__":

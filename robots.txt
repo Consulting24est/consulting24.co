@@ -3,6 +3,12 @@
 
 User-agent: *
 Allow: /
+# Dead Wix-era trees (member profiles, AMP, internals): nothing live matches these
+Disallow: /profile/
+Disallow: /_files/
+Disallow: /_partials/
+Disallow: /_api/
+Disallow: /amp/
 
 # AI / LLM crawlers (cite us in ChatGPT, Claude, Perplexity, Gemini)
 User-agent: GPTBot
@@ -71,3 +77,6 @@ Allow: /
 
 Sitemap: https://www.consulting24.co/sitemap.xml
 Sitemap: https://www.consulting24.co/news-sitemap.xml
+
+# Yandex only (ignored by other engines): fold legacy Wix ?lang= and click-id variants into the clean URL
+Clean-param: lang&gclid&fbclid&yclid&ysclid
