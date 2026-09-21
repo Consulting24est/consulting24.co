@@ -189,10 +189,24 @@ def check_balance():
 _SPLIT_AT = re.compile(r"(</(?:p|h1|h2|h3|h4|ul|ol|table|details|section|figure|div|nav|blockquote|dl)>)")
 
 
+_SPLIT_FINE = re.compile(r"(</(?:a|tr|li|dd|dt|summary|span|strong|td|th)>)")
+
+
+def _pieces(fragment, rx):
+    bits = rx.split(fragment)
+    return ["".join(bits[i:i + 2]) for i in range(0, len(bits), 2)]
+
+
 def chunks(fragment, size=CHUNK):
-    """Split at closing block tags (delimiters kept with the preceding piece) into ~size chars."""
-    bits = _SPLIT_AT.split(fragment)
-    pieces = ["".join(bits[i:i + 2]) for i in range(0, len(bits), 2)]
+    """Split at closing block tags (delimiters kept with the preceding piece) into ~size chars.
+    A single block larger than `size` (a card grid, a huge table) is split again at finer
+    closing tags so no chunk exceeds what one API response can carry."""
+    pieces = []
+    for piece in _pieces(fragment, _SPLIT_AT):
+        if len(piece) > size:
+            pieces.extend(_pieces(piece, _SPLIT_FINE))
+        else:
+            pieces.append(piece)
     parts, cur = [], ""
     for piece in pieces:
         if cur and len(cur) + len(piece) > size:
@@ -218,13 +232,11 @@ def strip_fences(s):
     return s
 
 
-KEPT_ENGLISH = []          # chars of fragments that could not be translated structurally (per process)
-
-
 def translate_fragment(fragment, lang, depth=0):
-    """Translate one chunk; verify structure; retry / split / fall back to English."""
+    """Translate one chunk; verify structure; retry / split / fall back to English.
+    Returns (html, tokens_used, chars_kept_in_english)."""
     if not re.search(r"[A-Za-z]{3,}", re.sub(r"<[^>]+>", " ", fragment)):
-        return fragment, 0                      # nothing to translate (tags only)
+        return fragment, 0, 0                   # nothing to translate (tags only)
     system = SYSTEM.format(lang=LANGS[lang]["prompt"])
     src_tags, src_refs = tag_seq(fragment), refs(fragment)
     tokens = 0
@@ -236,18 +248,17 @@ def translate_fragment(fragment, lang, depth=0):
         tokens += usage.get("total_tokens", 0)
         out = strip_fences(out)
         if tag_seq(out) == src_tags and refs(out) == src_refs:
-            return out, tokens
-    if depth < 2 and len(fragment) > 1500:
+            return out, tokens, 0
+    if depth < 3 and len(fragment) > 1500:
         halves = chunks(fragment, size=max(800, len(fragment) // 2 + 1))
         if len(halves) > 1:
-            outs = []
+            outs, kept = [], 0
             for h in halves:
-                o, t = translate_fragment(h, lang, depth + 1)
-                outs.append(o); tokens += t
-            return "".join(outs), tokens
+                o, t, k = translate_fragment(h, lang, depth + 1)
+                outs.append(o); tokens += t; kept += k
+            return "".join(outs), tokens, kept
     log(f"  structure mismatch kept English fragment ({lang}, {len(fragment)} chars)")
-    KEPT_ENGLISH.append(len(fragment))
-    return fragment, tokens
+    return fragment, tokens, len(fragment)
 
 
 def translate_meta(title, desc, lang):
@@ -430,12 +441,10 @@ def build_translation(slug, src_path, lang, translated_slugs):
     head, region, tail = page[:a], _SWITCH_RE.sub("", page[a:b]), page[b:]
     tokens = 0
     # 1. visible content, chunk by chunk
-    out_parts = []
-    kept_before = sum(KEPT_ENGLISH)
+    out_parts, kept = [], 0
     for ch in chunks(region):
-        o, t = translate_fragment(ch, lang)
-        out_parts.append(o); tokens += t
-    kept = sum(KEPT_ENGLISH) - kept_before
+        o, t, k = translate_fragment(ch, lang)
+        out_parts.append(o); tokens += t; kept += k
     if kept > 0.15 * len(region):
         raise RuntimeError(f"{kept} of {len(region)} chars could not be translated structurally")
     region_t = "".join(out_parts)
