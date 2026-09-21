@@ -10132,6 +10132,11 @@
   }
  },
  "https://www.consulting24.co/panama-vs-lithuania-crypto-license/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "d4b36d57fdac3c693a48adebddc7186b",
+   "tokens": 19933
+  },
   "es": {
    "date": "2026-09-21",
    "src": "d4b36d57fdac3c693a48adebddc7186b",
@@ -10141,6 +10146,74 @@
    "date": "2026-09-21",
    "src": "d4b36d57fdac3c693a48adebddc7186b",
    "tokens": 16392
+  }
+ },
+ "https://www.consulting24.co/panama-vs-malta-crypto-license/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "b0267287c8f93e24a00e9e3a566f90c9",
+   "tokens": 18395
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "b0267287c8f93e24a00e9e3a566f90c9",
+   "tokens": 17234
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "b0267287c8f93e24a00e9e3a566f90c9",
+   "tokens": 15264
+  }
+ },
+ "https://www.consulting24.co/panama-vs-poland-crypto-license/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "f0124f5e5ac83b3f3bcf3a07f96878f2",
+   "tokens": 16702
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "f0124f5e5ac83b3f3bcf3a07f96878f2",
+   "tokens": 15661
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "f0124f5e5ac83b3f3bcf3a07f96878f2",
+   "tokens": 13863
+  }
+ },
+ "https://www.consulting24.co/panama-vs-singapore-crypto-license/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "87b0320a05c075ff1df3aa0c3dbbc42e",
+   "tokens": 18749
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "87b0320a05c075ff1df3aa0c3dbbc42e",
+   "tokens": 17581
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "87b0320a05c075ff1df3aa0c3dbbc42e",
+   "tokens": 30842
+  }
+ },
+ "https://www.consulting24.co/panama-vs-switzerland-crypto-license/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "83e40d9bd8748288db47dbd27ba25336",
+   "tokens": 16851
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "83e40d9bd8748288db47dbd27ba25336",
+   "tokens": 15641
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "83e40d9bd8748288db47dbd27ba25336",
+   "tokens": 13876
   }
  },
  "https://www.consulting24.co/poland-crypto-license/": {
@@ -10158,6 +10231,23 @@
    "date": "2026-09-21",
    "src": "ff8d5241abc4bc1c46a8ae0b1a2e4d22",
    "tokens": 16480
+  }
+ },
+ "https://www.consulting24.co/poland-vs-singapore-crypto-license/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "dcb4187939924b34b5c27b2db7d1dd01",
+   "tokens": 30207
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "dcb4187939924b34b5c27b2db7d1dd01",
+   "tokens": 16863
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "dcb4187939924b34b5c27b2db7d1dd01",
+   "tokens": 14778
   }
  },
  "https://www.consulting24.co/portugal-crypto-license/": {
@@ -10517,6 +10607,23 @@
    "tokens": 15688
   }
  },
+ "https://www.consulting24.co/singapore-vs-czech-republic-crypto-license/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "f79426e91be5b814f90131b74becd08d",
+   "tokens": 18805
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "f79426e91be5b814f90131b74becd08d",
+   "tokens": 17628
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "f79426e91be5b814f90131b74becd08d",
+   "tokens": 15489
+  }
+ },
  "https://www.consulting24.co/slovakia-crypto-license/": {
   "ar": {
    "date": "2026-09-21",
@@ -10617,6 +10724,108 @@
    "date": "2026-09-21",
    "src": "dd7b1109babcc6d8f0d3e68e995e775d",
    "tokens": 16871
+  }
+ },
+ "https://www.consulting24.co/switzerland-vs-cyprus-crypto-license/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "9ba1a0c74dc331dc6291e55f7ceddf3e",
+   "tokens": 20331
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "9ba1a0c74dc331dc6291e55f7ceddf3e",
+   "tokens": 18663
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "9ba1a0c74dc331dc6291e55f7ceddf3e",
+   "tokens": 16530
+  }
+ },
+ "https://www.consulting24.co/switzerland-vs-czech-republic-crypto-license/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "94e4c7939c26713120db371fd65b4eda",
+   "tokens": 17033
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "94e4c7939c26713120db371fd65b4eda",
+   "tokens": 15851
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "94e4c7939c26713120db371fd65b4eda",
+   "tokens": 13705
+  }
+ },
+ "https://www.consulting24.co/switzerland-vs-liechtenstein-crypto-license/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "eba6f25316410eee4eb27c806e12267b",
+   "tokens": 17286
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "eba6f25316410eee4eb27c806e12267b",
+   "tokens": 16003
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "eba6f25316410eee4eb27c806e12267b",
+   "tokens": 14258
+  }
+ },
+ "https://www.consulting24.co/switzerland-vs-malta-crypto-license/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "4856d59d293d2f3b442a347a40a4eaa9",
+   "tokens": 17721
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "4856d59d293d2f3b442a347a40a4eaa9",
+   "tokens": 16398
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "4856d59d293d2f3b442a347a40a4eaa9",
+   "tokens": 14540
+  }
+ },
+ "https://www.consulting24.co/switzerland-vs-poland-crypto-license/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "74538a8fa88f7d7338504c41fe788084",
+   "tokens": 18140
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "74538a8fa88f7d7338504c41fe788084",
+   "tokens": 17040
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "74538a8fa88f7d7338504c41fe788084",
+   "tokens": 14929
+  }
+ },
+ "https://www.consulting24.co/switzerland-vs-singapore-crypto-license/": {
+  "ar": {
+   "date": "2026-09-21",
+   "src": "45b4ea23afb948ce5ad7373b75ec8786",
+   "tokens": 23971
+  },
+  "es": {
+   "date": "2026-09-21",
+   "src": "45b4ea23afb948ce5ad7373b75ec8786",
+   "tokens": 17158
+  },
+  "zh": {
+   "date": "2026-09-21",
+   "src": "45b4ea23afb948ce5ad7373b75ec8786",
+   "tokens": 15157
   }
  },
  "https://www.consulting24.co/uae-crypto-license/": {
