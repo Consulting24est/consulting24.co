@@ -251,11 +251,10 @@ def translate_fragment(fragment, lang, depth=0):
 
 
 def translate_meta(title, desc, lang):
-    system = ("You translate web page metadata into {lang}. Reply with a JSON object "
+    system = ("You translate web page metadata into " + LANGS[lang]["prompt"] + ". Reply with a JSON object "
               '{"title": "...", "description": "..."}. Keep brand names, acronyms (MiCA, CASP, VASP, '
               "MSB, VARA, KYC, AML), currency codes/amounts and years unchanged. Title <= 65 characters "
-              "where the language allows, description <= 160 characters, both natural and specific.").format(
-        lang=LANGS[lang]["prompt"])
+              "where the language allows, description <= 160 characters, both natural and specific.")
     user = json.dumps({"title": title, "description": desc}, ensure_ascii=False)
     try:
         out, usage = call_deepseek(system, user, json_mode=True)
@@ -289,7 +288,7 @@ def hreflang_block(slug, available):
     return "\n".join(lines)
 
 
-_HREFLANG_RE = re.compile(r'\n?<link rel="alternate" hreflang="[^"]*" href="https://www\.consulting24\.co/[^"]*">', re.S)
+_HREFLANG_RE = re.compile(r'\n?<link rel="alternate" hreflang="[^"]*" href="[^"]*">', re.S)
 _SWITCH_RE = re.compile(r'<!-- LANG_SWITCH_START -->.*?<!-- LANG_SWITCH_END -->', re.S)
 
 
@@ -324,17 +323,41 @@ def apply_links(page, slug, current, available):
     return page
 
 
-def rewrite_internal_links(fragment, lang, translated_slugs):
+_LANG_CODES = "|".join(LANGS)
+
+
+def rewrite_internal_links(page, lang, exists, all_slugs):
+    """Point landing-page links at the same-language version when it exists, else at English.
+    Skips <head> (canonical, hreflang) and the language switcher. Idempotent and self-healing:
+    a link to /es/x/ reverts to /x/ if es/x/ disappears, and /x/ becomes /es/x/ once it exists."""
+    head, sep, body = page.partition("</head>")
+    if not sep:
+        head, body = "", page
+    masked = {}
+
+    def mask(m):
+        k = f"\x00SW{len(masked)}\x00"; masked[k] = m.group(0); return k
+    body = _SWITCH_RE.sub(mask, body)
+
     def repl(m):
         href = m.group(1)
-        path = href.split("#")[0].split("?")[0]
-        if path == "/" or path == BASE + "/":
-            return f'href="/{lang}/"' if "" in translated_slugs else m.group(0)
-        mm = re.fullmatch(r"(?:https://www\.consulting24\.co)?/([a-z0-9-]+)/", path)
-        if mm and mm.group(1) in translated_slugs:
-            return f'href="/{lang}/{mm.group(1)}/"'
-        return m.group(0)
-    return re.sub(r'href="([^"]*)"', repl, fragment)
+        core, suffix = re.match(r"([^#?]*)(.*)", href).groups()
+        path = core[len(BASE):] if core.startswith(BASE) else core
+        mm = re.fullmatch(rf"/(?:({_LANG_CODES})/)?([a-z0-9-]*)/?", path)
+        if not mm or not path.startswith("/"):
+            return m.group(0)
+        slug = mm.group(2)
+        if slug not in all_slugs:
+            return m.group(0)
+        if slug in exists:
+            target = f"/{lang}/{slug}/" if slug else f"/{lang}/"
+        else:
+            target = f"/{slug}/" if slug else "/"
+        return f'href="{target}{suffix}"'
+    body = re.sub(r'href="([^"]*)"', repl, body)
+    for k, v in masked.items():
+        body = body.replace(k, v)
+    return head + sep + body
 
 
 def rebuild_jsonld(page, lang, slug, title_t, desc_t, title_en, desc_en):
@@ -404,7 +427,7 @@ def build_translation(slug, src_path, lang, translated_slugs):
     if not bounds:
         raise RuntimeError("no article/footer region")
     a, b = bounds
-    head, region, tail = page[:a], page[a:b], page[b:]
+    head, region, tail = page[:a], _SWITCH_RE.sub("", page[a:b]), page[b:]
     tokens = 0
     # 1. visible content, chunk by chunk
     out_parts = []
@@ -415,7 +438,7 @@ def build_translation(slug, src_path, lang, translated_slugs):
     kept = sum(KEPT_ENGLISH) - kept_before
     if kept > 0.15 * len(region):
         raise RuntimeError(f"{kept} of {len(region)} chars could not be translated structurally")
-    region_t = rewrite_internal_links("".join(out_parts), lang, translated_slugs)
+    region_t = "".join(out_parts)
     # 2. head metadata
     title_en = (re.search(r"<title>(.*?)</title>", head, re.S) or [None, ""])[1].strip()
     desc_en = (re.search(r'<meta name="description" content="(.*?)"', head, re.S) or [None, ""])[1].strip()
@@ -435,10 +458,10 @@ def build_translation(slug, src_path, lang, translated_slugs):
     if LANGS[lang]["dir"] == "rtl" and "/styles-rtl.css" not in head:
         head = head.replace('<link rel="stylesheet" href="/styles.css">',
                             '<link rel="stylesheet" href="/styles.css">\n<link rel="stylesheet" href="/styles-rtl.css">', 1)
-    # tail (footer) keeps English but its home links point to the language home
-    tail = rewrite_internal_links(tail, lang, translated_slugs) if "" in translated_slugs else tail
     page_t = head + region_t + tail
     page_t = rebuild_jsonld(page_t, lang, slug, title_t, desc_t, title_en, desc_en)
+    exists = {sl for sl in translated_slugs if os.path.exists(out_path(sl, lang))} | {slug}
+    page_t = rewrite_internal_links(page_t, lang, exists, translated_slugs)
     return page_t, tokens
 
 
@@ -463,10 +486,12 @@ def priority(slug):
 
 def do_link(pages):
     """Refresh hreflang + switcher on English pages and every translated page; rewrite links."""
-    translated_slugs = {slug for slug, _ in pages if available_langs(slug)}
+    all_slugs = {slug for slug, _ in pages}
+    exists = {lang: {slug for slug in all_slugs if os.path.exists(out_path(slug, lang))} for lang in LANGS}
+    translated = {slug for slug in all_slugs if any(slug in exists[l] for l in LANGS)}
     changed = 0
     for slug, src in pages:
-        avail = available_langs(slug)
+        avail = {l for l in LANGS if slug in exists[l]}
         if not avail:
             continue
         s = read(src)
@@ -476,11 +501,11 @@ def do_link(pages):
         for lang in avail:
             p = out_path(slug, lang)
             s = read(p)
-            n = apply_links(s, slug, lang, avail)
-            n = rewrite_internal_links(n, lang, translated_slugs)
+            n = rewrite_internal_links(s, lang, exists[lang], all_slugs)
+            n = apply_links(n, slug, lang, avail)
             if n != s:
                 write(p, n); changed += 1
-    print(f"translate --link: {len(translated_slugs)} pages with translations, {changed} files refreshed")
+    print(f"translate --link: {len(translated)} pages with translations, {changed} files refreshed")
 
 
 def do_translate(pages, langs, workers, max_tasks, only):
