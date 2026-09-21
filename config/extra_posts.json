@@ -27141,5 +27141,225 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "nominee-directors-in-panama-what-they-can-and-cannot-do-for-a-crypto-company",
+  "title": "Nominee directors in Panama: what they can and cannot do for a crypto company",
+  "keyword": "Nominee directors in Panama:",
+  "landing": "/panama-crypto-license/",
+  "lede": "Nominee directors in Panama: they can shield ownership and simplify administration, but they cannot turn a crypto business into a licensed or tax-exempt entity on their own. This guide explains what a Panama nominee director actually does, where the limits lie, and how to structure a crypto company that holds up to banking and exchange scrutiny in 2026.",
+  "sections": [
+   [
+    "What a nominee director in Panama actually is",
+    [
+     "A nominee director in Panama is a person or corporate entity appointed to the board of a Panamanian company, typically a Sociedad Anonima, to represent the interests of the beneficial owner. The nominee signs documents, attends to statutory filings, and keeps the company in good standing with the Public Registry. In practice the role is administrative and fiduciary: the nominee acts on instructions from the beneficial owner under a private agreement, while the real decision-making authority stays with the person who funds and controls the business. Because Panama does not require public disclosure of shareholders or directors in the same way as many onshore jurisdictions, a nominee can add a layer of privacy between the company and the public record.",
+     "For a crypto company, the nominee arrangement is usually paired with a corporate shareholder structure. The shares may be held by a nominee shareholder or by a Panama foundation, while the nominee director sits on the board. This is a common pattern for founders who want to keep their personal details off the registry, or who want a local presence for administrative purposes. It is important to understand that the nominee is not a substitute for a real management team. The nominee does not run the exchange, custody the assets, or make product decisions. Those functions remain with the founders and the operating staff, wherever they are located.",
+     "The legal basis for the arrangement is a private mandate or trust deed between the nominee and the beneficial owner. Panama's corporate law allows a body corporate to act as director, which is why many firms use a corporate nominee director rather than an individual. That corporate director is itself managed by a licensed fiduciary or a law firm. The key point is that the nominee owes duties to the company, but the commercial direction comes from the beneficial owner through the mandate. If the mandate is poorly drafted, or if the nominee is asked to sign something that contradicts Panamanian law, the arrangement can fall apart quickly."
+    ]
+   ],
+   [
+    "What nominee directors can do for a crypto company",
+    [
+     "A nominee director can provide privacy and continuity. The nominee's name appears on the public registry instead of the founder's, which reduces the risk of unsolicited attention, doxxing, or targeted harassment. For crypto founders who have a public profile, that separation can be valuable. The nominee also ensures that annual filings, franchise taxes, and registered agent requirements are met on time. If the founder is travelling or based in a different time zone, a local nominee can sign routine documents and keep the company in good standing without delays.",
+     "A nominee director can also help with banking and payment relationships in certain cases. Some Panamanian banks and payment processors prefer to see a local director or a corporate director managed by a known fiduciary. That does not guarantee account opening, and it does not replace the need for a full compliance file. Banks will still look through the nominee to the beneficial owner under know-your-customer rules. But a well-run nominee structure can make the company look more administratively settled, which can help during onboarding. The same applies to some over-the-counter desks and custody providers that ask for corporate documents.",
+     "Finally, a nominee director can act as a neutral signatory in disputes or deadlocks. If two founders disagree, a nominee who follows a predefined mandate can sign routine documents while the dispute is resolved. This is a governance tool, not a magic solution. It works only if the mandate clearly states what the nominee may and may not sign. For crypto companies with token holders or investors, a nominee director can also provide a single point of contact for corporate administration, which simplifies communication with the registry and the registered agent."
+    ]
+   ],
+   [
+    "What nominee directors cannot do: licensing, tax, and substance",
+    [
+     "A nominee director cannot make a crypto company licensed. Panama has no dedicated crypto licence, and the Superintendency of Banks does not issue a general crypto authorisation. If a company wants to serve EU clients, it needs a MiCA licence from a national competent authority, and that licence requires real substance, local management, and compliance staff in the EU. A nominee in Panama does not satisfy those requirements. Similarly, if the company wants to operate as a money services business or a securities dealer, it needs the relevant licence in the relevant jurisdiction. A nominee director is an administrative role, not a regulatory one.",
+     "A nominee director cannot create tax residency or exempt income by itself. Panama taxes income from Panamanian sources, and foreign-source income is generally not taxed for a Panamanian entity, but that depends on the facts. If the company is managed and controlled from another country, that country may tax the company as a resident. A nominee director does not change the place of effective management. Tax authorities look at where the board actually meets, where decisions are made, and where the key people are. A nominee who simply signs documents on instruction does not shift control. Founders should get tax advice in their home jurisdiction before assuming that a Panama company with a nominee director is tax-free.",
+     "A nominee director also cannot provide substance for regulatory purposes. MiCA, the UK's FCA regime, and similar frameworks require a real presence, real staff, and real decision-making in the jurisdiction of authorisation. A nominee in Panama cannot be presented as the compliance officer, the money laundering reporting officer, or the person responsible for the crypto service. If a regulator or a bank sees that the only director is a nominee with no operational role, it will look through the structure and may refuse the application or the account. Substance is about people, processes, and records, not about a name on a registry."
+    ]
+   ],
+   [
+    "How nominee directors interact with MiCA and EU crypto rules in 2026",
+    [
+     "MiCA is fully in force across the EU in 2026. Any company providing crypto services to EU clients generally needs authorisation as a crypto-asset service provider, or CASP, from a national competent authority. The capital requirements are tiered by activity: EUR 50,000 for certain advisory or order transmission services, EUR 125,000 for many execution and custody activities, and EUR 150,000 for trading platforms and similar higher-risk services. These are minimum own funds requirements, and they come with governance, safeguarding, and reporting obligations. A Panamanian company with a nominee director cannot passport into the EU on the basis of its Panama incorporation. It needs an EU entity, EU management, and an EU licence.",
+     "This is where founders often misunderstand the role of a Panama nominee. The nominee can sit on the board of the Panama holding company or the Panama operating company, but the EU CASP entity must have its own board and its own local management. The Panama nominee cannot be the person who satisfies the EU regulator's fit-and-proper test unless that person actually lives and works in the EU and meets the experience requirements. In practice, groups use a Panama company for holding, treasury, or non-EU activities, and a separate EU company for the licensed CASP business. The nominee director is part of the Panama layer, not the EU layer.",
+     "If a group tries to use a Panama nominee to obscure the real controllers from an EU regulator, that is a serious problem. MiCA requires transparency of ownership and control. Beneficial owners must be disclosed to the regulator, and changes in control must be notified. A nominee arrangement that is designed to mislead the regulator can lead to refusal, withdrawal, or enforcement action. The legitimate use of a nominee is privacy from the public and from commercial counterparties, not secrecy from supervisors. Founders should be clear about this distinction and should build their structure so that the licensed entity is fully transparent to its regulator."
+    ]
+   ],
+   [
+    "Practical steps for setting up a Panama crypto company with a nominee director",
+    [
+     "The first step is to incorporate a Sociedad Anonima. Panama company formation is relatively quick, often two to three weeks if the documents are in order. You will need a registered agent in Panama, a minimum of one shareholder and one director, and a corporate purpose that is broad enough to cover crypto and technology activities. The nominee director is appointed at incorporation or shortly after. The share structure can be held by the founder directly, by a nominee shareholder, or by a foundation. Each option has different privacy and control implications, so it is worth mapping out who will be the beneficial owner on paper and who will control the bank accounts and the crypto wallets.",
+     "The second step is to draft a clear nominee mandate. The mandate should state what the nominee may sign without instruction, what requires written approval, and what is prohibited. It should also cover indemnity, resignation, and replacement. For crypto companies, it is wise to include provisions on wallet access, exchange accounts, and smart contract interactions. The nominee should never have unilateral control over private keys or bank accounts. Those should be held by the beneficial owner or by a multi-signature arrangement. The mandate should also require the nominee to disclose any conflict of interest and to keep records of instructions.",
+     "The third step is to build the compliance file. Even though Panama has no dedicated crypto licence, banks, payment processors, and counterparties will ask for know-your-customer documents. This includes passports, proof of address, source of funds, and a description of the business. If the company has a nominee director, the compliance file should show the chain of ownership and control clearly. A well-organised file makes onboarding smoother and reduces the risk of a freeze or a rejected application. It also helps if the company later applies for a licence in another jurisdiction, because the regulator will want to see the same information."
+    ]
+   ],
+   [
+    "Risks, costs, and when a nominee director is the wrong choice",
+    [
+     "The main risk is that a nominee director creates a false sense of protection. If the nominee is not properly managed, or if the mandate is vague, the nominee may sign something that creates liability for the company or for the beneficial owner. There is also a risk that a bank or regulator treats the nominee as a red flag. In some cases, a nominee can slow down decision-making because every signature requires an instruction. For a fast-moving crypto business, that friction can be costly. Founders should weigh privacy against speed and control.",
+     "Costs vary. A Panama company formation with a registered agent and a corporate nominee director typically costs a few thousand US dollars per year, depending on the provider and the complexity. The exact figure depends on whether you need a foundation, a nominee shareholder, or additional services. It is not a cheap option if you compare it to simply using your own name, but it can be cost-effective for founders who need privacy or who want a local administrative presence. The cost should be compared with the cost of a licence in a regulated jurisdiction, which is much higher and comes with ongoing capital and compliance requirements.",
+     "A nominee director is the wrong choice if the company needs a licence in Panama or in the EU, if the founder wants to be the public face of the business, or if the business relies on speed and direct control. It is also the wrong choice if the founder is not willing to maintain the paperwork and the compliance file. In those cases, a straightforward company with the founder as director is simpler and less risky. For many crypto founders, the best structure is a Panama company for holding and treasury, a nominee director for privacy, and a separate licensed entity in the jurisdiction where the customers are. That layered approach keeps the nominee in its proper place."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Can a nominee director in Panama help a crypto company get a licence?",
+    "No. Panama has no dedicated crypto licence, and a nominee director does not satisfy the substance requirements for a MiCA licence or any other regulatory authorisation. If you need to serve EU clients, you need an EU CASP licence with local management and compliance staff. The nominee can sit on the Panama holding company board, but it cannot be the basis for the licence."
+   ],
+   [
+    "Does a Panama company with a nominee director pay zero tax?",
+    "Not automatically. Panama generally does not tax foreign-source income for Panamanian entities, but tax residency and permanent establishment rules in other countries can apply. If the company is managed and controlled from another country, that country may tax it. A nominee director does not change where the real decisions are made. You should get tax advice in your home jurisdiction."
+   ],
+   [
+    "How long does it take to set up a Panama company with a nominee director?",
+    "Incorporation typically takes two to three weeks if the documents are ready. Adding a nominee director and a nominee shareholder may add a few days to a week, depending on the provider and the due diligence. The timeline can be longer if the bank or the registered agent asks for additional information."
+   ],
+   [
+    "What are the capital requirements for a MiCA CASP licence in 2026?",
+    "MiCA sets minimum own funds requirements by activity class: EUR 50,000 for certain advisory or order transmission services, EUR 125,000 for many execution and custody activities, and EUR 150,000 for trading platforms and similar higher-risk services. These are minimums, and regulators may require more based on the business model. A Panama company cannot use a nominee director to avoid these requirements."
+   ],
+   [
+    "Can a nominee director open a bank account for a Panama crypto company?",
+    "A nominee director can sign the account opening documents, but the bank will still require full know-your-customer information on the beneficial owner. The nominee does not replace the need for a compliance file. Some banks may be more comfortable with a local director, but approval is never guaranteed and depends on the bank's risk appetite."
+   ],
+   [
+    "Is a nominee director the same as a nominee shareholder?",
+    "No. A nominee director sits on the board and signs corporate documents. A nominee shareholder holds shares on behalf of the beneficial owner. They are separate roles and can be held by different people or companies. For privacy, founders often use both, but each has its own mandate and its own risks."
+   ],
+   [
+    "What should a nominee director mandate include for a crypto company?",
+    "The mandate should state what the nominee may sign without instruction, what requires written approval, and what is prohibited. It should cover wallet access, exchange accounts, and smart contract interactions. It should also include indemnity, resignation, and replacement provisions. The nominee should never have unilateral control over private keys or bank accounts."
+   ],
+   [
+    "Can a nominee director be used to hide ownership from an EU regulator?",
+    "No. MiCA and other EU rules require transparency of ownership and control. Beneficial owners must be disclosed to the regulator, and changes in control must be notified. A nominee arrangement designed to mislead a regulator can lead to refusal, withdrawal, or enforcement action. Nominee directors are for privacy from the public and commercial counterparties, not for secrecy from supervisors."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "how-panama-s-territorial-tax-system-treats-crypto-trading-income-earned-abroad",
+  "title": "How Panama's territorial tax system treats crypto trading income earned abroad",
+  "keyword": "How Panama's territorial tax",
+  "landing": "/panama-crypto-license/",
+  "lede": "Panama's territorial tax system generally does not tax income from sources outside Panama, which is why many crypto founders ask whether trading profits earned abroad can be structured to fall outside the Panamanian tax net. The answer depends on where the activity is actually carried out, where the income is sourced, and how the local company is managed and controlled.",
+  "sections": [
+   [
+    "What Panama's territorial tax system actually means",
+    [
+     "Panama taxes income on a territorial basis. In broad terms, income derived from sources within Panama is subject to Panamanian income tax, while income from sources outside Panama is generally not subject to Panamanian income tax when it is earned by a Panamanian entity and not connected to a Panamanian source. This principle is set out in Panama's Fiscal Code and is administered by the Direccion General de Ingresos (DGI).",
+     "For a crypto founder, the practical question is not whether the asset is a token or a coin, but where the income is sourced. A Panamanian company that trades crypto on foreign exchanges, with foreign counterparties, and with the trading decisions and operations carried out outside Panama, may be able to treat the resulting income as foreign-source. If, however, the activity is managed from Panama or the income is connected to a Panamanian source, the territorial exemption may not apply.",
+     "Panama does not have a dedicated crypto licence regime. Most crypto businesses that want a Panamanian presence incorporate a Sociedad Anonima (S.A.) or a similar corporate vehicle and operate under general commercial law. The territorial tax analysis therefore sits alongside corporate, banking, and anti-money laundering compliance, not in place of it."
+    ]
+   ],
+   [
+    "How sourcing rules apply to crypto trading income",
+    [
+     "Panama's sourcing rules look at where the income-producing activity takes place and where the payer or the asset is located. Crypto trading is fact-specific. If a Panamanian S.A. trades on offshore exchanges, holds assets in foreign custody, and earns gains from price movements in global markets, the income is often characterised as foreign-source. If the company trades on a Panamanian exchange, or provides services to Panamanian customers, the analysis can shift toward a Panamanian source.",
+     "Active trading can create additional issues. Frequent, organised trading may be treated as a business activity rather than passive investment, and the place where that business is directed and controlled matters. If the directors and key decision-makers operate from Panama, tax authorities in Panama or in another jurisdiction may argue that the income is sourced where the management occurs. This is a common pressure point in cross-border crypto structures.",
+     "There is no single statutory formula that answers every crypto fact pattern. Founders should expect the DGI and foreign tax authorities to look at substance: where contracts are signed, where servers and exchanges are located, where the team sits, and where the profits are banked. A Panamanian company with real operations outside Panama is in a stronger position than a shell with Panamanian management and no foreign substance."
+    ]
+   ],
+   [
+    "Foreign-source income and the 0% headline rate",
+    [
+     "Panama is often described as having a 0% tax rate on foreign-source income. That description is broadly accurate for qualifying foreign-source profits, but it is not a blanket exemption for every crypto transaction. Panamanian-source income remains taxable, and certain other taxes and obligations can still apply, including municipal taxes, social security contributions where there are local employees, and transfer pricing or reporting duties in specific cases.",
+     "For a crypto trading company, the 0% outcome depends on keeping the income genuinely foreign-source. That means the trading activity, the counterparties, the exchange accounts, and the decision-making should be located and conducted outside Panama. If the company is managed from Panama, or if it earns fees from Panamanian clients, the relevant portion of income may be treated as Panamanian-source and taxed accordingly.",
+     "Panama also operates a participation exemption for certain dividends and has rules for foreign-source income received by Panamanian entities. These rules can interact with crypto gains, especially where tokens generate staking rewards, lending interest, or fund distributions. The treatment of each income type should be reviewed separately rather than assumed to fall under one 0% label."
+    ]
+   ],
+   [
+    "Substance, management, and control in a Panama crypto structure",
+    [
+     "Substance is the centre of gravity in Panama's territorial system. A Panamanian S.A. can be tax-efficient for foreign-source crypto trading, but only if the company is not effectively managed from Panama in a way that localises the income. Founders commonly keep the board and key decision-makers outside Panama, hold meetings abroad, and maintain foreign exchange accounts and custody arrangements.",
+     "At the same time, Panama requires proper corporate governance. An S.A. must have directors, officers, and a registered agent, and it must keep accounting records. If the company has a Panamanian office, employees, or a local director making trading decisions, those facts can support a Panamanian-source characterisation. The goal is not to hide the Panama connection but to align the tax position with the actual operating model.",
+     "Crypto businesses also face bank and exchange onboarding checks. A Panamanian company with clear foreign-source trading activity, documented policies, and a coherent story about where decisions are made is easier to bank than an entity with unclear management. Substance is therefore both a tax issue and an operational one."
+    ]
+   ],
+   [
+    "Panama compared with MiCA and other licensing routes",
+    [
+     "Panama is not an EU jurisdiction, so a Panamanian S.A. does not provide a MiCA licence or passporting rights into the European Union. MiCA is in force across the EU in 2026, and crypto-asset service providers serving EU clients generally need authorisation in an EU member state. EU CASP capital requirements are set in tiers of EUR 50,000, EUR 125,000, and EUR 150,000 depending on the activity class, with additional own funds and governance expectations.",
+     "This means Panama and MiCA solve different problems. Panama can be attractive for a holding or trading company that earns foreign-source income and does not serve EU clients, or for founders who want a low-friction corporate base while keeping regulated activity elsewhere. MiCA is the route for firms that need to serve EU customers under a European licence.",
+     "Some founders use a dual structure: a Panamanian company for treasury, holding, or non-EU trading activity, and an EU-authorised entity for regulated services. That can work, but it adds transfer pricing, governance, and substance questions. The Panamanian entity must still respect its own territorial rules, and the EU entity must meet MiCA requirements. Neither side should be treated as a formality."
+    ]
+   ],
+   [
+    "Practical setup and compliance steps",
+    [
+     "Setting up a Panamanian S.A. is typically a two to three week process, depending on document readiness and the registered agent. Founders should prepare identification documents, proof of address, a business description, and information about the intended crypto activity. A local registered agent and resident agent are required, and the company must maintain proper corporate records.",
+     "Once incorporated, the company should open banking or payment accounts that match the trading model. Many Panamanian banks are cautious about crypto, so founders often use foreign accounts or regulated payment providers. The company should also keep clear records of trades, wallets, exchange statements, and the location of decision-making. These records support the foreign-source position if questions arise.",
+     "Ongoing compliance includes annual corporate obligations, accounting records, and any applicable tax filings. Panama does not require a crypto-specific licence, but anti-money laundering and know-your-customer rules still apply through banks, exchanges, and service providers. Founders should also consider tax obligations in their own country of residence, because Panama's territorial system does not override another country's worldwide tax claims."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Does Panama tax crypto trading profits earned abroad?",
+    "In general, Panama taxes income from Panamanian sources and does not tax foreign-source income earned by a Panamanian company. Crypto trading profits earned abroad may qualify as foreign-source if the activity, counterparties, and management are genuinely outside Panama. The result is fact-specific, and Panamanian-source income remains taxable."
+   ],
+   [
+    "Is there a dedicated crypto licence in Panama?",
+    "No. Panama does not have a dedicated crypto licence regime. Most crypto businesses incorporate a Sociedad Anonima or a similar company and operate under general commercial law, while complying with anti-money laundering and banking requirements."
+   ],
+   [
+    "What is the corporate tax rate in Panama for foreign-source income?",
+    "Panama is often described as applying a 0% rate to qualifying foreign-source income. That is a broad description rather than a universal rule. Panamanian-source income is taxable, and other taxes or obligations may still apply depending on the activity and the company's presence in Panama."
+   ],
+   [
+    "How long does it take to set up a Panama company for crypto activity?",
+    "A Panamanian Sociedad Anonima can usually be incorporated in about two to three weeks, assuming documents are in order and the registered agent process runs smoothly. Banking and exchange onboarding can take longer."
+   ],
+   [
+    "Can a Panama company serve EU crypto clients under MiCA?",
+    "No. A Panamanian company does not hold a MiCA licence and cannot passport into the EU. Serving EU clients generally requires authorisation in an EU member state. MiCA capital tiers are EUR 50,000, EUR 125,000, and EUR 150,000 depending on the activity class."
+   ],
+   [
+    "What makes crypto income Panamanian-source rather than foreign-source?",
+    "Factors include where the trading activity takes place, where the counterparties and exchanges are located, where decisions are made, and whether services are provided to Panamanian customers. Management and control from Panama can push income toward a Panamanian-source characterisation."
+   ],
+   [
+    "Do I need substance outside Panama to keep the territorial treatment?",
+    "Substance matters. If the company is effectively managed from Panama, the DGI or a foreign tax authority may argue the income is sourced where management occurs. Keeping board decisions, trading operations, and key personnel outside Panama supports a foreign-source position."
+   ],
+   [
+    "Does Panama's territorial system remove tax obligations in my home country?",
+    "No. Panama's territorial rules apply to Panama. Your country of residence may tax your worldwide income, including crypto gains, regardless of where the company is incorporated. Founders should review their personal tax position separately."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
  }
 ]
