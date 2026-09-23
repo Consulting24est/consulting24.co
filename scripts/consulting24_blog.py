@@ -437,12 +437,12 @@ def _hero_photo(headline: str, slug: str = "") -> str:
     falls back to a varied gallery photo if a slug-specific image is not available."""
     h = _esc(headline.title() if headline.islower() else headline)
     if slug:
-        src = f"{SITE}/img/blog/{slug}.jpg"
+        src = f"{SITE}/img/blog/{slug}.jpg?v=3"   # ?v=3: makes Blogger's image proxy refetch the 16:9 set
     else:
         idx = (sum(ord(c) for c in headline) % 9) + 1
         src = f"{SITE}/img/gallery-{idx:02d}.jpg"
-    return (f"<div style='margin:0 0 18px;'><img src='{src}' alt='{h} &#8212; Consulting24' "
-            "width='1200' height='630' loading='eager' "
+    return (f"<div style='margin:0 0 18px;'><img src='{src}' alt='{h}: Consulting24 crypto licensing guide' "
+            "width='1200' height='675' loading='eager' "
             "style='display:block;width:100%;height:auto;border-radius:10px;'/></div>")
 
 def _hero_image(headline: str, sub: str = "Crypto licensing across 15+ jurisdictions") -> str:
@@ -1793,6 +1793,8 @@ def main():
     ap.add_argument("--pages", action="store_true", help="publish unpublished pillar PAGES and exit")
     ap.add_argument("--limit", type=int, default=DAILY_LIMIT)
     ap.add_argument("--delay", type=int, default=20, help="seconds to wait between publishes (rate-limit spacing)")
+    ap.add_argument("--max-updates", type=int, default=40,
+                    help="cap per run for --update-images (365 items refresh over ~9 daily runs)")
     ap.add_argument("--update-images", action="store_true",
                     help="re-render and update already-published posts/pages (adds the hero image)")
     ap.add_argument("--force", action="store_true",
@@ -1882,7 +1884,8 @@ def main():
         return
 
     if args.update_images:
-        IMG_V = 2  # bump to force a re-update of all items
+        IMG_V = 3  # bump to force a re-update of all items (v3: 16:9 hero set + ?v=3 cache-buster, Sept 2026)
+        max_updates = args.max_updates   # Blogger API throttle: the rest continues on the next daily run
         art_by_slug = {a["slug"]: a for a in ARTICLES}
         page_by_slug = {p["slug"]: p for p in PAGES}
         done = skipped = 0
@@ -1894,6 +1897,8 @@ def main():
                 log(f"skip post {slug} (no spec or id)"); continue
             if not args.force and meta.get("img_v", 0) >= IMG_V:
                 skipped += 1; continue
+            if done >= max_updates:
+                break
             try:
                 if done and not args.dry_run:
                     time.sleep(args.delay)
@@ -1913,6 +1918,8 @@ def main():
                 log(f"skip page {slug} (no spec or id)"); continue
             if not args.force and meta.get("img_v", 0) >= IMG_V:
                 skipped += 1; continue
+            if done >= max_updates:
+                break
             try:
                 if done and not args.dry_run:
                     time.sleep(args.delay)

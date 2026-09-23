@@ -99,10 +99,29 @@ def _lastmod(url, path):
     _store[url] = {"hash": digest, "lastmod": _today}
     return _today
 
+def _image_for(url_path):
+    """Image-sitemap entry for /blog/ URLs: the post's unique 1200x675 hero (scripts/gen_blog_images.py)."""
+    if url_path == "/blog/":
+        slug = "blog-index"
+    elif url_path.startswith("/blog/"):
+        slug = url_path.strip("/").split("/", 1)[1]
+    else:
+        return None
+    f = os.path.join(ROOT, "img", "blog", f"{slug}.jpg")
+    return f"{BASE}/img/blog/{slug}.jpg" if os.path.exists(f) else None
+
 def _urlset(rows):
+    """rows: (url, lastmod) or (url, lastmod, image_url|None). Image entries use the Google image-sitemap
+    extension so every post's hero is discoverable for Google Images / Discover."""
+    has_img = any(len(r) > 2 and r[2] for r in rows)
+    ns = ' xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"' if has_img else ""
+    def _row(r):
+        img = r[2] if len(r) > 2 else None
+        ix = f"<image:image><image:loc>{img}</image:loc></image:image>" if img else ""
+        return f"  <url><loc>{r[0]}</loc><lastmod>{r[1]}</lastmod>{ix}</url>"
     return ('<?xml version="1.0" encoding="UTF-8"?>\n'
-            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-            + "\n".join(f"  <url><loc>{u}</loc><lastmod>{lm}</lastmod></url>" for u, lm in rows)
+            f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"{ns}>\n'
+            + "\n".join(_row(r) for r in rows)
             + "\n</urlset>\n")
 
 LANG_PREFIXES = ("zh", "es", "ar")          # translated landing pages live under /<lang>/
@@ -110,7 +129,7 @@ buckets = {"sitemap-pages.xml": [], "sitemap-blog.xml": []}
 for lp in LANG_PREFIXES:
     buckets[f"sitemap-{lp}.xml"] = []
 for url, path, url_path in sorted(pages):
-    row = (url, _lastmod(url, path))
+    row = (url, _lastmod(url, path), _image_for(url_path))
     first = url_path.strip("/").split("/")[0] if url_path else ""
     if url_path.startswith("/blog/"):
         buckets["sitemap-blog.xml"].append(row)
@@ -132,7 +151,7 @@ for name, rows in buckets.items():
         continue
     with open(fpath, "w", encoding="utf-8") as f:
         f.write(_urlset(rows))
-    children.append((name, max((lm for _, lm in rows), default=_today)))
+    children.append((name, max((r[1] for r in rows), default=_today)))
 if os.path.exists(os.path.join(ROOT, "news-sitemap.xml")):
     children.append(("news-sitemap.xml", _today))
 index_xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
