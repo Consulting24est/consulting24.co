@@ -52,7 +52,7 @@ def load_items(htmltext: str = "") -> list[dict]:
                 skipped += 1; continue                # same title already listed
             seen_titles.add(nt)
             url = m["url"].replace("https://consultinglegalnews.blogspot.com/", "https://blog.consulting24.co/")
-            items.append({"title": m["title"], "url": url,
+            items.append({"title": m["title"], "url": url, "slug": slug,
                           "kind": "Pillar guide" if kind == "pages" else "Guide"})
     if skipped:
         print(f"link_blogger: {skipped} Blogger items not listed (site already covers the topic).")
@@ -64,12 +64,21 @@ def render_block(items: list[dict]) -> str:
     else:
         def _thumb(title: str) -> int:
             return (sum(ord(c) for c in title) % 9) + 1
+        def _pic(i: dict) -> str:
+            slug = i.get("slug", "")
+            if slug and all((ROOT / "img" / "blog" / f"{slug}{s}").exists() for s in ("-thumb.jpg", "-thumb.webp", ".jpg", ".webp")):
+                sz = "(max-width: 679px) 100vw, 540px"        # unique hero set from scripts/gen_blog_images.py
+                return (f'<picture><source type="image/webp" srcset="/img/blog/{slug}-thumb.webp 600w, /img/blog/{slug}.webp 1200w" sizes="{sz}">'
+                        f'<img class="thumb" src="/img/blog/{slug}-thumb.jpg" srcset="/img/blog/{slug}-thumb.jpg 600w, /img/blog/{slug}.jpg 1200w" sizes="{sz}" '
+                        f'alt="" loading="lazy" decoding="async" width="600" height="338"></picture>')
+            g = _thumb(i["title"])
+            return (f'<picture><source srcset="/img/gallery-{g:02d}.webp" type="image/webp">'
+                    f'<img class="thumb" src="/img/gallery-{g:02d}.jpg" '
+                    f'alt="{html.escape(i["title"])}" loading="lazy" width="600" height="360"></picture>')
         cards = "".join(
             f'<a class="post-card" href="{html.escape(i["url"])}" '
             f'rel="noopener">'
-            f'<picture><source srcset="/img/gallery-{_thumb(i["title"]):02d}.webp" type="image/webp">'
-            f'<img class="thumb" src="/img/gallery-{_thumb(i["title"]):02d}.jpg" '
-            f'alt="{html.escape(i["title"])}" loading="lazy" width="600" height="360"></picture>'
+            f'{_pic(i)}'
             f'<span class="pc-body"><span class="cat">{i["kind"]}</span>'
             f'<h2>{html.escape(i["title"])}</h2>'
             f'<span class="meta">Consulting24 blog</span></span></a>'

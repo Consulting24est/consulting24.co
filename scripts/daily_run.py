@@ -126,6 +126,10 @@ def run():
         sh("python3 scripts/build_data_json.py")
         sh("python3 scripts/build_licensing_index.py")
         sh("python3 scripts/build_licensing_index_page.py")
+        for _step in ("scripts/gen_blog_images.py", "scripts/blog_image_seo.py"):   # hero sets + page wiring
+            _r = sh(f"python3 {_step}")
+            if _r.returncode:                       # a post without its image set must not slip through silently
+                print(f"WARNING: {_step} exit {_r.returncode}: {(_r.stdout + _r.stderr)[-300:]}")
         sh("python3 scripts/rebuild_indexes.py")
         sh("python3 scripts/publish.py")
         sh("git add -A")

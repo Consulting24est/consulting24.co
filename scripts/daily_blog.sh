@@ -21,20 +21,29 @@ echo "[$(ts)] daily_blog: start" >> logs/daily_blog.log
 
 # 1a) generate up to 2 fresh DeepSeek posts into the queue (config/extra_posts.json)
 "$PY" scripts/gen_blogger_posts.py 2 >> logs/daily_blog.log 2>&1 || echo "[$(ts)] post-gen nonzero" >> logs/daily_blog.log
-# 1a2) publish any remaining pillar PAGES (no-op once all are live)
-"$PY" scripts/consulting24_blog.py --pages --limit 1 --delay 25 >> logs/daily_blog.log 2>&1 || echo "[$(ts)] pages nonzero" >> logs/daily_blog.log
-# 1b) publish max 2 POSTS (throttled; backoff handles Blogger rate limits)
-"$PY" scripts/consulting24_blog.py --limit 2 --delay 25 >> logs/daily_blog.log 2>&1 || echo "[$(ts)] poster nonzero" >> logs/daily_blog.log
 
-# 1c) generate a UNIQUE branded hero image per (newly) published post/page, then deploy them
-#     so they are live before we attach them to Blogger.
+# 1a1) generate a UNIQUE branded hero image SET per queued/published post/page (gen_blog_images.py also
+#      covers the queued config/extra_posts.json slugs), wire the site's own posts, and deploy the images
+#      FIRST so they are already live when Blogger renders today's posts.
 "$PY" scripts/gen_blog_images.py >> logs/daily_blog.log 2>&1 || echo "[$(ts)] image gen nonzero" >> logs/daily_blog.log
+"$PY" scripts/blog_image_seo.py >> logs/daily_blog.log 2>&1 || echo "[$(ts)] image seo nonzero" >> logs/daily_blog.log
 git add img/blog 2>/dev/null
+git add -u blog 2>/dev/null          # only tracked posts the sweep rewired, never unrelated WIP
+if git diff --cached --name-only 2>/dev/null | grep -q '^blog/'; then
+  # rewired pages change content hashes: refresh sitemap lastmod / image entries and the IndexNow queue with them
+  "$PY" scripts/publish.py >> logs/daily_blog.log 2>&1 || echo "[$(ts)] publish (images) nonzero" >> logs/daily_blog.log
+  git add sitemap.xml 'sitemap-*.xml' config/page_hashes.json config/indexnow_queue.json config/indexnow_submitted.json 2>/dev/null
+fi
 if ! git diff --cached --quiet 2>/dev/null; then
   git commit -q -m "daily: unique blog hero images" >> logs/daily_blog.log 2>&1
   git push -q origin main >> logs/daily_blog.log 2>&1 && git push -q c24est main >> logs/daily_blog.log 2>&1 && echo "[$(ts)] images pushed (origin + live)" >> logs/daily_blog.log
   sleep 90   # let GitHub Pages deploy the new images before Blogger fetches them
 fi
+
+# 1a2) publish any remaining pillar PAGES (no-op once all are live)
+"$PY" scripts/consulting24_blog.py --pages --limit 1 --delay 25 >> logs/daily_blog.log 2>&1 || echo "[$(ts)] pages nonzero" >> logs/daily_blog.log
+# 1b) publish max 2 POSTS (throttled; backoff handles Blogger rate limits)
+"$PY" scripts/consulting24_blog.py --limit 2 --delay 25 >> logs/daily_blog.log 2>&1 || echo "[$(ts)] poster nonzero" >> logs/daily_blog.log
 
 # 1d) attach now-live unique images to any post/page that still needs it, then audit+fix
 "$PY" scripts/consulting24_blog.py --update-images >> logs/daily_blog.log 2>&1 || echo "[$(ts)] update-images nonzero" >> logs/daily_blog.log

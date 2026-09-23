@@ -287,11 +287,34 @@ def assemble(slug, crumb, d, kind="landing"):
     service_node = "" if _co else (
       f'{{"@type":"Service","name":{json.dumps(crumb+" Crypto License")},"provider":{{"@id":"{ORG_ID}"}}}},')
     _cr2_name, _cr2_item = ("Blog", f"{BASE}/blog/") if kind == "blog" else ("Jurisdictions", f"{BASE}/jurisdictions/")
+    # Blog posts get a UNIQUE hero image set (scripts/gen_blog_images.py runs in the publish checkpoint and
+    # scripts/blog_image_seo.py finalises alt/caption); landing pages keep the site og-image.
+    if kind == "blog":
+        _ib = f"{BASE}/img/blog/{slug}"
+        _alt = html.escape(f"Cover image: {d['h1']}. Consulting24 crypto licensing guide.", quote=True)
+        _og_img = (f'<meta property="og:image" content="{_ib}.jpg"><meta property="og:image:width" content="1200">'
+                   f'<meta property="og:image:height" content="675"><meta property="og:image:type" content="image/jpeg">'
+                   f'<meta property="og:image:alt" content="{_alt}">')
+        _tw_img = f'<meta name="twitter:image" content="{_ib}.jpg"><meta name="twitter:image:alt" content="{_alt}">'
+        _img_json = json.dumps([{"@type":"ImageObject","url":f"{_ib}.jpg","width":1200,"height":675},
+                                {"@type":"ImageObject","url":f"{_ib}-4x3.jpg","width":1200,"height":900},
+                                {"@type":"ImageObject","url":f"{_ib}-1x1.jpg","width":1200,"height":1200}])
+        _sz = "(max-width: 760px) 100vw, 1100px"
+        _hero = (f'<figure class="blog-hero" style="margin:18px 0 26px"><picture>'
+                 f'<source type="image/webp" srcset="/img/blog/{slug}-thumb.webp 600w, /img/blog/{slug}.webp 1200w" sizes="{_sz}">'
+                 f'<img src="/img/blog/{slug}.jpg" srcset="/img/blog/{slug}-thumb.jpg 600w, /img/blog/{slug}.jpg 1200w" sizes="{_sz}" '
+                 f'alt="{_alt}" width="1200" height="675" fetchpriority="high" decoding="async" '
+                 f'style="width:100%;height:auto;border-radius:14px;display:block"></picture></figure>')
+    else:
+        _og_img = f'<meta property="og:image" content="{BASE}/og-image.jpg">'
+        _tw_img = f'<meta name="twitter:image" content="{BASE}/og-image.jpg">'
+        _img_json = json.dumps(f"{BASE}/og-image.jpg")
+        _hero = ""
     article_schema = (
       f'{{"@type":"Article","headline":{json.dumps(d.get("meta_title",""))},'
       f'"description":{json.dumps(d.get("meta_description",""))},'
       f'"datePublished":"{today}","dateModified":"{today}",'
-      f'"image":"{BASE}/og-image.jpg","mainEntityOfPage":"{canon}",'
+      f'"image":{_img_json},"mainEntityOfPage":"{canon}",'
       f'"author":{{"@type":"Person","@id":"{AUTHOR_ID}","name":"Mardo Soo","jobTitle":"Founder & CEO",'
       f'"url":"{BASE}/about/","image":"{_authorimg}","sameAs":["https://www.linkedin.com/in/mardo-s-00a05ab0/"],'
       f'"worksFor":{{"@id":"{ORG_ID}"}}}},'
@@ -304,8 +327,8 @@ def assemble(slug, crumb, d, kind="landing"):
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
 <link rel="canonical" href="{canon}">
 <meta property="og:title" content="{html.escape(d["meta_title"])}"><meta property="og:description" content="{html.escape(d["meta_description"])}">
-<meta property="og:type" content="article"><meta property="og:url" content="{canon}"><meta property="og:image" content="{BASE}/og-image.jpg">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{html.escape(d["meta_title"])}"><meta name="twitter:description" content="{html.escape(d["meta_description"])}"><meta name="twitter:image" content="{BASE}/og-image.jpg">
+<meta property="og:type" content="article"><meta property="og:url" content="{canon}">{_og_img}
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{html.escape(d["meta_title"])}"><meta name="twitter:description" content="{html.escape(d["meta_description"])}">{_tw_img}
 <script type="application/ld+json">
 {{"@context":"https://schema.org","@graph":[
  {org_node},
@@ -329,6 +352,7 @@ def assemble(slug, crumb, d, kind="landing"):
   <h1>{html.escape(d["h1"])}</h1>
 {byline}
 {tldr}
+{_hero}
 {d["intro_html"]}
 {topcta}
 {trust}

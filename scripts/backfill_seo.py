@@ -50,7 +50,8 @@ def backfill(path: pathlib.Path, slug: str, kind: str) -> bool:
     art = ('<script type="application/ld+json">' + json.dumps({
         "@context":"https://schema.org","@type":"Article","headline":title,
         "description":desc,"datePublished":pub,"dateModified":TODAY,
-        "image":f"{BASE}/og-image.jpg","mainEntityOfPage":canon,
+        "image":(f"{BASE}/img/blog/{slug}.jpg" if kind == "blog" and (ROOT / "img" / "blog" / f"{slug}.jpg").exists()
+                 else f"{BASE}/og-image.jpg"),"mainEntityOfPage":canon,
         "author":{"@type":"Person","name":"Mardo Soo","jobTitle":"Founder & CEO",
                   "url":"https://www.linkedin.com/in/mardo-s-00a05ab0/",
                   "image":f"{BASE}/img/mardo-soo-profile.jpg",

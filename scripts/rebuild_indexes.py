@@ -22,7 +22,8 @@ def splice(file, start, end, block):
 # --- Jurisdictions hub: link EVERY indexable landing page, grouped, so no page is
 #     an orphan. Runs on every publish, so new pages are auto-wired in. ---
 SYSTEM = {"blog","scripts","config","img","logs","jurisdictions","node_modules",
-          "about","contact","privacy","terms","cookies","post"}
+          "about","contact","privacy","terms","cookies","post",
+          "zh","es","ar"}            # translated copies of the site (own hreflang set), not landing pages
 ACT = ("exchange","broker","fund","gambling","nft-marketplace","otc-desk","payment-institution",
        "stablecoin","staking","token-issuance","wallet-custody","dealer","custody","mining","p2p")
 
@@ -68,7 +69,10 @@ hub_block = "\n".join(sections)
 splice(os.path.join(ROOT, "jurisdictions", "index.html"), "<!-- JURISDICTIONS_START -->", "<!-- JURISDICTIONS_END -->", hub_block)
 print(f"hub: {total} landing pages linked across {sum(1 for k in groups if groups[k])} groups")
 
-# --- Blog index: every blog/<slug>/ post, newest (by mtime) first ---
+# --- Blog index: every blog/<slug>/ post, newest first by the post's own datePublished (JSON-LD).
+#     File mtime is NOT a publication date: any site-wide sweep (image rewiring, schema repair) touches
+#     every file at once and would shuffle the hub into reverse-alphabetical order. ---
+import datetime as _dt
 posts = []
 for d in glob.glob(os.path.join(ROOT, "blog", "*")):
     idx = os.path.join(d, "index.html")
@@ -76,16 +80,26 @@ for d in glob.glob(os.path.join(ROOT, "blog", "*")):
         bh = open(idx, encoding="utf-8").read()
         if 'generated-redirect-stub' in bh or 'content="noindex"' in bh:
             continue                      # skip redirect stubs (deduped comparison posts)
-        posts.append((os.path.getmtime(idx), os.path.basename(d), idx))
-posts.sort(reverse=True)
+        m = re.search(r'"datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2})', bh)
+        pub = m.group(1) if m else _dt.datetime.fromtimestamp(os.path.getmtime(idx)).strftime("%Y-%m-%d")
+        posts.append((pub, os.path.basename(d), idx))
+posts.sort(key=lambda p: (p[0], p[1]), reverse=True)
 bcards = []
-for _, slug, idx in posts:
+for n, (_, slug, idx) in enumerate(posts):
     t = title_of(idx, slug)
-    gi = (sum(ord(c) for c in slug) % 9) + 1   # matches the post's hero photo
+    lazy = 'loading="eager" fetchpriority="high"' if n < 2 else 'loading="lazy"'   # first row is above the fold
+    if all(os.path.exists(os.path.join(ROOT, "img", "blog", slug + s)) for s in ("-thumb.jpg", "-thumb.webp", ".jpg", ".webp")):
+        # the post's UNIQUE hero set (scripts/gen_blog_images.py): 600w thumb in the card, 1200w when it is wide
+        sz = "(max-width: 679px) 100vw, 540px"
+        pic = (f'<picture><source type="image/webp" srcset="/img/blog/{slug}-thumb.webp 600w, /img/blog/{slug}.webp 1200w" sizes="{sz}">'
+               f'<img class="thumb" src="/img/blog/{slug}-thumb.jpg" srcset="/img/blog/{slug}-thumb.jpg 600w, /img/blog/{slug}.jpg 1200w" sizes="{sz}" '
+               f'alt="" {lazy} decoding="async" width="600" height="338"></picture>')
+    else:                                        # fallback until gen_blog_images.py has produced this slug's set
+        gi = (sum(ord(c) for c in slug) % 9) + 1
+        pic = (f'<picture><source srcset="/img/gallery-{gi:02d}.webp" type="image/webp">'
+               f'<img class="thumb" src="/img/gallery-{gi:02d}.jpg" alt="{t}" loading="lazy" width="600" height="360"></picture>')
     bcards.append(
-        f'    <a class="post-card" href="/blog/{slug}/">'
-        f'<picture><source srcset="/img/gallery-{gi:02d}.webp" type="image/webp">'
-        f'<img class="thumb" src="/img/gallery-{gi:02d}.jpg" alt="{t}" loading="lazy" width="600" height="360"></picture>'
+        f'    <a class="post-card" href="/blog/{slug}/">{pic}'
         f'<span class="pc-body"><span class="cat">Guide</span><h2>{t}</h2>'
         f'<span class="meta">Consulting24</span></span></a>')
 blog_block = '  <div class="blog-grid">\n' + "\n".join(bcards) + "\n  </div>"
