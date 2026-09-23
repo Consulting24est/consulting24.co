@@ -27361,5 +27361,225 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "panama-crypto-company-for-a-web3-gaming-studio-structure-payments-and-pitfalls",
+  "title": "Panama crypto company for a Web3 gaming studio: structure, payments and pitfalls",
+  "keyword": "Panama crypto company for",
+  "landing": "/panama-crypto-license/",
+  "lede": "For Web3 gaming studios weighing where to incorporate, Panama offers a fast, low-tax corporate base with no dedicated crypto licence. But the absence of a bespoke regime cuts both ways, and MiCA's reach into the EU market means the structure you pick in Panama City may not be the one you can passport from.",
+  "sections": [
+   [
+    "Why a Web3 gaming studio might look at Panama",
+    [
+     "Panama has become a familiar talking point for founders who want a corporate vehicle that is quick to set up, cheap to maintain and neutral on foreign-source income. A Sociedad Anonima (SA) can typically be incorporated in roughly two to three weeks with the help of a local registered agent, and the jurisdiction does not impose a dedicated crypto or virtual asset service provider licence. For a Web3 gaming studio that earns in tokens, NFTs or in-game assets, that absence of a bespoke licensing regime is often read as speed and flexibility rather than a gap.",
+     "The tax story is the other draw. Panama operates a territorial system, so income that is not Panamanian-sourced is generally outside the local tax net, and there is no corporate income tax on foreign-source profits in the ordinary case. A studio whose players, servers and revenue sit outside Panama may therefore face a 0% headline rate on that foreign income. That is attractive, but it is not the same as saying the studio pays no tax anywhere: the founders' home countries, the countries where players pay, and the countries where the team lives can all assert taxing rights.",
+     "Panama is also a well-known banking and corporate services centre, with a mature ecosystem of law firms, registered agents and accountants who handle SA formation, nominee arrangements and ongoing filings. For a small gaming team that wants to move fast, that infrastructure is real. What it is not is a crypto-specific supervisory framework, and that distinction shapes almost every downstream decision about payments, banking and market access."
+    ]
+   ],
+   [
+    "What the Panama structure actually looks like",
+    [
+     "The default vehicle is the Sociedad Anonima. It needs at least three directors and three officers in the standard case, though nominee directors and officers are common and can be provided by the registered agent. Shareholders can be corporate or individual and are not part of the public register in the same way as in some other jurisdictions. A local registered agent and a registered office in Panama are mandatory, and the company must keep accounting records, though Panama does not require the annual filing of audited financial statements to a public registry for a typical SA.",
+     "For a Web3 gaming studio, the SA is usually paired with an operating subsidiary or a service entity in another jurisdiction, because the Panama company alone rarely satisfies the banking, payment or licensing expectations of major markets. A common pattern is a Panama holding or treasury company that receives token or NFT revenue, plus a separate entity that faces players and handles regulated activity. The corporate documents should be drafted with that split in mind, including clear share classes, token-related rights and the authority to hold digital assets.",
+     "Panama does regulate certain activities that touch crypto. Money transmission and remittance services, for example, fall under the supervision of the Superintendencia de Bancos de Panamá, and a studio that routes player funds through the Panama entity could find itself inside that perimeter. There is also a broader anti-money laundering framework that applies to obliged entities. The practical point is that the absence of a crypto licence does not mean the absence of rules: it means the rules are general corporate, AML and financial-sector rules rather than a purpose-built VASP regime."
+    ]
+   ],
+   [
+    "Payments, banking and token flows from a Panama base",
+    [
+     "Payment access is the single most common friction point for a Panama crypto company. Local banks have historically been cautious about digital asset businesses, and a newly formed SA with no local substance and token revenue may struggle to open a conventional corporate account. Many studios therefore rely on a mix of offshore banks, payment processors, electronic money institutions and crypto-native treasury arrangements. Each of those providers will run its own onboarding and may ask for licences the Panama entity does not have, which is why some founders add a regulated entity elsewhere purely to satisfy counterparties.",
+     "Token revenue adds a second layer. If the studio sells tokens, NFTs or in-game currency, the classification of those instruments matters: a pure utility or in-game asset is treated differently from a token that looks like a security or an e-money product. Panama does not offer a clear crypto-specific classification, so the analysis often falls back to the laws of the markets where the tokens are sold. That is a real pitfall for studios that assume a Panama incorporation settles the regulatory question globally.",
+     "Stablecoin and fiat rails deserve particular care. Converting player payments into stablecoins, holding them in treasury, and paying contributors in tokens creates a chain of custody that banks and processors will scrutinise. A studio should document the flow of funds, keep clear records of every conversion, and be ready to explain who holds the private keys and under what authority. Where the Panama entity touches fiat on behalf of players, the money transmission perimeter can come into play, and that is a licensing question, not a corporate one."
+    ]
+   ],
+   [
+    "MiCA in 2026 and what it means for an EU-facing studio",
+    [
+     "MiCA is fully in force across the EU in 2026, and it applies to crypto-asset service providers (CASPs) that serve EU clients, regardless of where the provider is incorporated. A Panama company that markets to players or investors in the EU, or that provides custody, exchange, transfer or portfolio services in respect of crypto-assets, can fall within scope. The passporting benefit that makes MiCA attractive only exists for entities authorised in an EU member state, so a Panama-only structure cannot rely on it.",
+     "The EU capital requirements for CASPs are tiered by the activities the firm carries out. The commonly cited tiers are EUR 50,000, EUR 125,000 and EUR 150,000, with the applicable figure depending on the class of services. These are minimum own-funds requirements and sit alongside governance, custody, complaints and disclosure obligations. A gaming studio that only issues its own in-game assets may fall outside the CASP definition, but one that also runs a marketplace, a wallet or a token exchange for third parties is much closer to the perimeter.",
+     "For a Panama-based Web3 gaming studio with EU ambitions, the realistic options are to keep EU-facing regulated activity inside an EU-authorised entity, to rely on a partner or distributor that holds the authorisation, or to restructure so that the Panama company does not provide regulated services into the EU. Each route has cost and control trade-offs. The mistake to avoid is assuming that a Panama SA plus a terms-of-service clause is enough to keep MiCA at arm's length."
+    ]
+   ],
+   [
+    "Pitfalls, substance and the questions founders underrate",
+    [
+     "The first pitfall is treating Panama as a regulatory shield. It is a corporate and tax jurisdiction, not a global crypto licence. Founders who incorporate an SA and then market token sales into the EU, the UK, the US or Singapore can find that the target market's rules apply to them anyway. The second pitfall is substance. A Panama company with no local office, no local staff and no local decision-making can look artificial to banks, regulators and tax authorities in the founders' home countries, and that can trigger permanent establishment or controlled foreign company analysis.",
+     "The third pitfall is banking fragility. A single payment processor or banking relationship can be withdrawn at short notice, and studios that have not built redundancy can be cut off from player payments. The fourth is tax misjudgement: territorial taxation is not the same as universal exemption, and founders who are tax resident elsewhere may owe tax on distributions, salaries or controlled foreign company income even if Panama taxes nothing. The fifth is token classification, which can turn a game design choice into a securities or e-money question in multiple markets at once.",
+     "None of these pitfalls make Panama a bad choice. They make it a choice that needs to be paired with a clear map of where players, revenue, team members and investors actually are. A studio that does that work can use a Panama SA efficiently for holding, treasury and non-regulated functions while keeping regulated activity in the right jurisdictions. A studio that skips it can end up with a cheap incorporation and expensive problems."
+    ]
+   ],
+   [
+    "How to sequence a Panama crypto company for a gaming studio",
+    [
+     "Start with the activity map, not the incorporation. Identify where the players are, where payments are collected, where the team is resident, where the tokens are sold and which functions the studio itself performs. That map tells you whether you need one entity or several, and whether any of them needs a licence. Only then does the Panama SA become a design decision rather than a default.",
+     "Next, design the corporate and governance structure. Decide on directors, officers, shareholders, nominee arrangements and the authority to hold and move digital assets. Put token-related rights, treasury mandates and signing authority in the constitutional documents and board resolutions. If the studio expects to raise from investors, make sure the share structure and any token or SAFT arrangements are consistent with the corporate record.",
+     "Finally, build the compliance and banking layer before you need it. Document AML and KYC procedures, keep records of token flows and conversions, and approach more than one banking or payment provider. If EU clients are in scope, plan the MiCA question early, because authorisation timelines and capital requirements are easier to manage before launch than after. Panama can be a useful part of the stack, but it works best when it is one deliberate layer rather than the whole answer."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Does Panama have a dedicated crypto licence?",
+    "No. Panama does not operate a purpose-built crypto or virtual asset service provider licence. A Web3 gaming studio typically incorporates a Sociedad Anonima and then deals with general corporate, AML and financial-sector rules. Certain activities, such as money transmission, can fall under existing supervision, so the absence of a crypto licence is not the absence of regulation."
+   ],
+   [
+    "How long does it take to set up a Panama crypto company?",
+    "A Sociedad Anonima can usually be incorporated in around two to three weeks with a local registered agent, assuming documents and KYC are in order. Opening banking or payment access is often the longer part of the process and can take considerably more time, especially for crypto-related activity."
+   ],
+   [
+    "Is a Panama crypto company tax free?",
+    "Panama uses a territorial tax system, so foreign-source income is generally outside the local corporate tax net and can be subject to a 0% headline rate. That does not mean the studio pays no tax anywhere. Founders' home countries, player jurisdictions and other markets may tax the same income, and controlled foreign company rules can apply."
+   ],
+   [
+    "Can a Panama company serve EU players under MiCA?",
+    "MiCA applies to crypto-asset service providers serving EU clients regardless of where they are incorporated. A Panama company cannot use MiCA passporting, because that benefit is tied to authorisation in an EU member state. EU-facing regulated activity usually needs an EU-authorised entity, a licensed partner, or a structure that keeps the Panama company outside the regulated perimeter."
+   ],
+   [
+    "What are the MiCA capital requirements for a CASP?",
+    "MiCA sets tiered minimum own-funds requirements that are commonly cited as EUR 50,000, EUR 125,000 and EUR 150,000, depending on the class of crypto-asset services provided. These sit alongside governance, custody, disclosure and complaints obligations. The exact tier depends on the specific activities, so the classification should be confirmed before applying."
+   ],
+   [
+    "Will a Panama company be able to open a bank account?",
+    "It can be difficult. Many banks are cautious about digital asset businesses, and a newly formed Panama SA with token revenue may face enhanced due diligence or refusal. Studios often use a mix of offshore banks, payment processors and electronic money institutions, and should build redundancy rather than relying on a single provider."
+   ],
+   [
+    "Do I need substance in Panama?",
+    "Panama does not impose the same broad economic substance requirements as some offshore centres, but a company with no local presence, staff or decision-making can look artificial to banks, regulators and foreign tax authorities. That can trigger permanent establishment or controlled foreign company analysis in the founders' home countries, so substance should be considered deliberately."
+   ],
+   [
+    "Is a Panama SA suitable for issuing tokens or NFTs?",
+    "A Panama SA can hold and transact in digital assets, and many studios use it for treasury and holding functions. Whether a particular token or NFT is a regulated instrument depends on its characteristics and on the markets where it is sold. Panama does not provide a crypto-specific classification, so securities, e-money and consumer law in target markets often drive the analysis."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "substance-in-panama-what-a-crypto-company-actually-needs-on-the-ground",
+  "title": "Substance in Panama: what a crypto company actually needs on the ground",
+  "keyword": "Substance in Panama: what",
+  "landing": "/panama-crypto-license/",
+  "lede": "Panama offers a fast, low-tax route for crypto companies, but it does not offer a crypto licence. What it does require is real substance on the ground, and that is where most founders get the details wrong.",
+  "sections": [
+   [
+    "Panama does not issue a crypto licence, so substance replaces the licence",
+    [
+     "Founders often arrive at Panama expecting a crypto-specific authorisation similar to a MiCA CASP licence in the EU or a VASP registration elsewhere. That authorisation does not exist. Panama has not created a dedicated crypto licence regime, and the practical route for most crypto businesses is to incorporate a Sociedad Anonima (SA) and operate under the general commercial framework. The SA is a flexible corporate vehicle, can be formed in roughly two to three weeks in typical cases, and is widely used by international businesses that want a neutral holding or operating company.",
+     "Because there is no crypto licence, the compliance conversation shifts. Banks, payment processors, exchanges and institutional counterparties will not ask for a Panamanian crypto licence, because there is nothing to show. They will instead look at the company itself: who owns it, who controls it, where decisions are made, whether there is a real office, whether there are real people, and whether the business has a credible economic presence. That is what substance means in practice. It is not a box on a form, it is the accumulated evidence that the company is genuinely run from Panama rather than merely registered there.",
+     "This distinction matters for founders coming from regulated markets. In the EU, a MiCA licence is the substance, because the licence itself proves supervisory approval and imposes capital, governance and reporting duties. In Panama, there is no equivalent badge. The company must build its own credibility through operations, records and people. For a crypto business, that usually means a documented decision-making process, local management, a real address, and a clean audit trail that a bank or exchange can review."
+    ]
+   ],
+   [
+    "What substance actually looks like for a Panama crypto company",
+    [
+     "Substance is best understood as a set of observable facts. A registered office address is the starting point, but it is not enough on its own. A virtual office or a mail forwarding address will not satisfy a serious bank or institutional counterparty. What counts is a physical presence where the company can receive correspondence, store records, hold meetings and be visited if needed. For a small crypto operation, this can be a modest but genuine office, a serviced office with a named suite, or a dedicated desk arrangement with a local corporate services provider.",
+     "People are the second pillar. At least one director should be resident in Panama or spend meaningful time there, and the company should be able to show who makes day-to-day decisions and where those decisions are taken. If all directors live abroad and all decisions are made abroad, the company may still be legally valid, but it will struggle to demonstrate substance. Local management does not have to be expensive. A resident director, a local finance or compliance officer, or a part-time country manager can all help, provided their role is real and documented.",
+     "The third pillar is records. Minutes of board meetings, resolutions, contracts, invoices, bank statements, employment or contractor agreements, and a clear description of the business activity should be kept in Panama and available for review. For crypto companies, this also means records of wallet control, custody arrangements, counterparty due diligence and transaction monitoring. Substance is not just about where the company sits, it is about where the paperwork lives and whether it tells a coherent story."
+    ]
+   ],
+   [
+    "Banking, payments and the practical limits of a Panama SA",
+    [
+     "A Panama SA can open bank accounts, but crypto businesses face the same global banking caution as anywhere else. Panamanian banks are not hostile to crypto in principle, but they apply enhanced due diligence, and many will decline pure crypto trading or custody activity unless the company can show strong governance, clear source of funds and a credible operating history. Some founders use a combination of a Panama operating company and banking or payment accounts in other jurisdictions, which can work but adds complexity and cost.",
+     "This is where substance pays off. A bank reviewing a crypto company will look for a real office, real staff, a local director, a business plan that matches the account activity, and a compliance function that can answer questions about AML, sanctions and transaction monitoring. If the company is a shell with a nominee director and a virtual address, the account is likely to be refused or closed later. If the company can show a genuine Panama presence, the conversation is easier, though never guaranteed.",
+     "Tax is often the reason founders choose Panama, and the headline is attractive: Panama taxes foreign-source income at 0 percent in many cases, and territorial taxation means income earned outside Panama is generally not subject to Panamanian tax. However, this treatment depends on the facts, including where the income is sourced and whether the company has a permanent establishment elsewhere. Founders should not assume that a Panama SA automatically produces a zero-tax result. Substance, transfer pricing and the tax rules of the founder's home country all interact, and professional advice is essential."
+    ]
+   ],
+   [
+    "How substance interacts with MiCA and other regimes",
+    [
+     "MiCA is in force across the EU in 2026, and it imposes a full licensing regime on crypto-asset service providers. EU CASP capital requirements are set in tiers of EUR 50,000, EUR 125,000 and EUR 150,000 depending on the activity class, with higher thresholds for certain services. A Panama SA cannot passport into the EU, and it does not satisfy MiCA. If a company wants to serve EU clients, it generally needs an EU-authorised entity, or a carefully structured relationship with one.",
+     "This is not a reason to dismiss Panama, but it is a reason to be clear about what Panama is for. Many groups use a Panama company for treasury, holding, IP, or non-EU operations, while a separate EU entity holds the MiCA licence and deals with European clients. In that structure, the Panama company still needs substance if it is to be credible, especially if it is the group's main operating or treasury hub. A Panama shell supporting an EU licence is a weak point that regulators and banks will notice.",
+     "For founders who want one company and one jurisdiction, Panama can work for activities that do not require an EU licence, such as serving non-EU clients, developing software, or managing a proprietary trading book. The moment the business touches EU clients or EU-regulated services, the analysis changes. Substance in Panama does not substitute for a MiCA licence, and a MiCA licence does not remove the need for substance in Panama if a Panama entity is part of the group."
+    ]
+   ],
+   [
+    "Building substance without overspending",
+    [
+     "Substance does not require a large office or a big local payroll. It requires a credible minimum that matches the business. For a small crypto company, that might be a serviced office with a named suite, one resident director, a local accountant, and a documented decision-making process. For a larger group, it might include a country manager, a compliance officer, a small team, and a real office with signage and meeting rooms. The right level depends on the activity, the counterparties and the jurisdictions involved.",
+     "Timing matters too. Incorporation of a Panama SA can take around two to three weeks in typical cases, but substance is built over months, not days. Founders should plan for at least one to three months of active operation before approaching banks or institutional partners, and longer if the business is complex. Trying to open a bank account the week after incorporation, with no local director, no office and no records, usually leads to rejection and wasted time.",
+     "The most common mistake is treating substance as a formality. Founders buy a shelf company, appoint a nominee director, use a virtual office, and assume that is enough. It is not. Nominee arrangements can be legal, but they do not create substance, and they often make banks uncomfortable. A better approach is to appoint real people with real roles, keep real records, and be able to explain the business clearly. That is what turns a Panama SA from a registration into an operating company."
+    ]
+   ],
+   [
+    "A practical checklist before you commit",
+    [
+     "Before incorporating, decide what the Panama company is for. Is it a holding company, a treasury vehicle, an operating business, or a software development hub. The answer determines the substance you need. A pure holding company may need less, though it still needs a registered office and a director. An operating crypto business needs more: a real office, local management, records, and a compliance function that can respond to bank and counterparty questions.",
+     "Then map the regulatory perimeter. If you serve EU clients, you likely need a MiCA-authorised entity, and the Panama company should be structured to support rather than replace it. If you serve clients outside the EU, Panama may be sufficient, but you should still check the rules of the countries where your clients are based. Crypto regulation is moving quickly, and a structure that works today may need adjustment within a year or two.",
+     "Finally, budget for substance properly. Office space, local staff, accounting, legal and compliance support all cost money, and underestimating them is a common reason structures fail. The good news is that Panama remains competitive on cost compared with many regulated jurisdictions, and a well-built Panama company can be a durable base for a global crypto business. The key is to treat substance as part of the build, not as an afterthought once a bank asks questions."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Does Panama have a crypto licence?",
+    "No. Panama has not created a dedicated crypto licence regime. Most crypto businesses incorporate a Sociedad Anonima and operate under the general commercial framework, which means there is no crypto-specific authorisation to obtain. The practical substitute is substance: a real office, local management, records and a credible operating presence."
+   ],
+   [
+    "What is substance in Panama for a crypto company?",
+    "Substance means the company is genuinely run from Panama. In practice it includes a physical office, at least one resident director or local manager, local records and decision-making, and a documented business activity. It is the evidence that the company is not just a registered shell."
+   ],
+   [
+    "How long does it take to set up a Panama SA?",
+    "Incorporation of a Panama Sociedad Anonima typically takes around two to three weeks, though timing can vary with document preparation and registry workload. Building substance takes longer, often one to three months of active operation before banks or institutional counterparties will take the company seriously."
+   ],
+   [
+    "Can a Panama crypto company open a bank account?",
+    "It can, but crypto businesses face enhanced due diligence. Banks will look for a real office, local management, clear source of funds, a business plan that matches account activity, and a compliance function. Some companies combine a Panama entity with accounts in other jurisdictions, which adds complexity but can be workable."
+   ],
+   [
+    "Is Panama tax-free for crypto companies?",
+    "Panama generally taxes foreign-source income at 0 percent under its territorial system, but the result depends on the facts, including where income is sourced and whether the company has a permanent establishment elsewhere. A Panama SA does not automatically produce a zero-tax outcome, and advice from a tax professional is essential."
+   ],
+   [
+    "Does a Panama company satisfy MiCA?",
+    "No. MiCA is in force across the EU in 2026, and a Panama SA cannot passport into the EU or substitute for a MiCA licence. Groups serving EU clients typically need an EU-authorised entity, with the Panama company used for holding, treasury or non-EU operations. The Panama entity still needs substance to be credible within the group."
+   ],
+   [
+    "What are the EU CASP capital requirements under MiCA?",
+    "MiCA sets EU CASP capital requirements in tiers of EUR 50,000, EUR 125,000 and EUR 150,000 depending on the activity class, with higher thresholds for certain services. These are minimum requirements and are separate from any Panama substance or capital planning."
+   ],
+   [
+    "Do I need a nominee director in Panama?",
+    "Nominee directors are legal but do not create substance, and they often make banks uncomfortable. A better approach is to appoint real people with real roles, such as a resident director or local manager, and to document their responsibilities. That is what supports banking, counterparty due diligence and long-term credibility."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
  }
 ]

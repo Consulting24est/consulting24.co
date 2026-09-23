@@ -84,7 +84,7 @@
 "lastmod": "2026-08-05"
 },
 "https://www.consulting24.co/blog/": {
-"hash": "4d1f2b72f9f8b0920d91e7f78a1c11a3",
+"hash": "0c85d076e78af8a62b1feef26af43303",
 "lastmod": "2026-09-23"
 },
 "https://www.consulting24.co/blog/abu-dhabi-crypto-license-requirements-checklist-for-2026/": {
@@ -3964,8 +3964,8 @@
 "lastmod": "2026-09-21"
 },
 "https://www.consulting24.co/news/": {
-"hash": "df98a33fc3037a86b5e859ae2b7316c2",
-"lastmod": "2026-09-12"
+"hash": "779bc1c13c7a63baca0a4d21d62eafd1",
+"lastmod": "2026-09-23"
 },
 "https://www.consulting24.co/news/esma-flags-market-risks-masked-by-investor-optimism/": {
 "hash": "4c270ad998b623957337878e4782a169",
@@ -11954,5 +11954,13 @@
 "https://www.consulting24.co/zh/switzerland-vs-singapore-crypto-license/": {
 "hash": "3b217fd3d53cd8c181c7de9beb6db094",
 "lastmod": "2026-09-21"
+},
+"https://www.consulting24.co/news/esas-flag-external-dependencies-cyber-and-private-credit-risks/": {
+"hash": "ef81d04e0d7f070fe1024c405b15424b",
+"lastmod": "2026-09-23"
+},
+"https://www.consulting24.co/news/esma-to-launch-digital-innovation-supervisory-priority-from-2027/": {
+"hash": "0fc808deec9e6b9757f21596e3617c8f",
+"lastmod": "2026-09-23"
 }
 }

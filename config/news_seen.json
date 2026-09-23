@@ -47,6 +47,18 @@
    "feed": "fca",
    "title": "Crypto firms get guidance on how the new regime applies",
    "published": false
+  },
+  "https://www.esma.europa.eu/press-news/esma-news/esma-sets-new-supervisory-priority-digital-innovation-2027": {
+   "date": "2026-09-23T15:48:49+00:00",
+   "feed": "esma",
+   "title": "ESMA sets new supervisory priority on digital innovation from 2027",
+   "published": true
+  },
+  "https://www.esma.europa.eu/press-news/esma-news/esas-call-vigilance-over-external-dependencies-cyber-threats-and-private": {
+   "date": "2026-09-23T15:48:55+00:00",
+   "feed": "esma",
+   "title": "ESAs call for vigilance over external dependencies, cyber threats and private credit risks",
+   "published": true
   }
  }
 }
