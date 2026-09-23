@@ -19,6 +19,7 @@ TODAY = datetime.date.today().isoformat()
 SKIP = {"blog","scripts","config","img","logs","jurisdictions"}
 
 sys.path.insert(0, str(ROOT / "scripts"))
+from htmltext import plain, esc_text
 import importlib.util
 _spec = importlib.util.spec_from_file_location("gen", ROOT / "scripts" / "generate.py")
 gen = importlib.util.module_from_spec(_spec)
@@ -41,8 +42,10 @@ def backfill(path: pathlib.Path, slug: str, kind: str) -> bool:
     h = path.read_text(encoding="utf-8")
     if "answer-box" in h or "generated-redirect-stub" in h:
         return False
-    title = first(r"<title>(.*?)</title>", h)
-    desc = first(r'<meta name="description" content="(.*?)"', h)
+    # Both are read back out of rendered HTML, so they arrive already escaped.
+    # Keep them plain here and escape once per destination below.
+    title = plain(first(r"<title>(.*?)</title>", h))
+    desc = plain(first(r'<meta name="description" content="(.*?)"', h))
     canon = first(r'<link rel="canonical" href="(.*?)"', h) or f"{BASE}/{slug}/"
     pub = git_add_date(path)
 
@@ -66,7 +69,7 @@ def backfill(path: pathlib.Path, slug: str, kind: str) -> bool:
     byline = (f'<p class="byline" style="color:var(--muted);font-size:.9rem;margin:0 0 18px">'
               f'By <a href="https://www.linkedin.com/in/mardo-s-00a05ab0/" rel="author">Mardo Soo</a>, '
               f'Founder &amp; CEO, Consulting24 (X24Consulting O&Uuml;) &middot; Updated {TODAY}</p>')
-    ans = html.escape(desc)
+    ans = esc_text(desc)   # desc is plain; escape exactly once for the text node
     tldr = (f'<div class="answer-box" style="background:var(--accent-soft);border-left:4px solid var(--accent);'
             f'border-radius:8px;padding:16px 20px;margin:0 0 22px"><strong style="color:var(--accent-dark)">'
             f'Short answer:</strong> {ans}</div>') if ans else '<div class="answer-box"></div>'

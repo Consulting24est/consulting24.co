@@ -16,6 +16,10 @@ import os, sys, re, json, html, urllib.request, urllib.error, hashlib, datetime
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://www.consulting24.co"
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
+# esc_text/esc_attr unescape before escaping, so text that has already been through
+# a render/read-back cycle cannot pick up a second layer of entities. plain() is for
+# JSON-LD, which is never entity-decoded and so must carry real characters.
+from htmltext import plain, esc_text, esc_attr
 try:
     from regulators import sources_block as _sources_block
 except Exception:
@@ -168,7 +172,7 @@ def footer():
 <div class="sticky-bar"><a href="''' + WA + '''" class="btn btn-secondary" style="background:var(--ink)">&#128172; WhatsApp</a><a href="/#contact-top" class="btn btn-primary">Free consultation</a></div>'''
 
 def fig(src, alt):
-    return f'  <figure style="margin:24px 0"><img src="{src}" alt="{html.escape(alt)}" loading="lazy" width="1200" height="320" style="width:100%;height:auto;border-radius:14px;border:1px solid var(--line)"></figure>'
+    return f'  <figure style="margin:24px 0"><img src="{src}" alt="{esc_attr(alt)}" loading="lazy" width="1200" height="320" style="width:100%;height:auto;border-radius:14px;border:1px solid var(--line)"></figure>'
 
 _HUB_SPECIAL = {"mica":"MiCA","vasp":"VASP","casp":"CASP","msb":"MSB","vara":"VARA","bvi":"BVI",
  "usa":"USA","uae":"UAE","eu":"EU","el":"El","vs":"vs","and":"and","for":"for","of":"of",
@@ -232,7 +236,7 @@ def _blog_related(self_slug):
             '<span>Compare every jurisdiction</span></a>' + posts + '</div>')
 
 def assemble(slug, crumb, d, kind="landing"):
-    sec_list = [f"  <h2>{html.escape(s['h2'])}</h2>\n{s['html']}" for s in d["sections"]]
+    sec_list = [f"  <h2>{esc_text(s['h2'])}</h2>\n{s['html']}" for s in d["sections"]]
     imgs = [("/img/graphic-process.svg", f"{crumb} crypto licence process: scope, incorporate, apply, operate"),
             ("/img/graphic-jurisdictions.svg", f"{crumb} crypto licence compared with Panama, EU/MiCA, Gulf and offshore options"),
             ("/img/graphic-trust.svg", "Consulting24: 500+ crypto licenses obtained, compliance-first")]
@@ -245,14 +249,14 @@ def assemble(slug, crumb, d, kind="landing"):
         out.append(fig(*imgs[placed])); placed += 1
     sections = "\n".join(out)
     faqs_html = '<section class="faq"><h2>Frequently asked questions</h2>' + "".join(
-        f"<details><summary>{html.escape(f['q'])}</summary><p>{f['a']}</p></details>" for f in d["faqs"]) + "</section>"
+        f"<details><summary>{esc_text(f['q'])}</summary><p>{f['a']}</p></details>" for f in d["faqs"]) + "</section>"
     auth = [a for a in d.get("authority_links",[]) if url_ok(a.get("url",""))]
     auth_html = ""
     if auth:
         auth_html = '<h2>Official sources</h2><ul>' + "".join(
-            f'<li><a href="{html.escape(a["url"])}" target="_blank" rel="nofollow noopener">{html.escape(a["title"])}</a></li>' for a in auth) + "</ul>"
+            f'<li><a href="{esc_attr(a["url"])}" target="_blank" rel="nofollow noopener">{esc_text(a["title"])}</a></li>' for a in auth) + "</ul>"
     faq_schema = ",".join('{"@type":"Question","name":%s,"acceptedAnswer":{"@type":"Answer","text":%s}}' %
-        (json.dumps(f["q"]), json.dumps(re.sub("<[^>]+>","",f["a"]))) for f in d["faqs"])
+        (json.dumps(plain(f["q"])), json.dumps(plain(re.sub("<[^>]+>","",f["a"])))) for f in d["faqs"])
     canon = f"{BASE}/{slug}/" if kind=="landing" else f"{BASE}/blog/{slug}/"
     css = "../styles.css" if kind=="landing" else "../../styles.css"
     _pool = [("/lithuania-crypto-license/","Lithuania"),("/estonia-crypto-license/","Estonia"),("/dubai-crypto-license/","Dubai"),("/cyprus-crypto-license/","Cyprus"),("/malta-crypto-license/","Malta"),("/cayman-islands-crypto-license/","Cayman Islands"),("/switzerland-crypto-license/","Switzerland"),("/","Panama (EUR 6,000)")]
@@ -266,7 +270,7 @@ def assemble(slug, crumb, d, kind="landing"):
     trust = '<div class="trust-strip"><b>500+ crypto licenses obtained.</b> <span class="logos">Binance &middot; LBank &middot; Coinify &middot; MultiversX &middot; UPay &middot; Vitalum</span></div>'
     today = datetime.date.today().isoformat()
     # TL;DR answer box (LLM + featured-snippet friendly: a direct, quotable answer up top)
-    _ans = html.escape(d.get("meta_description","").strip())
+    _ans = esc_text(d.get("meta_description","").strip())
     tldr = (f'<div class="answer-box" style="background:var(--accent-soft);border-left:4px solid var(--accent);'
             f'border-radius:8px;padding:16px 20px;margin:0 0 22px"><strong style="color:var(--accent-dark)">Short answer:</strong> {_ans}</div>') if _ans else ""
     # Visible author byline (E-E-A-T)
@@ -285,13 +289,13 @@ def assemble(slug, crumb, d, kind="landing"):
     # UAE VARA / ADGM comparison-only: never emit a Service node claiming we provide the licence
     _co = any(t in slug for t in ("dubai", "abu-dhabi", "uae", "vara", "adgm"))
     service_node = "" if _co else (
-      f'{{"@type":"Service","name":{json.dumps(crumb+" Crypto License")},"provider":{{"@id":"{ORG_ID}"}}}},')
+      f'{{"@type":"Service","name":{json.dumps(plain(crumb)+" Crypto License")},"provider":{{"@id":"{ORG_ID}"}}}},')
     _cr2_name, _cr2_item = ("Blog", f"{BASE}/blog/") if kind == "blog" else ("Jurisdictions", f"{BASE}/jurisdictions/")
     # Blog posts get a UNIQUE hero image set (scripts/gen_blog_images.py runs in the publish checkpoint and
     # scripts/blog_image_seo.py finalises alt/caption); landing pages keep the site og-image.
     if kind == "blog":
         _ib = f"{BASE}/img/blog/{slug}"
-        _alt = html.escape(f"Cover image: {d['h1']}. Consulting24 crypto licensing guide.", quote=True)
+        _alt = esc_attr(f"{plain(d['h1']).rstrip('?.!: ')}: cover image (Consulting24)")   # blog_image_seo.py refines it
         _og_img = (f'<meta property="og:image" content="{_ib}.jpg"><meta property="og:image:width" content="1200">'
                    f'<meta property="og:image:height" content="675"><meta property="og:image:type" content="image/jpeg">'
                    f'<meta property="og:image:alt" content="{_alt}">')
@@ -311,8 +315,8 @@ def assemble(slug, crumb, d, kind="landing"):
         _img_json = json.dumps(f"{BASE}/og-image.jpg")
         _hero = ""
     article_schema = (
-      f'{{"@type":"Article","headline":{json.dumps(d.get("meta_title",""))},'
-      f'"description":{json.dumps(d.get("meta_description",""))},'
+      f'{{"@type":"Article","headline":{json.dumps(plain(d.get("meta_title","")))},'
+      f'"description":{json.dumps(plain(d.get("meta_description","")))},'
       f'"datePublished":"{today}","dateModified":"{today}",'
       f'"image":{_img_json},"mainEntityOfPage":"{canon}",'
       f'"author":{{"@type":"Person","@id":"{AUTHOR_ID}","name":"Mardo Soo","jobTitle":"Founder & CEO",'
@@ -322,20 +326,20 @@ def assemble(slug, crumb, d, kind="landing"):
     return f'''<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{html.escape(d["meta_title"])}</title>
-<meta name="description" content="{html.escape(d["meta_description"])}">
+<title>{esc_text(d["meta_title"])}</title>
+<meta name="description" content="{esc_attr(d["meta_description"])}">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
 <link rel="canonical" href="{canon}">
-<meta property="og:title" content="{html.escape(d["meta_title"])}"><meta property="og:description" content="{html.escape(d["meta_description"])}">
+<meta property="og:title" content="{esc_attr(d["meta_title"])}"><meta property="og:description" content="{esc_attr(d["meta_description"])}">
 <meta property="og:type" content="article"><meta property="og:url" content="{canon}">{_og_img}
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{html.escape(d["meta_title"])}"><meta name="twitter:description" content="{html.escape(d["meta_description"])}">{_tw_img}
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc_attr(d["meta_title"])}"><meta name="twitter:description" content="{esc_attr(d["meta_description"])}">{_tw_img}
 <script type="application/ld+json">
 {{"@context":"https://schema.org","@graph":[
  {org_node},
  {{"@type":"BreadcrumbList","itemListElement":[
    {{"@type":"ListItem","position":1,"name":"Home","item":"{BASE}/"}},
    {{"@type":"ListItem","position":2,"name":"{_cr2_name}","item":"{_cr2_item}"}},
-   {{"@type":"ListItem","position":3,"name":{json.dumps(crumb)},"item":"{canon}"}}]}},
+   {{"@type":"ListItem","position":3,"name":{json.dumps(plain(crumb))},"item":"{canon}"}}]}},
  {service_node}
  {article_schema},
  {{"@type":"FAQPage","mainEntity":[{faq_schema}]}}
@@ -347,9 +351,9 @@ def assemble(slug, crumb, d, kind="landing"):
 </head><body>
 <a href="#main" class="skip">Skip to main content</a>
 {HEADER}
-<div class="wrap"><nav class="breadcrumbs"><a href="/">Home</a> &rsaquo; <a href="{'/blog/' if kind=='blog' else '/jurisdictions/'}">{'Blog' if kind=='blog' else 'Jurisdictions'}</a> &rsaquo; {html.escape(crumb)}</nav></div>
+<div class="wrap"><nav class="breadcrumbs"><a href="/">Home</a> &rsaquo; <a href="{'/blog/' if kind=='blog' else '/jurisdictions/'}">{'Blog' if kind=='blog' else 'Jurisdictions'}</a> &rsaquo; {esc_text(crumb)}</nav></div>
 <article class="wrap" id="main">
-  <h1>{html.escape(d["h1"])}</h1>
+  <h1>{esc_text(d["h1"])}</h1>
 {byline}
 {tldr}
 {_hero}
