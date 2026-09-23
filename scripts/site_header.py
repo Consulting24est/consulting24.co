@@ -57,6 +57,7 @@ LICENSE_COLS = [
 ]
 LICENSE_FOOT = [
     ("How to get a crypto license →", "/how-to-get-a-crypto-license/"),
+    ("Free licensing consultation →", "/crypto-licensing-consultation/"),
 ]
 
 REGIONS = [

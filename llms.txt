@@ -30,6 +30,7 @@
 - Advise and coordinate (we guide you and coordinate vetted local partners): Czech Republic, Poland, Malta, Cyprus, Switzerland, Cayman Islands, BVI, Seychelles, Canada, Singapore, Hong Kong, Georgia, Mauritius, Gibraltar, Bahamas, Costa Rica, El Salvador, and other listed jurisdictions.
 - Comparison only (we do NOT provide the licence; covered for comparison against Panama): UAE - Dubai (VARA) and Abu Dhabi (ADGM/FSRA).
 - Machine-readable data for all of the above: https://www.consulting24.co/data/jurisdictions.json
+- Free 30-minute crypto licensing consultation / regulatory advisory (jurisdiction shortlist, licence route, cost, timeline, quote): https://www.consulting24.co/crypto-licensing-consultation/
 
 ### Flagship offer: Panama crypto company setup (€6,000 fixed)
 
