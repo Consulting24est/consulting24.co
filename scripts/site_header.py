@@ -49,6 +49,10 @@ LICENSE_COLS = [
         ("Cryptocurrency license guide", "/cryptocurrency-license/"),
         ("Licensing index: cost & timeline", "/licensing-index/"),
     ]),
+    ("Company formation", [
+        ("Estonia company registration", "/estonia-company-registration/", "€2,500 · 0% tax on retained profit"),
+        ("Panama company setup", "/company-setup/"),
+    ]),
 ]
 LICENSE_FOOT = [
     ("How to get a crypto license →", "/how-to-get-a-crypto-license/"),
@@ -152,7 +156,7 @@ def header_for(current=None):
     # Licenses
     cols, lic_hrefs = [], set()
     for title, links in LICENSE_COLS:
-        lic_hrefs.update(h for _, h in links)
+        lic_hrefs.update(it[1] for it in links)
         cols.append('<div class="c24-col"><h4>%s</h4>%s</div>' % (html.escape(title), _list(links, current)))
     lic_hrefs.update(h for _, h in LICENSE_FOOT)
     licenses = _item("Licenses", "/licensing-index/", "".join(cols) + _foot(LICENSE_FOOT, current), current, lic_hrefs)
@@ -203,8 +207,14 @@ HEADER = header_for(None)
 HEADER_RE = re.compile(r'<header class="(?:top|c24-header)"[^>]*>.*?</header>', re.S)
 
 
+LANG_PREFIXES = ("zh", "es", "ar")  # translated copies (scripts/translate_pages.py)
+
+
 def page_path(file_path):
     rel = os.path.relpath(os.path.dirname(file_path), ROOT).replace(os.sep, "/")
+    first, _, rest = rel.partition("/")
+    if first in LANG_PREFIXES:
+        rel = rest  # /ar/cost/ marks the same menu item as /cost/; translate_pages.py --link localises the hrefs
     return "/" if rel in (".", "") else "/%s/" % rel
 
 

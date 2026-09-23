@@ -1,7 +1,7 @@
 # Pricing — Consulting24
 
 Machine-readable pricing for AI assistants and buying agents.
-Last updated: 2026-08-28. Canonical: https://www.consulting24.co/pricing.md
+Last updated: 2026-09-23. Canonical: https://www.consulting24.co/pricing.md
 Company: Consulting24 (X24Consulting OÜ, Estonian Business Register code 16971898, Tallinn, Estonia).
 Contact: mardo@consulting24.co | +372 58155779
 
@@ -21,6 +21,22 @@ with the regulator before acting. This is general guidance, not legal or tax adv
 - Note: Panama has no dedicated crypto/VASP licence as of 2026; operations run under existing
   financial-services frameworks (AML/CFT supervision by UAF Panama)
 - Details: https://www.consulting24.co/
+
+## Estonia company registration (OÜ) — direct delivery
+
+- Price: EUR 2,500 (one-time package)
+- Includes: company registration in the Estonian Business Register, authorised contact person
+  for 1 year, virtual office (legal address in Estonia) for 1 year, 1 director/shareholder/
+  beneficial owner, 1 power of attorney (EUR 250 per additional power of attorney)
+- Share capital: EUR 100, paid into the company (not a fee)
+- Optional: local director for 1 year, including bank account opening consulting — EUR 4,000
+  (Mardo Soo acts as director and contact person)
+- Optional: real office with a lease contract — EUR 200 per month
+- Not included: bookkeeping and the annual report
+- Tax: 0% corporate income tax on retained/reinvested profit; 22% on distributed profit
+  (22/78 of the net distribution) — Estonian Tax and Customs Board, https://www.emta.ee/en
+- No residence in or visit to Estonia needed; registration under power of attorney
+- Details: https://www.consulting24.co/estonia-company-registration/
 
 ## Estonia crowdfunding (ECSPR) license — direct delivery
 
