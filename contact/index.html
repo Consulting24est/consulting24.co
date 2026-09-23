@@ -45,9 +45,10 @@
         <div class="field"><label for="email">Email *</label><input id="email" name="email" type="email" required></div>
         <div class="field"><label for="activity">What do you need?</label>
           <select id="activity" name="activity">
-            <option>Crypto exchange (CEX or DEX)</option><option>OTC desk</option><option>Crypto wallet / custodian</option>
-            <option>Crypto fund</option><option>Payment / EMI</option><option>Token issuance</option>
-            <option>Stablecoin issuer</option><option>NFT marketplace</option><option value="Estonia company registration (OÜ)">Estonia company registration (O&Uuml;)</option><option>Other / not sure</option>
+            <option value="" selected>Choose one</option>
+            <optgroup label="Company registration"><option value="Estonia company registration (OÜ)">Estonia company registration (O&Uuml;)</option><option value="Panama company setup">Panama company setup</option></optgroup>
+            <optgroup label="Crypto licensing"><option>Crypto exchange (CEX or DEX)</option><option>OTC desk</option><option>Crypto wallet / custodian</option><option>Crypto fund</option><option>Payment / EMI</option><option>Token issuance</option><option>Stablecoin issuer</option><option>NFT marketplace</option></optgroup>
+            <option>Other / not sure</option>
           </select></div>
         <div class="field"><label for="msg">Your project (optional)</label><textarea id="msg" name="message" rows="4" placeholder="e.g. Pre-launch exchange, targeting LatAm, need fast setup"></textarea></div>
         <button type="submit" class="btn btn-primary" style="width:100%">Send inquiry</button>
