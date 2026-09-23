@@ -46,6 +46,22 @@ with the regulator before acting. This is general guidance, not legal or tax adv
 - No residence in or visit to Estonia needed; registration under power of attorney
 - Details: https://www.consulting24.co/estonia-company-registration/
 
+## BVI company registration (Business Company) — Standard package
+
+- Price: EUR 5,000 (one-time package)
+- Includes: unlimited name availability checks, incorporation application and filing, first-year
+  government fee, registered agent and registered address for 1 year, corporate secretary for
+  1 year, one set of digital corporate documents, reminders before filing deadlines
+- Optional: certification of KYC documents by our CPA — EUR 150 per document
+- Not included: professional English translation of non-English documents, bank account opening,
+  renewals from year 2
+- Timeline: compliance check 1–3 working days, then incorporation 3–5 working days; bank account
+  10–15 working days (digital bank) or 1–2 months (traditional bank)
+- Tax: 0% corporate income tax; no capital gains or withholding tax — https://www.bvifsc.vg/faq/what-tax-structure-bvi
+- Annual: economic substance declaration and annual financial return filed with the registered agent;
+  no audit, nothing filed publicly
+- Details: https://www.consulting24.co/bvi-company-registration/
+
 ## Estonia crowdfunding (ECSPR) license — direct delivery
 
 - Price: EUR 37,000 fixed Consulting24 fee (staged: EUR 3,000 + EUR 34,000)
