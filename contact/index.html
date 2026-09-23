@@ -31,37 +31,38 @@
 <div class="wrap"><nav class="breadcrumbs"><a href="/">Home</a> &rsaquo; Contact<!-- LANG_SWITCH_START --><span class="lang-switch" style="display:inline-block;margin-inline-start:14px;font-size:13px;white-space:nowrap"><strong aria-current="true">EN</strong> &middot; <a href="https://www.consulting24.co/zh/contact/" hreflang="zh-Hans" lang="zh-Hans">中文</a> &middot; <a href="https://www.consulting24.co/es/contact/" hreflang="es" lang="es">Español</a> &middot; <a href="https://www.consulting24.co/ar/contact/" hreflang="ar" lang="ar">العربية</a></span><!-- LANG_SWITCH_END --></nav></div>
 <article class="wrap" id="main">
   <h1>Contact Consulting24</h1>
-  <p style="color:var(--ink-2);max-width:44rem">Tell us about your crypto project and we will map the right jurisdiction from real experience, honestly. Founder-led, <strong>reply within 24 hours</strong>. 500+ crypto companies and licences delivered across 15+ jurisdictions.</p>
+  <p style="color:var(--ink-2);max-width:44rem">Tell us about your project, whether it's a crypto licence or an Estonian company, and we will map the right route from real experience, honestly. Founder-led, <strong>reply within 24 hours</strong>. 500+ crypto companies and licences delivered across 15+ jurisdictions.</p>
 
-  <div style="display:grid;grid-template-columns:1.3fr 1fr;gap:32px;margin-top:28px" class="contact-grid">
+  <div style="display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:32px;margin-top:28px" class="contact-grid">
     <div class="form-card" id="contact-top" style="background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px">
       <h2 style="margin-top:0">Send an inquiry</h2>
       <form action="https://formsubmit.co/mardo@consulting24.co" method="POST">
-        <input type="hidden" name="_subject" value="New crypto licensing inquiry - consulting24.co/contact">
+        <input type="hidden" name="_subject" value="New inquiry - consulting24.co/contact">
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_next" value="https://www.consulting24.co/?sent=1">
         <input type="text" name="_honey" style="display:none">
         <div class="field"><label for="name">Full name *</label><input id="name" name="name" required></div>
         <div class="field"><label for="email">Email *</label><input id="email" name="email" type="email" required></div>
-        <div class="field"><label for="activity">Type of crypto business</label>
+        <div class="field"><label for="activity">What do you need?</label>
           <select id="activity" name="activity">
             <option>Crypto exchange (CEX or DEX)</option><option>OTC desk</option><option>Crypto wallet / custodian</option>
             <option>Crypto fund</option><option>Payment / EMI</option><option>Token issuance</option>
-            <option>Stablecoin issuer</option><option>NFT marketplace</option><option>Other / not sure</option>
+            <option>Stablecoin issuer</option><option>NFT marketplace</option><option value="Estonia company registration (OÜ)">Estonia company registration (O&Uuml;)</option><option>Other / not sure</option>
           </select></div>
         <div class="field"><label for="msg">Your project (optional)</label><textarea id="msg" name="message" rows="4" placeholder="e.g. Pre-launch exchange, targeting LatAm, need fast setup"></textarea></div>
         <button type="submit" class="btn btn-primary" style="width:100%">Send inquiry</button>
         <p style="color:var(--muted);font-size:.82rem;margin:12px 0 0">We reply within 24 hours. General guidance, not legal advice.</p>
       </form>
+      <script>if(/[?&]need=estonia\b/.test(location.search)){var s=document.getElementById("activity");if(s)s.value="Estonia company registration (OÜ)";}</script>
     </div>
     <div>
       <h2 style="margin-top:0">Reach us directly</h2>
-      <ul style="list-style:none;padding:0;line-height:1.8">
+      <ul style="list-style:none;padding:0;line-height:1.8;overflow-wrap:anywhere">
         <li><strong>WhatsApp:</strong> <a href="https://wa.me/37258155779?text=Hi%2C%20I%27d%20like%20to%20ask%20about%20a%20crypto%20company%20setup.">+372 58155779</a> (fastest)</li>
         <li><strong>Email:</strong> <a href="mailto:mardo@consulting24.co">mardo@consulting24.co</a></li>
         <li><strong>Phone:</strong> +372 58155779</li>
       </ul>
-      <a href="https://wa.me/37258155779?text=Hi%2C%20I%27d%20like%20to%20ask%20about%20a%20crypto%20company%20setup." class="top-phone" style="margin-top:8px">&#128172; Message on WhatsApp</a>
+      <a href="https://wa.me/37258155779?text=Hi%2C%20I%27d%20like%20to%20ask%20about%20a%20crypto%20company%20setup." class="top-phone" style="margin-top:8px">Message on WhatsApp</a>
       <h3 style="margin-top:26px">Company</h3>
       <p style="color:var(--ink-2)">Consulting24 &middot; X24Consulting O&Uuml;<br>Reg. nr 16971898<br>Poordi 3-63, 10156 Tallinn, Estonia</p>
       <p style="color:var(--ink-2)">Led by <a href="/about/">Mardo Soo</a>, Founder &amp; CEO.</p>
@@ -74,6 +75,6 @@
   <div><h2>Resources</h2><a href="/news/">News</a><a href="/editorial-policy/">Editorial policy</a><a href="/licensing-index/">Licensing Index</a><a href="/best-country-for-crypto-license/">Best country</a><a href="/cost/">Panama cost</a><a href="/blog/">Blog</a></div>
   <div><h2>Company</h2><a href="/about/">About Consulting24</a><a href="/luxury-chauffeur-service-dubai/">Chauffeur Service Dubai</a><a href="/contact/">Contact</a><a href="https://www.linkedin.com/in/mardo-s-00a05ab0/">Mardo Soo on LinkedIn</a></div>
 </div><div class="foot-bottom">&copy; 2026 Consulting24 &middot; X24Consulting O&Uuml; &middot; Reg nr 16971898 &middot; Poordi 3-63, 10156 Tallinn, Estonia &middot; General guidance, not legal advice.</div></div></footer>
-<style>@media(max-width:680px){.contact-grid{grid-template-columns:1fr!important}}</style>
+<style>@media(max-width:860px){.contact-grid{grid-template-columns:1fr!important}}</style>
 </body>
 </html>
