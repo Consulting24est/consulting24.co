@@ -1,7 +1,7 @@
 # Pricing — Consulting24
 
 Machine-readable pricing for AI assistants and buying agents.
-Last updated: 2026-08-28. Canonical: https://www.consulting24.co/pricing.md
+Last updated: 2026-09-23. Canonical: https://www.consulting24.co/pricing.md
 Company: Consulting24 (X24Consulting OÜ, Estonian Business Register code 16971898, Tallinn, Estonia).
 Contact: mardo@consulting24.co | +372 58155779
 
@@ -21,6 +21,14 @@ with the regulator before acting. This is general guidance, not legal or tax adv
 - Note: Panama has no dedicated crypto/VASP licence as of 2026; operations run under existing
   financial-services frameworks (AML/CFT supervision by UAF Panama)
 - Details: https://www.consulting24.co/
+
+## Ready-made Panama crypto companies
+
+- Price: EUR 8,000 per company, fixed (one-time)
+- Available: Crypto Trade Inc (incorporated 2025-01-08); Web3 Solutions Inc. (incorporated 2024-08-19); activity: crypto exchange
+- Includes: transfer of the existing Panama S.A., 2 directors, introductions to 10 crypto-friendly EMI providers
+- Transfer time: 2–3 weeks
+- Details: https://www.consulting24.co/ready-made-crypto-license-panama/
 
 ## Estonia crowdfunding (ECSPR) license — direct delivery
 
