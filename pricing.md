@@ -22,6 +22,14 @@ with the regulator before acting. This is general guidance, not legal or tax adv
   financial-services frameworks (AML/CFT supervision by UAF Panama)
 - Details: https://www.consulting24.co/
 
+## Ready-made Panama crypto companies
+
+- Price: EUR 8,000 per company, fixed (one-time)
+- Available: Crypto Trade Inc (incorporated 2025-01-08); Web3 Solutions Inc. (incorporated 2024-08-19); activity: crypto exchange
+- Includes: transfer of the existing Panama S.A., 2 directors, introductions to 10 crypto-friendly EMI providers
+- Transfer time: 2–3 weeks
+- Details: https://www.consulting24.co/ready-made-crypto-license-panama/
+
 ## Estonia company registration (OÜ) — direct delivery
 
 - Price: EUR 2,500 (one-time package)
