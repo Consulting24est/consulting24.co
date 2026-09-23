@@ -154,3 +154,10 @@ footer{background:#0c0c0c;color:#a3a3a3;padding:48px 0 28px;font-size:.92rem;mar
 .trust-strip b{color:var(--ink)}
 .trust-strip .logos{display:flex;flex-wrap:wrap;gap:8px 16px;font-weight:700;color:var(--ink-2)}
 .eyebrow{display:inline-block;font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-dark);background:var(--accent-soft);padding:5px 12px;border-radius:999px;margin-bottom:12px}
+
+/* Form fields (contact page; homepage carries the same rules inline) */
+.field{margin-bottom:14px}
+.field label{display:block;font-weight:600;font-size:.85rem;color:var(--ink);margin-bottom:6px}
+.field input,.field select,.field textarea{width:100%;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;font:inherit;font-size:1rem;background:#fff;color:var(--ink);transition:border-color .15s,box-shadow .15s}
+.field input:focus,.field select:focus,.field textarea:focus{outline:0;border-color:var(--accent);box-shadow:0 0 0 4px var(--accent-soft)}
+.field textarea{resize:vertical;min-height:110px}
