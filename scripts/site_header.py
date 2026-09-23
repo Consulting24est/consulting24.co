@@ -51,6 +51,7 @@ LICENSE_COLS = [
     ]),
     ("Company formation", [
         ("Estonia company registration", "/estonia-company-registration/", "€2,500 · 0% tax on retained profit"),
+        ("BVI company registration", "/bvi-company-registration/", "€5,000 · 0% corporate tax"),
         ("Panama company setup", "/company-setup/"),
     ]),
 ]
