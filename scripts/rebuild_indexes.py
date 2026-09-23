@@ -4,15 +4,20 @@ rebuild_indexes.py — regenerate the /jurisdictions/ hub grid and /blog/ card l
 from whatever pages exist on disk, so new pages are always linked (no orphans).
 Run in the daily pipeline after generating pages, before linkcheck/publish.
 """
-import os, re, glob
+import os, re, sys, glob
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(ROOT, "scripts"))
+from htmltext import plain, esc_text, esc_attr
 
 def title_of(path, fallback):
+    """Heading text as plain characters. The <h1> on disk is escaped, so decode
+    it here and let each caller escape once for its own context. Escaping the
+    escaped text again is what rendered 'Costs &amp; Process' on the hub."""
     h = open(path, encoding="utf-8").read()
     m = re.search(r"<h1>(.*?)</h1>", h, re.S)
     t = re.sub("<[^>]+>", "", m.group(1)).strip() if m else fallback
-    return t
+    return plain(t)
 
 def splice(file, start, end, block):
     s = open(file, encoding="utf-8").read()
@@ -27,7 +32,7 @@ SYSTEM = {"blog","scripts","config","img","logs","jurisdictions","node_modules",
 ACT = ("exchange","broker","fund","gambling","nft-marketplace","otc-desk","payment-institution",
        "stablecoin","staking","token-issuance","wallet-custody","dealer","custody","mining","p2p")
 
-def esc(s): return s.replace("&","&amp;").replace("<","&lt;").replace(">","&gt;")
+esc = esc_text   # text-node escaping; title_of() already handed us plain text
 
 def classify(slug):
     if "-vs-" in slug: return "compare"
@@ -97,10 +102,10 @@ for n, (_, slug, idx) in enumerate(posts):
     else:                                        # fallback until gen_blog_images.py has produced this slug's set
         gi = (sum(ord(c) for c in slug) % 9) + 1
         pic = (f'<picture><source srcset="/img/gallery-{gi:02d}.webp" type="image/webp">'
-               f'<img class="thumb" src="/img/gallery-{gi:02d}.jpg" alt="{t}" loading="lazy" width="600" height="360"></picture>')
+               f'<img class="thumb" src="/img/gallery-{gi:02d}.jpg" alt="" loading="lazy" width="600" height="360"></picture>')
     bcards.append(
         f'    <a class="post-card" href="/blog/{slug}/">{pic}'
-        f'<span class="pc-body"><span class="cat">Guide</span><h2>{t}</h2>'
+        f'<span class="pc-body"><span class="cat">Guide</span><h2>{esc_text(t)}</h2>'
         f'<span class="meta">Consulting24</span></span></a>')
 blog_block = '  <div class="blog-grid">\n' + "\n".join(bcards) + "\n  </div>"
 splice(os.path.join(ROOT, "blog", "index.html"), "<!-- BLOG_POSTS_START -->", "<!-- BLOG_POSTS_END -->", blog_block)

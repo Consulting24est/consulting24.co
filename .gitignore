@@ -8,3 +8,6 @@ scripts/.bing_api_key
 scripts/_*.sh
 
 logs/
+
+__pycache__/
+*.pyc
