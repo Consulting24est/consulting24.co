@@ -1,6 +1,8 @@
-/* Consulting24 chat widget: Mardo's photo in the bottom-right corner, a first welcome message, guided
-   answers (prices mirror pricing.md, keep them in sync) and lead capture to Mardo's inbox through
-   FormSubmit, the same endpoint the /contact/ form uses. Loaded by nav.js; styles in chat.css. */
+/* Consulting24 chat widget: Mardo's photo in the bottom-right corner, a first welcome message and guided
+   answers (prices mirror pricing.md, keep them in sync). Questions are handed to Mardo's WhatsApp with the
+   question prefilled, so he answers from his phone; visitors without WhatsApp leave an email or number,
+   which reaches his inbox through FormSubmit (the same endpoint as the /contact/ form). Loaded by nav.js;
+   styles in chat.css. */
 (function () {
   if (document.getElementById('c24c')) return;
 
@@ -14,12 +16,12 @@
   var phone = window.matchMedia('(max-width:520px)');
 
   /* ---------- conversation content ---------- */
-  var FOLLOW = ['quote', 'wa', 'menu'];
+  var FOLLOW = ['wa_talk', 'quote', 'menu'];
   var TOPICS = chauffeur ? {
     welcome: ["Hi, I'm Mardo 👋", 'Want to ride in the Maybach S-Class in Dubai? Tell me the date, pickup and drop-off, and I\'ll confirm availability.'],
     teaser: 'Want to ride in the Maybach S-Class in Dubai? Tell me your date and route.',
     menu: ['c_airport', 'c_hourly', 'c_ceo', 'wa'],
-    labels: { c_airport: 'Airport transfer', c_hourly: 'Book by the hour', c_ceo: 'Ride with Mardo (CEO)', wa: 'WhatsApp me', menu: 'Something else', quote: 'Leave my contact' },
+    labels: { c_airport: 'Airport transfer', c_hourly: 'Book by the hour', c_ceo: 'Ride with Mardo (CEO)', wa: 'WhatsApp me', wa_send: 'Send it to me on WhatsApp', wa_talk: 'Chat on WhatsApp', nowa: 'I don\'t use WhatsApp', menu: 'Something else', quote: 'Leave my contact' },
     answers: {
       c_airport: { h: 'Great. Send me the flight date and time, and the pickup and drop-off addresses. I\'ll confirm the car on WhatsApp.', wa: 'Hi Mardo, I\'d like to book the Maybach for an airport transfer. Date/time: … Pickup: … Drop-off: …' },
       c_hourly: { h: 'Sure. Tell me the date, the start time and roughly how many hours you need. I\'ll confirm availability on WhatsApp.', wa: 'Hi Mardo, I\'d like to book the Maybach by the hour. Date: … Start time: … Hours: …' },
@@ -30,7 +32,7 @@
     welcome: ["Hi, I'm Mardo 👋 Founder & CEO of Consulting24.", 'I help founders set up crypto companies and licences in Panama, Estonia, the BVI, Dubai and beyond. What are you working on?'],
     teaser: 'Setting up a crypto company or licence? Ask me anything and I\'ll answer personally.',
     menu: ['panama', 'ready', 'estonia', 'bvi', 'other', 'wa'],
-    labels: { panama: 'Panama crypto company', ready: 'Ready-made company', estonia: 'Estonia company (OÜ)', bvi: 'BVI company', other: 'Another licence or country', prices: 'Prices', wa: 'WhatsApp me', menu: 'Something else', quote: 'Get a quote' },
+    labels: { panama: 'Panama crypto company', ready: 'Ready-made company', estonia: 'Estonia company (OÜ)', bvi: 'BVI company', other: 'Another licence or country', prices: 'Prices', wa: 'WhatsApp me', wa_send: 'Send it to me on WhatsApp', wa_talk: 'Chat with me on WhatsApp', nowa: 'I don\'t use WhatsApp', menu: 'Something else', quote: 'Get a quote by email' },
     answers: {
       panama: { h: 'Our flagship: a Panama S.A. set up for crypto activities, <b>EUR 6,000 fixed, all-in</b>.\nIncluded: 2 of the 3 required directors, notarisation for 1 person, 7 crypto-friendly payment-provider introductions and banking introductions.\nIt takes 2–3 weeks, fully online, with no minimum capital. <a href="/cost/">See what\'s included</a>', wa: 'Hi Mardo, I\'m interested in the Panama crypto company setup (EUR 6,000).' },
       ready: { h: 'Ready-made Panama crypto companies with history: <b>EUR 8,000 fixed</b>.\nIncluded: transfer of the existing S.A., 2 directors and introductions to 10 crypto-friendly EMI providers. The transfer takes 2–3 weeks. <a href="/ready-made-crypto-license-panama/">See available companies</a>', wa: 'Hi Mardo, I\'m interested in a ready-made Panama crypto company (EUR 8,000).' },
@@ -71,7 +73,7 @@
       '<form class="c24c-form" novalidate><label class="c24c-sr" for="c24c-in">Your message</label>' +
         '<input id="c24c-in" class="c24c-input" type="text" autocomplete="off" maxlength="1000" placeholder="Type your question…">' +
         '<button type="submit" class="c24c-send" aria-label="Send"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.4 20.4 21 12 3.4 3.6 3.4 10l12.6 2-12.6 2z"/></svg></button></form>' +
-      '<div class="c24c-foot">Messages go straight to Mardo\'s inbox.</div>' +
+      '<div class="c24c-foot">Mardo answers personally on WhatsApp or by email.</div>' +
     '</div>' +
     '<button type="button" class="c24c-launch" aria-label="Chat with Mardo Soo" aria-expanded="false"><img src="' + AVATAR + '" alt="" width="64" height="64"></button>';
   var panel = root.querySelector('.c24c-panel');
@@ -87,8 +89,8 @@
   function waUrl(text) { return 'https://wa.me/' + WA + '?text=' + encodeURIComponent(text || TOPICS.waDefault); }
   function waText() {
     var a = TOPICS.answers[state.topic];
-    var t = (a && a.wa) || TOPICS.waDefault;
-    return state.question ? t + '\n\n' + state.question : t;
+    var t = state.question ? 'Hi Mardo, ' + state.question : (a && a.wa) || TOPICS.waDefault;
+    return t + '\n\n(via the chat on consulting24.co' + location.pathname + ')';
   }
   function drawBot(html) {
     var row = el('div', 'c24c-row');
@@ -107,10 +109,10 @@
     var box = el('div', 'c24c-chips');
     keys.forEach(function (k) {
       var c;
-      if (k === 'wa') {
-        c = el('a', 'c24c-chip c24c-chip--wa');
+      if (k.indexOf('wa') === 0) {
+        c = el('a', 'c24c-chip c24c-chip--wa' + (k === 'wa' ? '' : ' c24c-chip--wa-main'));
         c.href = waUrl(waText()); c.target = '_blank'; c.rel = 'noopener';
-        c.textContent = '💬 ' + TOPICS.labels.wa;
+        c.textContent = '💬 ' + TOPICS.labels[k];
       } else {
         c = el('button', 'c24c-chip'); c.type = 'button'; c.textContent = TOPICS.labels[k];
         c.addEventListener('click', function () { pick(k); });
@@ -136,7 +138,7 @@
     var it = queue.shift();
     if (!it) { busy = 0; return; }
     busy = 1;
-    if (it.c) { state.log.push({ c: it.c }); save(); drawChips(it.c); scroll(); return next(); }
+    if (it.c) { clearChips(); state.log.push({ c: it.c }); save(); drawChips(it.c); scroll(); return next(); }
     var dots = el('div', 'c24c-row', '<img src="' + AVATAR + '" alt="" width="28" height="28"><div class="c24c-msg c24c-typing" aria-label="Mardo is typing"><i></i><i></i><i></i></div>');
     log.appendChild(dots); scroll();
     var plain = it.b.replace(/<[^>]+>/g, '');
@@ -156,20 +158,26 @@
   function askContact(lead) {
     if (state.contact) { sendLead(state.contact); return; }
     state.mode = 'contact'; save();
-    input.placeholder = 'Your email or WhatsApp number';
-    say([{ b: lead + ' What\'s the best email or WhatsApp number to reach you?' }, { c: ['wa'] }]);
+    input.placeholder = 'Email, or phone with country code';
+    say([{ b: lead + ' What\'s the best email, or phone number with country code, to reach you?' }]);
+  }
+  function handoff(lead) {
+    state.mode = 'menu'; save();
+    input.placeholder = 'Type your question…';
+    say([{ b: lead + ' Tap below and it goes straight to my WhatsApp. I\'ll answer you there myself.' }, { c: ['wa_send', 'nowa'] }]);
   }
   function answer(k) {
     var a = TOPICS.answers[k];
     state.topic = k; save();
     if (a.ask) { state.mode = 'ask'; save(); input.placeholder = 'Country and activity…'; say([{ b: a.h }, { c: ['wa', 'menu'] }]); return; }
     state.mode = 'menu'; save();
-    say([{ b: a.h }, { b: chauffeur ? 'Shall we go ahead?' : 'Want a written quote for your case?' }, { c: chauffeur ? ['wa', 'menu'] : FOLLOW }]);
+    say([{ b: a.h }, { b: chauffeur ? 'Shall we go ahead?' : 'Questions about your case? Ask me on WhatsApp, or get a written quote by email.' }, { c: chauffeur ? ['wa_talk', 'menu'] : FOLLOW }]);
   }
   function pick(k) {
     me(TOPICS.labels[k]);
     if (k === 'menu') { state.mode = 'menu'; state.topic = ''; save(); input.placeholder = 'Type your question…'; say([{ b: 'Sure, what else can I help with?' }, { c: TOPICS.menu }]); return; }
     if (k === 'quote') { askContact('Happy to.'); return; }
+    if (k === 'nowa') { askContact('No problem.'); return; }
     answer(k);
   }
   var EMAIL_RE = /[^\s@<>]+@[^\s@<>]+\.[a-z]{2,}/i;
@@ -200,10 +208,12 @@
       conversation: transcript()
     };
     if (contact.email) data.email = contact.email;
+    else data.reply_on_whatsapp = 'https://wa.me/' + contact.phone.replace(/\D/g, '').replace(/^00/, '');
     var ok = function () {
       state.sent = true; state.contact = contact; state.mode = 'menu'; state.question = ''; save();
       input.placeholder = 'Type your question…';
       if (again) say([{ b: 'Thanks, I\'ve passed that on too. I\'ll reply to ' + (contact.email || contact.phone) + '.' }, { c: ['wa', 'menu'] }]);
+      else if (contact.phone) say([{ b: 'Thanks, got it! I\'ll get in touch at ' + contact.phone + ' as soon as I can.' }, { c: ['menu'] }]);
       else say([{ b: 'Thanks, got it! I\'ll get back to you personally as soon as I can.' }, { b: 'If it\'s urgent, WhatsApp is the fastest way to reach me.' }, { c: ['wa', 'menu'] }]);
     };
     var fail = function () {
@@ -226,7 +236,7 @@
       return;
     }
     if (state.mode === 'contact') {
-      if (text.length > 25) { note(text); say([{ b: 'Noted. And what\'s the best email or WhatsApp number to reach you?' }, { c: ['wa'] }]); }
+      if (text.length > 25) { note(text); say([{ b: 'Noted. And what\'s the best email, or phone number with country code, to reach you?' }, { c: ['wa_send'] }]); }
       else say([{ b: 'That doesn\'t look like an email or phone number. Could you check it? You can also message me on WhatsApp.' }, { c: ['wa'] }]);
       return;
     }
@@ -238,7 +248,7 @@
     }
     var asked = state.mode === 'ask';
     note(text);
-    askContact(asked ? 'Got it, thanks.' : 'Good question. I\'d rather answer it properly than guess.');
+    handoff(asked ? 'Got it, thanks.' : 'Good question.');
   }
 
   /* ---------- open / close ---------- */
@@ -254,7 +264,7 @@
     set('sessionStorage', 'open', true);
     if (!drawn) {
       drawn = true;
-      if (!state.log.length) welcome(); else { render(); if (state.mode === 'contact') input.placeholder = 'Your email or WhatsApp number'; }
+      if (!state.log.length) welcome(); else { render(); if (state.mode === 'contact') input.placeholder = 'Email, or phone with country code'; }
     }
     if (focusInput !== false) (phone.matches ? closeBtn : input).focus();
   }

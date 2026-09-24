@@ -60,6 +60,8 @@ html.c24-lock .c24c{display:none}
 .c24c-chip:focus-visible{outline:2px solid var(--c24c-blue);outline-offset:2px}
 .c24c-chip--wa{border-color:var(--c24c-green);color:var(--c24c-green)}
 .c24c-chip--wa:hover{background:var(--c24c-green);color:#fff}
+.c24c-chip--wa-main{background:var(--c24c-green);color:#fff;padding:9px 16px;font-size:14px}
+.c24c-chip--wa-main:hover{background:#0b6330}
 
 .c24c-form{display:flex;align-items:center;gap:8px;padding:10px 10px 10px 14px;border-top:1px solid var(--c24c-line);background:#fff;flex:none}
 .c24c-input{flex:1;min-width:0;height:42px;padding:0 12px;border:1.5px solid var(--c24c-line);border-radius:999px;font:inherit;font-size:16px;color:var(--c24c-ink);background:#fff}
