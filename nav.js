@@ -59,3 +59,15 @@
   var onChange = function () { if (desktop.matches && header.classList.contains('is-menu-open')) setMenu(false); };
   if (desktop.addEventListener) desktop.addEventListener('change', onChange); else desktop.addListener(onChange);
 })();
+
+/* Chat widget (Mardo's photo, bottom-right). Loaded from here so every page that carries the header gets it
+   without regenerating any HTML; code in chat.js, styles in chat.css. */
+(function () {
+  if (document.getElementById('c24c-js')) return;
+  var css = document.createElement('link');
+  css.rel = 'stylesheet'; css.href = '/chat.css';
+  document.head.appendChild(css);
+  var js = document.createElement('script');
+  js.id = 'c24c-js'; js.src = '/chat.js'; js.async = true;
+  document.head.appendChild(js);
+})();
