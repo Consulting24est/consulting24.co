@@ -59,6 +59,18 @@
    "feed": "esma",
    "title": "ESAs call for vigilance over external dependencies, cyber threats and private credit risks",
    "published": true
+  },
+  "https://www.eba.europa.eu/node/20032": {
+   "date": "2026-09-24T15:48:47+00:00",
+   "feed": "eba",
+   "title": "EBA E-mail alert 24 September, 2026",
+   "published": false
+  },
+  "https://www.fca.org.uk/news/speeches/building-next-generation-market-infrastructure": {
+   "date": "2026-09-24T15:48:53+00:00",
+   "feed": "fca",
+   "title": "Building the next generation of market infrastructure",
+   "published": false
   }
  }
 }
