@@ -27801,5 +27801,225 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "opening-a-crypto-otc-desk-from-panama-licensing-banking-and-aml-setup",
+  "title": "Opening a crypto OTC desk from Panama: licensing, banking and AML setup",
+  "keyword": "Opening a crypto OTC",
+  "landing": "/panama-crypto-license/",
+  "lede": "Panama offers a fast, tax-efficient base for a crypto OTC desk, but there is no dedicated crypto licence: you incorporate a Sociedad Anonima and manage AML, banking and counterparty risk under general law. This guide explains how to structure the entity, what EU rules mean for your EU clients, and how to build banking and compliance that survives scrutiny.",
+  "sections": [
+   [
+    "Why Panama for a crypto OTC desk",
+    [
+     "Panama is a common choice for OTC desks because it combines a territorial tax system with a straightforward corporate vehicle. A Panama Sociedad Anonima (SA) can be formed in roughly two to three weeks in typical cases, and foreign-source income is generally not subject to Panamanian income tax when it is not earned from activities within Panama. For an OTC desk that quotes prices, matches buyers and sellers, and settles trades outside Panama, that territorial approach can be attractive.",
+     "The country also has a mature professional services sector: registered agents, law firms, accounting practices and corporate service providers that understand cross-border structures. That infrastructure matters when you need director residency, a registered office, bookkeeping and audit support. It also helps that Panama uses the US dollar, which removes currency conversion friction for a desk that prices in USD or stablecoins.",
+     "There is an important caveat. Panama does not issue a crypto-specific licence, and it does not regulate OTC desks as a distinct category. That means you will not receive a crypto licence certificate, and you will not be able to tell banks or institutional counterparties that you are licensed by a Panamanian crypto regulator. Your credibility will come from corporate substance, documented AML procedures, banking relationships and, where relevant, licences in other jurisdictions."
+    ]
+   ],
+   [
+    "What Panama does and does not regulate",
+    [
+     "Panama has taken steps toward regulating virtual asset service providers, but the framework is not equivalent to the EU's MiCA regime or to a full VASP licensing system. As of 2026, there is still no dedicated crypto licence that an OTC desk can apply for in Panama. Instead, general laws apply: corporate law, anti-money laundering rules, tax law and, depending on your activity, securities or payment rules. If you custody client funds, operate a trading venue or provide exchange-like services, you should obtain local legal advice on whether any activity-specific registration is triggered.",
+     "For many OTC desks, the practical model is a Panama SA that acts as principal or arranger, with trading and settlement executed through offshore accounts and counterparties. The desk does not hold itself out as a licensed exchange, and it does not custody client assets unless it has the controls to do so. If you plan to hold client money, even briefly, you should treat that as a regulated activity in most jurisdictions and structure accordingly.",
+     "Panama's AML regime follows the Financial Action Task Force recommendations, and reporting entities are supervised by the Superintendency of Banks or other supervisors depending on the sector. A pure OTC desk may not fall directly under a financial supervisor, but banks and payment providers will still apply enhanced due diligence. In practice, your AML obligations are contractual and commercial as much as statutory: no bank will onboard you without a credible AML programme."
+    ]
+   ],
+   [
+    "MiCA and your EU clients",
+    [
+     "MiCA is in force across the EU in 2026, and it applies to crypto-asset service providers (CASPs) that serve EU clients. If your Panama OTC desk quotes prices to EU-based clients, or markets to them, you may be providing crypto-asset services that fall within MiCA's scope. Reverse solicitation is a narrow concept and does not cover active marketing or a steady flow of EU clients. The safest approach is to assume that EU-facing OTC activity requires authorisation in at least one EU member state.",
+     "MiCA sets minimum capital requirements for CASPs by activity class: EUR 50,000, EUR 125,000 or EUR 150,000, depending on the services provided. An OTC desk that executes orders on behalf of clients, deals on own account, or places crypto-assets may fall into the higher tiers. If you plan to serve EU clients at scale, you should consider obtaining a MiCA licence in a member state and using the Panama entity for non-EU business, or structuring a group with a licensed EU entity and a Panama service company.",
+     "This dual structure is common. The Panama SA can handle treasury, trading, technology and non-EU clients, while an EU CASP entity holds the MiCA licence and faces EU clients. You must be careful about where the regulated activity actually happens, who holds client assets, and how the entities are compensated. Transfer pricing, permanent establishment risk and outsourcing rules all matter. Document the roles clearly and avoid having the Panama entity perform regulated functions for EU clients without a licence."
+    ]
+   ],
+   [
+    "Corporate setup and substance in Panama",
+    [
+     "Incorporating a Panama SA for an OTC desk is not complex, but substance is what makes the structure work. You will need a registered agent, a registered office in Panama, at least three directors (who can be non-residents), and shareholders. A minimum of two shareholders is typical, though nominee arrangements are possible. The process usually takes two to three weeks, assuming clean due diligence on the beneficial owners and directors.",
+     "Substance means more than a mailbox. Banks and counterparties will look for local directors or a local representative, a real office address, accounting records, and evidence that decisions are made in Panama or in a clearly identified place. If the desk is managed entirely from another country, tax authorities there may claim that the company is resident or has a permanent establishment. You should map where the board meets, where trading decisions are made, and where the bank accounts are operated.",
+     "You should also decide early whether the Panama SA will be the trading principal, a holding company, or a service provider to an operating entity. Each model has different tax, regulatory and banking consequences. A trading principal takes market risk and books profit in Panama. A service company charges fees and may be simpler for banking, but it needs a clear transfer pricing policy. A holding company may be useful if you plan to license an EU entity later."
+    ]
+   ],
+   [
+    "Banking and payment rails for an OTC desk",
+    [
+     "Banking is the hardest part of opening a crypto OTC desk from Panama. Most large banks are cautious about virtual asset activity, and many will decline the account outright. You should expect to approach multiple institutions, including banks in Panama, Puerto Rico, Switzerland, Liechtenstein, Singapore and the UAE, as well as EMIs and payment institutions that serve crypto businesses. No single bank is guaranteed, and relationships can change quickly.",
+     "A strong application package includes a clear description of the business, a flow-of-funds diagram, AML and KYC policies, a sanctions screening procedure, source-of-funds and source-of-wealth documentation for the owners, and audited or reviewed financial statements if available. You should be able to explain how you handle fiat on-ramps and off-ramps, whether you touch client money, and how you manage stablecoin settlement. Banks will ask about counterparties, jurisdictions and expected volumes.",
+     "For settlement, many desks use a mix of bank wires, stablecoins and accounts with regulated crypto custodians. If you hold client fiat, you should segregate it and reconcile daily. If you use stablecoins, you need a policy on which tokens you accept, how you verify reserves, and how you handle blockchain analytics. Payment processors and EMIs can provide collection accounts, but they often impose volume limits and require a licensed entity in the EU or UK. Plan for redundancy: at least two banking or payment channels."
+    ]
+   ],
+   [
+    "AML, KYC and operational controls",
+    [
+     "Even without a dedicated Panamanian crypto licence, your OTC desk needs an AML programme that meets international standards. That means a written AML policy, a designated compliance officer, risk-based customer due diligence, sanctions and PEP screening, transaction monitoring, record-keeping, and a process for suspicious activity reports. If you serve EU clients, you should align with the EU AML package, including the new AML Authority rules that apply from 2026 onward.",
+     "For OTC specifically, you should have enhanced due diligence for high-risk clients, including source of funds and source of wealth checks, and a clear policy on politically exposed persons. You should screen both fiat and crypto transactions, use blockchain analytics for wallet addresses, and set thresholds for escalation. Travel rule compliance matters when you transact with regulated counterparties in the EU, UK, Singapore and other jurisdictions that have implemented it.",
+     "Operationally, you need trade documentation, confirmations, settlement instructions and reconciliation. You should maintain an order book or quote log, record counterparty details, and keep audit trails for every trade. If you use a trading venue or liquidity provider, document the relationship and the controls you rely on. Finally, train staff, test your monitoring, and review the programme at least annually. Regulators and banks will ask for evidence, not just policies."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Does Panama have a crypto licence for OTC desks?",
+    "No. Panama does not issue a dedicated crypto licence for OTC desks or VASPs in the way the EU issues MiCA authorisations. You incorporate a Sociedad Anonima and comply with general AML, tax and corporate rules. If you serve EU clients, you may need a MiCA licence in an EU member state."
+   ],
+   [
+    "How long does it take to set up a Panama SA for an OTC desk?",
+    "In typical cases, incorporation takes about two to three weeks, assuming complete due diligence on directors and beneficial owners. Banking can take much longer, often several weeks to several months, and is the main bottleneck."
+   ],
+   [
+    "What are the tax implications of a Panama OTC desk?",
+    "Panama taxes income from Panamanian sources. Foreign-source income is generally not subject to Panamanian income tax when it is not earned from activities within Panama. However, tax residency, permanent establishment and transfer pricing rules in other countries may apply, so you need advice for your specific structure."
+   ],
+   [
+    "Do I need a MiCA licence to serve EU clients from Panama?",
+    "If you actively market to EU clients or provide crypto-asset services to them, MiCA likely applies. Reverse solicitation is narrow and does not cover ongoing EU business. Many groups use an EU CASP entity for EU clients and a Panama entity for non-EU business."
+   ],
+   [
+    "What are the MiCA capital requirements for a CASP?",
+    "MiCA sets minimum capital tiers of EUR 50,000, EUR 125,000 or EUR 150,000 depending on the services provided. OTC desks that execute orders, deal on own account or place crypto-assets may fall into the higher tiers. The exact class depends on your licence permissions."
+   ],
+   [
+    "Can a Panama OTC desk open a bank account?",
+    "It is possible but difficult. Many banks avoid crypto-related businesses. You should approach multiple banks, EMIs and payment institutions in jurisdictions such as Panama, Puerto Rico, Switzerland, Liechtenstein, Singapore and the UAE, and prepare a strong AML and flow-of-funds package."
+   ],
+   [
+    "What AML programme does an OTC desk need?",
+    "You need a written AML policy, a compliance officer, risk-based CDD and EDD, sanctions and PEP screening, transaction monitoring, blockchain analytics, travel rule compliance where relevant, record-keeping and suspicious activity reporting. Banks and counterparties will expect evidence of these controls."
+   ],
+   [
+    "Should I use a Panama SA or an EU entity for my OTC desk?",
+    "It depends on your clients. A Panama SA can be efficient for non-EU business and treasury. If you serve EU clients at scale, an EU CASP entity with a MiCA licence is usually necessary. Many groups operate both, with clear roles, transfer pricing and outsourcing documentation."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "panama-vs-costa-rica-for-a-crypto-company-taxes-banking-and-reputation",
+  "title": "Panama vs Costa Rica for a crypto company: taxes, banking and reputation",
+  "keyword": "Panama vs Costa Rica",
+  "landing": "/costa-rica-crypto-license/",
+  "lede": "When founders compare Panama vs Costa Rica for a crypto company, the decision usually turns on three practical questions: how each country taxes foreign income, how easily a crypto business can open and keep a bank account, and how regulators and counterparties perceive a company registered there. This guide sets out what each jurisdiction offers in 2026 and where the trade offs sit.",
+  "sections": [
+   [
+    "Two very different regulatory models",
+    [
+     "Panama does not issue a dedicated crypto or virtual asset service provider licence. A crypto company typically incorporates as a Sociedad Anonima (SA), a standard Panamanian corporation, and operates under general commercial law. There is no single crypto regulator approving the business as such, although entities touching securities, payments or gambling may fall under separate regimes. Setup is fast, often two to three weeks, and the corporate form is well understood by lawyers, banks and service providers internationally.",
+     "Costa Rica takes a different route. It has moved toward recognising and registering virtual asset service providers, and the relevant framework sits alongside its broader financial supervision. The practical result is that a Costa Rican crypto business may need to register or be licensed depending on the activity, which adds time and documentation but also produces a recognisable regulatory status. Founders weighing Panama vs Costa Rica should treat this as the first fork in the road: Panama offers speed and flexibility, Costa Rica offers a more defined supervisory hook.",
+     "Neither country is inside the EU, so neither gives you MiCA passporting. If your target market is the European Union, you will eventually need an EU CASP authorisation, with minimum capital tiers of EUR 50,000, 125,000 or 150,000 depending on the activity class. Panama or Costa Rica can still serve as a holding, treasury or operational base, but they are not a substitute for an EU licence when you serve EU clients."
+    ]
+   ],
+   [
+    "Tax treatment of crypto and foreign income",
+    [
+     "Panama applies a territorial tax system. Income from foreign sources is generally not subject to Panamanian income tax, which is why the SA is popular for holding companies, treasury operations and businesses serving clients outside Panama. A crypto company with no Panamanian-source activity can often operate with 0% tax on its foreign-source income. Panamanian-source income is taxed, so the analysis depends on where services are performed and where the customer sits. Rates and withholding rules can change, so confirm the current position with a local adviser before relying on a structure.",
+     "Costa Rica taxes residents on a broader basis. Corporate income tax applies to Costa Rican-source income and, for tax residents, to worldwide income in defined circumstances. Crypto gains and trading income may be treated differently depending on whether the activity is business income, investment income or a one off disposal. Costa Rica has also introduced reporting expectations for virtual assets in line with international transparency trends, so the compliance burden can be higher than in Panama.",
+     "The comparison is not simply 0% versus a rate. Panama's territorial system rewards businesses that keep operations and customers outside the country, but it requires careful substance and invoicing discipline. Costa Rica's system is more conventional and may suit founders who want a clear domestic tax presence, local staff and a regulated footprint. In both cases, the effective outcome depends on residency, permanent establishment risk and where the founders actually live and work."
+    ]
+   ],
+   [
+    "Banking access and payment rails",
+    [
+     "Banking is the hardest part of any offshore crypto structure, and Panama vs Costa Rica is not a simple win for either side. Panama has a large international banking centre with many licensed banks, but crypto-related accounts are reviewed strictly. A clean SA with a clear business description, real substance and no direct retail crypto custody may open an account, though timelines vary and refusals are common. Some banks will serve crypto businesses only if the activity is framed as software, consulting or treasury rather than exchange or custody.",
+     "Costa Rica has a smaller banking sector and a strong domestic compliance culture. Banks there can be cautious about virtual asset activity, and a registered VASP may still struggle to get a standard current account. Founders often combine a local entity with accounts in other jurisdictions, or use licensed payment institutions and EMIs for fiat on and off ramps. Neither country guarantees banking, so plan for a multi-jurisdiction treasury setup rather than assuming a single local account.",
+     "In practice, the banking question often decides the structure. If you need a Panamanian SA for holding and contracting, you may pair it with an account in a jurisdiction that understands your activity. If you need a Costa Rican VASP registration for credibility with local partners, you may still bank elsewhere. The mistake is to choose a jurisdiction purely on tax and then discover that no bank will onboard the entity."
+    ]
+   ],
+   [
+    "Reputation and counterparty perception",
+    [
+     "Panama is widely recognised as an offshore corporate centre. That recognition cuts both ways: counterparties know the SA form and the territorial tax system, but some banks and institutional partners apply enhanced scrutiny to Panama entities because of historical associations with offshore secrecy. A well documented Panama company with real substance, audited or reviewed accounts and clear ownership can overcome this, but the burden of proof is on you.",
+     "Costa Rica is often perceived as a more consumer and tourism oriented economy with a developing fintech sector. A Costa Rican VASP registration can signal that you engaged with a supervisor, which may help with certain partners, exchanges and payment providers. At the same time, Costa Rica is not a major financial centre, so some institutional counterparties may be less familiar with its framework than with Panama's corporate law.",
+     "Reputation is also about what you can prove. In both countries, a crypto company should maintain clear corporate records, beneficial ownership information, AML and KYC policies, and a coherent explanation of why the entity is where it is. If you serve EU clients, MiCA authorisation will matter more to your reputation than either Panama or Costa Rica. If you serve Latin American clients, a Costa Rican registration may carry more local weight, while a Panamanian SA may be more efficient for regional holding and treasury."
+    ]
+   ],
+   [
+    "Cost, timeline and ongoing compliance",
+    [
+     "Panama is generally faster and cheaper to set up. A Sociedad Anonima can be incorporated in roughly two to three weeks, with annual maintenance costs that are moderate by international standards. There is no crypto-specific licence fee because there is no crypto-specific licence, though you will pay for registered agent, accounting and any legal work needed to document the business. Ongoing compliance is mostly corporate and tax filing, plus AML obligations if you are a regulated financial business under other rules.",
+     "Costa Rica involves more process if you register as a VASP. Expect a longer timeline, more documentation, and ongoing reporting to the relevant authority. The cost depends on the scope of the registration and the activities covered, so treat any figure as a range rather than a fixed number. The upside is a clearer regulatory status, which can reduce friction with local banks, partners and regulators over time.",
+     "For founders, the decision often comes down to what you are optimising for. If you want a fast, low-tax holding and operating base outside the EU, Panama is usually the simpler starting point. If you want a recognised virtual asset registration in a Latin American jurisdiction and are prepared for more compliance, Costa Rica may be the better fit. Many groups use both: a Panamanian SA for holding and treasury, and a Costa Rican entity for regional regulated activity."
+    ]
+   ],
+   [
+    "How to choose and where MiCA fits",
+    [
+     "Start with your customers and your banking needs, not the tax rate. If your clients are in the EU, your core licensing problem is MiCA, and neither Panama nor Costa Rica solves it. You will need an EU CASP authorisation with the relevant capital tier, and you may use Panama or Costa Rica for IP, holding, treasury or non-EU operations. If your clients are in Latin America, a Costa Rican VASP registration may be more useful locally, while a Panamanian SA can serve as the group holding company.",
+     "Then test the banking assumption. Speak to banks or payment providers before you incorporate, and be honest about the activity. If no bank will onboard a Panama SA for your specific business, the tax advantage is theoretical. If a Costa Rican registration helps you get an account with a local or regional provider, that may outweigh a higher tax burden. The right structure is the one that can actually receive and send fiat.",
+     "Finally, build for substance. Both Panama and Costa Rica are under the same international pressure on transparency, beneficial ownership and AML. A company with no real operations, no local director or staff, and no clear rationale invites scrutiny. A company with documented decision making, proper contracts and a coherent regulatory story will fare better in either jurisdiction. For a deeper look at the Costa Rican route, see the Consulting24 page on the Costa Rica crypto licence at https://www.consulting24.co/costa-rica-crypto-license/."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Does Panama have a crypto licence?",
+    "No. Panama does not issue a dedicated crypto or virtual asset service provider licence. Crypto companies typically incorporate as a Sociedad Anonima and operate under general commercial law, with other rules applying if they touch securities, payments or gambling."
+   ],
+   [
+    "Does Costa Rica have a crypto licence?",
+    "Costa Rica has moved toward registering virtual asset service providers, so a crypto business may need to register or be licensed depending on its activity. The framework is more defined than Panama's, but it is not the same as an EU MiCA authorisation."
+   ],
+   [
+    "Is Panama really 0% tax for a crypto company?",
+    "Panama uses a territorial tax system, so foreign-source income is generally not taxed. A crypto company with no Panamanian-source activity can often pay 0% on foreign income, but Panamanian-source income is taxable and the analysis depends on where services are performed and where customers are located."
+   ],
+   [
+    "How long does it take to set up a Panama company?",
+    "A Sociedad Anonima can usually be incorporated in about two to three weeks, assuming documents are in order. This is faster than a Costa Rican VASP registration, which involves more documentation and review."
+   ],
+   [
+    "Can a Panama crypto company open a bank account?",
+    "Sometimes, but it is not guaranteed. Panamanian banks review crypto-related accounts strictly, and many prefer businesses framed as software, consulting or treasury rather than exchange or custody. A clean entity with substance and clear documentation has a better chance, but you should plan for alternatives."
+   ],
+   [
+    "Is Costa Rica better than Panama for banking?",
+    "Not necessarily. Costa Rica has a smaller banking sector and a cautious compliance culture, so a registered VASP may still struggle to open a standard account. Many founders use a local entity alongside accounts or payment institutions in other jurisdictions."
+   ],
+   [
+    "Does Panama or Costa Rica give me access to the EU market?",
+    "Neither. Both are outside the EU, so neither provides MiCA passporting. If you serve EU clients, you will need an EU CASP authorisation, with minimum capital tiers of EUR 50,000, 125,000 or 150,000 depending on the activity class."
+   ],
+   [
+    "Which is better for reputation, Panama or Costa Rica?",
+    "It depends on your counterparties. Panama is a well known offshore corporate centre, but some banks apply enhanced scrutiny. Costa Rica's VASP registration can signal supervisory engagement, which may help with certain partners, though it is a smaller financial centre. In both cases, documented substance and compliance matter more than the flag on the certificate."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
  }
 ]
