@@ -28021,5 +28021,225 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "mica-casp-authorisation-timeline-in-estonia-month-by-month-expectations",
+  "title": "MiCA CASP authorisation timeline in Estonia: month-by-month expectations",
+  "keyword": "MiCA CASP authorisation timeline",
+  "landing": "/estonia-crypto-license/",
+  "lede": "Estonia's MiCA CASP authorisation timeline is not a single queue but a sequence of gates, and each gate has its own clock. Understanding the month-by-month expectations helps you plan capital, hiring, and go-to-market without guessing.",
+  "sections": [
+   [
+    "Where Estonia sits in the MiCA CASP authorisation timeline",
+    [
+     "Since MiCA became fully applicable across the EU, crypto-asset service providers that want to serve EU clients must hold a CASP authorisation from a national competent authority. In Estonia, that authority is the Finantsinspektsioon (Estonian Financial Supervision Authority). The country already had a domestic crypto licensing regime, so many founders assume the transition is quick. In practice, the MiCA CASP authorisation timeline in Estonia runs through a pre-application phase, a formal application phase, and a post-authorisation phase, and each has its own dependencies.",
+     "The timeline is not measured in weeks for most applicants. A realistic planning range from first serious preparation to authorisation is often six to twelve months, and it can be longer if your governance, IT, or AML documentation needs rebuilding. The Finantsinspektsioon has a statutory review period once an application is complete, but the clock only starts when the file is genuinely complete. Most of the elapsed time is spent getting to that point.",
+     "Estonia remains attractive because the regulator is accessible, English-language communication is normal, and the local ecosystem of compliance and audit providers is deep. But accessibility is not the same as speed. The MiCA CASP authorisation timeline rewards applicants who treat preparation as the main event, not as a formality before submitting."
+    ]
+   ],
+   [
+    "Months 1 to 2: scoping, structure, and the capital tier decision",
+    [
+     "The first month is about deciding what you are actually applying for. MiCA groups crypto-asset services into activity classes, and the capital requirement depends on which class you fall into. The EU CASP capital tiers are EUR 50,000, EUR 125,000, and EUR 150,000 by activity class. Class 1 covers services such as reception and transmission of orders, execution of orders on behalf of clients, and placing of crypto-assets. Class 2 covers custody and administration, operation of a trading platform, and exchange of crypto-assets for funds or other crypto-assets. Class 3 covers portfolio management and advice. Your tier is driven by the highest class you apply for.",
+     "Month 2 is usually spent on legal structure and governance. You will need an Estonian legal entity, a clear ownership chart, fit-and-proper documentation for directors and qualifying shareholders, and a compliance function that can pass scrutiny. If you are converting from an older Estonian crypto licence, you will also need to map what you already have against MiCA requirements, because legacy approvals do not automatically carry over.",
+     "This is also when you should decide whether you need a local substance footprint. The regulator will expect to see where decisions are made, who manages the risk, and how outsourcing is controlled. Founders who postpone these questions tend to lose a month or more later, because governance gaps are harder to fix once the file is in review."
+    ]
+   ],
+   [
+    "Months 3 to 4: documentation, AML, and IT security build",
+    [
+     "Months 3 and 4 are the heavy documentation phase. A MiCA CASP application in Estonia typically requires a business plan, a programme of operations, a governance and control framework, an AML and counter-terrorist financing policy, a complaints procedure, a conflicts-of-interest policy, and detailed outsourcing arrangements. You also need to describe the ICT and security architecture, including how you protect client assets and how you handle incidents.",
+     "AML documentation is often the longest pole. You need a risk assessment that reflects your actual client base, onboarding flows, transaction monitoring, and screening tools. If you plan to serve clients in multiple EU member states, explain how you will handle cross-border distribution and local language requirements. Vague policies are a common reason for follow-up questions, and each round of questions adds time to the MiCA CASP authorisation timeline.",
+     "On the IT side, expect to document key systems, access controls, backup and recovery, and penetration testing arrangements. If you rely on third-party providers for custody, blockchain analytics, or identity verification, have the contracts and service descriptions ready. The Finantsinspektsioon does not require a perfect institution, but it does require evidence that you understand your own risks and have controls proportionate to your model."
+    ]
+   ],
+   [
+    "Months 5 to 7: pre-application engagement and formal filing",
+    [
+     "By month 5, you should be ready for pre-application engagement with the Finantsinspektsioon. This is not a formal part of the statutory clock, but it is often the most valuable step in the MiCA CASP authorisation timeline. A pre-application meeting or written exchange lets you test your interpretation of the rules, confirm which services you are applying for, and identify any obvious gaps before you file.",
+     "The formal application is submitted when you believe the file is complete. In Estonia, the regulator will assess completeness and may request clarifications. The statutory review period applies once the application is deemed complete, but in practice the review is interactive. You should expect at least one or two rounds of questions, and you should have subject-matter experts available to answer them quickly. Slow responses from the applicant are a frequent cause of delay.",
+     "If your application covers custody or trading platform operation, expect deeper scrutiny of client asset segregation, reconciliation, and wind-down planning. If you are applying for class 1 services only, the review can be lighter, but the capital and governance requirements still apply. The key point is that months 5 to 7 are rarely passive. They are a working period in which your team and your advisers are effectively in a continuous dialogue with the regulator."
+    ]
+   ],
+   [
+    "Months 8 to 12: review outcomes, conditions, and authorisation",
+    [
+     "For many applicants, months 8 to 10 bring the substantive review and the first formal feedback. The regulator may issue a list of conditions or required amendments. These can range from governance changes to additional detail on outsourcing or AML monitoring. You should plan for the possibility that authorisation is granted with conditions that you must satisfy within a set period.",
+     "If the review goes smoothly, authorisation may be issued somewhere in the 8 to 12 month range from the start of serious preparation. If there are material gaps, or if the business model changes during the process, the timeline can extend beyond 12 months. There is no reliable way to compress the regulator's own review, but you can compress your own response times, which is often where weeks are saved.",
+     "Once authorised, the MiCA CASP authorisation timeline does not end. You will have ongoing reporting, capital maintenance, and governance obligations. You may also want to passport your services into other EU member states, which involves a separate notification process. Founders who treat authorisation as the finish line often underestimate the compliance workload in year one."
+    ]
+   ],
+   [
+    "How Panama compares when speed and tax are the priority",
+    [
+     "Not every founder needs an EU CASP authorisation on day one. If your immediate goal is to incorporate a company, hold assets, and operate outside the EU, Panama is a common alternative. Panama has no dedicated crypto licence. You incorporate a Sociedad Anonima, which is a standard corporate vehicle, and you operate within the general legal framework. Setup is typically two to three weeks, and the corporate tax treatment is 0% on foreign-source income under the territorial system.",
+     "That does not mean Panama is a substitute for MiCA if you want to serve EU clients. MiCA applies to crypto-asset services provided to clients in the EU, and an offshore entity does not remove that obligation. What Panama offers is speed, privacy, and a low-friction corporate structure for activities that do not require an EU licence. For some founders, the right approach is to start in Panama and prepare an EU entity later if and when the client base demands it.",
+     "The comparison is useful because it clarifies what you are buying with a MiCA CASP authorisation. You are buying access to the EU market, regulatory credibility, and the ability to passport. You are also accepting a longer timeline, higher capital, and ongoing supervision. The MiCA CASP authorisation timeline in Estonia is best understood as the cost of that access, not as an administrative hurdle to be rushed."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "How long does MiCA CASP authorisation take in Estonia in 2026?",
+    "A realistic planning range from first serious preparation to authorisation is often six to twelve months. The statutory review period starts only when the application is complete, and most of the elapsed time is spent on preparation, documentation, and responding to regulator questions. Complex models, such as custody or trading platform operation, tend to sit at the longer end of that range."
+   ],
+   [
+    "What are the EU CASP capital tiers?",
+    "MiCA sets three capital tiers by activity class: EUR 50,000, EUR 125,000, and EUR 150,000. Class 1 covers services such as reception and transmission of orders, execution of orders on behalf of clients, and placing of crypto-assets. Class 2 covers custody and administration, operation of a trading platform, and exchange of crypto-assets for funds or other crypto-assets. Class 3 covers portfolio management and advice. Your requirement is driven by the highest class you apply for."
+   ],
+   [
+    "Can I convert my old Estonian crypto licence into a MiCA CASP authorisation?",
+    "Legacy Estonian crypto licences do not automatically convert. You need to apply for a MiCA CASP authorisation and demonstrate that your governance, AML, and IT arrangements meet the new requirements. Some documentation you already have may be reusable, but you should expect to rebuild significant parts of the file, particularly around client asset protection and cross-border service provision."
+   ],
+   [
+    "Does the Finantsinspektsioon accept English-language applications?",
+    "In practice, communication with the Finantsinspektsioon is commonly in English, and English-language documentation is generally accepted. However, certain corporate and legal documents may need to be in Estonian or accompanied by certified translations. It is sensible to confirm format requirements early so that translation does not become a late-stage delay."
+   ],
+   [
+    "What is the most common cause of delay in the MiCA CASP authorisation timeline?",
+    "Incomplete or vague documentation is the most common cause. AML policies that do not reflect the actual business model, unclear outsourcing arrangements, and weak governance descriptions often trigger follow-up questions. Slow responses from the applicant also add weeks. The regulator's own review is not the main variable; the completeness and responsiveness of the applicant usually is."
+   ],
+   [
+    "Do I need a physical office in Estonia for a MiCA CASP authorisation?",
+    "You need an Estonian legal entity and sufficient substance to demonstrate that the business is managed and controlled from Estonia. That does not always mean a large office, but you should be able to show where key decisions are made, where compliance and risk management sit, and how outsourcing is overseen. A purely nominal presence is unlikely to satisfy the regulator."
+   ],
+   [
+    "Can I serve EU clients from a Panama company without MiCA authorisation?",
+    "No. MiCA applies to crypto-asset services provided to clients in the EU, regardless of where the provider is incorporated. A Panama company can offer speed and a 0% tax on foreign-source income for non-EU activities, but it does not remove the need for a MiCA CASP authorisation if you are targeting EU clients. Many founders use Panama for initial operations and add an EU entity later."
+   ],
+   [
+    "What happens after I receive MiCA CASP authorisation in Estonia?",
+    "Authorisation brings ongoing obligations, including capital maintenance, governance, reporting, and AML supervision. You may also want to passport your services into other EU member states, which involves a separate notification to the host regulator. The first year after authorisation often requires more compliance work than founders expect, so budget for it in your operating plan."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Crypto license cost",
+    "/cost/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "estonia-crypto-company-after-mica-what-happened-to-vasp-licences",
+  "title": "Estonia crypto company after MiCA: what happened to VASP licences",
+  "keyword": "Estonia crypto company after",
+  "landing": "/estonia-crypto-license/",
+  "lede": "Estonia once issued more crypto VASP licences than any other EU member state, but MiCA replaced that regime and the old licences no longer exist. For founders, the question is no longer how to keep a VASP licence but how to run an Estonia crypto company after the transition, either as a MiCA-authorised CASP or under a different structure.",
+  "sections": [
+   [
+    "What Estonia's VASP regime actually was",
+    [
+     "Estonia amended its Money Laundering and Terrorist Financing Act in 2017 and began licensing virtual currency service providers from 2018. Two categories existed: a virtual currency wallet service and a virtual currency exchange service. A provider could hold one or both, and the licence was issued by the Estonian Financial Intelligence Unit (FIU). At its peak, Estonia had issued several thousand VASP licences, far more than any other EU jurisdiction, largely because the application process was comparatively quick and the capital requirement was low.",
+     "The regime was an anti-money laundering licence, not a full financial services licence. It did not grant passporting rights across the EU, and it did not cover investment services, custody in the MiFID sense, or the issuance of tokens. That distinction matters because many founders assumed a VASP licence was a general crypto licence for Europe. It was not. It allowed a company registered in Estonia to provide exchange and wallet services while complying with Estonian AML rules, and it was widely used as a base for serving clients outside Estonia.",
+     "The Estonian FIU tightened the regime over time. Fees rose, fit-and-proper requirements became stricter, and the regulator withdrew licences from companies that failed to demonstrate real activity in Estonia. By the time MiCA was agreed at EU level, the direction of travel was clear: the national VASP regime would be replaced by a single EU framework for crypto-asset service providers."
+    ]
+   ],
+   [
+    "How MiCA replaced the national VASP licence",
+    [
+     "MiCA, the Markets in Crypto-Assets Regulation, entered into force in 2023 and its main provisions for crypto-asset service providers applied from 30 December 2024. It is directly applicable across the EU, which means it replaced national licensing regimes for the activities it covers. Estonia could no longer maintain a separate VASP licence for services that fall within MiCA's scope. The old FIU licences were wound down through a transitional arrangement, and by 2026 the position is settled: a firm providing MiCA-regulated crypto services in or from Estonia needs CASP authorisation.",
+     "The transition was not instant for everyone. Estonia, like other member states, used the grandfathering window to allow existing VASP holders to continue temporarily while they applied for CASP authorisation. That window has now closed. A company that held an Estonian VASP licence and did not obtain CASP authorisation cannot lawfully continue providing regulated crypto-asset services. Continuing to do so exposes the company to enforcement, and the FIU and the Estonian Financial Supervision Authority (Finantsinspektsioon) have shown willingness to act against unlicensed activity.",
+     "It is important to separate the licence from the company. The Estonian private limited company (OÜ) that held a VASP licence still exists as a legal entity. What changed is the permission to provide regulated services. The company can keep trading as a software business, a consultancy, or a holding company, but it cannot hold itself out as a licensed crypto-asset service provider unless it has CASP authorisation or is providing services that fall outside MiCA."
+    ]
+   ],
+   [
+    "What a MiCA CASP authorisation requires in Estonia",
+    [
+     "A CASP authorisation is granted by the national competent authority, which in Estonia is Finantsinspektsioon. The applicant must be an Estonian legal entity, typically an OÜ or an AS, with a registered office in Estonia and substantive management there. The application covers the specific crypto-asset services the firm intends to provide, such as custody and administration, operation of a trading platform, exchange of crypto-assets for funds, exchange for other crypto-assets, execution of orders, placement, transfer services, reception and transmission of orders, advice, and portfolio management. Each service must be applied for individually.",
+     "Capital requirements depend on the class of service. MiCA sets three tiers: EUR 50,000 for certain advisory, order transmission, and execution services; EUR 125,000 for custody, exchange, transfer, and reception and transmission of orders; and EUR 150,000 for operating a trading platform or dealing on own account. These are minimum own funds requirements and must be met on an ongoing basis, not just at application. The capital can be held in cash or in a combination of instruments that the regulator accepts, and it must be free from encumbrances.",
+     "Beyond capital, the applicant needs a credible governance structure, fit-and-proper directors and shareholders, an AML/CFT framework, safeguarding arrangements for client crypto-assets and funds, a complaints procedure, and a business plan that explains the services, the target market, and the systems in place. Finantsinspektsioon reviews the application and can ask for further information. Timelines vary depending on the completeness of the file and the complexity of the services, and applicants should expect several months rather than weeks. Preparation quality is usually the main driver of how quickly an application moves."
+    ]
+   ],
+   [
+    "What happened to companies that did not convert",
+    [
+     "Companies that held an Estonian VASP licence and did not obtain CASP authorisation had a few practical options. Some wound down their regulated activity and continued as software or consulting businesses. Some moved their regulated activity to another structure or jurisdiction. Some simply stopped operating. The common thread is that the licence itself has no residual value for MiCA-regulated services. It cannot be sold, transferred, or used as a passport. Anyone marketing an 'Estonian VASP licence for sale' in 2026 is either selling something outside MiCA's scope or misrepresenting the position.",
+     "There is a narrow category of activity that may fall outside MiCA. A company that only develops software, provides purely technical infrastructure, or offers services to other licensed firms may not need CASP authorisation. Similarly, a company that issues its own token may be outside CASP requirements, though the issuance itself may be subject to MiCA's rules on asset-referenced tokens, e-money tokens, or other crypto-assets. These distinctions are fact-specific and depend on the exact service being provided, who the client is, and how the service is described.",
+     "For founders who want to keep an Estonian company but do not want to go through CASP authorisation, the honest answer is that the company can exist but cannot provide regulated crypto services to EU clients. It can be a development house, a holding company, or a service provider to licensed entities. If the goal is to serve EU retail or institutional clients with exchange, custody, or trading services, CASP authorisation is the route."
+    ]
+   ],
+   [
+    "Panama as an alternative for non-EU focused founders",
+    [
+     "Some founders who served clients outside the EU, or who wanted a simpler corporate base, have looked at Panama. Panama does not have a dedicated crypto licence. Instead, a crypto business typically incorporates a Sociedad Anonima, the Panamanian corporation, and operates under general commercial law. Incorporation is usually completed in two to three weeks, and the corporate tax position is generally 0% on foreign-source income. Panama does not impose exchange controls and does not require local shareholders or directors in the way some jurisdictions do.",
+     "The trade-off is that a Panamanian company is not a MiCA-authorised CASP. It cannot passport into the EU or provide regulated crypto services to EU clients on the basis of its Panamanian status. If a founder's clients are in Latin America, Asia, or elsewhere outside the EU, and if the services do not trigger licensing in the clients' jurisdictions, Panama can be a workable base. If the clients are in the EU, Panama does not solve the MiCA question. It may still be useful as a holding or treasury entity, but the regulated activity needs a licensed entity in the relevant jurisdiction.",
+     "Panama also has its own AML obligations and substance expectations, and banks and payment providers will apply their own due diligence. The absence of a crypto-specific licence does not mean the absence of compliance. Founders should treat Panama as a corporate and tax structuring option, not as a regulatory shortcut. The decision between Estonia and Panama usually comes down to where the clients are and which licences the business actually needs."
+    ]
+   ],
+   [
+    "How to decide what to do with your Estonian company",
+    [
+     "Start with the services. List every activity the company performs and map each one to the MiCA service categories. If any activity is a MiCA service and the clients are in the EU, CASP authorisation is likely required. If the activity is purely technical, or the clients are outside the EU, the analysis may be different. The mapping exercise is the single most useful step because it prevents founders from either over-licensing or operating without a required permission.",
+     "Then look at capital and substance. The EUR 50,000, 125,000, and 150,000 tiers are minimums, and the regulator will expect the firm to hold enough capital for its risk profile. Substance means real management in Estonia, not just a registered address. Directors should be able to explain the business, the risks, and the controls. If the company cannot meet these expectations, the application will struggle, and the founder should consider whether a different structure or a different market focus is more realistic.",
+     "Finally, consider timing and cost. CASP authorisation is a project, not a formality. It involves legal drafting, policies, capital, and ongoing supervision. For some founders, the right answer is to pursue authorisation because the EU market is the target. For others, the right answer is to keep the Estonian company for non-regulated activity and use a different structure for regulated services elsewhere. Consulting24 advises founders on both paths, including Estonian CASP applications and alternative structures such as Panama, so the decision is based on the actual business rather than on outdated assumptions about VASP licences."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Do Estonian VASP licences still exist in 2026?",
+    "No. The national VASP regime was replaced by MiCA, and the transitional window for existing holders has closed. A firm providing MiCA-regulated crypto services in or from Estonia now needs CASP authorisation from Finantsinspektsioon. Old VASP licences are not valid for those services."
+   ],
+   [
+    "Can I still buy an Estonian VASP licence?",
+    "There is no meaningful market for Estonian VASP licences for MiCA-regulated activity. The licence does not carry passporting rights and cannot be used to provide regulated crypto services after the transition. Anyone offering one for sale is likely selling a shell company or a licence for activity outside MiCA's scope."
+   ],
+   [
+    "What is the capital requirement for a MiCA CASP in Estonia?",
+    "MiCA sets three tiers: EUR 50,000 for certain advisory, order transmission, and execution services; EUR 125,000 for custody, exchange, transfer, and reception and transmission of orders; and EUR 150,000 for operating a trading platform or dealing on own account. These are minimum own funds requirements that must be maintained on an ongoing basis."
+   ],
+   [
+    "Who grants CASP authorisation in Estonia?",
+    "Finantsinspektsioon, the Estonian Financial Supervision Authority, is the national competent authority for MiCA. Applications are made to Finantsinspektsioon, which reviews the business plan, governance, capital, AML framework, and safeguarding arrangements."
+   ],
+   [
+    "How long does CASP authorisation take in Estonia?",
+    "Timelines vary with the completeness of the application and the complexity of the services. Founders should expect several months rather than weeks. A well-prepared file with clear policies and a realistic business plan usually moves faster than an incomplete one."
+   ],
+   [
+    "Can I keep my Estonian company if I do not get a CASP licence?",
+    "Yes, the company can continue to exist. What it cannot do is provide MiCA-regulated crypto services to EU clients without authorisation. It can operate as a software developer, consultancy, holding company, or service provider to licensed firms, depending on its actual activity."
+   ],
+   [
+    "Does Panama have a crypto licence?",
+    "Panama does not have a dedicated crypto licence. Crypto businesses typically incorporate a Sociedad Anonima and operate under general commercial law. Setup usually takes two to three weeks, and the corporate tax position is generally 0% on foreign-source income, but a Panamanian company is not a MiCA-authorised CASP and cannot passport into the EU."
+   ],
+   [
+    "Should I choose Estonia or Panama for my crypto company?",
+    "It depends on where your clients are and which services you provide. If you serve EU clients with regulated crypto services, Estonia with CASP authorisation is the route. If your clients are outside the EU and your services do not trigger licensing in their jurisdictions, Panama can be a simpler corporate and tax base. Many founders use both, with a licensed EU entity and a non-EU holding or treasury company."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Crypto license cost",
+    "/cost/"
+   ]
+  ],
+  "labels": []
  }
 ]
