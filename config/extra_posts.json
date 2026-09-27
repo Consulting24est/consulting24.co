@@ -28241,5 +28241,217 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "lithuania-casp-capital-requirements-by-service-class-eur-50k-125k-or-150k",
+  "title": "Lithuania CASP capital requirements by service class: EUR 50k, 125k or 150k",
+  "keyword": "Lithuania CASP capital requirements",
+  "landing": "/lithuania-crypto-license/",
+  "lede": "Lithuania remains one of the most accessible EU entry points for crypto firms, but since MiCA took full effect the capital you must hold depends on which services you actually provide. Here is how the EUR 50,000, 125,000 and 150,000 tiers map onto Lithuania CASP authorisation in 2026.",
+  "sections": [
+   [
+    "Why Lithuania CASP capital requirements changed in 2026",
+    [
+     "For years Lithuania was known for a light-touch regime: a VASP registration with the Financial Crime Investigation Service cost little and required no meaningful own funds. That era ended. With MiCA in force across the EU, crypto firms that want to serve clients from Lithuania, or from anywhere in the European Economic Area through passporting, need a CASP authorisation from the Bank of Lithuania and must meet the own funds thresholds set at EU level.",
+     "The practical consequence is that Lithuania CASP capital requirements are no longer a single number. They are a function of the services you intend to provide. A firm that only executes orders on behalf of clients sits in the lowest tier, while a firm that operates a trading venue or deals on its own account must hold three times as much. The Bank of Lithuania applies the same classification logic as every other national competent authority, so the figure you plan for in Vilnius is the figure that travels with your passport.",
+     "This matters for budgeting and for sequencing. Founders who assume the minimum EUR 50,000 applies to them often discover during pre-application discussions that their intended business model, for example holding client crypto and fiat, pushes them into a higher class. Getting the classification right before you file saves months and avoids a costly re-submission."
+    ]
+   ],
+   [
+    "The three capital tiers and the services that trigger them",
+    [
+     "MiCA groups CASP activities into three classes for own funds purposes. Class 1 covers reception and transmission of orders, execution of orders on behalf of clients, and providing advice on crypto-assets. These are the least balance-sheet-intensive activities, and the requirement is EUR 50,000.",
+     "Class 2 covers any CASP that provides the Class 1 services plus at least one of the following: safeguarding and administration of crypto-assets on behalf of clients, or transfer services on behalf of clients. Because these activities involve holding or moving client assets, the own funds requirement rises to EUR 125,000.",
+     "Class 3 covers operation of a trading platform, exchange of crypto-assets for funds or other crypto-assets, and dealing on own account. These are market-facing activities with higher operational and conduct risk, and the requirement is EUR 150,000. A firm that combines several classes is treated at the highest applicable tier, so a platform that also safeguards client assets needs EUR 150,000, not 125,000. The tiers are fixed amounts, not percentages of revenue, though MiCA also requires firms to hold at least one quarter of the previous year's fixed overheads if that figure is higher."
+    ]
+   ],
+   [
+    "How Lithuania applies the tiers in practice",
+    [
+     "The Bank of Lithuania expects applicants to state clearly which services they will provide and to demonstrate that their own funds are available from day one. In practice this means the capital must be paid up and unencumbered, held in a form that can absorb losses, and documented in the application file. A bank statement showing the funds in the company account is normally part of the evidence pack.",
+     "Lithuania does not add its own higher capital surcharge on top of MiCA, which is one reason the jurisdiction remains competitive. However, the Bank of Lithuania does look at the quality of the capital and the firm's overall financial resources. If your business plan shows significant fixed costs, the one-quarter-of-overheads test can push the effective requirement above the headline tier. A lean operation with EUR 50,000 in own funds may still need to show that this covers a quarter of its projected overheads.",
+     "Timelines also interact with capital. A straightforward Class 1 application can move relatively quickly once the file is complete, while Class 2 and Class 3 applications involve more scrutiny of custody arrangements, governance and IT. Founders should treat the capital as a threshold to be met at the point of authorisation, not as a target to be reached later."
+    ]
+   ],
+   [
+    "Comparing Lithuania with Panama and other options",
+    [
+     "Not every crypto business needs an EU licence. Panama, for example, has no dedicated crypto licence. A firm can incorporate a Sociedad Anonima, which typically takes two to three weeks, and benefit from a territorial tax system under which foreign-source income is generally not taxed. That structure suits businesses serving non-EU clients, or those in a testing phase who are not yet ready for MiCA compliance.",
+     "The trade-off is market access. A Panama entity cannot passport into the EU or hold itself out as a regulated CASP to European clients. For founders whose target market is Europe, the Lithuania CASP route, with its EUR 50,000 to EUR 150,000 capital requirement, is usually the more durable choice. For founders whose clients are elsewhere, Panama can be a faster and cheaper starting point, with an EU entity added later if the business pivots toward Europe.",
+     "Some groups run both. A Panama holding or operating company handles global, non-EU activity, while a Lithuanian CASP serves EEA clients under MiCA. This dual structure adds cost and governance complexity, but it can be efficient for firms with a genuinely global client base. The key is to keep the regulated and unregulated activities clearly separated so that the Lithuanian entity's licence is not put at risk."
+    ]
+   ],
+   [
+    "Practical steps to meet Lithuania CASP capital requirements",
+    [
+     "Start by mapping your services against the MiCA classes. Write down every activity you intend to perform, including any you plan to add in the first year, and identify the highest tier that applies. If you are unsure whether safeguarding client assets is part of your model, assume it is until you have taken advice, because the difference between EUR 50,000 and EUR 125,000 is significant.",
+     "Next, prepare the capital evidence. The funds should be in the company's account, free of restrictions, and supported by a clear audit trail. If the money comes from founders or investors, document the source. The Bank of Lithuania will also expect a business plan, organisational chart, AML procedures and details of the management team. Capital is necessary but not sufficient; the application stands or falls on the whole package.",
+     "Finally, plan for ongoing compliance. Own funds must be maintained after authorisation, and the one-quarter-of-overheads rule means the required amount can change as the business grows. Build a simple monitoring routine so you can demonstrate continued compliance at any point. Firms that treat capital as a one-off hurdle tend to run into trouble during supervisory reviews."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "What are the Lithuania CASP capital requirements in 2026?",
+    "They follow the MiCA tiers: EUR 50,000 for reception and transmission of orders, execution of orders on behalf of clients, and advice; EUR 125,000 if you also safeguard and administer crypto-assets or provide transfer services; and EUR 150,000 for operating a trading platform, exchanging crypto for funds or other crypto, or dealing on own account."
+   ],
+   [
+    "Which tier applies if I provide several services?",
+    "You are classified at the highest tier that matches any of your activities. If you operate a trading platform and also safeguard client assets, the EUR 150,000 requirement applies, not EUR 125,000."
+   ],
+   [
+    "Is the capital a one-time requirement or must it be maintained?",
+    "It must be maintained on an ongoing basis. MiCA also requires own funds of at least one quarter of the previous year's fixed overheads, so the effective requirement can rise as your cost base grows."
+   ],
+   [
+    "Does Lithuania add its own extra capital on top of MiCA?",
+    "No. Lithuania applies the EU thresholds without a national surcharge. The Bank of Lithuania does assess the quality of capital and the firm's overall financial resources, but the headline figures are the MiCA figures."
+   ],
+   [
+    "Can I get a Lithuania CASP licence with only EUR 50,000?",
+    "Yes, if your services fall entirely within Class 1: reception and transmission of orders, execution of orders on behalf of clients, and advice. If you hold client assets or run a platform, a higher tier applies."
+   ],
+   [
+    "How does Panama compare for crypto founders?",
+    "Panama has no dedicated crypto licence. You incorporate a Sociedad Anonima, typically in two to three weeks, and foreign-source income is generally not taxed. It is faster and cheaper, but it does not give you EU market access or MiCA passporting."
+   ],
+   [
+    "Can I use a Panama company to serve EU clients?",
+    "Not as a regulated CASP. Serving EU clients under MiCA requires an authorised entity in an EU member state, such as Lithuania. A Panama entity can serve non-EU clients, and some groups run both structures side by side."
+   ],
+   [
+    "How long does Lithuania CASP authorisation take?",
+    "Timelines vary with the complexity of the application and the completeness of the file. Straightforward Class 1 applications can move faster, while Class 2 and Class 3 cases involving custody or a trading venue take longer because of the additional scrutiny. Plan for several months and expect questions from the Bank of Lithuania."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ],
+   [
+    "Crypto license cost",
+    "/cost/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "passporting-a-lithuanian-casp-licence-across-the-eu-how-notification-works",
+  "title": "Passporting a Lithuanian CASP licence across the EU: how notification works",
+  "keyword": "Passporting a Lithuanian CASP",
+  "landing": "/lithuania-crypto-license/",
+  "lede": "Lithuania has become a popular home base for crypto firms seeking an EU foothold, but a Lithuanian CASP licence does not automatically open every market. Passporting a Lithuanian CASP means using the freedom of establishment or freedom to provide services to reach clients across the EEA, and the process runs through your national regulator rather than a separate EU application.",
+  "sections": [
+   [
+    "What passporting actually means for a Lithuanian CASP",
+    [
+     "Under MiCA, which is fully in force across the EU in 2026, a crypto-asset service provider authorised in one member state can provide services in other member states without obtaining a separate licence in each country. The Lithuanian licence becomes the home-state authorisation, and the Bank of Lithuania acts as the competent authority. Passporting a Lithuanian CASP is therefore a notification exercise, not a new licensing exercise.",
+     "Two legal bases exist. The freedom to provide services allows a firm to serve clients in another member state on a cross-border basis without a physical presence there. The freedom of establishment allows a firm to open a branch or use tied agents in another member state. The choice affects supervisory expectations, local presence costs, and how clients perceive your operation.",
+     "The scope of the passport is limited to the services covered by your Lithuanian authorisation. If your licence covers custody and exchange but not portfolio management, you cannot passport portfolio management. Any expansion of activities generally requires an update to the home-state authorisation first."
+    ]
+   ],
+   [
+    "The notification procedure step by step",
+    [
+     "The process starts with the home-state regulator. You submit a notification to the Bank of Lithuania setting out the member states where you intend to operate, the services you will provide, and the legal basis you are relying on. For freedom of establishment, you also provide details of the branch or agent, including governance, premises, and the individuals responsible.",
+     "The Bank of Lithuania reviews the notification for completeness and then transmits it to the host-state competent authority. Under the MiCA framework, the host authority has a defined period to assess the information and may request clarification. In practice, timelines vary by host state and by the complexity of the notification, so firms should plan for a period of weeks rather than days.",
+     "Once the notification is accepted, the host state is informed and the firm can begin providing the notified services. You do not receive a new licence document from the host state. Instead, the passport operates through the home-state authorisation, and the host state supervises conduct and certain local requirements within its territory."
+    ]
+   ],
+   [
+    "Documents and information you will need",
+    [
+     "A complete notification package typically includes your corporate details, your Lithuanian authorisation reference, a description of the services to be passported, and the member states concerned. For a branch, you will need information on the branch manager, the organisational structure, and the address where records will be kept.",
+     "Regulators also expect a programme of operations. This should explain the target client base, the marketing approach, the complaints handling route, and how you will comply with host-state rules on matters such as language and consumer disclosure. Vague plans tend to attract follow-up questions and delay the process.",
+     "Because MiCA is still bedding in across national markets, some host authorities apply additional local expectations around AML supervision, payment arrangements, and client onboarding. It is prudent to prepare a short annex addressing these points rather than waiting for a request."
+    ]
+   ],
+   [
+    "Home-state versus host-state supervision",
+    [
+     "The passporting model splits supervision. The Bank of Lithuania remains responsible for prudential matters, including capital adequacy, governance, and the core authorisation. The host-state authority supervises how you conduct business locally, including marketing, complaints, and compliance with local conduct rules.",
+     "This split matters for capital. MiCA sets minimum capital requirements for CASPs in three tiers, commonly described as EUR 50,000, EUR 125,000, and EUR 150,000 depending on the class of services provided. A firm passported into multiple states still meets these requirements at home-state level, but the home regulator will expect the capital position to reflect the expanded footprint.",
+     "Host states can also require firms to report locally and to cooperate with local investigations. Ignoring host-state correspondence is a common mistake. Even where the home regulator is your primary point of contact, host authorities can escalate concerns that ultimately affect your Lithuanian licence."
+    ]
+   ],
+   [
+    "Practical pitfalls and how to avoid them",
+    [
+     "One frequent error is treating passporting as a formality. In reality, the notification must match your actual business model. If you notify exchange services but then launch a lending product, you are operating outside the passport and may face enforcement in the host state.",
+     "Another pitfall is inconsistent disclosure. Clients in different member states may see different terms, fee schedules, or risk warnings. Regulators increasingly compare marketing materials across borders, so a single coherent client-facing framework reduces risk.",
+     "Finally, firms often underestimate the operational work behind a passport. Local bank accounts, language support, complaints handling, and tax registrations all need attention. Building a checklist before notification helps avoid a scramble after approval."
+    ]
+   ],
+   [
+    "How Consulting24 supports passporting",
+    [
+     "Consulting24, operated by X24Consulting OU in Estonia and led by founder Mardo Soo, works with crypto founders on Lithuanian CASP authorisation and the subsequent passporting notifications. The team prepares the notification package, coordinates with the Bank of Lithuania, and helps firms plan their host-state footprint.",
+     "For founders considering alternatives, it is worth noting that some jurisdictions outside the EU do not offer a comparable passport. Panama, for example, has no dedicated crypto licence; firms typically incorporate a Sociedad Anonima, which can be set up in around two to three weeks and generally benefits from a 0% tax on foreign-source income. That structure does not provide EU market access, so the choice depends on where your clients are.",
+     "If your priority is serving EU clients from a regulated base, the Lithuanian route combined with passporting is one of the more established paths. You can review the relevant service page at https://www.consulting24.co/lithuania-crypto-license/ for an overview of the licensing process."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Do I need a separate licence in each EU country to serve clients there?",
+    "No. Under MiCA, a CASP authorised in one member state can passport its services into other member states through a notification procedure. You do not apply for a new licence in each country, but you must notify your home regulator and respect host-state conduct rules."
+   ],
+   [
+    "Which regulator handles a Lithuanian CASP passport?",
+    "The Bank of Lithuania is the home-state competent authority. It receives your notification, reviews it, and transmits it to the host-state authority. The host authority then supervises conduct matters within its territory."
+   ],
+   [
+    "How long does the passporting notification take?",
+    "Timelines vary by host state and by the completeness of your notification. In practice, firms should allow several weeks for review and any follow-up questions. Complex branch notifications can take longer than simple cross-border service notifications."
+   ],
+   [
+    "What is the difference between freedom of services and freedom of establishment?",
+    "Freedom of services lets you serve clients in another member state without a local presence. Freedom of establishment involves a branch or tied agent in that member state, which brings additional governance, premises, and reporting expectations."
+   ],
+   [
+    "Does passporting change my MiCA capital requirements?",
+    "The capital tiers remain set at home-state level, commonly EUR 50,000, EUR 125,000, or EUR 150,000 depending on the services you provide. However, the Bank of Lithuania will expect your capital and governance to reflect the expanded scope of your activities across the EEA."
+   ],
+   [
+    "Can I passport services that are not in my Lithuanian licence?",
+    "No. The passport covers only the services included in your Lithuanian authorisation. If you want to add activities, you generally need to update your home-state licence first, then notify the additional services."
+   ],
+   [
+    "What happens if I start operating in another member state without notifying?",
+    "Operating without a valid passport can be treated as unauthorised activity in the host state. That can lead to enforcement action, fines, and damage to your standing with the Bank of Lithuania."
+   ],
+   [
+    "Is Panama a substitute for an EU passport?",
+    "No. Panama does not have a dedicated crypto licence and does not provide EU market access. A Panama Sociedad Anonima can be incorporated in roughly two to three weeks and generally benefits from 0% tax on foreign-source income, but it is a different proposition from an EU CASP passport."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ],
+   [
+    "Crypto license cost",
+    "/cost/"
+   ]
+  ],
+  "labels": []
  }
 ]
