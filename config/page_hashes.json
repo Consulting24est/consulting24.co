@@ -84,8 +84,8 @@
 "lastmod": "2026-08-05"
 },
 "https://www.consulting24.co/blog/": {
-"hash": "a7b74fc3816dbebede56de52270b7755",
-"lastmod": "2026-09-27"
+"hash": "98622f0dbf27fa1593e7a7bc1a9af37a",
+"lastmod": "2026-09-28"
 },
 "https://www.consulting24.co/blog/abu-dhabi-crypto-license-requirements-checklist-for-2026/": {
 "hash": "5b8aba7b05dcc40567fc93652138ac26",
@@ -3964,8 +3964,8 @@
 "lastmod": "2026-09-21"
 },
 "https://www.consulting24.co/news/": {
-"hash": "779bc1c13c7a63baca0a4d21d62eafd1",
-"lastmod": "2026-09-23"
+"hash": "749a0c1ad66f11ba735bbce1a865b18f",
+"lastmod": "2026-09-28"
 },
 "https://www.consulting24.co/news/esma-flags-market-risks-masked-by-investor-optimism/": {
 "hash": "4c270ad998b623957337878e4782a169",
@@ -11974,5 +11974,9 @@
 "https://www.consulting24.co/crypto-licensing-consultation/": {
 "hash": "4aeab9d1b892fb61c81225d5a06d77db",
 "lastmod": "2026-09-23"
+},
+"https://www.consulting24.co/news/esma-publishes-2027-work-programme-with-delivery-focus/": {
+"hash": "52924f29ca9d42ba180a59bc465b26a7",
+"lastmod": "2026-09-28"
 }
 }

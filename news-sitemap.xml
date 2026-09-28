@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url>
+    <loc>https://www.consulting24.co/news/esma-publishes-2027-work-programme-with-delivery-focus/</loc>
+    <news:news>
+      <news:publication><news:name>Consulting24</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-09-28T08:48:34+00:00</news:publication_date>
+      <news:title>ESMA publishes 2027 work programme with delivery focus</news:title>
+    </news:news>
+  </url>
 </urlset>

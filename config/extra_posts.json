@@ -28453,5 +28453,227 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "mica-white-paper-requirements-for-token-issuers-a-practical-checklist",
+  "title": "MiCA white paper requirements for token issuers: a practical checklist",
+  "keyword": "MiCA white paper requirements",
+  "landing": "/requirements/",
+  "lede": "MiCA has been fully in force across the EU since 2024, and by 2026 national regulators expect token issuers to file white papers that meet a detailed, prescriptive standard. This checklist covers what the MiCA white paper requirements actually demand, where issuers most often fall short, and how to prepare a document that survives supervisory review.",
+  "sections": [
+   [
+    "Who must produce a MiCA white paper, and when",
+    [
+     "The white paper obligation under MiCA applies to persons offering crypto-assets to the public in the EU or seeking admission of such assets to a trading platform. It covers utility tokens, payment tokens that fall outside the e-money framework, and other crypto-assets that are not asset-referenced tokens (ARTs) or e-money tokens (EMTs). Issuers of ARTs and EMTs face a heavier regime: they must be authorised by a national competent authority and publish a white paper that is approved before any offer or admission takes place.",
+     "Timing matters as much as content. For standard crypto-assets, the white paper must be notified to the competent authority of the home Member State before publication, and the offer cannot start until that notification is complete. For ARTs and EMTs, approval is a precondition, not a formality. Offering without a compliant white paper can trigger sanctions, withdrawal orders, and personal liability for directors in several Member States.",
+     "A useful distinction is between the act of offering and the act of marketing. A white paper is required for the offer itself, but marketing communications must also be fair, clear, and not misleading, and they must be consistent with the white paper. Regulators increasingly read the two together, so a polished website that contradicts the filed document is a common enforcement trigger."
+    ]
+   ],
+   [
+    "The mandatory content checklist for a MiCA white paper",
+    [
+     "MiCA sets out a fixed list of disclosures. At minimum, the white paper must identify the issuer, its legal form, registered office, and governing bodies; describe the project, the technology, and the purpose of the crypto-asset; state the rights and obligations attached to the token; and explain how the token is generated, transferred, and stored. It must also cover the underlying technology, including whether the protocol uses a distributed ledger, consensus mechanism, and any smart contract functionality.",
+     "A second cluster of requirements concerns risk. The issuer must present a clear and prominent risk warning, including the risk of losing the entire value of the investment, the absence of deposit guarantees, and the possibility that the token may not be transferable or liquid. The white paper must also state the total supply, the subscription price or pricing method, and the rights of holders in the event of insolvency or wind-down.",
+     "A third cluster concerns governance and conflicts. The white paper must disclose the issuer's management, any material conflicts of interest, and the complaint-handling procedure. It must also state the applicable law and the competent court. Where the token confers governance or profit rights, those rights must be described precisely enough that a holder can enforce them.",
+     "Finally, the document must be dated, and it must include a statement that the white paper has not been approved by any competent authority where that is the case. For ARTs and EMTs, the approval statement replaces that disclaimer. The language must be the official language of the home Member State or a language accepted by the regulator, typically English plus the local language."
+    ]
+   ],
+   [
+    "Format, length, and the summary that regulators actually read",
+    [
+     "MiCA requires a summary at the top of the white paper. The summary must be short, plain, and self-contained. It cannot be longer than a few pages, and it must not omit risk information. In practice, supervisors read the summary first, then sample the body. If the summary overstates the product or understates the risk, the filing is treated as misleading even if the body is accurate.",
+     "The white paper must be fair, clear, and not misleading. That standard is not satisfied by legal boilerplate. Claims about returns, partnerships, or technology must be substantiated in the body. Forward-looking statements need a reasonable basis and a clear caveat. Marketing language such as guaranteed yield or risk-free is incompatible with the regime.",
+     "There is no single prescribed template, but the structure is effectively fixed by the content list. A workable format runs: summary, identity and governance, project description, technical description, rights and obligations, supply and pricing, risks, conflicts and complaints, applicable law, and annexes. Annexes can carry smart contract audits, tokenomics tables, and legal opinions without bloating the main text."
+    ]
+   ],
+   [
+    "Common reasons MiCA white papers get rejected or delayed",
+    [
+     "The most frequent problem is inconsistency between the white paper and the actual product. Regulators cross-check the filed document against the website, the smart contract, and the terms of service. If the white paper says the token is non-transferable and the contract allows transfers, or if the stated supply does not match the contract, the filing is returned. Another recurring issue is a risk section that lists generic risks without tying them to the specific token, such as liquidity risk for a token with no secondary market.",
+     "Governance disclosures are often too thin. MiCA expects named directors, their roles, and any other business interests that could create conflicts. Issuers that operate through a foundation plus a separate development company must map the relationship clearly. Undisclosed related-party arrangements, such as treasury allocations to insiders, are a common supervisory finding.",
+     "Language and translation problems also cause delay. A white paper drafted in English for a Member State that requires the local language will not be accepted until a certified translation is filed. Similarly, a summary that is a literal translation of marketing copy rather than a compliant summary will be rejected.",
+     "Finally, issuers sometimes treat notification as a rubber stamp. Even where no approval is required, the competent authority can request changes, and some authorities have informal review periods. Building in several weeks of buffer before a planned token sale is prudent."
+    ]
+   ],
+   [
+    "How MiCA white paper rules interact with CASP authorisation",
+    [
+     "Issuing a token and operating a crypto-asset service provider (CASP) are separate activities under MiCA. A token issuer that also provides custody, exchange, or transfer services for third parties needs CASP authorisation. CASP capital requirements are tiered by activity class: EUR 50,000 for the lightest classes, EUR 125,000 for intermediate classes, and EUR 150,000 for the heaviest classes. These figures are minimum own funds requirements and are set out in the regulation; issuers should confirm the applicable class with their adviser.",
+     "The white paper does not substitute for CASP authorisation, and CASP authorisation does not cure a defective white paper. A platform that admits a token without a compliant white paper can itself face liability. That creates a strong incentive for trading venues to diligence the document before listing, which in turn means issuers should expect questions from both the regulator and the exchange.",
+     "For groups that issue tokens and also run a marketplace, the practical route is often to prepare the white paper first, then use the same compliance file to support the CASP application. The governance, conflict, and complaint-handling sections overlap heavily, so drafting them once and adapting them for both purposes saves time and reduces inconsistency."
+    ]
+   ],
+   [
+    "A practical preparation sequence and where Panama fits",
+    [
+     "A workable sequence is: confirm the token classification; identify the home Member State and the required language; assemble the governance and conflict disclosures; draft the technical and tokenomics sections with input from the developers; write the risk section last so it reflects the final design; prepare the summary; and only then notify or apply. Legal review should happen before translation, not after, because changes to the body force changes to the summary and the translation.",
+     "Documentary support matters. Regulators may ask for the smart contract audit, the legal opinion on classification, the terms of service, and evidence of the issuer's registered office. Keeping these in a single data room shortens response times. If the issuer is a non-EU entity, the white paper must still meet MiCA standards for the EU offer, and the issuer should consider whether a local establishment is needed for related services.",
+     "Some founders pair an EU-facing MiCA white paper with a non-EU holding or operating structure. Panama is a common choice because it has no dedicated crypto licence: a founder incorporates a Sociedad Anonima, which typically takes two to three weeks, and the jurisdiction applies 0% tax on foreign-source income. That structure can host the issuing entity or treasury, but it does not remove MiCA obligations for the EU offer itself. The white paper, notification, and any CASP authorisation still apply where the offer targets EU persons. Founders should also check substance, banking, and exchange-listing requirements before assuming an offshore entity simplifies the EU process."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Do I need a MiCA white paper if I only sell tokens to accredited investors?",
+    "It depends on the exemption relied upon. MiCA contains exemptions for certain offers, including offers to qualified investors and small offers below a monetary threshold, but the thresholds and conditions are narrow and are set in the regulation. If no exemption applies, a white paper is required even for a private placement. Confirm the position with counsel before assuming an exemption."
+   ],
+   [
+    "Is the white paper approved by the regulator?",
+    "For most crypto-assets other than ARTs and EMTs, the white paper is notified, not approved, and it must state that no competent authority has approved it. For ARTs and EMTs, the white paper requires approval before the offer or admission. The distinction affects timelines and the wording of the document."
+   ],
+   [
+    "How long does it take to prepare a MiCA white paper?",
+    "A straightforward utility token white paper typically takes several weeks of drafting and review, plus translation and notification time. Complex tokenomics, novel technology, or an ART or EMT classification can extend this to a few months. Build buffer before any announced sale date."
+   ],
+   [
+    "What language must the white paper be in?",
+    "It must be in an official language of the home Member State or a language accepted by the competent authority. In practice many issuers file in English plus the local language. A certified translation is often required, and the summary must be translated as well."
+   ],
+   [
+    "Can I update the white paper after publication?",
+    "Yes, but updates follow the same notification or approval route as the original. Material changes, such as supply, rights, or risk profile, require a revised white paper and may require pausing the offer. Minor typographical corrections are usually handled by publishing a corrected version with a clear note."
+   ],
+   [
+    "Does a MiCA white paper replace a securities prospectus?",
+    "No. If the token is a financial instrument under MiFID II, a prospectus under the Prospectus Regulation may be required instead of, or in addition to, MiCA disclosures. Classification is the first step, and it determines which regime applies."
+   ],
+   [
+    "What are the penalties for offering without a compliant white paper?",
+    "Sanctions vary by Member State but can include fines, orders to stop the offer, withdrawal of the token from the market, and in serious cases personal liability for directors. Regulators can also publish the decision, which affects banking and listing relationships."
+   ],
+   [
+    "Can a Panama company issue a token under MiCA?",
+    "A Panama company can be the issuer, but the EU offer still triggers MiCA. The white paper must meet MiCA standards, be notified or approved as applicable, and any related services may require CASP authorisation. Panama has no dedicated crypto licence and a Sociedad Anonima can be formed in roughly two to three weeks, with 0% tax on foreign-source income, but that does not displace EU requirements for EU-targeted offers."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "choosing-between-estonia-and-lithuania-for-a-mica-casp-in-2026",
+  "title": "Choosing between Estonia and Lithuania for a MiCA CASP in 2026",
+  "keyword": "Choosing between Estonia and",
+  "landing": "/lithuania-crypto-license/",
+  "lede": "Choosing between Estonia and Lithuania for a MiCA CASP in 2026 is a decision that shapes your licensing timeline, capital planning, and long-term access to the EU single market. Both countries are fully inside the MiCA framework, but they differ in supervisory style, cost structure, and the practical experience of the founders who apply.",
+  "sections": [
+   [
+    "The MiCA starting point for both countries",
+    [
+     "Since MiCA became fully applicable across the EU, crypto asset service providers no longer apply for national regimes such as Estonia's old MLTRA licence or Lithuania's virtual currency exchange and depositary wallet rules. Instead, a CASP authorisation is granted by the national competent authority of the member state where the applicant is established, and that authorisation can then be passported across the European Economic Area. In Estonia the competent authority is the Estonian Financial Supervision Authority (Finantsinspektsioon). In Lithuania it is the Bank of Lithuania, which has taken on the CASP supervisory role.",
+     "This means the comparison is not about whether MiCA applies, because it applies in both jurisdictions. The comparison is about which supervisor you will deal with day to day, how long the authorisation process is likely to take, what local substance and governance expectations look like, and what the ongoing cost of compliance will be once you are licensed. Founders who treat the two countries as interchangeable often discover later that the differences matter for hiring, banking, and investor perception.",
+     "One practical point to settle early is the capital requirement. MiCA sets minimum own funds by class of service: EUR 50,000 for certain advisory and order transmission activities, EUR 125,000 for execution, placing, transfer and portfolio management services, and EUR 150,000 for operating a trading platform or providing custody and administration on behalf of clients. These are EU-wide minimums, so they do not differ between Estonia and Lithuania, but the supervisor's approach to verifying that capital and the surrounding prudential documentation can differ in practice."
+    ]
+   ],
+   [
+    "Estonia: a mature fintech hub with a stricter supervisory posture",
+    [
+     "Estonia has one of the longest track records in Europe for licensing crypto businesses. Before MiCA, the Estonian MLTRA regime attracted a large number of virtual currency service providers, and the country built a deep pool of compliance professionals, law firms, and audit providers familiar with crypto business models. That ecosystem is a genuine advantage when you need to recruit a money laundering reporting officer, an internal auditor, or a board member with relevant experience.",
+     "At the same time, Estonia has tightened its approach over the years. The Finantsinspektsioon has shown a willingness to scrutinise business models, management body suitability, and outsourcing arrangements closely, and it has been active in removing or refusing licences where it is not satisfied. For a well-prepared applicant with genuine substance in Estonia, this can be a positive signal to banks and institutional partners. For an applicant hoping to run a largely remote operation with minimal local presence, Estonia can be a difficult route.",
+     "The cost of establishing and maintaining an Estonian CASP is generally on the higher side within the EU, driven by local salary levels, office costs, and the depth of professional services available. Estonia also applies its standard corporate tax framework, under which retained profits are generally not taxed until distribution, which can be attractive for companies that intend to reinvest. Founders should model both the one-off authorisation costs and the annual run rate before committing."
+    ]
+   ],
+   [
+    "Lithuania: a pragmatic supervisor and a competitive cost base",
+    [
+     "Lithuania has positioned itself as a practical jurisdiction for fintech and crypto firms. The Bank of Lithuania has been the single supervisor for financial market participants, and it has built a reputation for engaging with applicants during the pre-application phase. For CASP applicants, that dialogue can be valuable because it allows you to test your business model, governance structure, and outsourcing plans before you submit a formal application and pay the associated fees.",
+     "Lithuania's cost base is generally lower than Estonia's for office space, salaries, and many professional services, although the gap has narrowed as the Lithuanian fintech sector has grown. The country also offers a well-developed banking and payments ecosystem, and Lithuanian licences are recognised across the EEA through passporting. For founders who want a credible EU licence without the premium cost of a more crowded hub, Lithuania is often the more efficient choice.",
+     "The Bank of Lithuania has also shown that it will act where it sees weaknesses. It has issued warnings, imposed fines, and withdrawn authorisations in cases involving inadequate anti-money laundering controls or governance failures. That is not a reason to avoid Lithuania, but it is a reason to treat the application as a substantive exercise rather than a formality. A weak file in Lithuania is likely to result in questions, delays, or refusal, just as it would in Estonia."
+    ]
+   ],
+   [
+    "Substance, governance, and the management body test",
+    [
+     "Under MiCA, a CASP must have a management body that is fit and proper, with adequate knowledge and experience, and it must demonstrate that it has strong governance arrangements, clear organisational structures, and effective risk management. Both Estonia and Lithuania apply these requirements, but the way they assess them can feel different. Estonian supervisors often expect a strong local presence and a management body that can be physically available in Estonia. Lithuanian supervisors also expect substance, but they have historically been open to well-documented arrangements where part of the team is elsewhere, provided the local entity retains real decision-making authority.",
+     "In practice, the most common source of delay in both countries is not the business idea but the supporting documentation. Applicants need to show a credible anti-money laundering and counter-terrorist financing framework, a complaints handling procedure, an outsourcing register, a conflicts of interest policy, and a recovery plan, among other items. The quality of these documents often determines whether the supervisor asks two rounds of questions or five.",
+     "Founders should also think about where the key functions sit. If your compliance officer, risk officer, and internal audit function are all outsourced to the same provider, expect scrutiny. If your board meets only on paper, expect scrutiny. The supervisors in both countries have seen enough applications to recognise a file that has been assembled primarily for the licence rather than for the business."
+    ]
+   ],
+   [
+    "Timelines, costs, and passporting in practice",
+    [
+     "MiCA does not set a single EU-wide deadline for the authorisation decision, but national supervisors are expected to process complete applications within a reasonable period. In practice, applicants in both Estonia and Lithuania should plan for several months from submission to decision, with the total elapsed time from first preparation to licence often falling in the range of six to twelve months. The variance is driven mainly by the completeness of the file and the speed with which the applicant responds to questions.",
+     "Costs also vary. Government fees, legal and advisory fees, local director and compliance officer costs, office and accounting costs, and the capital requirement all add up. Estonia tends to sit at the higher end of the range for ongoing costs, while Lithuania is often more moderate. Neither country is cheap compared with jurisdictions outside the EU, but that is the price of a passportable MiCA licence and access to the European market.",
+     "Passporting is a major advantage of both routes. Once authorised, a CASP can provide services in other member states either through a branch or under the freedom to provide services, subject to notifying the home supervisor. The home supervisor remains responsible for prudential supervision, while conduct and anti-money laundering supervision in the host state is shared. This means the choice of home state is not just about where you incorporate, but about which supervisor you want as your primary regulator for years to come."
+    ]
+   ],
+   [
+    "How to choose between Estonia and Lithuania",
+    [
+     "If your priority is access to a deep pool of crypto compliance talent, a well-known fintech brand, and a supervisor with extensive experience of crypto business models, Estonia is a strong candidate. It suits firms that are prepared to invest in local substance, pay higher operating costs, and engage with a supervisor that is comfortable saying no. The Estonian ecosystem can also be helpful when you are raising capital from investors who recognise the jurisdiction.",
+     "If your priority is a pragmatic supervisor, a lower cost base, and a process that allows for meaningful pre-application dialogue, Lithuania is often the better fit. It suits founders who want a credible EU licence without overpaying for a premium address, and who are willing to build genuine governance and compliance capability locally. The Bank of Lithuania has shown that it will engage with serious applicants, but it has also shown that it will act against weak ones.",
+     "In many cases the decision comes down to the people you can actually hire and the banking relationships you can actually secure. A licence is only useful if the entity can open accounts, process payments, and retain staff. Before choosing, speak to founders who have gone through both processes, check current supervisory priorities, and consider a pre-application meeting with the relevant authority. For a detailed look at the Lithuanian route, including requirements and process, see the Consulting24 page on the Lithuania crypto licence."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Do I need a separate licence in each EU country under MiCA?",
+    "No. A CASP authorisation is granted by one member state's competent authority, and it can be passported to other EEA states through a notification process. You do not need a separate licence in every country where you want to offer services, but you do need to comply with host-state conduct and anti-money laundering rules."
+   ],
+   [
+    "Which country has the lower minimum capital requirement for a CASP?",
+    "The minimum own funds requirements are set at EU level and are the same in Estonia and Lithuania. They are EUR 50,000 for certain advisory and order transmission services, EUR 125,000 for execution, placing, transfer and portfolio management, and EUR 150,000 for operating a trading platform or providing custody and administration on behalf of clients."
+   ],
+   [
+    "How long does a MiCA CASP authorisation take in Estonia or Lithuania?",
+    "There is no fixed EU-wide deadline. In practice, applicants should plan for several months from submission to decision, and often six to twelve months from initial preparation to licence. The main variables are the completeness of the application and how quickly you respond to supervisor questions."
+   ],
+   [
+    "Can I run a CASP remotely from outside Estonia or Lithuania?",
+    "Both supervisors expect real substance in the home state. A fully remote operation with no local decision-making is likely to face questions or refusal. Some functions can be outsourced or performed elsewhere if properly documented, but the management body and key governance functions should be anchored in the licensed entity."
+   ],
+   [
+    "Does Estonia still have its old crypto licence regime?",
+    "The old Estonian MLTRA virtual currency service provider regime has been replaced by the MiCA CASP framework. Existing providers had to transition to the new authorisation. New applicants now apply as CASPs under MiCA, not under the previous national regime."
+   ],
+   [
+    "Is Lithuania more lenient than Estonia for crypto licensing?",
+    "It is more accurate to say Lithuania is often more pragmatic and open to pre-application dialogue. Both supervisors apply the same MiCA requirements and both have taken enforcement action. A weak application is likely to struggle in either country, regardless of reputation."
+   ],
+   [
+    "What services can a MiCA CASP provide?",
+    "MiCA covers services such as custody and administration of crypto assets, operation of a trading platform, exchange of crypto assets for funds or other crypto assets, execution of orders, placing of crypto assets, reception and transmission of orders, advice on crypto assets, and portfolio management of crypto assets."
+   ],
+   [
+    "Where can I find more detail on the Lithuanian CASP process?",
+    "Consulting24 maintains a dedicated page on the Lithuania crypto licence at https://www.consulting24.co/lithuania-crypto-license/, which covers the authorisation steps, documentation, and practical considerations for applicants."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ],
+   [
+    "Crypto license cost",
+    "/cost/"
+   ]
+  ],
+  "labels": []
  }
 ]
