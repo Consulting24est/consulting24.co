@@ -77,6 +77,12 @@
    "feed": "esma",
    "title": "ESMA sets 2027 priorities for stronger, simpler and more integrated EU capital markets",
    "published": true
+  },
+  "https://www.fca.org.uk/news/press-releases/fca-secures-money-back-victims-crypto-fraud": {
+   "date": "2026-09-29T08:48:36+00:00",
+   "feed": "fca",
+   "title": "FCA secures money back for victims of crypto fraud",
+   "published": false
   }
  }
 }

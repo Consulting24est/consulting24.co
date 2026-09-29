@@ -28675,5 +28675,229 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "fit-and-proper-tests-for-crypto-company-directors-under-mica",
+  "title": "Fit-and-proper tests for crypto company directors under MiCA",
+  "keyword": "Fit-and-proper tests for crypto",
+  "landing": "/es/",
+  "lede": "Under MiCA, the fit-and-proper assessment is not a formality but a licensing gate that can delay or sink an application. Directors and qualifying shareholders of a CASP must demonstrate competence, integrity, and independence to the standard set by the authorising national competent authority.",
+  "sections": [
+   [
+    "Why fit-and-proper testing became a licensing gate under MiCA",
+    [
+     "MiCA replaced a patchwork of national crypto rules with a single authorisation regime for crypto-asset service providers across the EU. Since the regulation became fully applicable, any firm seeking a CASP licence must satisfy its home-state competent authority that the people running it are suitable. That suitability test applies to members of the management body, to senior managers, and to qualifying shareholders. It is not a box-ticking exercise: supervisors can refuse authorisation, impose conditions, or later withdraw a licence if the people in control no longer meet the standard.",
+     "The shift matters for founders because crypto businesses are often built by small, fast-moving teams with unconventional backgrounds. A developer who has never held a regulated role, or a shareholder whose wealth comes from early token holdings, will be assessed against criteria designed for banks and investment firms. The burden of proof sits with the applicant. Regulators expect documented evidence, not assurances, and they compare the submission against the requirements in the MiCA authorisation articles and the European Banking Authority and ESMA guidelines on the assessment of suitability."
+    ]
+   ],
+   [
+    "Who exactly gets assessed: directors, senior managers, and qualifying shareholders",
+    [
+     "The management body is the primary target. Under MiCA, at least one member of the management body, or where relevant the management body collectively, must be of good repute and possess sufficient knowledge, skills, and experience to perform their duties. In practice this means the board as a whole must cover legal and regulatory knowledge, financial and accounting literacy, and an understanding of the crypto-asset business and its specific risks, including custody, market abuse, and technology risk. A two-person board where neither member has compliance or finance experience is a common reason for supervisory pushback.",
+     "Senior managers who are not board members can also be caught. If a person effectively directs the business, runs a key function, or holds a controlled function, the competent authority may require them to be assessed individually. The same applies to qualifying shareholders, meaning natural or legal persons holding a qualifying holding, typically around 10 percent or more of capital or voting rights, or exercising significant influence. Supervisors look through nominee structures and can require information on the ultimate beneficial owners behind corporate shareholders.",
+     "The assessment is not limited to the moment of authorisation. MiCA requires CASPs to notify the competent authority of any change in the management body and to ensure that suitability is maintained on an ongoing basis. A new director appointed two years after licensing must still pass muster, and a shareholder who increases their stake may trigger a fresh assessment. Firms that treat fit-and-proper as a one-off filing create a supervisory risk that can surface during a routine inspection or a licence variation request."
+    ]
+   ],
+   [
+    "What supervisors actually test: integrity, competence, and independence",
+    [
+     "Integrity is assessed through criminal record checks, regulatory references, and an examination of the person's business history. Supervisors look for convictions for financial crimes, fraud, money laundering, or market abuse, but also for less obvious red flags: bankruptcy proceedings, disqualification as a director, unresolved civil litigation involving dishonesty, or a pattern of regulatory sanctions in other jurisdictions. A clean criminal record is not sufficient if the person has a history of failed companies or unpaid judgments. The EBA guidelines expect a holistic assessment, and gaps in a CV are treated as a problem rather than a neutral fact.",
+     "Competence covers both formal qualifications and practical experience. A director with ten years in payments or traditional finance may satisfy the financial literacy requirement but still lack crypto-specific knowledge. Conversely, a crypto-native founder may understand the technology but have no experience of regulatory reporting, capital requirements, or governance. Supervisors increasingly expect a mix on the board, and they may accept a director who lacks a particular skill if the board collectively covers it and the individual has demonstrated a willingness to acquire the missing knowledge through training.",
+     "Independence is the criterion founders most often underestimate. A management body dominated by founders, family members, or a single shareholder may be seen as unable to challenge executive decisions. MiCA does not require a majority of independent directors in the way some banking rules do, but supervisors expect that the management body can act with independence of mind. Where the same person is both a major shareholder and the sole decision-maker, regulators may ask for additional non-executive oversight, a separate risk function, or a formal governance charter that documents how conflicts are managed."
+    ]
+   ],
+   [
+    "Evidence pack: documents and disclosures that support a fit-and-proper file",
+    [
+     "A credible fit-and-proper file is built from primary documents, not self-declarations. For each director and qualifying shareholder, expect to provide a detailed curriculum vitae with dates and responsibilities, certified copies of identity documents, proof of address, and a criminal record certificate from each jurisdiction where the person has lived or worked in recent years. Many competent authorities ask for a declaration of good standing and, where the person has worked in financial services, references from previous employers or regulators. These references can take weeks to obtain, so they should be requested early in the licensing project.",
+     "Financial information is also relevant. Qualifying shareholders must demonstrate that their acquisition of the holding is financed by legitimate means, that they have the financial soundness to support the CASP, and that the structure does not facilitate money laundering or terrorist financing. Source-of-funds evidence can include audited accounts, tax returns, sale contracts, or bank statements. For founders whose wealth is largely in crypto, a clear audit trail from exchange records, wallet histories, and tax filings is essential; supervisors are familiar with digital assets and will not accept a screenshot as proof of funds.",
+     "Governance documents complete the pack. The applicant should submit an organisational chart, a description of the management body's responsibilities, terms of reference for board committees, a conflicts-of-interest policy, and a training plan for directors. Where a director is being proposed to fill a specific gap, such as compliance or technology, the file should explain how that person's experience maps to the role. Supervisors read these documents as evidence of whether the governance is real or merely drafted for the application."
+    ]
+   ],
+   [
+    "Common failure points and how to avoid them",
+    [
+     "The most frequent failure is a management body that is too thin. A single founder-director with no independent oversight, no compliance background, and no documented governance will almost always attract questions. The fix is not to add names for appearance; supervisors interview directors and can tell whether they understand the business. A better approach is to recruit a non-executive director with regulated financial services experience and to give that person a real mandate, documented in board minutes and committee terms of reference.",
+     "Another recurring problem is incomplete disclosure. Applicants sometimes omit a past directorship in a struck-off company, a foreign regulatory inquiry, or a shareholder whose ownership is held through a trust. Supervisors cross-check against public registers, other regulators, and, increasingly, commercial databases. An omission discovered later is treated as a integrity issue, even if the underlying fact would not have been disqualifying. Full disclosure with a clear explanation is almost always better than a gap that looks like concealment.",
+     "Timing is a third trap. Fit-and-proper checks run in parallel with the rest of the MiCA application, and delays in obtaining criminal record certificates or regulatory references can push back the whole authorisation. Founders should begin collecting personal documentation before the company is incorporated, and should avoid changing the board mid-application unless necessary. If a director resigns or a new shareholder joins during the review, the competent authority must assess the change, which can reset parts of the timetable."
+    ]
+   ],
+   [
+    "How fit-and-proper interacts with capital, substance, and ongoing supervision",
+    [
+     "Fit-and-proper is one pillar of the MiCA authorisation, alongside capital, governance, and operational substance. EU CASPs face minimum capital requirements that vary by activity class, with the main tiers set at EUR 50,000, EUR 125,000, and EUR 150,000 depending on whether the firm operates a trading platform, provides custody, or offers a broader range of services. Supervisors assess whether the people in control have the capability to manage a firm of that scale, and a board that cannot explain the capital calculation or the prudential reporting obligations will raise doubts about competence.",
+     "Substance requirements reinforce the point. A CASP must have a real place of business in the home member state, and the management body must be able to direct the business from there. A board that meets once a year by video call, with all decisions taken by a founder based outside the EU, is unlikely to satisfy the regulator. Fit-and-proper assessments therefore look at how often the management body meets, whether minutes show genuine debate, and whether directors have the time to discharge their duties given their other commitments.",
+     "After authorisation, supervision continues. Competent authorities can require periodic attestations that directors remain suitable, and they can act if a director becomes subject to criminal proceedings or a regulatory sanction. Firms should maintain a live register of directors and qualifying shareholders, with supporting documents kept up to date. When a director's circumstances change, the notification obligation is usually immediate, and failure to notify can itself be a breach. Treating fit-and-proper as a living compliance process rather than a licensing hurdle is the difference between a stable licence and a supervisory problem."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Does MiCA require every director of a crypto company to pass a fit-and-proper test?",
+    "MiCA requires the management body collectively to be of good repute and to have sufficient knowledge, skills, and experience. In practice, competent authorities assess each member of the management body individually as part of the authorisation, and they can also assess senior managers who are not directors if those people effectively direct the business. The exact scope depends on the national competent authority, but a founder-director should expect to provide a full personal file."
+   ],
+   [
+    "What is a qualifying shareholder under MiCA and why does it matter for fit-and-proper?",
+    "A qualifying shareholder is generally a person who holds a qualifying holding, often around 10 percent or more of the capital or voting rights, or who can exercise significant influence over the CASP. MiCA requires the competent authority to assess the suitability of qualifying shareholders, including their integrity, financial soundness, and the legitimacy of the funds used to acquire the holding. This means founders cannot assume that only board members are scrutinised; the ownership chain matters too."
+   ],
+   [
+    "Can a crypto founder with no traditional finance experience be approved as a director?",
+    "Yes, but the assessment is collective as well as individual. A founder with deep crypto experience may satisfy the knowledge requirement for the business model, but the board as a whole must also cover compliance, finance, and governance. If the founder lacks those areas, the applicant should recruit additional directors or senior managers with regulated financial services experience. Supervisors are less concerned about a non-traditional background than about an unbalanced board with no one able to challenge the founder."
+   ],
+   [
+    "What documents are typically required for a fit-and-proper file?",
+    "Expect to provide a detailed CV, certified identity documents, proof of address, criminal record certificates from relevant jurisdictions, regulatory references where applicable, and a declaration of good standing. Qualifying shareholders must also provide source-of-funds and financial soundness evidence, such as audited accounts, tax returns, or sale contracts. Governance documents, including an organisational chart and conflicts-of-interest policy, are usually submitted alongside the personal files."
+   ],
+   [
+    "How long does a fit-and-proper assessment take during a MiCA application?",
+    "Timelines vary by competent authority and by the completeness of the file. Criminal record certificates and regulatory references are often the slowest items, and they can take several weeks depending on the jurisdictions involved. The assessment itself runs in parallel with the rest of the authorisation, so delays in personal documentation can extend the overall timetable. Starting the collection process before incorporation is a practical way to reduce the risk of delay."
+   ],
+   [
+    "What happens if a director fails the fit-and-proper test after the licence is granted?",
+    "The competent authority can require the firm to replace the director, and in serious cases it can restrict the firm's activities or withdraw the licence. MiCA also imposes ongoing notification obligations: the CASP must inform the regulator of changes in the management body and of any circumstances that affect a director's suitability. Failure to notify can be treated as a separate breach. Firms should monitor their directors' circumstances and update the regulator promptly."
+   ],
+   [
+    "Does a criminal record automatically disqualify a director under MiCA?",
+    "Not automatically, but certain convictions, particularly for financial crimes, fraud, money laundering, or market abuse, are strong grounds for refusal. Supervisors assess the nature of the offence, how long ago it occurred, and whether the person has demonstrated rehabilitation. Minor or unrelated offences may not be disqualifying, but they must be disclosed. Concealing a conviction is usually more damaging than the conviction itself, because it undermines the integrity assessment."
+   ],
+   [
+    "How does Consulting24 help with fit-and-proper preparation for MiCA licensing?",
+    "Consulting24, through X24Consulting OU in Estonia, supports founders with the full MiCA authorisation process, including the fit-and-proper component. That work covers board composition planning, director and shareholder documentation, governance policies, and coordination with the competent authority. The firm also advises on jurisdiction selection, including alternatives such as Panama, where there is no dedicated crypto licence and a Sociedad Anonima can be incorporated in roughly two to three weeks with 0 percent tax on foreign-source income. More information is available at https://www.consulting24.co/es/."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "outsourcing-under-mica-what-a-casp-may-delegate-and-what-it-must-keep-in-house",
+  "title": "Outsourcing under MiCA: what a CASP may delegate and what it must keep in-house",
+  "keyword": "Outsourcing under MiCA: what",
+  "landing": "/",
+  "lede": "MiCA is now fully in force, and crypto firms authorised as CASPs must decide which functions to delegate and which to retain. This guide explains the outsourcing boundaries under MiCA and how to structure arrangements that satisfy the regulator.",
+  "sections": [
+   [
+    "The regulatory starting point: MiCA and the EBA outsourcing guidelines",
+    [
+     "MiCA does not contain a single, self-contained outsourcing regime. Instead, Article 73 of the MiCA Regulation requires CASPs to have sound governance and strong internal control mechanisms, and the European Banking Authority's outsourcing guidelines are applied by analogy in many supervisory contexts. National competent authorities across the EU have taken different approaches, but the common thread is that a CASP may outsource operational functions while remaining fully responsible for compliance.",
+     "The practical consequence is that a CASP can delegate execution, but it cannot delegate accountability. If a third party performs a function poorly, the CASP still faces supervisory action, client claims and potential withdrawal of authorisation. This is why outsourcing policies are examined closely during the authorisation process and during ongoing supervision.",
+     "In 2026, the European Securities and Markets Authority has been working on convergence tools for CASP supervision, and firms should expect more consistent expectations on critical or important function mapping. For founders, the safe approach is to document every material arrangement, classify it, and be able to explain why it does not impair the CASP's ability to meet its MiCA obligations."
+    ]
+   ],
+   [
+    "What a CASP may delegate: operational and technical functions",
+    [
+     "A CASP may outsource a wide range of operational activities. Common examples include cloud hosting and infrastructure, KYC and AML screening tools, transaction monitoring software, customer support, IT helpdesk, cybersecurity monitoring, and back-office reconciliation. Many CASPs also use third-party market data providers, blockchain analytics vendors, and payment service providers for fiat on-ramps and off-ramps.",
+     "Technology-heavy functions are usually the easiest to outsource because they are measurable and can be monitored through service level agreements. Cloud providers, for instance, can host the trading engine or wallet infrastructure, provided the CASP retains control over configuration, access management and data. The key is that the CASP must be able to exit the arrangement without disrupting client services, and must maintain adequate oversight.",
+     "Some firms also outsource parts of their compliance operations, such as first-line KYC reviews or alert triage. This can be acceptable if the CASP retains decision-making authority over suspicious activity reports, account blocking and client risk classification. The outsourced team can prepare files, but the CASP's compliance officer must own the final judgement.",
+     "Marketing and community management are frequently delegated as well. However, any communication with clients must still comply with MiCA's fair, clear and not misleading requirements, and the CASP remains liable for statements made by its agents."
+    ]
+   ],
+   [
+    "What must stay in-house: governance, compliance and risk control",
+    [
+     "Certain functions are considered core to the CASP's authorisation and cannot be fully outsourced. These include the management body's ultimate responsibility for the firm, the compliance function, the risk management function, and internal audit. While elements of these can be supported by external experts, the CASP must retain internal capability and decision-making authority.",
+     "The compliance function is a clear example. A CASP may use external counsel for advice or outsourced staff for routine tasks, but it must have a designated compliance officer who is responsible for MiCA compliance and who has direct access to the management body. The compliance officer cannot be an employee of an outsourcing provider.",
+     "Similarly, the risk management function must be independent and have the authority to challenge business decisions. Internal audit can be co-sourced or partially outsourced, but the CASP must ensure that the audit plan is approved internally and that findings are addressed by management. Supervisors will look for evidence that these functions are not merely rubber-stamping outsourced work.",
+     "Client asset safeguarding and custody decisions are also difficult to outsource entirely. While a CASP may use a third-party custodian or sub-custodian, it remains responsible for segregation, reconciliation and client disclosure. The choice of custodian and the terms of the arrangement are strategic decisions that should stay with the management body."
+    ]
+   ],
+   [
+    "Critical or important functions: the heightened bar",
+    [
+     "MiCA and the EBA guidelines distinguish between ordinary outsourcing and arrangements involving critical or important functions. A function is critical or important if a failure or disruption would materially impair the CASP's compliance with its authorisation conditions, its financial performance, or the continuity of its services. Examples include the order matching engine, client asset safekeeping, and the core AML transaction monitoring system.",
+     "For critical or important functions, the CASP must conduct enhanced due diligence, ensure the provider has the necessary skills and capacity, and secure contractual rights to audit and monitor the provider. The CASP must also notify the national competent authority before entering into such arrangements, and in some cases obtain approval. The exact notification requirements vary by member state, so CASPs operating cross-border should map local rules.",
+     "Exit strategies are mandatory for critical or important functions. The CASP must have a credible plan to migrate the function to another provider or bring it back in-house within a reasonable timeframe. This plan should be tested periodically, and the results documented. Regulators have little patience for arrangements where the CASP is locked into a single provider with no practical alternative.",
+     "Concentration risk is another concern. If a CASP relies on one cloud provider for most of its infrastructure, or one analytics vendor for all AML screening, supervisors may require additional mitigation. This could include multi-cloud strategies, contractual data portability rights, or regular benchmarking of alternatives."
+    ]
+   ],
+   [
+    "Contractual and oversight requirements",
+    [
+     "Outsourcing contracts must contain specific clauses to satisfy MiCA expectations. These include clear description of services, service levels, reporting obligations, audit and inspection rights for the CASP and its regulator, data protection and confidentiality, business continuity and disaster recovery, subcontracting conditions, and termination rights. The CASP must also ensure that the provider cooperates with the national competent authority.",
+     "Oversight is not a one-off exercise. The CASP should assign an internal owner for each material outsourcing arrangement, monitor performance against service levels, track incidents, and conduct regular reviews. The compliance and risk functions should receive reports on outsourcing risks, and the management body should be informed of any material issues.",
+     "Documentation is critical. The CASP should maintain a register of all outsourcing arrangements, classify them by criticality, and keep evidence of due diligence, contract reviews, and exit plans. This register is often requested during supervisory reviews and can be decisive in demonstrating that the CASP is in control.",
+     "Sub-outsourcing adds another layer. If a provider subcontracts part of a critical function, the CASP must ensure that the same standards apply and that it retains visibility. The original provider remains the CASP's point of accountability, but the CASP should have the right to object to sub-contractors that do not meet its requirements."
+    ]
+   ],
+   [
+    "Practical implications for founders and how Consulting24 can help",
+    [
+     "For founders building a CASP, the outsourcing question often arises early: should we build everything in-house or buy best-of-breed solutions. The answer depends on the function. Technology infrastructure, KYC tools and customer support are usually better outsourced to specialist providers, while compliance, risk and governance must be built internally from the start.",
+     "Budget planning should account for the cost of oversight, not just the vendor fee. Effective outsourcing requires internal resources to manage contracts, monitor performance and maintain exit plans. Underestimating this is a common mistake that can lead to supervisory findings.",
+     "When choosing a jurisdiction, founders should consider how local regulators interpret MiCA outsourcing rules. Some member states are more prescriptive than others. Consulting24, based in Estonia, helps crypto firms obtain CASP authorisations across the EU and advises on outsourcing structures that align with MiCA and national requirements. The firm's team can assist with policy drafting, vendor due diligence, and regulatory notifications.",
+     "If you are considering a CASP licence or need to review your existing outsourcing arrangements, the Consulting24 website at https://www.consulting24.co/ provides further resources and contact options. Early engagement with experienced advisors can save time and reduce the risk of costly restructuring later."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Can a CASP outsource its compliance function entirely?",
+    "No. A CASP must retain an internal compliance function with a designated compliance officer who is responsible for MiCA compliance. While routine tasks can be supported by external providers, decision-making authority and accountability must stay in-house."
+   ],
+   [
+    "What is a critical or important function under MiCA?",
+    "A function is critical or important if a failure or disruption would materially impair the CASP's compliance with its authorisation conditions, its financial performance, or the continuity of its services. Examples include the order matching engine, client asset safekeeping, and core AML transaction monitoring."
+   ],
+   [
+    "Do I need regulatory approval before outsourcing a critical function?",
+    "In many cases, yes. The CASP must notify the national competent authority before entering into arrangements for critical or important functions, and some member states require explicit approval. Requirements vary, so check with your local regulator."
+   ],
+   [
+    "Can I use a cloud provider for my trading engine?",
+    "Yes, provided the arrangement meets MiCA outsourcing requirements. You must retain control over configuration and access, ensure data portability and exit strategies, and monitor the provider. If the trading engine is a critical function, enhanced due diligence and notification apply."
+   ],
+   [
+    "What contractual clauses are mandatory for outsourcing?",
+    "Contracts should include service descriptions, service levels, reporting, audit and inspection rights, data protection, business continuity, subcontracting conditions, and termination rights. The provider must also cooperate with the CASP's regulator."
+   ],
+   [
+    "How does outsourcing affect my CASP authorisation application?",
+    "Supervisors will review your outsourcing policy and any material arrangements during the application. You must demonstrate that outsourcing does not impair your ability to comply with MiCA and that you have adequate oversight and exit plans."
+   ],
+   [
+    "What is concentration risk in outsourcing?",
+    "Concentration risk arises when a CASP relies heavily on a single provider for multiple critical functions. Supervisors may require mitigation such as multi-cloud strategies, contractual data portability, or regular benchmarking of alternatives."
+   ],
+   [
+    "Can I outsource AML transaction monitoring?",
+    "You can use third-party tools and even outsourced analysts for alert triage, but the CASP must retain decision-making authority over suspicious activity reports, account blocking, and client risk classification. The compliance officer remains responsible."
+   ]
+  ],
+  "related": [
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ],
+   [
+    "Crypto license cost",
+    "/cost/"
+   ]
+  ],
+  "labels": []
  }
 ]
