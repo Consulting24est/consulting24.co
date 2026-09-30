@@ -28899,5 +28899,217 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "safeguarding-client-crypto-assets-under-mica-segregation-and-custody-rules",
+  "title": "Safeguarding client crypto assets under MiCA: segregation and custody rules",
+  "keyword": "Safeguarding client crypto assets",
+  "landing": "/ar/",
+  "lede": "Safeguarding client crypto assets is now a core licensing obligation for any CASP serving EU clients, and MiCA sets out specific segregation and custody rules that go well beyond holding coins in a single wallet. This post breaks down what those rules require in practice and how they interact with offshore structures such as a Panama Sociedad Anonima.",
+  "sections": [
+   [
+    "What MiCA Changed for Crypto Custody",
+    [
+     "MiCA has been in force across the EU since 2024, with the full CASP regime applying from December 2024 and national supervisors actively authorising and supervising firms through 2026. For any business providing custody and administration of crypto assets on behalf of clients, the regulation turns custody from an operational detail into a licensed activity with capital, governance and conduct requirements attached. A firm cannot simply hold client keys and call itself a custodian; it must be authorised as a CASP and meet the specific custody obligations in the regulation.",
+     "The core principle is that client crypto assets are not the firm's assets. MiCA requires CASPs to make arrangements to safeguard clients' ownership rights, to keep client assets separate from the firm's own assets, and to ensure that client assets are not treated as belonging to the CASP in insolvency. This is a structural requirement, not just a bookkeeping one, and it shapes how wallets, keys, accounts and legal entities are organised.",
+     "For founders used to operating in lighter-touch jurisdictions, the shift is significant. MiCA does not just ask whether you can keep coins safe from hackers; it asks whether a court, an administrator or a supervisor could clearly identify which assets belong to which clients and return them if the firm fails. That legal clarity is the point of the segregation rules."
+    ]
+   ],
+   [
+    "Segregation of Client Crypto Assets: The Core Rules",
+    [
+     "Segregation under MiCA means client crypto assets must be held separately from the CASP's own assets. In practice, this typically means separate wallets or separate accounts, clearly labelled, with no commingling of firm and client funds. Where a CASP holds multiple clients' assets, it must maintain records that allow each client's entitlement to be identified at any time. The regulation also requires that client assets be held in a way that protects them from the claims of the CASP's creditors.",
+     "A common question is whether omnibus structures are allowed. MiCA does not require one wallet per client, but it does require that the CASP can identify each client's assets and that the arrangement does not undermine client ownership. Omnibus holding is possible where records and controls are strong enough to allocate assets accurately, including in an insolvency scenario. Many firms use a mix: omnibus for hot wallet operations with strict internal ledger controls, and segregated cold storage for the bulk of client assets.",
+     "Segregation also has a governance dimension. MiCA expects policies and procedures covering how client assets are received, held, transferred and reconciled. Reconciliation should be frequent enough to catch discrepancies quickly, and any shortfall should trigger escalation and remediation. Supervisors will look for evidence that segregation is not just a policy document but an operating reality, tested and reviewed."
+    ]
+   ],
+   [
+    "Custody Arrangements, Key Management and Third Parties",
+    [
+     "MiCA requires CASPs providing custody to have strong arrangements for safekeeping, including key management. The regulation does not prescribe a single technical standard, but it does expect controls that match the risk. That usually means a documented key management policy, separation of duties, multi-signature or threshold schemes for material wallets, and secure backup and recovery procedures. Private keys and seed phrases should not sit with a single individual without oversight.",
+     "Where a CASP uses a third party, such as a sub-custodian, exchange or wallet provider, MiCA imposes conditions. The CASP remains responsible for meeting its obligations, so due diligence, contractual protections and ongoing monitoring are necessary. The third party should be subject to equivalent standards where relevant, and the arrangement should not weaken client ownership or segregation. Outsourcing custody does not outsource regulatory responsibility.",
+     "Liability is another key point. MiCA makes CASPs liable to clients for the loss of crypto assets or keys caused by the CASP's own fault. That makes insurance, capital buffers and strong operational controls commercially important, not just compliance checkboxes. Founders should assume that a custody failure will be assessed against the firm's policies, records and actual behaviour, so documentation and testing matter."
+    ]
+   ],
+   [
+    "Capital Requirements and the Custody Activity Class",
+    [
+     "MiCA sets minimum own funds requirements for CASPs based on the activities they provide. For custody and administration of crypto assets on behalf of clients, the relevant tier is generally the middle or higher class depending on the combination of services. The commonly cited tiers are EUR 50,000, EUR 125,000 and EUR 150,000, with the highest tier applying to firms providing custody alongside trading or other more complex services. The exact figure depends on the services authorised, so founders should confirm the applicable class with their supervisor or adviser.",
+     "Capital is not a substitute for segregation, but the two work together. A firm with thin capital and weak segregation is a supervisory concern; a firm with adequate capital and clear segregation is easier to supervise and more credible to institutional clients. MiCA also expects governance and risk management proportionate to the custody activity, including independent oversight where the firm is large enough.",
+     "For planning purposes, founders should treat the capital requirement as a floor, not a target. Operating a custody business in the EU involves legal, compliance, security and audit costs that often exceed the minimum capital. The licensing process itself requires a credible business plan showing how the firm will meet ongoing obligations, not just the application fee."
+    ]
+   ],
+   [
+    "Panama Structures and EU Custody: How They Fit Together",
+    [
+     "Panama does not have a dedicated crypto licence. Founders looking for an offshore base typically incorporate a Sociedad Anonima, which can be set up in around two to three weeks in many cases. Panama's territorial tax system generally means foreign-source income is not taxed locally, and the corporate framework is familiar to international advisers. That makes Panama attractive as a holding or operating company for activities outside regulated EU custody.",
+     "However, a Panama company does not exempt a firm from MiCA if it provides custody to EU clients or operates in the EU. MiCA applies based on the location of the client and the nature of the activity, and reverse solicitation has narrow limits. A Panama entity can be part of a group structure, but the EU-facing custody activity will generally need an authorised CASP, with segregation, capital and governance meeting MiCA standards. Using an offshore entity to hold client assets while an EU entity fronts the service creates legal and supervisory risk if the arrangement is not carefully structured.",
+     "The practical approach for many founders is a two-part structure: a Panama or similar offshore entity for non-EU business and treasury, and a separate EU CASP for EU clients, with clear contractual and operational separation. Client assets for EU custody sit within the regulated perimeter, while the offshore entity does not commingle or control those assets. This is not a loophole; it is a way to keep regulated and unregulated activities distinct so that segregation and insolvency treatment remain clear."
+    ]
+   ],
+   [
+    "Practical Steps to Meet MiCA Custody Expectations",
+    [
+     "Start with a mapping exercise. Identify every client asset flow, every wallet and account, and every third party involved in holding or moving assets. Then document how each client's entitlement is recorded and how it would be proven in an insolvency or supervisory review. Gaps in this mapping are usually where enforcement risk begins.",
+     "Next, build the control environment. That means written policies for segregation, key management, reconciliation, incident response and outsourcing, plus evidence that they operate. Multi-signature or threshold schemes, access controls, and independent review of wallet operations are common expectations. Reconciliation should be regular and documented, with clear escalation for breaks.",
+     "Finally, align the legal structure with the regulatory one. If you are using a Panama SA or similar offshore vehicle, make sure the EU custody activity is properly licensed and that client assets are not held in a way that blurs the line between entities. For founders who want a structured path, the team at Consulting24 works with crypto businesses on licensing, structuring and compliance, including EU CASP applications and offshore incorporation. More information is available at https://www.consulting24.co/ar/."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "What does segregation of client crypto assets mean under MiCA?",
+    "It means client crypto assets must be kept separate from the CASP's own assets, with records that identify each client's entitlement, so that client assets are protected from the firm's creditors and can be returned if the firm fails. It is a legal and operational requirement, not just a technical one."
+   ],
+   [
+    "Can a CASP hold all client assets in one omnibus wallet?",
+    "MiCA does not ban omnibus holding, but the CASP must be able to identify each client's assets and ensure client ownership is protected, including in insolvency. Strong internal ledgers, controls and reconciliation are essential, and many firms use a mix of omnibus hot wallets and segregated cold storage."
+   ],
+   [
+    "What are the MiCA capital tiers for CASPs?",
+    "The commonly cited minimum own funds tiers are EUR 50,000, EUR 125,000 and EUR 150,000, depending on the activities provided. Custody and administration of crypto assets on behalf of clients generally falls into the middle or higher class, and the exact figure depends on the combination of services authorised."
+   ],
+   [
+    "Does a Panama company need a MiCA licence to custody crypto for EU clients?",
+    "If the firm is providing custody to EU clients or operating in the EU, MiCA can apply regardless of where the company is incorporated. A Panama Sociedad Anonima does not exempt the activity from MiCA. Many groups use an offshore entity for non-EU business and a separate authorised EU CASP for EU custody."
+   ],
+   [
+    "Is there a crypto licence in Panama?",
+    "Panama does not have a dedicated crypto licence. Founders typically incorporate a Sociedad Anonima, which can often be set up in around two to three weeks, and Panama's territorial tax system generally means foreign-source income is not taxed locally. That structure does not replace EU licensing where MiCA applies."
+   ],
+   [
+    "What happens if a CASP fails and client assets are not properly segregated?",
+    "Poor segregation can lead to client assets being treated as part of the firm's estate, delays or losses in recovery, and supervisory enforcement. MiCA requires arrangements that protect client ownership and keep client assets separate, so failures in this area are a serious regulatory and commercial risk."
+   ],
+   [
+    "Can a CASP outsource custody to a third party?",
+    "Yes, but the CASP remains responsible for meeting MiCA obligations. That means due diligence, contractual protections, ongoing monitoring and ensuring the arrangement does not weaken client ownership or segregation. Outsourcing does not transfer regulatory responsibility."
+   ],
+   [
+    "How should founders prepare for MiCA custody requirements?",
+    "Map all client asset flows, wallets and third parties, document how each client's entitlement is recorded and proven, and build written policies for segregation, key management, reconciliation and outsourcing with evidence they operate. Align the legal structure so EU custody sits within a properly authorised CASP. Advisers such as Consulting24 can assist with licensing and structuring."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "mica-transitional-periods-by-member-state-who-still-has-time-and-who-does-not",
+  "title": "MiCA transitional periods by member state: who still has time and who does not",
+  "keyword": "MiCA transitional periods by",
+  "landing": "/es/",
+  "lede": "MiCA is fully in force across the EU, but national transitional periods still decide whether your CASP can keep serving EU clients without a licence. The grandfathering window has already closed in several member states, while a handful of jurisdictions still give firms limited time to obtain authorisation.",
+  "sections": [
+   [
+    "What MiCA transitional periods actually allow",
+    [
+     "MiCA, the Markets in Crypto-Assets Regulation, became fully applicable across the European Union in December 2024. However, Article 143 of MiCA gave member states the option to apply a grandfathering regime, often called a transitional period, to crypto-asset service providers that were already providing services under national law before that date. During this window, a firm can continue operating in its home member state under its existing registration or licence while it prepares a full CASP authorisation application.",
+     "The key limitation is that grandfathering is national, not European. A firm relying on a transitional period in one member state generally cannot use that status to passport services into other member states. To serve clients across the EU under MiCA, a CASP needs an authorisation from a national competent authority and then must notify for cross-border activities. Transitional periods were designed as a bridge, not a permanent substitute for authorisation.",
+     "Member states had discretion over whether to offer grandfathering at all, how long it would last, and what activities it covered. As a result, the MiCA transitional periods by member state vary significantly. Some countries, such as the Netherlands and Lithuania, chose not to offer any transitional period or allowed it to lapse early. Others, including Spain, Italy, and Poland, adopted windows that extend into 2025 or 2026. A few, such as Portugal, have signalled longer national transition timelines that may run into 2026 or beyond, subject to local implementation."
+    ]
+   ],
+   [
+    "Member states where time has effectively run out",
+    [
+     "Several member states have closed their transitional windows or never opened them. The Netherlands, for example, did not implement a grandfathering regime under MiCA, meaning firms needed to be authorised or cease providing crypto services to Dutch clients once MiCA applied. Lithuania similarly moved quickly to require authorisation, and its national regime has been strict about unlicensed activity. In these jurisdictions, continuing to operate without a CASP licence is not a viable option.",
+     "Germany is another important case. While Germany had a national crypto custody regime under the German Banking Act, the transition into MiCA authorisation has been demanding. Firms that previously held a German crypto custody licence still need to obtain a MiCA CASP authorisation to provide the full range of crypto-asset services. The practical effect is that the tolerance for operating without a MiCA licence in Germany is very limited, even if some legacy permissions remain in place for specific activities.",
+     "For founders, the lesson is straightforward. If your target market includes the Netherlands, Lithuania, Germany, or any other member state that has closed or declined a transitional period, you should assume that a MiCA CASP authorisation is required before you onboard clients or market services. Waiting for a national window that does not exist can lead to enforcement action, fines, and disruption to banking and payment relationships."
+    ]
+   ],
+   [
+    "Member states with limited time remaining",
+    [
+     "A number of member states adopted transitional periods that end during 2025 or in early 2026. Spain, for instance, has applied a transitional regime that allows existing providers to continue while they seek authorisation, but the window is finite and the Spanish regulator has been active in pushing firms toward full compliance. Italy has also used a transitional period, with firms expected to submit authorisation applications within a defined timeframe. Poland has taken a similar approach, giving domestic providers a period to adjust before full MiCA authorisation is required.",
+     "These jurisdictions are best understood as having limited time rather than open-ended flexibility. If you are relying on a transitional period in Spain, Italy, or Poland, you should already be deep into preparation for a CASP application. That means documenting governance, fit and proper assessments for management, prudential safeguards, custody arrangements, complaint handling, and the specific service categories you intend to provide. The application is not a formality; regulators expect detailed policies and evidence of operational readiness.",
+     "The risk in these markets is complacency. A firm may believe it has until the end of the national transition, only to find that the regulator requires applications months in advance or that processing times stretch beyond the deadline. In practice, the effective deadline is often earlier than the legal deadline. Firms that start early can avoid a gap in service, while those that wait may face a period where they cannot legally serve clients."
+    ]
+   ],
+   [
+    "Member states with longer or less certain timelines",
+    [
+     "Some member states have adopted longer transitional periods or have signalled that national transition arrangements may extend further. Portugal, for example, has been discussed as having a longer national transition timeline, potentially running into 2026 or beyond, depending on how local rules are applied. France has a relatively mature national framework and has been transitioning firms into MiCA authorisation, but the practical timeline for individual firms depends on their existing registration status and the scope of services they provide.",
+     "It is important not to treat any longer timeline as an invitation to delay. Even where a member state allows a longer transition, banks, payment providers, and institutional counterparties increasingly ask for evidence of MiCA authorisation or a credible path to it. A long national window does not guarantee that commercial partners will accept it. In many cases, the market itself imposes a stricter deadline than the regulator.",
+     "Additionally, the European Securities and Markets Authority and national regulators have emphasised that transitional periods are exceptional and temporary. Firms that rely on them for too long may face supervisory scrutiny. The safer strategy is to use any remaining time to build a complete authorisation file, rather than to postpone preparation. If you are considering where to incorporate or obtain your CASP licence, the on-site page at https://www.consulting24.co/es/ outlines how Consulting24 approaches jurisdiction selection and application support."
+    ]
+   ],
+   [
+    "How to plan around MiCA transitional periods by member state",
+    [
+     "Start by mapping every EU member state where you have clients, where you market, and where your entity is established. For each one, determine whether a transitional period applies, when it ends, and what activities it covers. Do not assume that a home-state transition automatically covers passporting. In most cases, it does not. If you need to serve clients in multiple member states, you will likely need a full CASP authorisation and the associated notification process.",
+     "Next, assess your capital position against the MiCA CASP capital tiers. Under MiCA, the minimum initial capital depends on the class of services: EUR 50,000 for certain advisory and order transmission services, EUR 125,000 for other classes such as execution of orders or portfolio management, and EUR 150,000 for services such as operating a trading platform or custody. These figures are minimums, and regulators may expect additional own funds based on fixed overheads and risk. Planning your capital structure early avoids last-minute scrambles.",
+     "Finally, decide whether your current jurisdiction still makes sense. If your home member state has no transitional period or a very short one, you may need to accelerate authorisation or consider establishing a regulated entity elsewhere in the EU. Some founders also evaluate non-EU structures for global activities, such as a Panama Sociedad Anonima, which can be set up in roughly 2 to 3 weeks and generally benefits from 0% tax on foreign-source income. That structure does not replace a MiCA licence for EU clients, but it can be useful for non-EU operations. Consulting24 works with founders on both EU and offshore structuring, and the Spanish-language site at https://www.consulting24.co/es/ provides further context."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "What is a MiCA transitional period?",
+    "It is a national grandfathering arrangement that allows crypto-asset service providers already operating under local law before MiCA applied to continue temporarily while they seek a full CASP authorisation. It is optional for member states and varies in length and scope."
+   ],
+   [
+    "Which EU member states have no MiCA transitional period?",
+    "The Netherlands and Lithuania are commonly cited as jurisdictions that did not offer a grandfathering window or allowed it to lapse quickly. Germany has also taken a strict approach, with legacy permissions not replacing the need for MiCA authorisation for most services."
+   ],
+   [
+    "Which member states still have time under a transitional period?",
+    "Spain, Italy, and Poland have applied transitional periods that extend into 2025 or early 2026, though the exact deadlines depend on national implementation. Portugal has been discussed as having a longer national timeline, potentially into 2026 or beyond, but this should be verified with local counsel."
+   ],
+   [
+    "Can I use a transitional period to passport into other EU member states?",
+    "Generally no. Transitional periods are national in nature. To serve clients across the EU under MiCA, you typically need a CASP authorisation from a national competent authority and then must follow the cross-border notification process."
+   ],
+   [
+    "What are the MiCA CASP capital requirements?",
+    "MiCA sets minimum initial capital by service class: EUR 50,000 for certain services such as advice and order transmission, EUR 125,000 for classes including execution of orders and portfolio management, and EUR 150,000 for services such as operating a trading platform or custody. Regulators may require additional own funds based on fixed overheads."
+   ],
+   [
+    "What happens if I continue operating after my transitional period ends?",
+    "You may face enforcement action, fines, and orders to cease activities. Banks and payment providers may also terminate services. It is safer to obtain authorisation or stop serving affected clients before the deadline."
+   ],
+   [
+    "Does a Panama company help with MiCA compliance?",
+    "No. A Panama Sociedad Anonima can be useful for non-EU activities and generally benefits from 0% tax on foreign-source income, with setup often taking around 2 to 3 weeks. It does not authorise you to provide regulated crypto services in the EU. You still need a MiCA CASP licence for EU clients."
+   ],
+   [
+    "How can Consulting24 help with MiCA authorisation?",
+    "Consulting24, founded by Mardo Soo, assists founders with jurisdiction selection, CASP application preparation, governance and AML documentation, and coordination with local counsel. The firm also supports offshore structuring where appropriate. More details are available at https://www.consulting24.co/es/."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
  }
 ]
