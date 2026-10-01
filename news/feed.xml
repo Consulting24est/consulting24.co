@@ -6,7 +6,15 @@
     <atom:link href="https://www.consulting24.co/news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Regulatory developments affecting crypto licensing, each sourced to a primary regulator publication.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 08:48:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 08:49:02 +0000</lastBuildDate>
+    <item>
+      <title>ESMA sets out MiCA review recommendations</title>
+      <link>https://www.consulting24.co/news/esma-sets-out-mica-review-recommendations/</link>
+      <guid isPermaLink="true">https://www.consulting24.co/news/esma-sets-out-mica-review-recommendations/</guid>
+      <pubDate>Thu, 01 Oct 2026 08:48:55 +0000</pubDate>
+      <description>ESMA has responded to the European Commission&#x27;s consultation on the review of MiCA, proposing changes on investor protection, supervision, DeFi, classification and simplification.</description>
+      <source url="https://www.esma.europa.eu/press-news/esma-news/esma-calls-changes-make-mica-clearer-safer-and-ready-emerging-services">European Securities and Markets Authority (ESMA)</source>
+    </item>
     <item>
       <title>ESMA publishes 2027 work programme with delivery focus</title>
       <link>https://www.consulting24.co/news/esma-publishes-2027-work-programme-with-delivery-focus/</link>

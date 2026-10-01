@@ -83,6 +83,18 @@
    "feed": "fca",
    "title": "FCA secures money back for victims of crypto fraud",
    "published": false
+  },
+  "https://www.esma.europa.eu/press-news/esma-news/esma-calls-changes-make-mica-clearer-safer-and-ready-emerging-services": {
+   "date": "2026-10-01T08:48:55+00:00",
+   "feed": "esma",
+   "title": "ESMA calls for changes to make MiCA clearer, safer and ready for emerging services",
+   "published": true
+  },
+  "https://www.fca.org.uk/news/press-releases/fca-opens-gateway-regulated-crypto": {
+   "date": "2026-10-01T08:48:58+00:00",
+   "feed": "fca",
+   "title": "FCA opens the gateway to regulated crypto",
+   "published": false
   }
  }
 }
