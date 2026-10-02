@@ -95,6 +95,12 @@
    "feed": "fca",
    "title": "FCA opens the gateway to regulated crypto",
    "published": false
+  },
+  "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal": {
+   "date": "2026-10-02T08:43:17+00:00",
+   "feed": "sec",
+   "title": "SEC Proposal Would Address How Investment Advisers and Funds Can Custody Crypto Assets Under the Federal Securities Laws",
+   "published": false
   }
  }
 }

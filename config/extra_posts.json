@@ -29323,5 +29323,220 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "free-zone-vs-mainland-in-dubai-for-a-crypto-related-consultancy",
+  "title": "Free zone vs mainland in Dubai for a crypto-related consultancy",
+  "keyword": "Free zone vs mainland",
+  "landing": "/dubai-crypto-license/",
+  "lede": "Choosing between a free zone and mainland licence in Dubai is one of the first structural decisions a crypto consultancy will make, and it shapes your tax position, your ability to serve UAE clients, and your visa and banking options. The right answer depends less on cost and more on who you intend to invoice.",
+  "sections": [
+   [
+    "What Free zone vs mainland actually means for a crypto consultancy",
+    [
+     "In the UAE, mainland means a company licensed by the Department of Economic Development in the relevant emirate, able to trade freely across the UAE and to invoice local clients directly. A free zone company is licensed by a specific free zone authority, sits inside that zone for regulatory purposes, and generally operates under a defined set of permitted activities. For a crypto consultancy, the distinction matters because advisory work, technology services, and token-related activity may be treated differently depending on where the licence sits and who the client is.",
+     "Dubai has built a dedicated virtual asset framework through VARA, the Virtual Assets Regulatory Authority, which licenses certain virtual asset activities in and around Dubai excluding the DIFC. The DIFC has its own regime through DFSA, and Abu Dhabi has ADGM through FSRA. That means the phrase free zone is not one thing. A consultancy providing advice on token structuring, exchange operations, or custody may need a VARA or DFSA permission, while a consultancy providing general business, marketing, or technology services to crypto clients may only need a standard commercial licence with the right activity codes.",
+     "The practical question is therefore not simply free zone versus mainland. It is which regulator, which activity code, and which client base. A free zone licence can be faster and cheaper to establish, but it may restrict direct mainland trade or require a mainland branch for certain contracts. A mainland licence gives broader market access but comes with higher setup and compliance overhead, and it may still require a separate virtual asset permission if the activity itself is regulated."
+    ]
+   ],
+   [
+    "Ownership, tax, and substance considerations",
+    [
+     "Mainland companies in the UAE now allow 100 percent foreign ownership across most commercial activities, which removed one of the historical reasons to choose a free zone. Corporate tax applies to both mainland and free zone entities at the standard UAE rate, with free zone entities potentially qualifying for a 0 percent rate on qualifying income if they meet substance and qualifying activity conditions. For a crypto consultancy, the qualifying income analysis is fact-specific and depends on whether the services fall within permitted qualifying activities and whether the entity has adequate substance in the free zone.",
+     "Personal income tax is not levied in the UAE, and there is no withholding tax on salaries. That makes Dubai attractive for founders and consultants regardless of the licensing route, but it does not remove the need to consider tax residence in other jurisdictions and any controlled foreign company rules that may apply at home. A consultancy that invoices clients in Europe or Asia should model its tax position carefully before assuming the UAE structure is neutral.",
+     "Substance is increasingly important. A free zone company with no real office, no local employees, and no decision-making in the UAE may struggle to access banking, to satisfy free zone audits, or to defend a 0 percent position if challenged. A mainland company with a physical office and resident staff may be more expensive but easier to justify to banks and counterparties. The right level of substance depends on the revenue size, the client mix, and the regulatory permissions held."
+    ]
+   ],
+   [
+    "Regulatory permissions and activity codes",
+    [
+     "A crypto consultancy typically needs to distinguish between regulated virtual asset activities and unregulated advisory or technology services. Activities such as operating an exchange, providing custody, managing virtual assets, or arranging deals in virtual assets are regulated in Dubai by VARA and in the DIFC by DFSA. Pure consulting, market research, software development, and marketing services may fall outside those regimes, but the boundary is not always obvious and depends on how the service is delivered and how the client uses it.",
+     "Free zone authorities such as DMCC, IFZA, Meyas, and DIFC have different activity lists and different appetites for crypto-related business. Some free zones offer crypto-friendly licence categories and can connect founders with VARA or DFSA processes. Others are more conservative and may decline activity descriptions that mention virtual assets. Mainland licensing through DED is more standardised but may require additional approvals from VARA or other authorities if the activity touches regulated virtual asset services.",
+     "The safest approach is to map the actual service lines first, then choose the licence and regulator that match them. A consultancy that only advises traditional businesses on blockchain strategy may sit comfortably under a general commercial or technology licence. A consultancy that helps clients issue tokens, run exchanges, or manage client assets is likely to need a virtual asset permission, and that permission will usually drive the choice of free zone or mainland route."
+    ]
+   ],
+   [
+    "Banking, visas, and practical operations",
+    [
+     "Banking is often the deciding factor. UAE banks apply enhanced due diligence to crypto-related businesses, and some free zones have stronger banking relationships than others. A free zone company may find it easier to open an account with a bank that already understands the zone and its licensing framework, while a mainland company may face more scrutiny because the activity is less clearly ring-fenced. In practice, founders should expect a longer onboarding process and should prepare a clear business description, client profile, and source of funds documentation.",
+     "Visa quotas differ by free zone and by mainland licence. Free zones typically offer a set number of visas based on the office or desk package purchased, with options to scale. Mainland companies can apply for visas based on office space and activity, and they can sponsor employees more flexibly in some cases. For a small consultancy with two or three people, a free zone package with a flexi-desk or small office is often sufficient. For a larger team serving mainland clients, a mainland licence with a real office may be more practical.",
+     "Operational freedom also matters. A free zone company generally cannot trade directly in the mainland without a branch or a local distributor, although it can serve international clients freely. A mainland company can invoice UAE clients across emirates and can participate in government tenders. If your crypto consultancy plans to serve banks, family offices, or government-related entities in the UAE, mainland access or a mainland branch may be necessary. If your clients are mostly offshore, a free zone structure is usually simpler."
+    ]
+   ],
+   [
+    "Cost, timeline, and when to consider alternatives",
+    [
+     "Free zone setup for a consultancy typically ranges from a few thousand to low five figures in USD depending on the zone, the package, and the activity. Timelines can be as short as one to three weeks for straightforward applications, though virtual asset permissions add weeks or months. Mainland setup is often slower and more expensive because it involves DED approvals, office lease, and possibly external approvals. Exact costs vary widely by emirate and activity, so founders should request current quotes rather than rely on outdated figures.",
+     "For some founders, Dubai is not the only option. Panama, for example, has no dedicated crypto licence. A founder can incorporate a Sociedad Anonima, which is a standard corporate vehicle, and benefit from 0 percent tax on foreign-source income with a setup that can complete in two to three weeks. That structure does not provide a UAE-regulated passport or a Dubai presence, but it can be useful for holding companies, offshore invoicing, or businesses that do not need a local licence. The choice between Dubai and Panama is therefore about market access and regulation, not just cost.",
+     "The decision should follow the business plan. If you need a UAE-regulated entity to serve local clients or to hold a VARA or DFSA permission, choose the free zone or mainland route that matches your activity and client base. If you need a low-cost offshore vehicle for international consulting and do not require a UAE licence, a Panama company may be sufficient. Many founders end up with both: a Dubai licensed entity for regional credibility and an offshore holding company for group structuring."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Can a free zone crypto consultancy invoice mainland clients in the UAE?",
+    "Generally a free zone company cannot trade directly in the mainland without a branch or a local distributor. It can serve international clients and often can serve mainland clients through a mainland branch or a permitted arrangement. The exact rules depend on the free zone and the activity, so confirm with the zone authority and a local advisor before signing contracts."
+   ],
+   [
+    "Do I need a VARA licence for a crypto consultancy in Dubai?",
+    "It depends on the activity. Pure advisory, research, marketing, or software services may fall outside VARA's regulated activities. Services such as operating an exchange, custody, managing virtual assets, or arranging deals in virtual assets are regulated and typically require a VARA permission. The DIFC and ADGM have separate regimes through DFSA and FSRA."
+   ],
+   [
+    "Is corporate tax 0 percent in a Dubai free zone?",
+    "Not automatically. UAE corporate tax applies at the standard rate, with a possible 0 percent rate on qualifying income for free zone entities that meet substance and qualifying activity conditions. A crypto consultancy should review whether its income qualifies and should maintain adequate substance in the UAE."
+   ],
+   [
+    "Which is cheaper, free zone or mainland?",
+    "Free zone setup is usually cheaper and faster for a small consultancy, with packages starting in the low thousands of USD and timelines of one to three weeks for simple applications. Mainland setup typically costs more because of DED approvals, office lease, and possible external approvals. Costs vary by emirate, activity, and current fees."
+   ],
+   [
+    "Can I open a UAE bank account for a crypto consultancy?",
+    "Yes, but expect enhanced due diligence. Banks may ask for a detailed business description, client profile, source of funds, and proof of regulatory permissions where applicable. Some free zones have stronger banking relationships for crypto-related businesses. The process can take weeks or longer, and not every bank will accept the activity."
+   ],
+   [
+    "How many visas can I get with a free zone licence?",
+    "Visa quotas depend on the free zone and the package purchased. A flexi-desk or small office usually supports a small number of visas, with options to scale by upgrading office space. Mainland companies can apply for visas based on office space and activity. Confirm current quotas with the relevant authority."
+   ],
+   [
+    "Should I choose Dubai or Panama for a crypto consultancy?",
+    "Dubai offers a regulated environment, regional credibility, and access to UAE and Middle East clients, but it comes with licensing and compliance costs. Panama has no dedicated crypto licence, allows a Sociedad Anonima with 0 percent tax on foreign-source income, and can be set up in two to three weeks. The right choice depends on whether you need a UAE licence and local market access or a low-cost offshore vehicle."
+   ],
+   [
+    "Can I start with a free zone licence and move to mainland later?",
+    "Yes, it is possible to migrate or to establish a mainland branch alongside a free zone entity. The process involves new approvals, possible office lease, and regulatory notifications. Many consultancies begin in a free zone to control cost and later add mainland access as their UAE client base grows."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "relocating-a-founder-to-dubai-residency-banking-and-the-first-90-days",
+  "title": "Relocating a founder to Dubai: residency, banking and the first 90 days",
+  "keyword": "Relocating a founder to",
+  "landing": "/dubai-crypto-license/",
+  "lede": "Relocating a founder to Dubai is often framed as a lifestyle decision, but for crypto founders it is a structuring decision. The first 90 days determine your residency status, banking access and regulatory posture, so the sequence matters as much as the destination.",
+  "sections": [
+   [
+    "Why Dubai keeps winning founder mandates in 2026",
+    [
+     "Dubai has built a regulatory stack that most jurisdictions still lack. The Virtual Assets Regulatory Authority (VARA) licenses virtual asset service providers in the emirate, while the Dubai International Financial Centre (DIFC) and Abu Dhabi Global Market (ADGM) offer common law frameworks for firms that prefer a financial free zone. For a founder, this means you can choose a regulator that matches your activity rather than forcing your business into a single national regime.",
+     "The personal tax position is equally direct. The UAE levies no personal income tax on salaries or most capital gains for individuals, and there is no inheritance tax. Corporate tax applies at 9 percent above a taxable income threshold of AED 375,000, with a 0 percent band below it, and free zone entities can qualify for a 0 percent rate on qualifying income if they meet substance conditions. These are real advantages, but they are conditional, not automatic.",
+     "The practical pull is speed and proximity. You can be in a time zone that overlaps with European mornings and Asian afternoons, fly to most major financial centres within a working day, and set up a company in days rather than months. That combination is why relocating a founder to Dubai has become a default option for teams that need a credible base outside the EU and the United States."
+    ]
+   ],
+   [
+    "Choosing the right residency route for a founder",
+    [
+     "Most founders arrive on a residence visa sponsored by their own UAE company. The standard path is to incorporate a free zone entity or a mainland company, obtain an establishment card, apply for an entry permit, complete a medical fitness test and Emirates ID registration, then receive the residence visa stamped in your passport. The whole sequence typically takes two to four weeks once documents are in order, though medical and biometric appointments can add time during peak periods.",
+     "Free zone selection matters because it determines your visa quota, office requirements and whether you can invoice mainland clients directly. Creative and tech-oriented free zones such as Dubai Multi Commodities Centre (DMCC) and Dubai Silicon Oasis have historically been popular with crypto firms, while VARA-licensed activity may require a specific licence category and premises. If you plan to serve mainland UAE clients, a mainland licence or a free zone licence with the right permissions is usually necessary.",
+     "Golden Visa routes are also relevant for founders with significant capital or specialized talent. A 10-year Golden Visa can be obtained through qualifying investment, entrepreneurship or specialized skills categories, and it removes the need to be sponsored by a company. For founders who expect to move between jurisdictions, the Golden Visa can reduce administrative friction, but it does not replace a trade licence if you are conducting regulated activity in the UAE.",
+     "Family sponsorship is available once your residence visa is issued. You can sponsor a spouse, children and in some cases parents, subject to income and documentation requirements. Budget for medical insurance, which is mandatory for residence visa holders in Dubai, and for the attestation of marriage and birth certificates if you are bringing dependents."
+    ]
+   ],
+   [
+    "Banking and payments: what actually works in the first quarter",
+    [
+     "Banking is the part of the relocation that most often slips. UAE banks have tightened onboarding for crypto-related activity since 2023, and a licence alone does not guarantee an account. Traditional banks may ask for your VARA or free zone licence, a detailed business plan, source of funds evidence, counterparty lists and proof of local substance such as an office lease and a resident director. Approval timelines commonly run from a few weeks to several months, and some applications are declined without a detailed reason.",
+     "A practical approach is to separate personal and corporate banking and to prepare both in parallel with your visa application. For personal accounts, a residence visa and Emirates ID are usually the minimum, and some banks also want a salary certificate or proof of address. For corporate accounts, consider opening with a bank that has an established digital asset policy, or use a regulated payment institution for operational flows while your main account is under review.",
+     "Do not assume that a UAE account will solve all payment rails. Many exchanges and institutional counterparties still prefer to settle in USD or EUR through correspondent banks, and some will not send funds to or from UAE accounts without additional compliance checks. Keep a diversified banking setup, maintain clean documentation for every material transfer, and expect periodic reviews. If your entity is regulated under MiCA in the EU, your UAE banking relationships should be consistent with your EU compliance obligations, including travel rule and record-keeping requirements."
+    ]
+   ],
+   [
+    "The first 90 days: a working sequence",
+    [
+     "Days 1 to 30 are about legal presence. Finalize your entity and licence category, sign the lease or flexi-desk agreement, obtain the establishment card, and submit your entry permit application. In parallel, open a personal bank account if you can, and start gathering corporate banking documents. If you are hiring, begin the process for your first employees, because visa quotas and payroll registration take time.",
+     "Days 31 to 60 are about operational setup. Complete medical testing and Emirates ID, get your residence visa stamped, and activate your corporate bank account or a payment institution account. Register for corporate tax with the Federal Tax Authority if your entity is taxable, and confirm your VAT position. If you are VARA-licensed or applying, make sure your compliance manual, AML program and senior management arrangements are in place before you start client onboarding.",
+     "Days 61 to 90 are about stabilization. Review your banking flows for the first month, fix any documentation gaps, and confirm your accounting and audit calendar. If you are relocating a founder to Dubai from an EU entity, check whether your MiCA authorization needs to be updated to reflect the new control structure, and whether your CASP capital tier still matches your activity class. EU CASP capital requirements are EUR 50,000, 125,000 or 150,000 depending on the services you provide, so a change in business model can change your minimum capital.",
+     "Use the first quarter to build relationships with a local accountant, a corporate bank contact and a regulatory consultant. The UAE rewards preparation, and most delays come from missing documents rather than from policy. A founder who arrives with a checklist and a realistic timeline will usually be operational within three months."
+    ]
+   ],
+   [
+    "Tax, substance and the mistakes that cost founders time",
+    [
+     "The UAE corporate tax regime is new enough that many founders still rely on outdated assumptions. A free zone entity can access a 0 percent rate on qualifying income, but qualifying activity and substance requirements are specific. If you conduct business with mainland UAE clients or with entities outside your free zone, that income may be taxable at 9 percent. You should model your revenue mix before you choose a free zone, not after.",
+     "Personal tax is simpler, but residency is not automatic. Spending 183 days or more in the UAE in a calendar year is one route to tax residency, and a residence visa plus a permanent home can support a tax residency certificate. If you split time between the UAE and another country, you may create dual residency and treaty questions. Get advice on your specific facts rather than assuming that a UAE visa ends your tax obligations elsewhere.",
+     "Common mistakes include choosing a free zone that does not permit your activity, underestimating banking timelines, failing to attest documents before arrival, and assuming that a licence from one emirate or free zone covers activity across the UAE. Regulatory scope is specific. VARA regulates virtual asset activity in Dubai outside the DIFC, while ADGM and DIFC have their own regimes. If you are also maintaining an EU presence, remember that MiCA is fully in force across the EU in 2026, and your UAE operations do not replace your EU obligations if you serve EU clients.",
+     "Finally, do not treat the UAE as a purely offshore solution. Substance matters for banking, licensing and tax. An office, a resident director, local employees and documented decision-making in the UAE will make every other step easier."
+    ]
+   ],
+   [
+    "How this fits with an EU or offshore structure",
+    [
+     "Many founders keep an EU entity for MiCA-regulated activity and use a UAE entity for group functions, treasury or non-EU business. That can work, but it requires careful transfer pricing, governance and regulatory analysis. If your EU CASP is authorized under MiCA, your UAE affiliate should not be used to circumvent EU requirements, and your supervisory authority may ask about the relocation of control or key personnel.",
+     "For founders who prefer a lighter offshore base, jurisdictions such as Panama remain an option. Panama has no dedicated crypto licence, so the common route is to incorporate a Sociedad Anonima, which typically takes two to three weeks. Panama taxes foreign-source income at 0 percent, which makes it attractive for holding or treasury functions, but it does not provide a regulated crypto framework. If your business needs a licence, Dubai or an EU jurisdiction is usually the better fit.",
+     "The right structure depends on where your clients are, where your team sits and which regulator you need to satisfy. A Dubai base can complement an EU licence, a Panama holding company or both, but the sequencing should be deliberate. Before you move, map your regulatory perimeter, your banking needs and your tax residency position, then build the 90-day plan around that map."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "How long does it take to get UAE residency as a founder?",
+    "Once your company and establishment card are in place, the residence visa process usually takes two to four weeks, including medical testing and Emirates ID. Delays are most often caused by incomplete documents or appointment availability, so start attestation and translation early."
+   ],
+   [
+    "Do I need a UAE crypto licence to run a crypto business in Dubai?",
+    "If you conduct virtual asset activity in Dubai, you generally need a licence from VARA, or from DIFC or ADGM if you operate in those financial free zones. The exact requirement depends on your activity, so confirm your regulatory perimeter before incorporating."
+   ],
+   [
+    "Can I open a UAE bank account for a crypto company?",
+    "It is possible, but not guaranteed. Banks assess crypto-related activity carefully and may require a licence, detailed source of funds evidence, a business plan and local substance. Timelines range from a few weeks to several months, and some applications are declined."
+   ],
+   [
+    "What is the corporate tax rate in the UAE?",
+    "The standard UAE corporate tax rate is 9 percent on taxable income above AED 375,000, with a 0 percent band below that threshold. Qualifying free zone entities can access a 0 percent rate on qualifying income if they meet substance and activity conditions."
+   ],
+   [
+    "Does a UAE residence visa make me a tax resident?",
+    "Not automatically. Tax residency depends on factors such as days present, permanent home and economic ties. A UAE residence visa plus sufficient physical presence can support a tax residency certificate, but you should review your position in any other country where you spend time."
+   ],
+   [
+    "Can I sponsor my family on a UAE residence visa?",
+    "Yes, once your residence visa is issued you can usually sponsor a spouse and children, subject to income and documentation requirements. Medical insurance is mandatory for dependents, and marriage and birth certificates may need attestation."
+   ],
+   [
+    "How does MiCA affect a founder moving to Dubai?",
+    "MiCA is in force across the EU in 2026. If you serve EU clients or hold an EU CASP authorization, your UAE relocation does not remove those obligations. EU CASP capital requirements are EUR 50,000, 125,000 or 150,000 depending on your service class, and changes to your control structure may need to be notified to your regulator."
+   ],
+   [
+    "Is Panama a better option than Dubai for a crypto founder?",
+    "It depends on your needs. Panama has no dedicated crypto licence and taxes foreign-source income at 0 percent, with a Sociedad Anonima setup typically taking two to three weeks. Dubai offers regulated crypto frameworks and stronger banking access for licensed activity, so the better choice depends on your clients and regulatory requirements."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
  }
 ]
