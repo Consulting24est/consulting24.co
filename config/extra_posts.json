@@ -29744,5 +29744,225 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "running-an-estonian-company-while-living-in-dubai-tax-residency-questions-answer",
+  "title": "Running an Estonian company while living in Dubai: tax residency questions answered",
+  "keyword": "Running an Estonian company",
+  "landing": "/estonia-crypto-license/",
+  "lede": "You have built a company in Estonia and now you live in Dubai. The structure is common among crypto founders, but the tax questions are not always straightforward. Here is what you need to know about running an Estonian company while living in Dubai.",
+  "sections": [
+   [
+    "Why this structure is popular among crypto founders",
+    [
+     "Estonia has long been a preferred jurisdiction for crypto businesses because of its clear licensing regime and digital-first administration. The Estonian Financial Intelligence Unit (FIU) issues licenses for virtual currency service providers, and the country offers a straightforward process for e-residents to incorporate and manage a company remotely. For founders who want an EU footprint, Estonia provides access to the European market and a business environment that understands digital assets.",
+     "Dubai, meanwhile, has become a magnet for crypto entrepreneurs because of its zero personal income tax regime and its own progressive regulatory framework for virtual assets. The UAE does not levy personal income tax on salaries or most investment income, which makes it attractive for founders who want to keep more of what they earn. The combination of an Estonian operating company and Dubai residency is therefore a logical choice for many in the crypto space.",
+     "However, the interaction between the two systems raises questions about tax residency, permanent establishment, and where profits should be taxed. Getting this wrong can lead to unexpected tax liabilities in either country. The following sections address the most common questions we hear from founders in this position."
+    ]
+   ],
+   [
+    "Tax residency basics: Estonia and the UAE",
+    [
+     "Estonia taxes individuals who are resident there on their worldwide income, but it also has a territorial corporate tax system for companies. An Estonian company generally pays corporate income tax only on distributed profits, not on retained earnings. This means that if you leave profits in the company, you may not owe Estonian corporate tax until you distribute dividends. Personal income tax in Estonia applies to residents, and the rate is currently 20 percent on most income, with some exceptions.",
+     "The UAE, on the other hand, does not impose personal income tax on individuals. However, it introduced a corporate tax regime in 2023 that applies to businesses with taxable income above a certain threshold. For individuals, the key is residency: if you are a UAE resident and spend less than 183 days in Estonia, you are generally not considered an Estonian tax resident. The UAE issues tax residency certificates to those who meet its residency requirements, which can be useful for treaty purposes.",
+     "It is important to note that tax residency is not just about days spent in a country. Estonia may still consider you a resident if you have a permanent home there or if your personal and economic interests are closely tied to Estonia. If you have moved to Dubai and cut most ties with Estonia, you should be able to argue non-residency, but you need to document your situation carefully."
+    ]
+   ],
+   [
+    "Permanent establishment risk for your Estonian company",
+    [
+     "Even if you are not an Estonian tax resident, your Estonian company could be considered to have a permanent establishment (PE) in the UAE if you are managing it from Dubai. Under UAE corporate tax law, a PE can arise if a non-resident company has a fixed place of business in the UAE or if a dependent agent habitually concludes contracts on behalf of the company. If you are the sole director and you run the company from your Dubai apartment, the UAE Federal Tax Authority might view that as a PE.",
+     "If a PE is deemed to exist, the profits attributable to that PE could be subject to UAE corporate tax. The UAE corporate tax rate is 9 percent for taxable income above AED 375,000, with a 0 percent rate for income up to that amount. This is still relatively low compared to many other countries, but it is a cost that many founders do not anticipate. The risk is higher if you are actively involved in the day-to-day management of the company from the UAE.",
+     "To mitigate PE risk, some founders appoint a local director in Estonia or use a management company to handle certain functions. Others ensure that key decisions are made outside the UAE, though this can be difficult if you are based there. The best approach depends on your specific circumstances, and you should seek professional advice to structure your operations efficiently."
+    ]
+   ],
+   [
+    "Dividends and salary: how they are taxed",
+    [
+     "When your Estonian company distributes dividends to you as a shareholder, Estonia generally withholds a corporate income tax of 20 percent (or 14 percent for regular dividends under certain conditions). If you are a non-resident of Estonia, you may also be subject to withholding tax on the dividends, but Estonia does not withhold tax on dividends paid to non-residents if the company has already paid corporate income tax on the distribution. In practice, this means that dividends from an Estonian company to a Dubai resident are often not taxed in Estonia at the company level beyond the corporate income tax already paid.",
+     "In the UAE, dividends received by an individual are not subject to personal income tax. So if you are a UAE resident, you could receive dividends from your Estonian company without additional personal tax in the UAE. However, if the UAE tax authorities consider that you are managing the company from the UAE and that the company has a PE there, the profits could be subject to UAE corporate tax before distribution. This is why the PE analysis is crucial.",
+     "If you take a salary from the Estonian company, Estonia may tax that salary if it is considered Estonian-source income. But if you are not a resident and the work is performed outside Estonia, the salary may not be taxable in Estonia. In the UAE, salary is not taxed personally. The key is to ensure that your employment arrangements reflect where the work is actually performed and where you are resident."
+    ]
+   ],
+   [
+    "Substance and documentation: what you need to prove",
+    [
+     "Tax authorities look at substance over form. To support your position that you are not an Estonian tax resident and that your company is not managed from Estonia, you should maintain clear records. This includes your UAE residency visa, Emirates ID, tenancy contract, and evidence of your physical presence in Dubai. You should also keep minutes of board meetings and document where strategic decisions are made.",
+     "For the Estonian side, you may need to demonstrate that the company has a genuine presence in Estonia if you want to benefit from its tax regime. This could include having a local address, a bank account, and possibly local employees or service providers. If the company is entirely managed from Dubai, the Estonian tax authorities might question whether it is truly an Estonian company or whether it should be considered resident elsewhere.",
+     "It is also wise to obtain a tax residency certificate from the UAE. This certificate confirms that you are a tax resident of the UAE and can be used to claim treaty benefits if applicable. The UAE has a double tax treaty with Estonia, which can help resolve conflicts of residence. However, the treaty has specific tie-breaker rules, and you should understand how they apply to your situation."
+    ]
+   ],
+   [
+    "Practical steps to stay compliant",
+    [
+     "First, clarify your tax residency status in both countries. If you have moved to Dubai, ensure you meet the UAE's residency requirements and spend less than 183 days in Estonia. Keep a day count to support your position. Second, review your company's management structure. If you are the sole director and you live in Dubai, consider whether appointing a local director or using a corporate services provider could reduce PE risk.",
+     "Third, document your decisions and keep them in a central place. This includes board resolutions, contracts, and correspondence. If you are audited, you will need to show that the company is managed from where you claim. Fourth, consult with a tax advisor who understands both Estonian and UAE tax law. The rules are complex and can change, so professional advice is worth the investment.",
+     "Finally, remember that this article provides general information, not legal or tax advice. Your specific circumstances will determine the best approach. For more details on Estonian crypto licensing and company setup, visit https://www.consulting24.co/estonia-crypto-license/."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Do I have to pay tax in Estonia if I live in Dubai?",
+    "If you are not an Estonian tax resident and your income is not sourced in Estonia, you generally do not pay personal income tax in Estonia. However, your Estonian company may still have Estonian tax obligations on distributed profits. The exact treatment depends on your residency status and the type of income."
+   ],
+   [
+    "Will my Estonian company be taxed in the UAE?",
+    "If your Estonian company is managed from the UAE, it could be considered to have a permanent establishment in the UAE, which would subject its profits to UAE corporate tax. The UAE corporate tax rate is 9 percent for taxable income above AED 375,000. Whether a PE exists depends on your specific activities and presence in the UAE."
+   ],
+   [
+    "How many days can I spend in Estonia without becoming a tax resident?",
+    "Estonia generally considers you a tax resident if you spend more than 183 days in the country in a 12-month period. However, other factors such as having a permanent home in Estonia can also make you a resident. It is best to keep your stay well below 183 days and document your ties to Dubai."
+   ],
+   [
+    "Can I get a tax residency certificate in Dubai?",
+    "Yes, if you meet the UAE's residency requirements, you can apply for a tax residency certificate from the Federal Tax Authority. This certificate confirms your UAE tax residency and can be used for treaty purposes or to support your non-residency in Estonia."
+   ],
+   [
+    "Are dividends from my Estonian company taxed in the UAE?",
+    "The UAE does not impose personal income tax on dividends received by individuals. However, if the company is deemed to have a PE in the UAE, the profits may be subject to UAE corporate tax before distribution. Otherwise, dividends are generally not taxed in the UAE."
+   ],
+   [
+    "What is a permanent establishment and why does it matter?",
+    "A permanent establishment is a fixed place of business or a dependent agent that creates a taxable presence for a foreign company in another country. If your Estonian company has a PE in the UAE, the UAE can tax the profits attributable to that PE. This is why managing your company from Dubai could trigger UAE corporate tax."
+   ],
+   [
+    "Should I appoint a local director in Estonia?",
+    "Appointing a local director or using a corporate services provider in Estonia can help demonstrate that the company is managed from Estonia, reducing the risk of it being considered resident or having a PE in the UAE. However, this is not a guarantee and should be part of a broader tax strategy."
+   ],
+   [
+    "Do I need to pay social tax in Estonia if I live in Dubai?",
+    "If you are not an Estonian resident and you are not employed in Estonia, you generally do not need to pay Estonian social tax. However, if you receive a salary from your Estonian company, social tax may apply depending on the circumstances. You should check with a local advisor."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Crypto license cost",
+    "/cost/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "panama-company-dubai-residency-how-the-combination-is-typically-structured",
+  "title": "Panama company, Dubai residency: how the combination is typically structured",
+  "keyword": "Panama company, Dubai residency:",
+  "landing": "/panama-crypto-license/",
+  "lede": "Founders often ask whether a Panama company plus Dubai residency can support a crypto business that touches the EU market. The combination is workable, but it is not a substitute for a MiCA licence when you serve EU clients.",
+  "sections": [
+   [
+    "What the combination is, and what it is not",
+    [
+     "A Panama company, usually a Sociedad Anonima, is a corporate vehicle. Dubai residency is a personal immigration status, typically obtained through a UAE residence visa tied to employment, a free zone company, or a property investment. The two are legally separate: Panama governs the company, the UAE governs the individual. Nothing about holding a Dubai residence card changes the regulatory obligations of a Panama company, and nothing about a Panama company changes the tax or residency position of the individual in the UAE.",
+     "This structure is not a crypto licence. Panama does not issue a dedicated crypto or virtual asset service provider licence. The country has moved toward regulating certain virtual asset activities, and a Panama entity may still need to register or comply with local rules if it operates in or from Panama, but there is no single crypto licence that replaces a MiCA authorisation in the EU. Founders who describe this setup as a licence are using the wrong word, and that misdescription creates real risk when dealing with banks, exchanges, and EU counterparties.",
+     "The practical value of the combination is organisational, not regulatory. It gives a founder a low-friction corporate base outside the EU, a personal residence in a major business hub, and a structure that can be adapted if the business later needs a regulated entity in Europe. It does not remove the need for that regulated entity if the business serves EU clients."
+    ]
+   ],
+   [
+    "Why founders pair a Panama company with Dubai residency",
+    [
+     "The first driver is speed and simplicity. A Panama Sociedad Anonima can typically be incorporated in around two to three weeks, with a modest capital requirement and no need for the founder to travel. Panama taxes foreign-source income at 0 percent, so a company whose income arises outside Panama generally faces no Panamanian corporate tax. That is attractive for a holding company, a treasury vehicle, or an operating company that invoices clients outside Panama.",
+     "The second driver is personal presence. Dubai offers a residence visa route that many founders find faster and more predictable than EU residency programmes, along with a time zone that overlaps with both Asia and Europe, strong air links, and a banking sector that is used to international clients. A founder can live in Dubai, run a Panama company, and travel to meet clients and regulators without maintaining a European tax residence.",
+     "The third driver is optionality. A founder who is not yet ready to commit to a MiCA authorisation can build the business under a Panama company, keep the option of a UAE virtual asset regulatory regime, and later add an EU entity if the client base or funding requires it. The mistake is treating the Panama and Dubai layers as a permanent answer to EU regulation rather than as an interim structure."
+    ]
+   ],
+   [
+    "The MiCA issue that decides the structure",
+    [
+     "MiCA is in force across the EU in 2026. If a Panama company provides crypto-asset services to clients in the EU, or markets those services into the EU, it can fall within the scope of MiCA regardless of where it is incorporated. The location of the company is not the test. The test is whether the activity is provided to EU clients or has a clear effect in the EU. A Panama company with EU customers may therefore need to be authorised as a CASP, or to work through an authorised CASP, rather than relying on its offshore status.",
+     "Where authorisation is required, the EU CASP capital tiers are set by activity class: EUR 50,000 for certain advisory or order-transmission type services, EUR 125,000 for other classes, and EUR 150,000 for trading venue operation and similar activities. These are minimum own-funds requirements, not the full cost of authorisation. Legal, compliance, audit, and local substance costs sit on top, and the figures should be treated as a floor rather than a budget.",
+     "This is why the Panama plus Dubai combination is usually described as a pre-licence or parallel structure. The Panama company can hold intellectual property, treasury, or non-EU business. The Dubai residence supports the founder personally and may support a UAE entity in due course. The EU-facing activity, if any, is ring-fenced into an entity that can be authorised under MiCA. Trying to serve EU clients from Panama without that ring-fence is the most common and most expensive error in this area."
+    ]
+   ],
+   [
+    "How the structure is typically assembled",
+    [
+     "In a typical setup, the founder incorporates a Panama Sociedad Anonima with a registered agent, a local resident agent, and a share structure that reflects the real cap table. The company obtains a tax residency certificate where needed and opens a bank or payment account, which is often the slowest step. The founder then obtains a UAE residence visa, usually through a free zone company, an employment route, or a property investment, and establishes UAE tax residency if that is the intention.",
+     "The two layers are then connected by contracts, not by ownership alone. Intercompany service agreements, IP licences, and treasury arrangements should be documented so that the flow of funds and functions is defensible. If a UAE entity is added, the Panama company may hold it, sit alongside it, or license assets to it. If an EU entity is added for MiCA purposes, the Panama company may act as a holding company or as a service provider to the regulated entity, subject to the EU entity's own governance and outsourcing rules.",
+     "Substance matters more than paperwork. A Panama company with no directors, no records, and no decision-making in Panama or Dubai is a shell, and shells attract scrutiny from banks, auditors, and regulators. Founders should expect to show where decisions are made, who manages the assets, and how the group is funded. The structure should be built so that it can be explained in one page to a bank or a regulator."
+    ]
+   ],
+   [
+    "Tax and residency points founders get wrong",
+    [
+     "Panama's 0 percent tax on foreign-source income is often quoted without the qualification. The exemption applies to income that is not Panamanian-source. Income from services performed in Panama, or from activities that are treated as Panamanian-source, can be taxable. The analysis depends on where the work is done and where the income arises, so a founder who signs contracts from Panama or performs services there may create a different result than one who operates entirely outside the country.",
+     "Dubai residency does not automatically mean zero personal tax. The UAE does not levy personal income tax on salaries in the ordinary case, but corporate tax rules, economic substance requirements, and residency day-count rules all matter. A founder who spends significant time in another country can create tax residence there, and the Dubai visa alone does not prevent that. Double tax treaties and permanent establishment rules can also pull profits into a higher-tax jurisdiction.",
+     "The safe approach is to treat the structure as a tax and regulatory question, not a branding exercise. Founders should get advice on their own facts, document where they live and work, and avoid assuming that a Panama company plus a Dubai visa produces a single, universal tax outcome. The combination can be efficient, but only when the underlying facts support it."
+    ]
+   ],
+   [
+    "When this structure is the right choice, and when it is not",
+    [
+     "It tends to fit founders who are still building, who have few or no EU clients, who want a fast and inexpensive corporate base, and who value a Dubai residence for personal and business reasons. It also fits groups that plan to add a MiCA-authorised entity later and want a holding structure that can accommodate it. In these cases the Panama company and Dubai residence are a starting point, not a final answer.",
+     "It tends not to fit founders whose main market is the EU, who are raising from EU-regulated funds, or who need EU banking and payment rails from day one. For those businesses, a MiCA authorisation in an EU member state, or a partnership with an authorised CASP, is usually the core of the structure, with Panama and Dubai playing supporting roles at most. Delaying that decision rarely saves money once EU clients and EU banks are involved.",
+     "The practical test is simple. Map where your clients are, where your team works, where your money moves, and where your regulator sits. If the EU appears in the client or marketing column, plan for MiCA. If it does not, the Panama and Dubai combination can be a sensible base while you grow. Either way, the structure should be reviewed before you sign your first EU client, not after."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Is a Panama company plus Dubai residency a crypto licence?",
+    "No. Panama does not issue a dedicated crypto licence, and Dubai residency is a personal immigration status, not a regulatory authorisation. The combination can support a crypto business, but it does not replace a MiCA authorisation if you serve EU clients."
+   ],
+   [
+    "Do I need a MiCA licence if my company is in Panama?",
+    "Possibly. MiCA applies based on whether you provide crypto-asset services to EU clients or market into the EU, not on where the company is incorporated. A Panama company with EU clients can fall within scope and may need to be authorised or to work through an authorised CASP."
+   ],
+   [
+    "What are the EU CASP capital requirements?",
+    "The minimum own-funds requirements are set by activity class: EUR 50,000 for certain advisory or order-transmission services, EUR 125,000 for other classes, and EUR 150,000 for trading venue operation and similar activities. These are floors, not the full cost of authorisation."
+   ],
+   [
+    "How long does it take to set up a Panama company?",
+    "A Panama Sociedad Anonima can typically be incorporated in around two to three weeks. Banking and payment accounts often take longer and depend on the bank's own due diligence."
+   ],
+   [
+    "Does Panama tax the company's income?",
+    "Panama generally taxes foreign-source income at 0 percent. Panamanian-source income can be taxable, so the analysis depends on where the work is performed and where the income arises. This is not a blanket exemption for all activity."
+   ],
+   [
+    "Does Dubai residency mean I pay no personal tax?",
+    "The UAE does not ordinarily levy personal income tax on salaries, but residency day-count rules, corporate tax rules, economic substance requirements, and other countries' tax residence tests can still apply. A Dubai visa alone does not settle your tax position."
+   ],
+   [
+    "Can I serve EU clients from a Panama company without an EU entity?",
+    "It is risky. If the activity falls within MiCA, serving EU clients without authorisation or an authorised partner can expose you to enforcement, and it can also make EU banking and payment access difficult. Most founders ring-fence EU activity into an authorised entity."
+   ],
+   [
+    "When should I add a MiCA-authorised entity?",
+    "Before you sign EU clients or market services into the EU, if your activity is in scope. The Panama and Dubai layers can remain as holding or support structures, but the EU-facing activity should sit in an entity that can be authorised."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
  }
 ]
