@@ -30184,5 +30184,225 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "ecspr-licence-in-estonia-the-application-file-section-by-section",
+  "title": "ECSPR licence in Estonia: the application file, section by section",
+  "keyword": "ECSPR licence in Estonia:",
+  "landing": "/estonia-crypto-license/",
+  "lede": "An ECSPR licence in Estonia lets you passport crowdfunding services across the EU, but the application file is where most founders stall. This section by section walkthrough shows what Estonian supervisors actually expect to see.",
+  "sections": [
+   [
+    "Why Estonia for an ECSPR licence",
+    [
+     "Estonia has a long track record as a jurisdiction for fintech and crypto businesses, and its Financial Supervision Authority (Finantsinspektsioon) is the national competent authority for the European Crowdfunding Service Providers Regulation. An ECSPR licence in Estonia gives you a single authorisation that can be passported into other EU member states, which is the main reason founders choose it over a purely domestic regime.",
+     "The ECSPR replaced the patchwork of national crowdfunding rules that existed before 2021. Since the transition period ended, platforms offering investment based or lending based crowdfunding to EU investors generally need ECSPR authorisation rather than a national licence. Estonia was among the earlier member states to build out a clear application process, and its regulator publishes guidance on the file structure.",
+     "For crypto founders, the appeal is practical. Many token based or hybrid models sit close to the crowdfunding perimeter, and an ECSPR licence can be the more direct route than a full MiCA CASP authorisation if your core activity is matching investors with fundraising campaigns. That said, the two regimes are not interchangeable, and the application file must reflect what you actually do."
+    ]
+   ],
+   [
+    "Section 1: Applicant identity and corporate documents",
+    [
+     "The file opens with the legal person itself. Expect to provide the articles of association, a recent commercial register extract, and proof of the registered office in Estonia. The regulator wants to see that the applicant is a legal person established in the member state of authorisation, and that the corporate structure is clear enough to supervise.",
+     "If your group has a holding company outside Estonia, include an ownership chart showing every entity and every person with a qualifying holding, typically 20 percent or more of capital or voting rights, and any other relationship that could influence decisions. Undisclosed layered structures are a common reason files get sent back with questions.",
+     "Practical point: keep names, dates, and share counts consistent across every document. The corporate section is where small inconsistencies between the register extract, the articles, and the ownership chart cause disproportionate delay."
+    ]
+   ],
+   [
+    "Section 2: Programme of operations and business plan",
+    [
+     "This is the heart of the file. The programme of operations must describe the crowdfunding services you intend to provide, the types of campaigns you will host, the categories of investors you will target, and how the platform will operate in practice. Vague language about being a marketplace for innovative projects will not survive review.",
+     "The business plan should cover a realistic forecast period, often three years, with revenue lines tied to your fee model. If you charge listing fees, success fees, payment related fees, or take a spread, say so and show the assumptions behind the numbers. The regulator is testing whether the model is plausible and whether you understand your own economics.",
+     "Include the operational workflow from onboarding a project owner to closing a campaign and handling repayments or exits. Explain how you will market the platform, which languages and member states you will serve, and whether you plan to passport immediately or later. If you intend to use tied agents, identify them here rather than adding them after authorisation."
+    ]
+   ],
+   [
+    "Section 3: Governance, fit and proper, and outsourcing",
+    [
+     "The governance section covers the management body and anyone who effectively directs the business. Provide detailed CVs, criminal record certificates where required, and evidence of the knowledge and experience needed to run a crowdfunding platform. The regulator assesses honesty, integrity, and competence, and it will look at whether the same people hold conflicting roles elsewhere.",
+     "Set out your internal organisation: reporting lines, decision making bodies, compliance and risk functions, and how the second and third lines of defence operate if you have them. For a small platform, this can be proportionate, but the file still needs to show who is accountable for what and how conflicts are managed.",
+     "If you outsource material functions such as IT hosting, identity verification, payment processing, or customer support, describe the provider, the service, the contractual safeguards, and how you will monitor performance. The regulator remains responsible for the outsourced activity, so it expects to see that you can terminate and replace a critical provider without breaking the platform."
+    ]
+   ],
+   [
+    "Section 4: Safeguards, investor protection, and complaints",
+    [
+     "ECSPR imposes specific investor protection duties. Your file should explain how you will assess whether campaigns are suitable for non sophisticated investors, how you will provide the key investment information sheet, and how you will handle the reflection period that gives investors time to withdraw. Describe the tests, the disclosures, and the record keeping around them.",
+     "For lending based crowdfunding, include your credit assessment framework, how you will set and monitor loan performance, and what happens if a project fails. For investment based crowdfunding, describe valuation, due diligence on project owners, and the handling of client money or assets. If you use a payment institution or a custodian, name them and explain the flow of funds.",
+     "The complaints section should be more than a promise to be fair. Set out the channels, response times, escalation path, and whether you belong to an out of court dispute resolution scheme. The regulator will check that a retail investor can actually find and use the process."
+    ]
+   ],
+   [
+    "Section 5: ICT, security, and the supporting annexes",
+    [
+     "The technology section covers platform architecture, hosting location, access controls, encryption, logging, backup, and business continuity. If you rely on cloud providers, identify them and explain the exit plan. The regulator is not expecting a bank grade data centre, but it is expecting a coherent description of how the platform stays available and how client data stays protected.",
+     "Annexes typically include policies on anti money laundering and counter terrorist financing, personal data protection, conflicts of interest, and record retention. If you already hold an Estonian crypto licence or a MiCA authorisation, cross reference the relevant policies rather than duplicating them, but make sure the ECSPR file stands on its own.",
+     "Finally, include the financial information the regulator requests, which may cover own funds, professional indemnity insurance, or both depending on the services you provide. ECSPR sets minimum own funds requirements that scale with the services offered, so confirm the current thresholds with your adviser before you finalise the numbers."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "What is an ECSPR licence in Estonia?",
+    "It is an authorisation granted by the Estonian Financial Supervision Authority (Finantsinspektsioon) under the European Crowdfunding Service Providers Regulation. It allows a platform to offer crowdfunding services, including investment based and lending based crowdfunding, and to passport those services into other EU member states."
+   ],
+   [
+    "Do I need an ECSPR licence or a MiCA CASP licence?",
+    "It depends on your activity. If you match investors with fundraising campaigns and the core service is crowdfunding, ECSPR is usually the right regime. If you provide crypto asset services such as exchange, custody, or transfer, MiCA applies and a CASP authorisation is generally required. Some models touch both, so the file must accurately describe what you do."
+   ],
+   [
+    "How long does the Estonian ECSPR application take?",
+    "Timelines vary with the completeness of the file and the regulator's workload. A well prepared application can move through review in a few months, while files with gaps or complex group structures often take longer. Expect questions and plan for at least one round of clarifications."
+   ],
+   [
+    "What own funds are required for an ECSPR licence?",
+    "ECSPR sets minimum own funds requirements that depend on the services provided. The exact figures are set in the regulation and may be updated, so confirm the current thresholds with your adviser at the time of application rather than relying on older summaries."
+   ],
+   [
+    "Can a non resident own an Estonian ECSPR licensed platform?",
+    "Yes, in principle. The applicant must be a legal person established in Estonia, but ownership can sit outside the country. The regulator will require transparency on qualifying holdings and may ask for information on foreign shareholders, including source of funds and fit and proper evidence."
+   ],
+   [
+    "What happens if my ECSPR application is incomplete?",
+    "The regulator will usually issue a request for further information and pause the clock until you respond. Repeated gaps or material omissions can lead to rejection. A common cause of delay is inconsistency between the corporate documents, the business plan, and the governance section."
+   ],
+   [
+    "Does an ECSPR licence cover crypto tokens?",
+    "Not automatically. ECSPR covers crowdfunding services as defined in the regulation. If your platform involves crypto assets that fall under MiCA, you may need a separate CASP authorisation or a variation. The two regimes have different scopes, so legal analysis of the specific token or service is essential."
+   ],
+   [
+    "Where can I get help preparing the application file?",
+    "Consulting24 (X24Consulting OU), founded by Mardo Soo, advises founders on Estonian crypto and crowdfunding licensing. The firm's Estonia crypto licence page at https://www.consulting24.co/estonia-crypto-license/ is a starting point, and a scoping call can confirm whether ECSPR, MiCA, or a combination fits your model."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Crypto license cost",
+    "/cost/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "crowdfunding-platform-business-plan-what-finantsinspektsioon-expects-to-see",
+  "title": "Crowdfunding platform business plan: what Finantsinspektsioon expects to see",
+  "keyword": "Crowdfunding platform business plan:",
+  "landing": "/es/",
+  "lede": "If you plan to operate a crowdfunding platform under the EU Crowdfunding Regulation, Finantsinspektsioon will assess your business plan as a core part of the authorisation file. This guide explains what the Estonian regulator expects to see in 2026, and how to prepare a plan that stands up to supervisory scrutiny.",
+  "sections": [
+   [
+    "Why Finantsinspektsioon scrutinises the crowdfunding platform business plan",
+    [
+     "Finantsinspektsioon is the Estonian Financial Supervision Authority and acts as the competent authority for crowdfunding service providers under Regulation (EU) 2020/1503. The crowdfunding platform business plan is not a marketing document. It is the primary evidence that the applicant understands the economics of its model, can operate within regulatory limits, and has the governance and resources to protect investors and project owners.",
+     "The regulator reads the plan alongside the application form, the programme of operations, the governance arrangements, and the IT and security documentation. A weak or generic plan is one of the most common reasons for requests for further information and for delays. In practice, the plan must connect the commercial model to the regulatory obligations in a way that is specific to the platform's intended activities, asset classes, and target markets.",
+     "Because Estonia is a common gateway for EU-wide passporting, the plan should also explain how the platform will operate across borders. Finantsinspektsioon will want to see that cross-border activity is planned, resourced, and controlled, not treated as an afterthought."
+    ]
+   ],
+   [
+    "The core elements of a credible crowdfunding platform business plan",
+    [
+     "A credible plan starts with a clear description of the platform's business model. This includes the types of crowdfunding services offered, such as investment-based crowdfunding, lending-based crowdfunding, or both, and whether the platform will facilitate the matching of investor funds to project owners. The plan should identify target client segments, typical ticket sizes, and the expected mix of retail and sophisticated investors.",
+     "The plan should set out the fee structure and revenue model in detail. Supervisors want to understand how the platform earns money, whether fees are charged to investors, project owners, or both, and how the platform avoids conflicts of interest. Any ancillary services, such as payment services or portfolio management, must be identified and, where relevant, covered by the appropriate permissions.",
+     "A realistic financial forecast is essential. This should include a base case, a downside case, and the assumptions behind each. The forecast must show how the platform will meet its fixed and variable costs, including compliance, IT, and outsourcing costs, and how it will maintain adequate financial resources. The plan should also explain the expected path to profitability and the sensitivity of the model to changes in volume, default rates, and fee levels."
+    ]
+   ],
+   [
+    "Governance, key personnel, and operational arrangements",
+    [
+     "Finantsinspektsioon expects the business plan to describe the governance framework and the responsibilities of the management body. This includes the composition of the board, the role of independent members, and the arrangements for managing conflicts of interest. The plan should show that the platform has a clear organisational chart, with reporting lines and decision-making authority that are appropriate for the size and complexity of the business.",
+     "The plan must also cover key personnel and their qualifications. The regulator will assess whether the proposed directors and senior managers have the necessary skills and experience in financial services, technology, and compliance. The plan should include a summary of the fit and proper assessment process and how the platform will ensure ongoing competence and training.",
+     "Operational arrangements are equally important. The plan should describe the platform's IT infrastructure, data management, and cybersecurity measures, including how the platform will meet the requirements of the Crowdfunding Regulation and the associated technical standards. It should also explain the outsourcing strategy, the due diligence process for service providers, and the arrangements for business continuity and disaster recovery."
+    ]
+   ],
+   [
+    "Investor protection, complaints, and wind-down planning",
+    [
+     "Investor protection is a central theme in the Crowdfunding Regulation and in Finantsinspektsioon's supervisory approach. The business plan should explain how the platform will provide clear and fair information to investors, including risk warnings, the nature of the investment, and the fees involved. It should also describe the process for assessing the appropriateness of investments for retail investors and the tools used to test knowledge and experience.",
+     "The plan must set out the complaints handling procedure, including how complaints are recorded, investigated, and resolved, and how the platform will report to the regulator. It should also describe the arrangements for handling conflicts of interest, including any inducements or fees received from third parties, and how these are disclosed to clients.",
+     "A wind-down plan is a mandatory element. The plan should explain how the platform would transfer or wind down its activities in an orderly manner if it ceased to operate, including how investor funds and assets would be protected and returned. Finantsinspektsioon will look for a credible, costed, and tested wind-down strategy that does not rely on unrealistic assumptions."
+    ]
+   ],
+   [
+    "Financial resources, capital, and regulatory reporting",
+    [
+     "The business plan must demonstrate that the platform will maintain adequate financial resources at all times. Under the Crowdfunding Regulation, the capital requirements are set as a percentage of the platform's fixed overheads or a minimum amount, depending on the services provided. The plan should show how the platform will calculate and monitor its capital position and how it will comply with the applicable thresholds.",
+     "The plan should also describe the regulatory reporting framework. This includes the reports that the platform will submit to Finantsinspektsioon, such as financial statements, capital adequacy calculations, and information on complaints and breaches. The plan should identify the systems and controls that will produce accurate and timely data, and the roles responsible for review and sign-off.",
+     "Finally, the plan should address the platform's approach to risk management. This includes credit risk, operational risk, and compliance risk, and the use of risk registers, key risk indicators, and stress testing. The regulator will expect the plan to show that risk management is embedded in the business, not treated as a compliance exercise."
+    ]
+   ],
+   [
+    "How Consulting24 can help you prepare a plan that meets expectations",
+    [
+     "Consulting24, operated by X24Consulting OU, supports founders and financial firms with licensing and regulatory projects across Europe. Our team works with clients to structure the business plan, governance documentation, and financial forecasts that Finantsinspektsioon expects to see. We also help with the wider authorisation file, including policies, procedures, and IT documentation.",
+     "We understand that every platform is different. Whether you are building an investment-based platform, a lending-based platform, or a hybrid model, we tailor the plan to your activities and target markets. We also help you prepare for the questions that the regulator is likely to ask, so that you can respond quickly and avoid unnecessary delays.",
+     "If you are considering a crowdfunding licence in Estonia or another EU jurisdiction, you can learn more about our services at https://www.consulting24.co/es/. We can help you assess the requirements, plan your application, and build a business plan that reflects the reality of your operations."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "What is a crowdfunding platform business plan and why is it required?",
+    "It is a document that describes your platform's business model, target market, revenue streams, financial forecasts, governance, and risk management. Finantsinspektsioon requires it as part of the authorisation process to assess whether your platform can operate in compliance with the EU Crowdfunding Regulation."
+   ],
+   [
+    "Which regulator oversees crowdfunding platforms in Estonia?",
+    "Finantsinspektsioon, the Estonian Financial Supervision Authority, is the competent authority for crowdfunding service providers under Regulation (EU) 2020/1503. It reviews applications and supervises ongoing compliance."
+   ],
+   [
+    "What financial information should the business plan include?",
+    "The plan should include a realistic financial forecast with base, downside, and upside scenarios, assumptions for volumes and fees, cost projections including compliance and IT, and a clear explanation of how the platform will maintain adequate financial resources and meet capital requirements."
+   ],
+   [
+    "How detailed should the governance section be?",
+    "It should describe the management body, reporting lines, conflicts of interest arrangements, and the fit and proper assessment of directors and senior managers. The regulator expects to see that governance is proportionate to the size and complexity of the platform."
+   ],
+   [
+    "Does the business plan need to cover cross-border operations?",
+    "Yes. If you intend to passport your services into other EU member states, the plan should explain how you will operate across borders, including the resources, controls, and local requirements involved. Finantsinspektsioon will assess whether your arrangements are adequate."
+   ],
+   [
+    "What is a wind-down plan and is it mandatory?",
+    "A wind-down plan explains how the platform would transfer or wind down its activities in an orderly manner if it ceased to operate, including how investor funds and assets would be protected. It is a mandatory element of the authorisation file and should be credible and costed."
+   ],
+   [
+    "How long does it take to get a crowdfunding licence in Estonia?",
+    "The timeline depends on the completeness of your application and the regulator's workload. In practice, it can take several months from submission to authorisation. A well-prepared business plan and supporting documents can reduce the risk of delays caused by requests for further information."
+   ],
+   [
+    "Can Consulting24 help with the business plan and the application?",
+    "Yes. Consulting24, operated by X24Consulting OU, assists with business plan preparation, governance documentation, financial forecasts, and the wider authorisation file. You can find more information at https://www.consulting24.co/es/."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
  }
 ]
