@@ -30404,5 +30404,223 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "ecspr-own-funds-requirement-how-the-eur-25-000-floor-is-calculated",
+  "title": "ECSPR own-funds requirement: how the EUR 25,000 floor is calculated",
+  "keyword": "ECSPR own-funds requirement: how",
+  "landing": "/",
+  "lede": "The ECSPR own-funds requirement: how the EUR 25,000 floor is calculated often confuses even experienced founders, because the figure is not a flat capital rule but the lower bound of a formula tied to the platform's business model. This post explains the calculation, the add-ons that can push the number higher, and where the ECSPR sits next to MiCA for EU crowdfunding platforms.",
+  "sections": [
+   [
+    "The ECSPR in one paragraph",
+    [
+     "The European Crowdfunding Service Providers Regulation, usually shortened to ECSPR, created a single EU authorisation for platforms that match investors with fundraising projects through crowdfunding. It applies to investment-based and lending-based crowdfunding, and it lets an authorised provider passport its services across the European Economic Area under one licence. The regime is administered by national competent authorities, so the application is filed in the home member state where the provider is established.",
+     "ECSPR is separate from MiCA, the Markets in Crypto-Assets Regulation, which governs crypto-asset service providers. A platform that only intermediates crowdfunding offers in securities or loans falls under ECSPR. A platform that also provides crypto-asset services, such as custody of tokens or exchange between crypto and fiat, may need a MiCA CASP authorisation as well. In 2026 both regimes are in force, and the two can overlap for token-based crowdfunding models.",
+     "The own-funds requirement is one of the prudential conditions in ECSPR. It is designed to ensure that a provider has a buffer to absorb losses and to wind down in an orderly way if the business fails. It is not a marketing budget or a minimum viable product fund; it is regulatory capital that must be maintained on an ongoing basis."
+    ]
+   ],
+   [
+    "Why the floor is EUR 25,000 and not a fixed licence fee",
+    [
+     "The EUR 25,000 figure is the minimum own-funds floor for ECSPR providers. It is not a one-off application fee and it is not a deposit that the regulator keeps. It is the lowest amount of qualifying capital that a provider must hold at all times, calculated according to the ECSPR own-funds rules. A provider that only runs a simple crowdfunding service may sit at this floor, while a provider with more complex activities or larger volumes will need more.",
+     "The floor exists because crowdfunding platforms handle client money, operate matching systems, and in some cases arrange payment services. The regulator wants to see that the entity can survive a period of stress without becoming insolvent immediately. The exact composition of own funds is defined by reference to the Capital Requirements Regulation framework, which distinguishes between Common Equity Tier 1, Additional Tier 1, and Tier 2 capital. In practice, most small ECSPR applicants meet the requirement with paid-up share capital and retained earnings.",
+     "Because the floor is a minimum and not a target, the calculation matters. A provider cannot simply write EUR 25,000 on the balance sheet and assume it is compliant. It has to run the ECSPR own-funds calculation, compare the result with the floor, and hold the higher of the two. If the calculation produces a figure below EUR 25,000, the provider still holds EUR 25,000. If it produces a figure above EUR 25,000, the provider holds that higher figure."
+    ]
+   ],
+   [
+    "How the ECSPR own-funds requirement is calculated",
+    [
+     "The ECSPR own-funds calculation starts from a base figure and then applies adjustments. The base is generally the higher of a fixed minimum and a percentage of the provider's relevant costs or revenue. For many small providers, the fixed minimum is the EUR 25,000 floor. The variable component is often expressed as a percentage of the provider's annual operating expenses or of its revenue, with the exact percentage and reference period set out in the regulation and in national implementing rules.",
+     "The calculation then adds specific add-ons. If the provider offers payment services or holds client funds, an additional amount may be required. If the provider operates a lending-based model with a payment account, the own-funds requirement can be higher. If the provider uses tied agents or outsources critical functions, the regulator may require additional capital to reflect operational risk. These add-ons are not optional; they are part of the prudential assessment.",
+     "The result is compared with the floor. The provider must hold the higher of the calculated amount and EUR 25,000. The calculation is not static. It is reviewed at least annually and whenever the business changes materially, such as when the platform launches a new product, enters a new member state, or increases the volume of intermediated offers. A provider that grows quickly can find that its own-funds requirement has moved above the floor without any change to its licence.",
+     "The own-funds calculation is separate from the initial capital requirement that applies at the point of authorisation. At authorisation, the regulator checks that the provider has the minimum capital in place. After authorisation, the provider must maintain own funds on an ongoing basis. The two checks use the same definition of own funds but serve different purposes: one is a gate, the other is a continuing condition."
+    ]
+   ],
+   [
+    "What counts as own funds and what does not",
+    [
+     "Own funds are not the same as cash in the bank. They are a regulatory measure of loss-absorbing capital. The highest-quality component is Common Equity Tier 1, which includes paid-up share capital, share premium, retained earnings, and other disclosed reserves. These items are permanent and can absorb losses without triggering a wind-down. Most ECSPR providers meet the requirement with this component.",
+     "Additional Tier 1 and Tier 2 instruments can count, but they are subject to conditions and limits. Subordinated debt, for example, may count as Tier 2 capital only if it meets maturity and write-down requirements. A shareholder loan that is repayable on demand will not count. A director's loan that is not subordinated will not count. The regulator will look through the legal form to the substance of the instrument.",
+     "Intangible assets, goodwill, and deferred tax assets are generally deducted from own funds. This means that a provider cannot count capitalised software development costs or brand value toward the requirement. The same applies to any asset that cannot be readily converted into loss-absorbing capital. The practical implication is that the own-funds calculation is conservative: it focuses on permanent, paid-in capital rather than on accounting net assets."
+    ]
+   ],
+   [
+    "How the ECSPR floor interacts with MiCA and other EU regimes",
+    [
+     "MiCA sets its own capital requirements for crypto-asset service providers. The EU CASP capital tiers are EUR 50,000, EUR 125,000, and EUR 150,000, depending on the class of activity. A provider that offers only advice or order transmission may sit in the lowest tier, while a provider that operates a trading platform or holds client crypto-assets will be in a higher tier. These figures are separate from the ECSPR floor and are not interchangeable.",
+     "A crowdfunding platform that also provides crypto-asset services may need both authorisations. In that case, the provider must meet both sets of prudential requirements. The own-funds calculation for ECSPR and the capital calculation for MiCA are run separately, and the provider holds enough capital to satisfy both. In practice, the higher of the two requirements becomes the binding constraint. This is a common issue for platforms that tokenise fundraising offers or that allow investors to fund offers with crypto-assets.",
+     "The ECSPR floor also interacts with national company law. A provider must be a legal person, and the minimum share capital required to incorporate may be lower than EUR 25,000 in some member states. That does not reduce the ECSPR requirement. The provider still needs to hold EUR 25,000 in own funds, even if the company was incorporated with a smaller share capital. Additional paid-in capital or retained earnings can bridge the gap."
+    ]
+   ],
+   [
+    "Practical steps to get the calculation right",
+    [
+     "Start with a clear map of the business model. Identify whether the platform is investment-based, lending-based, or both. Identify whether it holds client funds, operates a payment account, or uses tied agents. Each of these features affects the own-funds calculation. A provider that assumes it only needs the EUR 25,000 floor without checking the add-ons may face a capital shortfall later.",
+     "Build the calculation into the financial plan from day one. The own-funds requirement is a continuing condition, so the provider needs to show how it will maintain the required capital as the business grows. This means modelling revenue, operating expenses, and capital needs together. A provider that plans to scale quickly should assume that its own-funds requirement will rise above the floor and should plan for additional capital raises or retained earnings.",
+     "Document the calculation and keep it up to date. The regulator will ask for the calculation during the authorisation process and during supervision. A clear methodology, supported by management accounts and capital forecasts, makes the process smoother. If the provider is unsure whether an item counts as own funds, it should seek advice before filing. The cost of getting the calculation wrong is higher than the cost of getting it right the first time.",
+     "For founders comparing jurisdictions, the ECSPR floor is one input among many. Panama, for example, has no dedicated crypto licence and a Sociedad Anonima can be set up in two to three weeks with 0% tax on foreign-source income. That model suits some activities but does not provide an EU passport. A provider that wants to serve EU clients under ECSPR or MiCA needs an EU authorisation and must meet the relevant capital rules. The choice depends on the target market, the product, and the founder's appetite for regulatory overhead."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Is the EUR 25,000 ECSPR own-funds requirement a one-off payment?",
+    "No. It is a minimum amount of own funds that the provider must hold at all times. It is not paid to the regulator and it is not a fee. The provider must maintain qualifying capital on an ongoing basis and must recalculate the requirement as the business changes."
+   ],
+   [
+    "Can the ECSPR own-funds requirement be higher than EUR 25,000?",
+    "Yes. The EUR 25,000 is a floor. The calculated requirement can be higher if the provider has significant operating expenses, holds client funds, offers payment services, or uses tied agents. The provider must hold the higher of the calculated amount and the floor."
+   ],
+   [
+    "What counts as own funds under ECSPR?",
+    "Own funds are generally made up of Common Equity Tier 1 items such as paid-up share capital, share premium, retained earnings, and disclosed reserves. Some Additional Tier 1 and Tier 2 instruments can count if they meet the conditions. Intangible assets and goodwill are deducted."
+   ],
+   [
+    "Does a shareholder loan count toward the ECSPR own-funds requirement?",
+    "Usually not, unless it is structured as a qualifying subordinated instrument with the required maturity and write-down features. A loan repayable on demand or a director's loan that is not subordinated will generally not count. The regulator looks at the substance of the instrument, not just its label."
+   ],
+   [
+    "How does the ECSPR floor compare with MiCA CASP capital tiers?",
+    "They are separate regimes. ECSPR has a floor of EUR 25,000 for crowdfunding providers. MiCA sets CASP capital tiers of EUR 50,000, EUR 125,000, and EUR 150,000 depending on the class of activity. A provider that does both must meet both requirements, and the higher figure becomes the binding constraint."
+   ],
+   [
+    "How often must the ECSPR own-funds calculation be reviewed?",
+    "At least annually, and whenever the business changes materially. A new product, a new member state, or a significant increase in intermediated volume can change the calculation. The provider should also review it when preparing financial statements or when raising capital."
+   ],
+   [
+    "Can a company with less than EUR 25,000 in share capital get ECSPR authorisation?",
+    "It can apply, but it must hold at least EUR 25,000 in own funds. If the share capital is lower, the gap can be filled with additional paid-in capital or retained earnings that qualify as own funds. The legal minimum share capital for incorporation in the member state is a separate matter."
+   ],
+   [
+    "Does Panama offer an alternative to the ECSPR own-funds requirement?",
+    "Panama has no dedicated crypto licence. A founder can incorporate a Sociedad Anonima in roughly two to three weeks, and the jurisdiction applies 0% tax on foreign-source income. That structure does not provide an EU passport, so it is not a substitute for ECSPR or MiCA if the target market is the European Union."
+   ]
+  ],
+  "related": [
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ],
+   [
+    "Crypto license cost",
+    "/cost/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "investor-protection-under-ecspr-key-investment-information-sheets-explained",
+  "title": "Investor protection under ECSPR: key investment information sheets explained",
+  "keyword": "Investor protection under ECSPR:",
+  "landing": "/es/",
+  "lede": "Investor protection under ECSPR: the European Crowdfunding Service Providers Regulation reshaped how retail investors assess crowdfunding offers across the EU. At the centre of that framework sits the key investment information sheet, a standardised disclosure document that every crowdfunding platform must publish before an investor commits a single euro.",
+  "sections": [
+   [
+    "What ECSPR is and why it matters for investor protection",
+    [
+     "The European Crowdfunding Service Providers Regulation, usually shortened to ECSPR, has applied across the European Union since November 2021 and was fully embedded in national supervisory practice by 2023. It replaced a patchwork of national crowdfunding rules with a single passporting regime. A platform authorised as a crowdfunding service provider in one member state can offer its services throughout the EU, which means investors in Estonia, Spain, Germany or anywhere else in the bloc deal with the same baseline protections.",
+     "The regulation covers two main activities: investment-based crowdfunding, where investors receive transferable securities or admitted instruments for crowdfunding purposes, and lending-based crowdfunding, where investors fund loans and receive interest. Both activities fall under the same disclosure and conduct rules. The European Securities and Markets Authority, ESMA, together with national competent authorities, supervises how platforms comply.",
+     "From an investor protection standpoint, ECSPR introduced three pillars. First, authorisation and ongoing supervision of platforms. Second, conduct rules including conflict of interest management, complaint handling and restrictions on inducements. Third, and most visible to retail investors, mandatory disclosure through the key investment information sheet, often abbreviated as KIIS. The KIIS is the document a retail investor is most likely to read, and it is designed to be short, comparable and understandable."
+    ]
+   ],
+   [
+    "What a key investment information sheet must contain",
+    [
+     "The KIIS is not a marketing brochure. It is a prescribed disclosure document with a fixed structure set out in the regulation and related technical standards. It must include information about the project owner and the crowdfunding project, the main features of the investment, the risks associated with the investment, and the fees and charges that apply. It also has to state the maximum offering amount, the subscription period, and whether the offer can be closed early or extended.",
+     "A significant part of the KIIS is dedicated to risk disclosure. Platforms must describe the specific risks of the project, including the risk of losing the entire invested amount, illiquidity, dilution, and the possibility that the project fails. Generic warnings are not enough. The document should explain the risk factors in plain language, without hiding behind legal jargon. This is one of the clearest expressions of investor protection under ECSPR: the investor is supposed to understand what could go wrong before committing capital.",
+     "The KIIS must also disclose the platform's fees and any costs charged by the project owner that affect the investor's return. It must state whether the platform or its directors hold any interest in the project, and whether the project owner is connected to the platform. These conflict of interest disclosures are central to the regulation's approach. They allow an investor to judge whether the offer is being promoted with an independent eye or whether the platform has a stake in the outcome.",
+     "The regulation requires the KIIS to be fair, clear and not misleading. It must be presented in a short and concise way, using language that is easy for a retail investor to understand. Where the document runs to several pages, the platform must still keep it focused. The KIIS is capped in length by the technical standards, which prevents the kind of hundred-page prospectus that few retail investors ever read."
+    ]
+   ],
+   [
+    "How the KIIS supports informed decision making",
+    [
+     "The KIIS exists to reduce information asymmetry between project owners and retail investors. In traditional crowdfunding, investors often relied on pitch videos and platform summaries that emphasised upside while downplaying risk. ECSPR changes that by requiring a standardised document that must be published before any investment can be made. The investor can compare offers across platforms because the structure is consistent, even if the underlying projects differ widely.",
+     "The regulation also imposes a reflection period for retail investors who are not experienced. In practice, this means a retail investor who is not a sophisticated investor must be given a period to consider the investment before it is finalised. The KIIS is the reference document during that period. The investor can review the risks, the fees, the exit options and the project details without pressure from the platform.",
+     "Another protective element is the requirement that the KIIS be kept up to date. If a material change occurs before the offer closes, the platform must publish an amended version and inform investors who have already subscribed. This matters because crowdfunding campaigns can run for weeks or months, and circumstances can shift. An investor who subscribed early should not be left with outdated information.",
+     "The KIIS also supports the platform's own obligations. Platforms must assess whether an offer is appropriate for retail investors, and the KIIS is part of that assessment. If the platform cannot produce a compliant KIIS, the offer should not be marketed to retail investors at all. This links disclosure directly to access, which is a stronger form of protection than disclosure alone."
+    ]
+   ],
+   [
+    "Limits of the KIIS and what it does not guarantee",
+    [
+     "The KIIS is a disclosure tool, not a guarantee. It does not mean the investment is safe, nor does it mean the platform has approved the project's commercial merits. ECSPR does not require a platform to verify every claim made by a project owner in the same way a prospectus approved by a regulator would. The KIIS is a summary document, and summaries inevitably leave out detail.",
+     "Investors should also understand that crowdfunding investments are typically illiquid. There may be no secondary market, and the investor may be unable to sell the investment before the project matures or exits. The KIIS must disclose this, but disclosure does not remove the risk. Similarly, the KIIS will explain that the invested amount can be lost entirely. That is not a formality. Many crowdfunding projects fail, and recovery rates for investors in failed projects are often low.",
+     "The regulation also distinguishes between retail and professional investors. Professional investors may receive less protection because they are presumed to have the experience to assess risks themselves. Retail investors benefit from the full KIIS regime, the reflection period and the appropriateness assessment. If you invest as a retail client, you should expect the platform to treat you as someone who needs clear information, not as an expert.",
+     "Finally, the KIIS does not replace independent due diligence. A compliant document can still describe a weak business. Investor protection under ECSPR is designed to ensure you have the information you need, not to ensure that you make a good decision. The responsibility for assessing whether an offer fits your portfolio remains with you."
+    ]
+   ],
+   [
+    "Practical steps for investors and platforms",
+    [
+     "For investors, the practical routine is straightforward. Before investing, read the KIIS from start to finish. Check the risk section carefully. Look at the fees and the exit options. Verify whether the platform has disclosed any conflicts of interest. If something is unclear, ask the platform for clarification. Platforms are required to handle complaints and enquiries in a transparent way, and a refusal to explain basic terms is a warning sign.",
+     "For platforms and project owners, the KIIS is an operational requirement, not a marketing exercise. It must be drafted in line with the technical standards, reviewed for accuracy, and updated when circumstances change. Platforms that treat the KIIS as a formality risk supervisory action and, more importantly, lose investor trust. In a competitive crowdfunding market, a clear and honest KIIS can be a differentiator.",
+     "If you are setting up or expanding a crowdfunding platform in the EU, the regulatory work goes beyond the KIIS. Authorisation as a crowdfunding service provider involves governance, capital, safeguarding of client funds and ongoing reporting. Consulting24 works with founders on licensing and structuring questions across Europe, including how ECSPR interacts with other regimes. For jurisdiction-specific guidance, the Spanish desk at https://www.consulting24.co/es/ can help with local requirements and cross-border considerations.",
+     "A final practical point: the KIIS is only useful if it is read. Investors who skip it and rely on social media hype or platform rankings are not using the protection the regulation provides. The document is short by design. Spending fifteen minutes with it is one of the simplest ways to reduce the chance of an unpleasant surprise."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "What does ECSPR stand for and who does it apply to?",
+    "ECSPR stands for the European Crowdfunding Service Providers Regulation. It applies to platforms that facilitate investment-based or lending-based crowdfunding for business projects within the European Union. It covers both the platforms themselves and the offers they host, and it sets the disclosure and conduct rules that protect retail investors."
+   ],
+   [
+    "What exactly is a key investment information sheet?",
+    "A key investment information sheet, or KIIS, is a standardised disclosure document that a crowdfunding platform must publish before a retail investor can invest. It summarises the project, the investment terms, the risks, the fees and any conflicts of interest. It is designed to be short, comparable across offers and written in plain language."
+   ],
+   [
+    "Is the KIIS the same as a prospectus?",
+    "No. A prospectus is a much longer document used for public offers of securities under the Prospectus Regulation. The KIIS is a shorter, standardised summary specific to crowdfunding under ECSPR. It does not replace a prospectus where one is legally required, but for many crowdfunding offers it is the main disclosure document investors will see."
+   ],
+   [
+    "Does the KIIS guarantee that an investment is safe?",
+    "No. The KIIS is a disclosure document, not a safety certification. It helps you understand the risks, fees and terms, but it does not mean the platform or a regulator has approved the project's commercial merits. Crowdfunding investments can result in a total loss, and the KIIS should say so clearly."
+   ],
+   [
+    "What risks must be disclosed in a KIIS?",
+    "The KIIS must describe the specific risks of the project and the investment, including the risk of losing the entire amount invested, illiquidity, dilution, and the risk that the project fails or does not deliver the expected return. Generic warnings are not sufficient. The risks should be explained in language a retail investor can understand."
+   ],
+   [
+    "Can I invest without reading the KIIS?",
+    "In practice, the platform must make the KIIS available before you invest, and for retail investors who are not experienced there is a reflection period. You can choose not to read it, but doing so removes the main protection the regulation gives you. Reading the KIIS is the simplest step you can take to understand what you are buying."
+   ],
+   [
+    "How often is the KIIS updated?",
+    "The KIIS must be kept up to date. If a material change occurs before the offer closes, the platform must publish an amended version and inform investors who have already subscribed. This ensures that early subscribers are not left relying on outdated information."
+   ],
+   [
+    "Does ECSPR apply outside the EU?",
+    "ECSPR applies to crowdfunding services provided within the European Union and to platforms authorised under the regulation. Non-EU founders can still use an EU-authorised platform to raise funds from EU investors, but the platform remains responsible for compliance, including the KIIS. If you are structuring a platform from outside the EU, you should take advice on how ECSPR and local rules interact."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
  }
 ]
