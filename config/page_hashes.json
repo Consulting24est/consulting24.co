@@ -84,8 +84,8 @@
 "lastmod": "2026-08-05"
 },
 "https://www.consulting24.co/blog/": {
-"hash": "a127f0386019c18b562ffb405c578e3a",
-"lastmod": "2026-10-07"
+"hash": "9b20f1790920ff8d6bae776546ff13f4",
+"lastmod": "2026-10-09"
 },
 "https://www.consulting24.co/blog/abu-dhabi-crypto-license-requirements-checklist-for-2026/": {
 "hash": "5b8aba7b05dcc40567fc93652138ac26",
@@ -3964,8 +3964,8 @@
 "lastmod": "2026-09-21"
 },
 "https://www.consulting24.co/news/": {
-"hash": "bc6950401d1949f0bd002ecbe9b9a800",
-"lastmod": "2026-10-01"
+"hash": "df6291e0222456ccd62e2376fe2c9943",
+"lastmod": "2026-10-09"
 },
 "https://www.consulting24.co/news/esma-flags-market-risks-masked-by-investor-optimism/": {
 "hash": "4c270ad998b623957337878e4782a169",
@@ -11982,5 +11982,13 @@
 "https://www.consulting24.co/news/esma-sets-out-mica-review-recommendations/": {
 "hash": "3f75dc6c7a989f5942f4f872d589a496",
 "lastmod": "2026-10-01"
+},
+"https://www.consulting24.co/news/esma-launches-call-for-evidence-on-tokenised-collateral-in-central-clearing/": {
+"hash": "05a6e7ae527ef4ea38ad7f9827c7fe50",
+"lastmod": "2026-10-09"
+},
+"https://www.consulting24.co/news/esma-sets-expectations-on-services-for-unauthorised-stablecoins/": {
+"hash": "512f46996f610c43b713c1600671c221",
+"lastmod": "2026-10-09"
 }
 }

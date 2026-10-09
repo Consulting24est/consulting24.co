@@ -30622,5 +30622,216 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "lending-based-vs-investment-based-crowdfunding-under-ecspr",
+  "title": "Lending-based vs investment-based crowdfunding under ECSPR",
+  "keyword": "Lending-based vs investment-based crowdfunding",
+  "landing": "/es/",
+  "lede": "Choosing between lending-based and investment-based crowdfunding under ECSPR shapes your platform's regulatory burden, investor base, and revenue model. This guide breaks down the key differences, licensing implications, and practical trade-offs for founders building in the EU.",
+  "sections": [
+   [
+    "What ECSPR covers and why the distinction matters",
+    [
+     "The European Crowdfunding Service Providers Regulation (ECSPR) created a single EU passport for crowdfunding platforms that match investors with businesses seeking funding. It covers two broad categories: lending-based crowdfunding, where investors lend money and expect repayment with interest, and investment-based crowdfunding, where investors buy securities or other transferable instruments. The regulation applies to platforms that facilitate these activities for business funding, typically up to EUR 5 million per project over 12 months, though national regimes may set lower thresholds.",
+     "The distinction matters because ECSPR treats lending and investment crowdfunding differently in several practical ways. Lending-based platforms often rely on simpler legal structures and may appeal to a broader retail audience, while investment-based platforms typically involve more complex instruments, disclosure, and investor protection rules. Your choice affects the licence you need, the capital you must hold, and how you market to investors across the EU.",
+     "For founders, the decision is not just legal but commercial. Lending platforms tend to generate revenue from origination fees and interest spreads, while investment platforms earn success fees and sometimes carry. Each model attracts different investors and requires different operational capabilities, from credit assessment to securities settlement."
+    ]
+   ],
+   [
+    "How lending-based crowdfunding works under ECSPR",
+    [
+     "In lending-based crowdfunding, investors provide loans to businesses or consumers, and the platform facilitates the matching, often handling repayments and collections. Under ECSPR, these platforms must be authorised as crowdfunding service providers by their national competent authority. The regulation sets conduct rules, disclosure requirements, and a cap on the amount a single project can raise, generally EUR 5 million over 12 months.",
+     "Lending platforms often benefit from a more straightforward investor proposition: investors understand loans and fixed returns. However, they must manage credit risk, which may require strong underwriting and provisioning. Some platforms use auto-invest features or co-investment structures, which can trigger additional regulatory considerations under ECSPR, such as the rules on individual portfolio management of loans.",
+     "From a capital perspective, ECSPR does not impose the same tiered capital requirements as MiCA does for crypto asset service providers. Instead, crowdfunding service providers must meet prudential requirements set out in the regulation, which are typically calculated based on the volume of loans or investments facilitated. This can be a fixed minimum or a percentage of the amounts raised, depending on the national implementation."
+    ]
+   ],
+   [
+    "How investment-based crowdfunding works under ECSPR",
+    [
+     "Investment-based crowdfunding involves the sale of transferable securities, such as shares, bonds, or convertible notes, to investors. Under ECSPR, platforms facilitating these transactions must also be authorised, but the regulatory focus shifts to investor protection, prospectus-like disclosures, and the risks associated with equity or debt instruments. The EUR 5 million cap per project over 12 months applies here as well.",
+     "These platforms often attract investors looking for equity upside or diversified portfolios. The operational complexity is higher: platforms may need to handle shareholder registers, voting rights, and secondary transfers. They also face stricter marketing rules and must provide key investment information sheets (KIIS) to retail investors. Some investment-based platforms use special purpose vehicles (SPVs) to pool investments, which adds legal and administrative layers.",
+     "Revenue models typically include listing fees, success fees, and sometimes ongoing management fees. The investor base may include retail and professional investors, but ECSPR imposes limits on how much retail investors can invest without taking specific steps, such as a risk acknowledgement. This can affect conversion rates and platform growth."
+    ]
+   ],
+   [
+    "Key regulatory differences under ECSPR",
+    [
+     "Both lending and investment crowdfunding platforms must comply with ECSPR's core requirements: authorisation, conduct of business rules, transparency, and investor protection. However, the specific obligations differ. Lending platforms must disclose loan terms, default rates, and recovery processes. Investment platforms must disclose the nature of the securities, the issuer's financials, and the risks of dilution or loss of capital.",
+     "Capital requirements also vary. ECSPR sets minimum own funds requirements for crowdfunding service providers, which can be based on the volume of activity. For lending platforms, the focus is on credit risk management and possibly holding capital against expected losses. For investment platforms, the focus is on operational risk and investor compensation, though ECSPR does not require a separate investor compensation scheme.",
+     "Another difference is the treatment of client assets. Investment-based platforms may hold financial instruments, which triggers safeguarding rules under national law. Lending platforms may hold loan repayments, which also requires segregation. Both must have complaint handling and dispute resolution mechanisms. The choice between models affects your compliance workload and the expertise you need on staff."
+    ]
+   ],
+   [
+    "Choosing the right model for your platform",
+    [
+     "The decision between lending-based and investment-based crowdfunding should align with your business goals, target investors, and risk appetite. If you want to serve small businesses with quick working capital and attract retail investors who prefer fixed income, lending may be a better fit. If you aim to fund startups with equity and attract investors seeking growth, investment-based crowdfunding may be more suitable.",
+     "Consider the regulatory burden: investment-based platforms often face more complex disclosure and ongoing reporting, while lending platforms must manage credit risk and collections. Both require authorisation under ECSPR, but the operational demands differ. You may also consider a hybrid model, but ECSPR does not explicitly provide for a combined licence, so you would likely need to structure carefully or choose one primary activity.",
+     "Finally, think about scalability and exit. Investment-based platforms can build secondary markets, which may increase liquidity and attractiveness. Lending platforms can securitise loan portfolios or partner with banks. Your choice will influence your technology stack, team, and long-term partnerships. Consulting with a licensing specialist can help you map the requirements and avoid costly missteps."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "What is the main difference between lending-based and investment-based crowdfunding under ECSPR?",
+    "Lending-based crowdfunding involves investors lending money and expecting repayment with interest, while investment-based crowdfunding involves investors buying securities like shares or bonds. ECSPR regulates both, but the disclosure, investor protection, and operational requirements differ."
+   ],
+   [
+    "Do both models require the same ECSPR licence?",
+    "Yes, both require authorisation as a crowdfunding service provider under ECSPR. However, the specific obligations and prudential requirements may differ based on the nature of the activity and the national competent authority's implementation."
+   ],
+   [
+    "What is the maximum amount a project can raise under ECSPR?",
+    "ECSPR generally caps fundraising at EUR 5 million per project over 12 months. National regimes may set lower thresholds, so you should check the rules in your member state."
+   ],
+   [
+    "Are there capital requirements for ECSPR platforms?",
+    "Yes, ECSPR sets minimum own funds requirements for crowdfunding service providers. These are typically calculated based on the volume of activity and may be a fixed minimum or a percentage of funds raised. The exact amount depends on the national implementation."
+   ],
+   [
+    "Can I offer both lending and investment crowdfunding on one platform?",
+    "ECSPR does not explicitly provide for a combined licence. You would likely need to choose one primary activity or structure your operations carefully to comply with both sets of rules, which may require separate authorisations or additional regulatory approval."
+   ],
+   [
+    "How does investor protection differ between the two models?",
+    "Investment-based crowdfunding typically involves more extensive disclosure, such as a key investment information sheet (KIIS), and may impose limits on retail investor participation. Lending-based crowdfunding focuses on loan terms, default rates, and credit risk disclosure."
+   ],
+   [
+    "What are the revenue models for each type?",
+    "Lending platforms often earn origination fees, servicing fees, and interest spreads. Investment platforms typically earn listing fees, success fees, and sometimes ongoing management or carry fees. The model affects your cash flow and scalability."
+   ],
+   [
+    "Where can I get help with ECSPR licensing?",
+    "Consulting24 (X24Consulting OU) in Estonia provides guidance on ECSPR authorisation and related crypto and fintech licensing. You can learn more at https://www.consulting24.co/es/."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "passporting-an-ecspr-licence-adding-member-states-after-authorisation",
+  "title": "Passporting an ECSPR licence: adding member states after authorisation",
+  "keyword": "Passporting an ECSPR licence:",
+  "landing": "/es/",
+  "lede": "You have secured your ECSPR licence in one member state. The next step is passporting it into additional EU jurisdictions, a process that is notification-based but still requires careful preparation. This guide explains how to add member states after authorisation without derailing your compliance programme.",
+  "sections": [
+   [
+    "What passporting means under ECSPR and how it differs from MiCA",
+    [
+     "The European Crowdfunding Service Providers Regulation (ECSPR) created a single authorisation regime for crowdfunding platforms operating across the EU. Once a provider is authorised in its home member state, it can offer services in other member states either freely or through a branch, following a notification procedure. This is often called passporting, and it is a core benefit of the regulation. However, it is not automatic. The provider must submit a notification to its home competent authority, which then transmits it to the host authorities. The host authorities may assess the notification but cannot impose a separate authorisation requirement.",
+     "It is important to distinguish ECSPR passporting from the MiCA regime for crypto-asset service providers. MiCA is fully in force across the EU in 2026 and has its own passporting rules for CASPs, including capital tiers of EUR 50,000, 125,000 or 150,000 depending on the activity class. Some firms may hold both an ECSPR licence and a MiCA authorisation, or may be considering one or the other. The two regimes have different scopes, notification forms and supervisory expectations. This article focuses on ECSPR passporting, but the overlap with MiCA is worth noting for firms that offer both crowdfunding and crypto-asset services."
+    ]
+   ],
+   [
+    "The notification procedure: from home authority to host member state",
+    [
+     "The ECSPR notification process is set out in the regulation and in the technical standards developed by ESMA. In practice, a provider that wants to add a member state must submit a notification to its home competent authority. The notification includes information about the services it intends to provide, the member states where it plans to operate, and whether it will use a branch or provide services on a cross-border basis. The home authority has a set period to assess the completeness of the notification and then forwards it to the host authority. The host authority may ask for clarifications, but it cannot refuse the passport on grounds other than those related to the provider's compliance with the regulation.",
+     "Timelines can vary. The regulation sets out a maximum period for the home authority to communicate the notification to the host authority, often within one month of receiving a complete notification. The host authority then has a further period to review and may request additional information. In practice, the process can take several weeks to a few months, depending on the quality of the notification and the host authority's workload. Providers should plan for a buffer and not assume immediate market entry. It is also possible to notify multiple member states at once, but each notification is treated separately.",
+     "One common misconception is that passporting requires a physical presence in the host member state. That is not the case for cross-border services. A provider can serve clients in another member state without establishing a branch, as long as it complies with the host member state's national provisions that are applicable under ECSPR. If a provider chooses to establish a branch, additional information about the branch, its management and its operations must be included in the notification. The choice between cross-border services and a branch depends on the business model, local marketing needs and supervisory expectations."
+    ]
+   ],
+   [
+    "Practical steps to prepare a passporting notification",
+    [
+     "Before submitting a notification, review your authorisation conditions and ensure your compliance framework can support the additional member states. This includes updating your policies on complaints handling, conflicts of interest, outsourcing and business continuity to reflect the new jurisdictions. You should also check whether the host member state has any national marketing rules or language requirements that affect how you present your services. Even though ECSPR is a maximum harmonisation regulation, some national provisions on consumer protection and marketing may still apply.",
+     "Prepare a clear and consistent notification package. The home authority will expect a description of the services, the target member states, the types of projects you will host, and the arrangements for handling investor complaints. If you plan to use a branch, provide details about its organisational structure, the persons responsible for its management, and how it will comply with local rules. Inconsistent or vague information is a common reason for delays. It also helps to have a single point of contact within your firm for the notification and for any follow-up questions from the authorities.",
+     "Consider the operational impact. Adding member states may require changes to your platform's terms and conditions, investor onboarding processes, and payment arrangements. You may need to translate key documents into the local language, or at least provide them in a language that investors can understand. Your marketing materials should be reviewed for compliance with both home and host rules. Finally, update your regulatory reporting and record-keeping to capture activity in the new member states, as this will be relevant for ongoing supervision."
+    ]
+   ],
+   [
+    "How passporting interacts with MiCA and other EU regimes",
+    [
+     "Many crowdfunding platforms are exploring crypto-related services, such as tokenised securities or utility tokens. If your platform intends to provide crypto-asset services, you may need a separate MiCA authorisation as a CASP. MiCA passporting is similar in concept to ECSPR passporting but has its own notification procedure and capital requirements. The capital tiers under MiCA are EUR 50,000, 125,000 or 150,000 depending on the class of crypto-asset services. If you hold both licences, you will need to manage two passporting processes and ensure that your compliance framework covers both sets of obligations.",
+     "There is no automatic mutual recognition between ECSPR and MiCA. An ECSPR licence does not allow you to provide crypto-asset services that fall under MiCA, and a MiCA licence does not cover crowdfunding services under ECSPR. Firms that offer both types of services must obtain the relevant authorisations and follow the respective passporting rules. This can be complex, especially for smaller firms. It is worth seeking legal advice to map out which activities fall under which regime and to avoid gaps or overlaps.",
+     "In some cases, national regimes may still apply to certain activities that are outside the scope of both ECSPR and MiCA. For example, lending-based crowdfunding may fall outside ECSPR if it involves certain types of loans, and some crypto-asset activities may not yet be fully covered by MiCA. Providers should conduct a thorough legal analysis before expanding into new member states. The European Securities and Markets Authority (ESMA) and national competent authorities publish guidance that can help clarify the boundaries."
+    ]
+   ],
+   [
+    "Common pitfalls and how to avoid them",
+    [
+     "One frequent pitfall is underestimating the time and resources needed for passporting. Firms sometimes assume that because ECSPR is an EU regulation, they can start operating in another member state immediately after notifying their home authority. In reality, the host authority must be given the opportunity to review the notification, and there may be follow-up questions. Starting marketing activities before the process is complete can create regulatory risk. It is better to wait for confirmation from the home authority that the notification has been transmitted and, if applicable, that the host authority has no objections.",
+     "Another pitfall is failing to adapt investor protection arrangements to the host member state. ECSPR sets out detailed rules on investor protection, including the requirement to provide a key investment information sheet (KIIS) and to conduct an entry knowledge test for non-sophisticated investors. These requirements apply across the EU, but the host authority may expect them to be implemented in a way that is accessible to local investors. This may mean translating the KIIS or providing it in a language that is commonly understood in the host member state. Ignoring language and accessibility issues can lead to complaints and supervisory attention.",
+     "A third pitfall is not keeping the home authority informed of changes. If you change your business model, add new services, or alter your management structure after passporting, you may need to update your authorisation and your notifications. ECSPR requires providers to notify their home authority of any material changes. Failing to do so can result in supervisory measures. It is good practice to maintain an open dialogue with your home authority and to document your passporting strategy, including the rationale for each member state you add."
+    ]
+   ],
+   [
+    "When to consider Panama or other jurisdictions",
+    [
+     "Some founders ask whether they should consider jurisdictions outside the EU, such as Panama, instead of or in addition to ECSPR passporting. Panama does not have a dedicated crypto licence. If you want to incorporate there, you would typically set up a Sociedad Anonima, which can be done in about two to three weeks. Panama offers a 0% tax on foreign-source income, which can be attractive for holding structures or for firms serving non-EU clients. However, a Panama entity does not give you access to the EU passporting regime. If your target market is the EU, you will still need an ECSPR licence or a MiCA authorisation, depending on your activities.",
+     "For firms that serve a global client base, a combination of an EU licence and a non-EU entity can make sense. For example, you might hold an ECSPR licence in an EU member state for EU-facing crowdfunding services, and use a Panama Sociedad Anonima for other activities or for holding intellectual property. This requires careful tax and legal planning to avoid creating unintended permanent establishments or triggering regulatory obligations in multiple jurisdictions. The right structure depends on your business model, your investors and your long-term goals.",
+     "If you are considering Panama, keep in mind that the absence of a dedicated crypto licence means that crypto-related activities may be regulated under general financial or anti-money laundering rules. You should obtain local legal advice to understand the requirements. For EU-focused crowdfunding, ECSPR passporting remains the primary route to market. Consulting24 works with founders on both EU licensing and offshore structuring, and can help you assess which combination fits your plans."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "What is ECSPR passporting?",
+    "ECSPR passporting is the process by which a crowdfunding service provider authorised in one EU member state can offer its services in other member states. It involves a notification to the home competent authority, which then informs the host authority. The provider does not need a separate authorisation in each member state."
+   ],
+   [
+    "How long does it take to add a new member state under ECSPR?",
+    "Timelines vary. The home authority typically has up to one month to transmit a complete notification to the host authority, and the host authority may take additional time to review. In practice, the process can take several weeks to a few months. It is wise to plan for a buffer and not to start operations until the notification is confirmed."
+   ],
+   [
+    "Can I passport my ECSPR licence to all EU member states at once?",
+    "Yes, you can notify multiple member states at the same time. Each notification is treated separately, and the home authority will transmit them to the respective host authorities. However, you should ensure that your compliance framework can support all the jurisdictions you intend to enter."
+   ],
+   [
+    "Do I need a physical branch in the host member state?",
+    "No. You can provide services on a cross-border basis without establishing a branch. If you choose to set up a branch, you must include additional information about the branch in your notification. The choice depends on your business model and local market needs."
+   ],
+   [
+    "Does an ECSPR licence allow me to provide crypto services under MiCA?",
+    "No. ECSPR and MiCA are separate regimes. An ECSPR licence covers crowdfunding services, while MiCA covers crypto-asset services. If you want to provide crypto-asset services, you need a separate MiCA authorisation as a CASP, and you must follow MiCA passporting rules."
+   ],
+   [
+    "What are the MiCA capital requirements for CASPs?",
+    "MiCA sets capital requirements for crypto-asset service providers at EUR 50,000, 125,000 or 150,000, depending on the class of services provided. These are minimum amounts and may be higher based on the nature of the services. You should check the specific requirements for your planned activities."
+   ],
+   [
+    "Can I use a Panama company to passport into the EU?",
+    "No. A Panama company does not have access to the EU passporting regime. If you want to serve EU clients under ECSPR or MiCA, you need an entity authorised in an EU member state. A Panama Sociedad Anonima can be used for other purposes, such as holding structures or non-EU activities, but it does not replace an EU licence."
+   ],
+   [
+    "What are the main pitfalls when passporting an ECSPR licence?",
+    "Common pitfalls include underestimating timelines, failing to adapt investor protection documents to the host member state, and not keeping the home authority informed of changes. It is important to prepare a complete notification, maintain open communication with regulators, and update your compliance framework as you expand."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
  }
 ]

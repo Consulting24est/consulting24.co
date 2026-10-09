@@ -113,6 +113,18 @@
    "feed": "fca",
    "title": "Reforming UK capital markets to ensure they work well for our economy",
    "published": false
+  },
+  "https://www.esma.europa.eu/press-news/esma-news/esma-seeks-evidence-use-tokenised-collateral-central-clearing": {
+   "date": "2026-10-09T08:35:44+00:00",
+   "feed": "esma",
+   "title": "ESMA seeks evidence on the use of tokenised collateral in central clearing",
+   "published": true
+  },
+  "https://www.esma.europa.eu/press-news/esma-news/esma-sets-out-supervisory-expectations-services-related-unauthorised": {
+   "date": "2026-10-09T08:35:47+00:00",
+   "feed": "esma",
+   "title": "ESMA sets out supervisory expectations on services related to unauthorised stablecoins",
+   "published": true
   }
  }
 }

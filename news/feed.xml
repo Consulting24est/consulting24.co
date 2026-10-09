@@ -6,7 +6,23 @@
     <atom:link href="https://www.consulting24.co/news/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Regulatory developments affecting crypto licensing, each sourced to a primary regulator publication.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 08:30:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 08:35:51 +0000</lastBuildDate>
+    <item>
+      <title>ESMA sets expectations on services for unauthorised stablecoins</title>
+      <link>https://www.consulting24.co/news/esma-sets-expectations-on-services-for-unauthorised-stablecoins/</link>
+      <guid isPermaLink="true">https://www.consulting24.co/news/esma-sets-expectations-on-services-for-unauthorised-stablecoins/</guid>
+      <pubDate>Fri, 09 Oct 2026 08:35:47 +0000</pubDate>
+      <description>ESMA has published an opinion clarifying supervisory expectations for crypto-asset services involving asset-referenced tokens and e-money tokens that do not comply with MiCA.</description>
+      <source url="https://www.esma.europa.eu/press-news/esma-news/esma-sets-out-supervisory-expectations-services-related-unauthorised">European Securities and Markets Authority (ESMA)</source>
+    </item>
+    <item>
+      <title>ESMA launches Call for Evidence on tokenised collateral in central clearing</title>
+      <link>https://www.consulting24.co/news/esma-launches-call-for-evidence-on-tokenised-collateral-in-central-clearing/</link>
+      <guid isPermaLink="true">https://www.consulting24.co/news/esma-launches-call-for-evidence-on-tokenised-collateral-in-central-clearing/</guid>
+      <pubDate>Fri, 09 Oct 2026 08:35:44 +0000</pubDate>
+      <description>ESMA has launched a Call for Evidence on the potential use of tokenised collateral by central counterparties, with responses due by 15 January 2027.</description>
+      <source url="https://www.esma.europa.eu/press-news/esma-news/esma-seeks-evidence-use-tokenised-collateral-central-clearing">European Securities and Markets Authority (ESMA)</source>
+    </item>
     <item>
       <title>ESMA sets out MiCA review recommendations</title>
       <link>https://www.consulting24.co/news/esma-sets-out-mica-review-recommendations/</link>
