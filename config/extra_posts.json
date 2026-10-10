@@ -30833,5 +30833,217 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "writing-an-aml-policy-for-a-crypto-company-the-ten-sections-regulators-read-firs",
+  "title": "Writing an AML policy for a crypto company: the ten sections regulators read first",
+  "keyword": "Writing an AML policy",
+  "landing": "/",
+  "lede": "Writing an AML policy is the single document that determines whether your crypto licence application moves forward or stalls. Regulators read it in a fixed order, and the first ten sections carry most of the weight.",
+  "sections": [
+   [
+    "Why the AML policy is the first document regulators open",
+    [
+     "When you apply for a licence under MiCA in the EU, or for registration in a jurisdiction such as Panama, the AML policy is not a formality. It is the document that shows whether your compliance function exists in substance or only on paper. Supervisors in Estonia, Lithuania, Malta and other EU hubs have become considerably more demanding since MiCA came into force across the EU in 2026, and the AML policy is usually the first file they open.",
+     "The reason is practical. A licence application tells the regulator what you intend to do. The AML policy tells them how you will stop that activity being used for money laundering, terrorist financing and sanctions evasion. If the policy is generic, copied from a template or silent on the risks specific to your business model, the application is typically returned with questions or refused.",
+     "This article sets out the ten sections that regulators tend to read first, in the order they usually appear. It is not a substitute for legal advice, and the exact expectations differ between national competent authorities, but the structure below reflects what experienced reviewers look for."
+    ]
+   ],
+   [
+    "Sections 1 to 3: scope, risk assessment and governance",
+    [
+     "Section one is the scope and definitions. Regulators want to see, in plain language, which entities, products and customer types the policy covers. If you operate a spot exchange, a custody service and a fiat on ramp, say so. If certain activities sit outside the policy, explain why. Vague scope language is one of the most common reasons a policy is rejected, because it makes the rest of the document unenforceable.",
+     "Section two is the business wide risk assessment. This is where you demonstrate that you understand your own exposure. Cover customer risk, product risk, geographic risk, delivery channel risk and transaction risk. For crypto firms, that means addressing self hosted wallets, mixers, privacy coins where relevant, cross border flows and the volatility of some customer segments. The assessment should be dated, reviewed at least annually and signed off by senior management.",
+     "Section three is governance and accountability. Name the roles, not just the job titles. Who is the nominated officer or MLRO. Who sits on the compliance committee. What are the reporting lines to the board. Regulators look for evidence that compliance has authority and resources, not just a box on an organogram. In smaller firms, one person may hold several roles, but the policy should explain how conflicts are managed."
+    ]
+   ],
+   [
+    "Sections 4 to 6: customer due diligence, monitoring and reporting",
+    [
+     "Section four covers customer due diligence. This is the operational heart of the policy. Set out your identification and verification standards for individuals and legal entities, the documents you accept, the timing of verification, and how you handle customers who cannot be verified. Include your approach to simplified and enhanced due diligence, and explain when you apply each. Politically exposed persons, high risk jurisdictions and complex ownership structures should trigger enhanced measures.",
+     "Section five is ongoing monitoring and transaction screening. Regulators expect to see how you monitor activity after onboarding, not only at the point of entry. Describe your transaction monitoring rules or scenarios, your thresholds and how alerts are investigated. If you use blockchain analytics tools, name the categories of tools and explain how you use them. If you rely on manual review, explain the capacity and the escalation path. The policy should also cover periodic KYC refresh and trigger events such as a change of ownership or a sanctions hit.",
+     "Section six is reporting and record keeping. This section should describe how you file suspicious activity reports, who approves them, and the internal timeline from alert to filing. It should also cover record retention periods, which in most EU jurisdictions are five years after the end of the relationship, and how records are stored and protected. Regulators read this section closely because it shows whether your firm can actually cooperate with law enforcement when required."
+    ]
+   ],
+   [
+    "Sections 7 to 8: sanctions, training and independent review",
+    [
+     "Section seven is sanctions and screening. Even firms that are not banks need a clear sanctions compliance programme. Explain how you screen customers, beneficial owners, counterparties and wallet addresses against relevant lists, how often you rescreen, and what you do when you get a match. False positives should have a documented resolution process. If you operate in the EU, note that sanctions enforcement has become more active, and regulators expect screening to be automated where volumes justify it.",
+     "Section eight is training and awareness. A policy that nobody has read is a liability. Describe who receives training, how often, what the content covers and how attendance is recorded. Role specific training for compliance staff, customer facing teams and senior management is viewed favourably. Include how you test understanding and how you handle staff who fail to complete training.",
+     "Section nine, often grouped with training, is the independent audit or review function. Regulators want to see that someone outside the first line of defence tests the policy at least annually. Whether that is an internal audit team or an external firm, the policy should state the frequency, the scope and how findings are reported to the board. This section is frequently thin in first drafts and frequently questioned as a result."
+    ]
+   ],
+   [
+    "Section 10 and the capital question: tying the policy to your licence",
+    [
+     "Section ten is the review, escalation and change management clause. It should state how often the policy is reviewed, who approves changes, and how you track regulatory developments. In the EU, MiCA and the AML package have both evolved, so a policy that has not been reviewed since 2024 will raise questions. Include a version control table and a clear owner for each section.",
+     "The policy does not stand alone. Under MiCA, EU CASPs must meet minimum own funds requirements that vary by activity class, commonly cited as EUR 50,000, EUR 125,000 or EUR 150,000 depending on the services provided. The AML policy should be consistent with the governance and resourcing described in your licence application. If your policy promises a large compliance team but your financial projections do not fund it, reviewers notice.",
+     "For founders also considering Panama, the picture is different. Panama has no dedicated crypto licence, so the common route is to incorporate a Sociedad Anonima, which can be done in roughly two to three weeks. Panama generally applies a territorial tax system, with 0% tax on foreign source income in many structures. That does not remove AML obligations if you serve EU customers or touch EU rails, and a credible AML policy remains part of banking and payment access. If you want help drafting a policy that fits your licence strategy, the team at Consulting24 works with founders on exactly this."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "How long should an AML policy for a crypto company be?",
+    "There is no fixed page count. A focused policy for a single activity firm is often 20 to 40 pages, while a group covering multiple entities and products can run considerably longer. Regulators care more about specificity than length. A short policy that addresses your actual risks is stronger than a long template that does not."
+   ],
+   [
+    "Can I use a template for writing an AML policy?",
+    "A template can be a starting point, but submitting an unmodified template is one of the most common reasons for rejection. Reviewers can usually tell. You need to adapt the risk assessment, monitoring rules and governance sections to your business model, your jurisdictions and your customer base."
+   ],
+   [
+    "Who should sign the AML policy?",
+    "The policy should be approved at board or senior management level, and the sign off should be documented with a date. In many firms the MLRO or nominated officer owns the document, but the board retains ultimate responsibility. Regulators look for evidence that senior management has actually reviewed and endorsed it."
+   ],
+   [
+    "How often should the AML policy be reviewed?",
+    "At least annually, and also after material changes such as a new product, a new jurisdiction, a change in ownership or a significant regulatory update. MiCA and the EU AML framework have both changed in recent years, so a policy that has not been reviewed since 2024 is likely to attract questions."
+   ],
+   [
+    "Does a Panama company need an AML policy?",
+    "Panama does not have a dedicated crypto licence, and the common route is a Sociedad Anonima, typically set up in two to three weeks. Even so, an AML policy is often needed for banking, payment processing and any EU or UK facing activity. It is also good practice for managing counterparty risk."
+   ],
+   [
+    "What are the MiCA capital requirements for a CASP?",
+    "MiCA sets minimum own funds requirements by activity class, commonly cited as EUR 50,000, EUR 125,000 or EUR 150,000 depending on the services authorised. The exact figure depends on the class of services. Your AML policy should be consistent with the governance and resourcing described in the licence application."
+   ],
+   [
+    "How detailed should the transaction monitoring section be?",
+    "Detailed enough that a reviewer can understand your rules, thresholds and escalation path. You do not need to publish every scenario, but you should describe the categories of monitoring, the tools used and how alerts are investigated and closed. If you use blockchain analytics, explain how the outputs feed into decisions."
+   ],
+   [
+    "Where can I get help writing an AML policy?",
+    "Specialist consultants who work with crypto licensing can help. Consulting24 at https://www.consulting24.co/ advises founders on AML policy drafting, MiCA applications and offshore structures. A good consultant will tailor the policy to your business rather than hand you a generic document."
+   ]
+  ],
+  "related": [
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ],
+   [
+    "Crypto license cost",
+    "/cost/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "appointing-an-mlro-qualifications-independence-and-typical-cost",
+  "title": "Appointing an MLRO: qualifications, independence and typical cost",
+  "keyword": "Appointing an MLRO: qualifications,",
+  "landing": "/cost/",
+  "lede": "Appointing an MLRO: qualifications, independence and typical cost are the three questions crypto founders ask most often when building a compliance function under MiCA. This guide explains what regulators expect from the role, how to keep the function independent, and what the market charges for it in 2026.",
+  "sections": [
+   [
+    "What the MLRO role actually covers",
+    [
+     "The Money Laundering Reporting Officer, or MLRO, is the person responsible for the day to day operation of a firm's anti money laundering and counter terrorist financing framework. In a crypto firm this normally includes owning the AML/CFT policy, overseeing customer due diligence and enhanced due diligence, reviewing transaction monitoring alerts, deciding whether to file suspicious activity reports, and acting as the main contact for the financial intelligence unit and the supervisor. Under MiCA, an EU CASP must also show that its compliance and AML arrangements are proportionate to the scale and nature of its business, which in practice means the MLRO sits close to the top of the governance structure rather than in a back office corner.",
+     "The title varies by jurisdiction. In Estonia you will see 'MLRO' or 'compliance officer' used interchangeably in supervisory correspondence. In Cyprus and Malta the term 'compliance officer' often carries the AML mandate. In Panama, where there is no dedicated crypto licence, the equivalent obligation flows from AML rules for reporting entities and from the general duties of the Sociedad Anonima's appointed representative. What matters is not the label but the substance: a named individual with documented responsibility, authority, and access to the board.",
+     "A common mistake is treating the MLRO as a purely administrative post. Supervisors increasingly test whether the MLRO can challenge commercial decisions, block onboarding of high risk clients, and escalate to the board without interference. If the person cannot do those things, the appointment will not survive scrutiny, regardless of how strong their CV looks on paper."
+    ]
+   ],
+   [
+    "Qualifications and experience regulators look for",
+    [
+     "There is no single EU-wide MLRO certificate that guarantees approval, but supervisors consistently look for a combination of formal training and demonstrable operational experience. Relevant qualifications include ICA or ACAMS certifications, a legal or finance degree, and completed AML training specific to virtual assets. More important is a track record: two to five years in a compliance, AML, or financial crime role, ideally with exposure to crypto, payments, or another higher risk sector. For a small CASP, a candidate with four or five years of mixed banking and crypto compliance experience is usually stronger than a pure academic profile.",
+     "Under MiCA, the management body of a CASP must be fit and proper, and the compliance function must be led by someone with the necessary skills. National competent authorities may ask for a CV, a criminal record certificate, and evidence of continuing professional development. Some jurisdictions, including Estonia, require the MLRO to be resident or at least reachable within the EEA, and to pass a fit and proper assessment as part of the authorisation process. Expect to provide references and, in some cases, to attend an interview with the regulator.",
+     "Practical skills matter as much as credentials. A credible MLRO should be able to read a blockchain analytics report, understand the difference between a hosted and unhosted wallet, interpret Travel Rule obligations, and explain to a non-specialist board why a particular client relationship carries elevated risk. If the candidate cannot discuss these topics without a script, they are not ready for a CASP appointment."
+    ]
+   ],
+   [
+    "Independence: the structural test",
+    [
+     "Independence is not a personality trait, it is a structural feature. The MLRO should not report to the head of sales, the CEO alone, or anyone whose bonus depends on onboarding volume. Best practice, and increasingly supervisory expectation, is a reporting line to the board or to a board level compliance committee, with a dotted line to the CEO for day to day matters. The MLRO should have direct access to the board, the authority to escalate without going through commercial management, and a budget that cannot be cut without board approval.",
+     "Independence also means the MLRO is not the same person who owns the revenue target or the product roadmap. In very small firms, founders sometimes wear both hats. That can work temporarily during an authorisation process, but supervisors will expect a separation of duties as the business scales. A practical compromise is to appoint an external or outsourced MLRO for the first year, then hire in house once transaction volumes justify a full time role. The outsourced model is common in Estonia and Cyprus, where a licensed service provider can supply a qualified MLRO and a deputy.",
+     "Finally, independence requires documented decision rights. The AML policy should state clearly that the MLRO can refuse or terminate a client relationship, freeze an account pending investigation, and file a suspicious activity report without prior approval from management. If those rights are not written down, they do not exist in practice."
+    ]
+   ],
+   [
+    "Typical cost of appointing an MLRO in 2026",
+    [
+     "Cost depends heavily on whether you hire in house, outsource, or use a hybrid model. For an in house MLRO at a small EU CASP, base salary in 2026 typically ranges from roughly EUR 45,000 to EUR 75,000 per year in lower cost jurisdictions such as Estonia, and from EUR 70,000 to EUR 110,000 or more in Cyprus, Malta, Ireland, or Germany. Add employer social contributions, which can add 15 to 35 percent depending on the country, plus training, certification, and software licences. A realistic all in figure for a mid level in house MLRO in the Baltics is often EUR 60,000 to EUR 90,000 per year.",
+     "Outsourced or fractional MLRO services are priced differently. A licensed corporate service provider may charge a monthly retainer, commonly in the range of EUR 1,500 to EUR 4,000 per month for a part time MLRO plus a deputy, with onboarding and authorisation support billed separately. Some providers charge EUR 5,000 to EUR 15,000 for the initial fit and proper package, policy drafting, and regulator liaison. These figures vary widely by jurisdiction and by the complexity of the licence application, so treat them as indicative ranges rather than quotes.",
+     "There are also indirect costs. A credible MLRO needs blockchain analytics tooling, which can run from a few hundred to several thousand euros per month depending on transaction volume. Transaction monitoring and screening systems, Travel Rule solutions, and ongoing training add further expense. When budgeting, founders should plan for the MLRO salary or retainer plus a compliance technology line that is often of a similar order of magnitude. For a full breakdown of licensing and compliance costs, see the Consulting24 cost page at https://www.consulting24.co/cost/."
+    ]
+   ],
+   [
+    "Panama and other non-EU options",
+    [
+     "Panama does not have a dedicated crypto licence. Founders typically incorporate a Sociedad Anonima, which can be set up in roughly two to three weeks, and operate under general AML obligations that apply to reporting entities. There is no MiCA-style capital requirement and no formal MLRO approval process, but the appointed representative and the compliance function still need to meet AML standards if the company touches fiat or regulated counterparties. Panama's territorial tax system means foreign source income is generally subject to 0 percent tax, which is attractive, but it does not remove AML expectations from banking partners or from the jurisdictions where customers reside.",
+     "For founders weighing Panama against an EU CASP, the trade off is market access versus regulatory burden. An EU licence under MiCA gives passporting rights across the bloc and a clear capital framework: EUR 50,000, EUR 125,000, or EUR 150,000 depending on the class of crypto services provided. That clarity comes with fit and proper requirements for the MLRO and the management body. Panama offers speed and lower direct cost, but the MLRO role is less formalised and the compliance burden shifts to banking relationships and counterparty due diligence.",
+     "Some groups run both structures: a Panamanian holding or operating company for non-EU activity and an EU CASP for European clients. In that model, the MLRO appointment is usually made in the EU entity, with group level oversight covering the Panama operation. This adds complexity but can be efficient if the compliance function is centralised and the reporting lines are documented."
+    ]
+   ],
+   [
+    "Practical steps to appoint an MLRO",
+    [
+     "Start with a written role description that sets out responsibilities, reporting lines, decision rights, and the resources attached to the role. This document will be reviewed by the regulator, so it should be specific rather than generic. Next, define the selection criteria: years of experience, relevant certifications, crypto exposure, language skills, and residency or EEA presence if required. Screen candidates against those criteria and keep a record of why the chosen person was selected, because fit and proper assessments often ask for exactly that.",
+     "Once appointed, document the handover. The board should formally approve the appointment, record it in the minutes, and notify the supervisor where required. The MLRO should then complete a gap analysis of the existing AML framework, produce a remediation plan, and set a reporting cadence to the board, typically quarterly or more often if risk is elevated. Training for staff on reporting lines and red flags should follow within the first few weeks.",
+     "Finally, plan for continuity. Name a deputy MLRO, keep the AML policy current, and budget for annual training and certification renewal. Supervisors dislike single points of failure, and a firm that cannot show a credible deputy will struggle to demonstrate resilience. If you are preparing an application and want a second opinion on the MLRO profile or the cost envelope, Consulting24 works with founders on both EU and offshore structures."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Do I need a full time MLRO for a small crypto licence application?",
+    "Not always. Many small CASPs start with an outsourced or fractional MLRO, especially during the authorisation phase. Regulators accept this if the arrangement is documented, the person has real authority, and there is a credible plan to move in house as the business grows. The key is that the MLRO function is independent and properly resourced, not that the person sits at a desk every day."
+   ],
+   [
+    "What qualifications does an MLRO need under MiCA?",
+    "MiCA does not prescribe a single certificate. Supervisors look for a combination of relevant training, such as ICA or ACAMS qualifications, and demonstrable experience in AML, compliance, or financial crime, ideally with crypto exposure. A legal or finance background helps. The management body must be fit and proper, and the compliance function must be led by someone with the necessary skills and standing."
+   ],
+   [
+    "Can the founder also act as MLRO?",
+    "In very early stage firms this sometimes happens, and some regulators tolerate it during the application phase. However, it creates a conflict because the founder usually owns commercial targets. As the business scales, supervisors expect separation of duties. A common solution is to appoint an external MLRO for the first year and then hire in house."
+   ],
+   [
+    "How much does an MLRO cost in Estonia in 2026?",
+    "For an in house MLRO at a small Estonian CASP, base salary typically falls in the range of EUR 45,000 to EUR 75,000 per year, plus social contributions and training. Outsourced MLRO services often run from around EUR 1,500 to EUR 4,000 per month for a part time arrangement, with onboarding and authorisation support billed separately. These are indicative ranges and vary by provider and scope."
+   ],
+   [
+    "Does Panama require an MLRO for a crypto company?",
+    "Panama has no dedicated crypto licence and no formal MLRO approval process. A Sociedad Anonima can be incorporated in roughly two to three weeks, and AML obligations apply through general reporting entity rules and through banking and counterparty due diligence. Many groups still appoint a compliance lead voluntarily because banks and payment partners expect one."
+   ],
+   [
+    "What is the capital requirement for an EU CASP?",
+    "Under MiCA, EU CASP capital tiers are EUR 50,000, EUR 125,000, or EUR 150,000 depending on the class of crypto services provided. The lowest tier applies to certain advisory and order transmission services, while higher tiers apply to trading, custody, and exchange activities. The MLRO cost sits on top of this capital requirement."
+   ],
+   [
+    "Can an MLRO be based outside the EU?",
+    "Some jurisdictions require the MLRO to be resident or at least reachable within the EEA, and to pass a fit and proper assessment. Others are more flexible if the person can demonstrate regular presence and direct access to the board. Check the specific national competent authority rules before appointing someone based outside the jurisdiction."
+   ],
+   [
+    "How do I show the MLRO is independent?",
+    "Document a reporting line to the board or a board level committee, not to sales or the CEO alone. Give the MLRO written authority to refuse or terminate client relationships, freeze accounts, and file suspicious activity reports without prior management approval. Attach a budget that cannot be cut without board sign off. Independence is demonstrated through structure and documentation, not just job title."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
  }
 ]
