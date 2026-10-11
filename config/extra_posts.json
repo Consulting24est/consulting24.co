@@ -31045,5 +31045,225 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "travel-rule-providers-compared-for-small-crypto-companies",
+  "title": "Travel Rule providers compared for small crypto companies",
+  "keyword": "Travel Rule providers compared",
+  "landing": "/ar/",
+  "lede": "For small crypto companies, choosing a Travel Rule provider is a cost, compliance and operational decision that is easy to get wrong. This comparison outlines what actually matters in 2026, from pricing models to MiCA supervision and offshore options such as Panama.",
+  "sections": [
+   [
+    "Why the Travel Rule matters for small crypto companies in 2026",
+    [
+     "The Financial Action Task Force Recommendation 16, commonly called the Travel Rule, requires virtual asset service providers to collect and transmit originator and beneficiary information for certain transfers. In the EU, this obligation sits inside the Markets in Crypto-Assets Regulation (MiCA) and related transfer of funds rules, which are fully in force across member states in 2026. For a small exchange, broker or custody provider, this is not a theoretical requirement: it applies from the first euro or crypto of client business, and supervisors expect documented policies, tested tooling and auditable records.",
+     "The practical challenge is that the Travel Rule is not a single product you buy. It is a data-sharing problem combined with an identity problem. A provider must be able to identify the counterparty VASP, exchange originator and beneficiary data in a secure and standardised way, screen for sanctions and high-risk exposure, and keep evidence that the process ran correctly. Small firms rarely have the engineering team to build this from scratch, so most rely on a specialist vendor or a modular compliance platform.",
+     "This is where the market becomes confusing. Some vendors sell only the messaging layer, others bundle blockchain analytics, sanctions screening and case management. Pricing ranges from low monthly fees for startups to enterprise contracts with volume-based billing. The right choice depends less on brand recognition and more on your licence, your client base, your transaction volume and your supervisory expectations."
+    ]
+   ],
+   [
+    "How Travel Rule providers actually differ",
+    [
+     "The first differentiator is network coverage. A Travel Rule solution is only useful if the counterparty VASP on the other side of a transfer is reachable through the same protocol or a compatible bridge. Some providers run proprietary networks, while others connect to open protocols and multiple directories. For a small company, coverage matters most in the corridors you actually serve. A provider with excellent coverage in one region may be weak in another, so ask for a counterparty list or coverage map rather than relying on marketing claims.",
+     "The second differentiator is the compliance stack around the messaging layer. Sanctions screening, wallet attribution, risk scoring, transaction monitoring and case management are often sold as separate modules. Some vendors bundle them at a single price, which can be simpler for a small team but may include features you do not need. Others let you pick modules, which keeps initial costs lower but adds integration work and potential gaps between tools.",
+     "The third differentiator is implementation and support. Small firms often lack dedicated compliance engineers, so onboarding time, API documentation quality, sandbox access and responsive support matter as much as the feature list. A provider that takes three months to integrate can delay your launch or your licence application. Ask for a realistic implementation timeline and references from firms of a similar size, not just large exchanges."
+    ]
+   ],
+   [
+    "Pricing models and what small firms should expect",
+    [
+     "Travel Rule pricing generally falls into three patterns: flat monthly subscription, usage-based pricing per transaction or per counterparty lookup, and tiered plans that combine a base fee with volume allowances. For a small company, the headline number is rarely the full cost. Integration effort, ongoing engineering maintenance, screening fees and minimum contract terms can change the total cost of ownership significantly. Some vendors offer startup programmes with reduced fees for the first year, but these often come with volume commitments or limited support.",
+     "Because pricing is negotiated and varies by jurisdiction, volume and modules, it is not realistic to quote a single figure that applies to every small firm. As a planning range, small crypto companies should expect low four-figure monthly costs for a basic messaging and screening setup, rising with transaction volume and additional modules. Enterprise contracts can be substantially higher. Always ask for a written breakdown that separates setup, subscription, usage and support, and clarify what happens if your volume grows faster than expected.",
+     "It also helps to compare the cost of a vendor against the cost of supervision. Under MiCA, CASP authorisation requires minimum own funds of EUR 50,000, 125,000 or 150,000 depending on the class of activities you provide. That capital is not a vendor fee, but it shapes your budget. If a Travel Rule provider consumes a large share of your compliance budget, you may have less room for the audits, legal advice and reporting that authorisation also requires."
+    ]
+   ],
+   [
+    "MiCA supervision and what supervisors look for",
+    [
+     "In 2026, MiCA supervision is a reality for CASPs across the EU. National competent authorities expect more than a signed vendor contract. They look for a documented Travel Rule policy, a clear allocation of responsibility, evidence that the chosen solution is actually used, and records that can be produced on request. A provider that cannot export audit trails or explain its data retention in plain language creates supervisory risk, even if the software works.",
+     "For small firms, the most common weakness is not the tool but the process around it. Who reviews unmatched transfers? What happens when a counterparty VASP does not respond? How are false positives resolved and documented? A good provider will support these workflows, but the firm remains responsible. When comparing Travel Rule providers, ask how they handle missing counterparty data, how they support exception handling, and whether they provide templates or guidance that map to MiCA expectations.",
+     "It is also worth checking where data is stored and how it is protected. Cross-border data transfers, encryption, access controls and retention periods are all part of the supervisory conversation. A provider with a clear data residency story and a willingness to sign appropriate data processing terms will make your authorisation file stronger. If you are working with an external compliance consultancy, such as the team behind the Consulting24 Argentina page at https://www.consulting24.co/ar/, they can help you map provider claims to the specific expectations of your national regulator."
+    ]
+   ],
+   [
+    "When a Panama structure changes the comparison",
+    [
+     "Not every small crypto company is an EU CASP. Some founders serve non-EU clients, operate outside regulated EU activity, or prefer a lighter corporate structure while they test a product. Panama is a common choice in that situation. It has no dedicated crypto licence, so the route is usually to incorporate a Sociedad Anonima and operate within general commercial law. Setup is relatively quick, often around two to three weeks, and the corporate tax treatment is generally 0% on foreign-source income, subject to the specifics of the business and current rules.",
+     "A Panama structure does not remove Travel Rule obligations if you touch regulated counterparties or serve clients in jurisdictions that apply the FATF standard. Banks, exchanges and payment partners will still ask about your AML programme, and a Travel Rule provider may still be necessary to maintain correspondent relationships. What changes is the supervisory layer: you are not seeking MiCA authorisation, so the vendor comparison shifts toward practical interoperability, cost and counterparty acceptance rather than EU regulatory mapping.",
+     "This is why the comparison should start with your licence and target market, not with a vendor shortlist. If you are EU-facing, MiCA compliance and a provider with strong EU coverage will dominate. If you are offshore-facing, a lighter provider plus a Panama company may be enough, provided your banking and exchange partners accept the setup. Founders often combine both: a Panama holding or operating company for non-EU activity and a separate EU entity if they later seek authorisation."
+    ]
+   ],
+   [
+    "A practical shortlist process for small teams",
+    [
+     "Start by writing down your actual requirements. Which jurisdictions do you serve? What is your expected monthly transfer volume? Which counterparties do you need to reach? Do you need screening and monitoring in the same tool, or do you already have those? What does your regulator or your bank expect to see? A one-page requirements document will save weeks of vendor calls and make it easier to compare proposals on equal terms.",
+     "Then run a structured evaluation. Ask each provider for a demo using your own scenarios, not their canned data. Request a sandbox or trial period. Ask for the implementation timeline in writing, including who does the work. Check references from firms of a similar size and jurisdiction. Confirm pricing for year two, not just year one, and clarify termination and data export rights. If a provider cannot answer basic questions about audit trails or counterparty coverage, that is a signal.",
+     "Finally, treat the decision as part of your wider compliance architecture. The Travel Rule provider is one component alongside KYC, blockchain analytics, governance and reporting. If you are preparing for MiCA authorisation, or weighing an offshore structure such as Panama, get advice early so the vendor choice supports your licence strategy rather than complicating it. The right provider for a small firm is not the biggest name, but the one that fits your corridors, your budget and your supervisory reality."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "What is the Travel Rule and does it apply to small crypto companies?",
+    "The Travel Rule is the FATF requirement that virtual asset service providers collect and transmit originator and beneficiary information for certain transfers. It applies based on your activity and jurisdiction, not your size. In the EU, it sits within MiCA and related transfer rules in force in 2026. Even a small exchange or broker should assume it applies if it serves clients in regulated markets."
+   ],
+   [
+    "How much do Travel Rule providers cost for a small firm?",
+    "Pricing varies widely by vendor, jurisdiction, modules and volume. As a planning range, small firms should expect low four-figure monthly costs for a basic messaging and screening setup, with enterprise contracts substantially higher. Always ask for a written breakdown covering setup, subscription, usage and support, and confirm year-two pricing."
+   ],
+   [
+    "What should I compare first when evaluating Travel Rule providers?",
+    "Start with counterparty network coverage in the corridors you actually serve, then look at the surrounding compliance stack, implementation effort and support quality. Pricing matters, but a cheap tool that cannot reach your counterparties or export audit trails creates more cost later."
+   ],
+   [
+    "Do I need a Travel Rule provider if I have a Panama company?",
+    "A Panama company has no dedicated crypto licence and is usually set up as a Sociedad Anonima, often in two to three weeks, with generally 0% tax on foreign-source income. That does not automatically remove Travel Rule obligations if you deal with regulated counterparties or clients in jurisdictions applying the FATF standard. Banks and exchanges may still require a compliant process."
+   ],
+   [
+    "How does MiCA affect the choice of Travel Rule provider?",
+    "Under MiCA, CASP authorisation requires minimum own funds of EUR 50,000, 125,000 or 150,000 depending on activity class. Supervisors also expect documented policies, audit trails and evidence that the Travel Rule process works. A provider that supports exportable records, clear data retention and exception handling will make your authorisation file stronger."
+   ],
+   [
+    "Can I build my own Travel Rule solution instead of buying one?",
+    "It is technically possible, but most small firms underestimate the work involved in secure data exchange, counterparty discovery, screening integration and audit logging. Building in-house can make sense only if you have a strong engineering team and a clear long-term cost advantage. For most small companies, a specialist provider is faster and less risky."
+   ],
+   [
+    "What happens if a counterparty VASP does not respond to a Travel Rule request?",
+    "You need a documented process for missing or incomplete counterparty data. This usually involves follow-up attempts, risk assessment, possible restriction or rejection of the transfer, and record keeping. When comparing providers, ask how they support exception handling and whether they provide guidance that maps to your regulator's expectations."
+   ],
+   [
+    "Should I choose one provider for Travel Rule and another for blockchain analytics?",
+    "It depends on your budget and workflow. Bundled platforms can be simpler for small teams and reduce integration gaps. Separate tools may offer better depth in one area but add cost and operational complexity. Map your requirements first, then decide whether a single vendor or a modular stack fits better."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "sanctions-screening-for-crypto-transactions-tools-and-workflows-that-scale",
+  "title": "Sanctions screening for crypto transactions: tools and workflows that scale",
+  "keyword": "Sanctions screening for crypto",
+  "landing": "/",
+  "lede": "Sanctions screening for crypto transactions is no longer a checkbox exercise for exchanges and CASPs operating in the EU. With MiCA in force and supervisors expecting demonstrable controls, founders need tooling and workflows that hold up under audit and scale with volume.",
+  "sections": [
+   [
+    "Why sanctions screening for crypto is a licensing issue, not just a compliance task",
+    [
+     "Under MiCA, crypto asset service providers authorised in the EU must maintain effective systems and controls to identify and manage money laundering and terrorist financing risk. Sanctions screening sits inside that obligation. National competent authorities and financial intelligence units increasingly ask for evidence that screening runs at onboarding, on every transaction, and on an ongoing basis as customer data and sanctions lists change.",
+     "The practical consequence is that screening is examined at licensing stage and during supervision. A CASP that cannot show how it matches wallet addresses, customer names, and counterparties against EU and international sanctions lists will struggle to obtain or retain authorisation. The same expectation applies to VASPs registered in other jurisdictions that serve EU clients or bank with EU institutions.",
+     "For founders, this reframes screening from a cost centre to a condition of market access. The design question becomes how to build controls that satisfy a regulator on day one and still work when transaction volume grows by a factor of ten."
+    ]
+   ],
+   [
+    "What sanctions screening for crypto actually covers",
+    [
+     "Screening has two connected layers. The first is identity screening: checking customers, beneficial owners, and counterparties against sanctions lists such as the EU consolidated list, OFAC SDN, UK HMT, and UN lists. This is name and entity matching, and it is complicated by transliteration, aliases, and common names.",
+     "The second layer is wallet and transaction screening: checking blockchain addresses and the flow of funds against lists of sanctioned addresses and against risk indicators such as exposure to mixers, darknet markets, or sanctioned exchanges. Chain analytics providers maintain these address clusters and update them continuously.",
+     "A complete programme links the two. A wallet flagged as high risk should trigger a review of the customer behind it. A customer matched to a sanctions list should freeze activity and halt withdrawals. The workflow, not just the tool, determines whether the control actually works."
+    ]
+   ],
+   [
+    "Tooling options and how to choose",
+    [
+     "The market splits into blockchain analytics providers, traditional screening and watchlist vendors, and platforms that combine both. Analytics tools focus on address risk and transaction tracing. Screening vendors focus on name and entity matching against sanctions and PEP lists. Some providers offer both in one workflow.",
+     "Selection criteria should include list coverage and update frequency, blockchain coverage, false positive rates, audit trail quality, and integration options through APIs or batch uploads. Pricing models vary widely, from per-screen fees to annual subscriptions with volume tiers, so total cost depends heavily on transaction count and customer base.",
+     "For a startup CASP, a combined provider may be simpler to operate and easier to explain to a regulator. For a larger firm, best of breed tools integrated into an internal case management system often give better control. Either way, the tool must produce records that a supervisor can review: what was screened, when, against which list version, and what was decided."
+    ]
+   ],
+   [
+    "Workflows that scale: onboarding, real time, and ongoing monitoring",
+    [
+     "At onboarding, screen the customer, beneficial owners, and any known counterparties. Set risk thresholds that determine whether a match is auto cleared, sent to a queue, or blocked. Document the rationale for each decision. This stage is where most false positives appear, so tune matching rules early to avoid alert fatigue.",
+     "In real time, screen deposits and withdrawals before funds move. For high volume retail flows, this usually means automated scoring with rules that escalate only above a threshold. For higher risk corridors or large transfers, require manual review. The goal is to stop sanctioned flows without creating a queue that delays every legitimate transaction.",
+     "Ongoing monitoring means rescreening the customer base when lists change and reviewing wallet exposure as new addresses are added to sanctions lists. A quarterly or event driven rescreening cycle is common, but the trigger should be list updates, not the calendar alone. Keep an audit log that ties each alert to the list version and the analyst decision."
+    ]
+   ],
+   [
+    "Common pitfalls and how to avoid them",
+    [
+     "The most frequent failure is screening only at onboarding. Sanctions lists change constantly, and a customer who was clean last year may match a new designation today. Without periodic rescreening, the control is ineffective.",
+     "The second pitfall is over reliance on one data source. Address clustering is imperfect, and different providers may disagree. Using a single source without a process to handle disputes or appeals can lead to both false positives and missed matches.",
+     "The third is poor documentation. Regulators expect to see the screening policy, the list sources, the matching logic, and the handling of alerts. If the workflow lives only in analysts' heads, the firm cannot demonstrate compliance. Build the audit trail into the process from the start."
+    ]
+   ],
+   [
+    "How Consulting24 helps crypto founders get screening right",
+    [
+     "Consulting24 (X24Consulting OU), founded by Mardo Soo in Estonia, works with crypto founders on licensing and compliance across the EU and offshore. That includes designing sanctions screening policies and workflows that align with MiCA expectations and with the practical realities of a startup budget.",
+     "The firm also supports Panama incorporations for founders who need a non EU structure. Panama has no dedicated crypto licence, so the route is typically a Sociedad Anonima with 0% tax on foreign source income and a setup timeline of roughly two to three weeks. Screening obligations still apply if the entity serves EU clients or accesses EU banking.",
+     "If you are preparing a CASP application or tightening controls after authorisation, the relevant page is https://www.consulting24.co/. The earlier screening is built into the operating model, the less painful the supervisory review."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "What is sanctions screening for crypto transactions?",
+    "It is the process of checking customers, counterparties, and blockchain addresses against sanctions lists such as the EU consolidated list, OFAC SDN, UK HMT, and UN lists. It covers both identity matching and transaction or wallet screening, and it must run at onboarding and on an ongoing basis."
+   ],
+   [
+    "Is sanctions screening required under MiCA?",
+    "MiCA requires CASPs to have effective systems and controls to manage money laundering and terrorist financing risk, which includes sanctions compliance. National supervisors expect documented screening policies, list sources, and audit trails. The exact format is not prescribed, but the control must be demonstrable."
+   ],
+   [
+    "What tools are used for crypto sanctions screening?",
+    "Common options include blockchain analytics providers for address and transaction risk, traditional screening vendors for name and entity matching, and combined platforms that do both. Selection depends on volume, blockchain coverage, false positive rates, and integration needs."
+   ],
+   [
+    "How often should I rescreen customers against sanctions lists?",
+    "At minimum, rescreen when lists change, and many firms also run periodic cycles such as quarterly. The trigger should be list updates rather than the calendar alone, because a designation can happen at any time. Keep records of the list version used for each screening."
+   ],
+   [
+    "What happens if a transaction matches a sanctions list?",
+    "The firm should halt the transaction, freeze relevant funds where legally required, and escalate to the compliance officer for review. If the match is confirmed, the firm may need to report to the relevant authority and should not tip off the customer. Document the decision and the reasoning."
+   ],
+   [
+    "Can I use one provider for both name and wallet screening?",
+    "Yes, several providers offer combined screening. This can simplify operations and make the audit trail easier to explain. However, some firms prefer best of breed tools integrated into a case management system for more control. Either approach can work if the workflow is documented."
+   ],
+   [
+    "Does Panama require crypto sanctions screening?",
+    "Panama has no dedicated crypto licence, so the obligation comes from other sources. If the entity serves EU clients, accesses EU banking, or deals with regulated counterparties, sanctions screening is effectively required. Even where not strictly mandated, it is standard practice for banking access."
+   ],
+   [
+    "How does Consulting24 help with sanctions screening?",
+    "Consulting24 advises crypto founders on licensing and compliance, including screening policy design, tool selection, and workflow documentation. The firm also supports Panama incorporations and EU CASP applications. More information is available at https://www.consulting24.co/."
+   ]
+  ],
+  "related": [
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ],
+   [
+    "Crypto license cost",
+    "/cost/"
+   ]
+  ],
+  "labels": []
  }
 ]
