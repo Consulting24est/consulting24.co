@@ -125,6 +125,12 @@
    "feed": "esma",
    "title": "ESMA sets out supervisory expectations on services related to unauthorised stablecoins",
    "published": true
+  },
+  "https://www.eba.europa.eu/node/20099": {
+   "date": "2026-10-15T08:35:43+00:00",
+   "feed": "eba",
+   "title": "EBA E-mail alert 14 October, 2026",
+   "published": false
   }
  }
 }

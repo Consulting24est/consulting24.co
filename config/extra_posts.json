@@ -31265,5 +31265,217 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "crypto-company-bookkeeping-valuing-tokens-fees-and-staking-rewards",
+  "title": "Crypto company bookkeeping: valuing tokens, fees and staking rewards",
+  "keyword": "Crypto company bookkeeping: valuing",
+  "landing": "/ar/",
+  "lede": "Crypto company bookkeeping: valuing tokens, fees and staking rewards is where most founders discover that a wallet balance is not the same as a bookkeeping number. This guide explains how to build defensible valuations and stay audit ready under MiCA and beyond.",
+  "sections": [
+   [
+    "Why token valuation is the hardest part of crypto bookkeeping",
+    [
+     "Traditional bookkeeping assumes a single functional currency and market prices that arrive from a bank statement or invoice. Crypto companies face the opposite: an asset that trades continuously, often across dozens of venues, with prices that can diverge by several percent within minutes. For a crypto company, the question is not whether to record a token, but at what value, on which date, and using which source. That choice affects profit and loss, tax liabilities, and the capital figures regulators review.",
+     "Under IFRS, crypto assets are typically treated as intangible assets or inventory depending on the business model, while some firms apply fair value measurement. Under US GAAP, most tokens fall into intangible asset treatment with impairment testing rather than upward revaluation. Neither framework was written for tokens, so the accounting policy you adopt must be documented, applied consistently, and defensible to an auditor who may not be a crypto specialist.",
+     "The practical consequence is that you need a valuation policy before you need a bookkeeping system. Decide which pricing source you will use, how you will handle tokens with thin liquidity, and how you will treat assets that are locked, staked, or bridged. Without that policy, every month end becomes a debate, and every audit becomes a negotiation."
+    ]
+   ],
+   [
+    "Choosing a defensible pricing source for tokens",
+    [
+     "The most common approach is to use a volume weighted average price from a reputable aggregator or a primary exchange at a set time, usually 23:59 UTC. That gives you a consistent daily mark. For tokens listed on multiple venues, you may need to select the venue that represents the principal market, meaning the one with the greatest volume and liquidity for that asset. Document why you chose it.",
+     "Stablecoins are not automatically one dollar. During periods of stress, USDC, USDT, and others have traded below or above their peg. If your treasury holds stablecoins, your policy should state whether you mark them at par or at market. Marking at par is simpler but can misstate gains and losses if a depeg occurs. Marking at market is more accurate but requires a reliable price feed for each stablecoin.",
+     "For illiquid tokens, including project tokens, SAFT allocations, and early stage investments, there may be no reliable market price. In those cases, you may need a valuation model based on discounted cash flows, comparable transactions, or the last priced round. Any such model must be documented and reviewed regularly. Regulators and auditors will ask how you arrived at the number, not just what the number is."
+    ]
+   ],
+   [
+    "Accounting for trading fees, gas, and network costs",
+    [
+     "Fees are not just expenses. They affect the cost basis of the assets you acquire. If you buy 10 ETH and pay a 0.1 ETH exchange fee, your cost basis in the ETH is the total amount paid, including the fee. If you later sell that ETH, the gain or loss is calculated against that higher basis. The same logic applies to gas fees when you acquire tokens through a decentralized exchange or a smart contract interaction.",
+     "On the revenue side, fees you charge customers are income. If you operate a trading platform or a custody service, the fees you collect in tokens must be valued at the time of receipt and recorded as revenue. If you later hold those tokens and their value changes, that change is a separate gain or loss. Mixing the two is a common error that distorts both revenue and treasury results.",
+     "Network fees paid in the native token of a blockchain, such as ETH or SOL, are usually expenses. But if you are staking or running validators, the picture changes. You may be receiving rewards in the same token you are spending on gas, which can create a net position that is difficult to track. A good bookkeeping system will tag every on chain transaction with a category: acquisition, disposal, revenue, expense, or internal transfer."
+    ]
+   ],
+   [
+    "Staking rewards: income, cost basis, and timing",
+    [
+     "Staking rewards are generally treated as income at the time they are received, valued at the market price on that date. That creates a cost basis for the reward tokens. If you later sell them, you recognize a capital gain or loss based on the difference between the sale price and the income value you recorded. This is the position taken by many tax authorities, though specific rules vary by jurisdiction.",
+     "The timing of receipt matters. For proof of stake networks, rewards may accrue continuously but only become claimable at certain intervals. For delegated staking, the reward may be paid by a validator or a pool. Your policy should state whether you recognize income when rewards are earned, when they are claimable, or when they are claimed. Consistency is more important than the specific choice, but you should be prepared to explain it.",
+     "Staking also introduces complexity around slashing, lock ups, and unbonding periods. If your tokens are locked, they may still be your assets, but they are not liquid. That affects how you classify them on the balance sheet and how you value them. Some companies apply a liquidity discount, while others do not. Whatever you choose, disclose it clearly in your financial statements."
+    ]
+   ],
+   [
+    "Building a bookkeeping stack that supports valuation",
+    [
+     "Spreadsheets break down quickly once you have more than a few wallets and chains. A proper stack includes a blockchain data aggregator, a bookkeeping or ERP system that supports multi currency and digital assets, and a reconciliation process that ties on chain balances to ledger balances. The goal is to produce a trial balance that an auditor can trace back to a block explorer.",
+     "Automation helps, but it does not replace judgment. You still need a human to review large transactions, unusual fees, and tokens that lack a reliable price. You also need a month end close checklist that includes valuation, reconciliation, and a review of any new tokens or chains. Without that discipline, errors compound and audits become painful.",
+     "If you are regulated as a CASP under MiCA, your bookkeeping must also support regulatory capital calculations. The capital tiers are EUR 50,000, 125,000, or 150,000 depending on the services you provide. Your books must show that you meet the applicable tier on an ongoing basis. That means your valuation policy directly affects your compliance position, not just your tax bill."
+    ]
+   ],
+   [
+    "Jurisdiction matters: MiCA, Panama, and beyond",
+    [
+     "In the EU, MiCA is fully in force in 2026. Crypto asset service providers must be authorised, meet capital requirements, and maintain accurate records. Bookkeeping is not just an internal function; it is part of the evidence you provide to your regulator. Valuation errors can lead to capital shortfalls, which can trigger enforcement action. For founders, this means your finance function must be as strong as your compliance function.",
+     "Panama offers a different path. There is no dedicated crypto licence, so many companies incorporate a Sociedad Anonima and operate under general commercial law. Panama taxes foreign source income at 0 percent, which can be attractive for treasury operations, but it does not eliminate bookkeeping obligations. You still need to value tokens, track fees, and account for staking rewards if you have investors, banks, or auditors who expect financial statements.",
+     "The choice of jurisdiction affects your reporting currency, your tax treatment, and your audit requirements. A company in Estonia may need to report in euros and comply with MiCA, while a Panama entity may report in US dollars and follow IFRS or US GAAP for investor purposes. Your bookkeeping policy should be designed for the jurisdiction where you are regulated, not just where you are incorporated."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "What price should I use to value tokens for bookkeeping?",
+    "Use a consistent, documented source such as a volume weighted average price from a reputable exchange or aggregator at a set time each day, typically 23:59 UTC. For tokens with thin liquidity, you may need a valuation model. The key is consistency and a clear audit trail."
+   ],
+   [
+    "Are staking rewards taxable income?",
+    "In many jurisdictions, staking rewards are treated as income at the time they are received, valued at the market price on that date. That value becomes your cost basis for future capital gains calculations. Rules vary, so confirm with a tax advisor in your jurisdiction."
+   ],
+   [
+    "How do I account for gas fees?",
+    "Gas fees paid to acquire an asset are generally added to the cost basis of that asset. Gas fees paid for other purposes, such as sending a payment or interacting with a contract, are usually expenses. Tag every transaction so you can separate the two."
+   ],
+   [
+    "Do I need a special bookkeeping system for crypto?",
+    "Yes. Standard accounting software often cannot handle multiple chains, wallets, and token prices. You need a system that can import on chain data, apply your valuation policy, and produce a trial balance that reconciles to block explorers."
+   ],
+   [
+    "How does MiCA affect crypto bookkeeping?",
+    "MiCA requires CASPs to meet capital requirements and maintain accurate records. Your bookkeeping must support ongoing capital calculations at the applicable tier: EUR 50,000, 125,000, or 150,000. Valuation errors can affect your compliance position."
+   ],
+   [
+    "Is Panama a good jurisdiction for crypto bookkeeping?",
+    "Panama has no dedicated crypto licence and taxes foreign source income at 0 percent, which can be attractive. However, you still need proper bookkeeping for investors, banks, and auditors. The setup for a Sociedad Anonima typically takes 2 to 3 weeks."
+   ],
+   [
+    "How do I value tokens that are locked or staked?",
+    "Locked or staked tokens are still your assets, but they are not liquid. You may apply a liquidity discount or disclose the restriction in your financial statements. The important thing is to be consistent and transparent."
+   ],
+   [
+    "What records should I keep for an audit?",
+    "Keep a record of every transaction with its date, amount, token, price source, and category. Also keep your valuation policy, reconciliation reports, and any models used for illiquid tokens. An auditor should be able to trace every number back to a source."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "audit-requirements-for-crypto-companies-in-estonia-lithuania-and-panama",
+  "title": "Audit requirements for crypto companies in Estonia, Lithuania and Panama",
+  "keyword": "Audit requirements for crypto",
+  "landing": "/lithuania-crypto-license/",
+  "lede": "Crypto founders often focus on licensing and banking, then discover that audit obligations can be just as demanding. Here is how audit requirements for crypto companies differ across Estonia, Lithuania and Panama, and what to plan for before your first financial year closes.",
+  "sections": [
+   [
+    "Why audit requirements for crypto companies are different",
+    [
+     "Audit requirements for crypto companies sit at the intersection of company law, accounting standards and anti-money laundering supervision. A licensed crypto firm is not only a company that must file annual accounts. It is also a regulated entity whose supervisor expects evidence that client funds, transaction records and internal controls are accurate. That dual pressure means the audit conversation usually starts earlier than founders expect, often during the licence application itself.",
+     "The scope of a crypto audit is broader than a traditional trading company audit. Auditors typically look at wallet ownership and control, reconciliation between the blockchain and the internal ledger, valuation of tokens held on the balance sheet, revenue recognition for trading and staking activity, and the segregation of client assets from company assets. Where a firm holds a licence, the auditor may also be asked to report on regulatory capital and safeguarding arrangements.",
+     "Because the sector is still relatively young, not every audit firm has the technical capacity to verify on-chain data. Founders should expect to pay more than a standard small company audit and to spend time educating the auditor about the business model. Budgeting for both cost and management time is part of good preparation."
+    ]
+   ],
+   [
+    "Estonia: audit triggers and MiCA context",
+    [
+     "In Estonia, the statutory audit obligation follows accounting law thresholds rather than the crypto licence itself. A company generally needs an audit if it exceeds at least two of three size criteria in the financial year: balance sheet total, annual turnover and average number of employees. The exact thresholds are set in Estonian law and are updated from time to time, so the current figures should always be confirmed with a local accountant before year end. Many crypto companies grow past those thresholds quickly because of high transaction volumes.",
+     "Estonia previously operated a national virtual currency service provider licence, but the framework changed with the arrival of MiCA. Crypto firms serving EU clients now generally need authorisation as a crypto asset service provider, and the old Estonian registrations have been phased out or transitioned. The audit implications are practical: a MiCA-authorised CASP must maintain regulatory capital, keep client assets separate, and produce financial information that supervisors can rely on. Audited or reviewed financial statements are often part of that expectation.",
+     "MiCA sets minimum initial capital requirements for CASPs in tiers of EUR 50,000, EUR 125,000 and EUR 150,000 depending on the class of services provided. Class 1 covers certain advisory and order transmission services at the lowest tier, while dealing on own account, operating a trading platform and custody services fall into the higher tiers. These figures are minimums, and supervisors can require more. An auditor will typically check that the firm actually holds qualifying capital, not just that it has cash on the balance sheet."
+    ]
+   ],
+   [
+    "Lithuania: licensing, supervision and audit expectations",
+    [
+     "Lithuania has become a popular jurisdiction for crypto firms because it offers a clear registration path for virtual currency exchange and depositary wallet services, alongside a growing framework for crypto asset service providers under MiCA. The Lithuanian register is maintained by the State Tax Inspectorate for certain AML purposes, while financial supervision sits with the Bank of Lithuania for licensed activities. Which register applies depends on the services offered and whether the firm is passporting across the EU.",
+     "As in Estonia, the statutory audit requirement in Lithuania is driven by company size thresholds under accounting law, not automatically by holding a crypto registration. A small company may only need a review or no audit at all, while a larger one crosses into mandatory audit territory. However, a licensed or registered crypto firm can face additional reporting duties, and banks, payment providers and institutional counterparties frequently request audited financial statements as a condition of doing business.",
+     "For founders comparing jurisdictions, the practical question is not only whether an audit is legally required, but whether it is commercially necessary. Lithuanian crypto firms that seek banking access, raise investment or apply for a MiCA licence usually need clean, audited numbers. Our overview of the Lithuania crypto licence process at https://www.consulting24.co/lithuania-crypto-license/ explains the registration steps, and audit planning fits naturally into that timeline."
+    ]
+   ],
+   [
+    "Panama: no dedicated crypto licence, but accounting still matters",
+    [
+     "Panama does not currently issue a dedicated crypto licence. Founders typically incorporate a Sociedad Anonima, a flexible corporate vehicle that can be set up in roughly two to three weeks. Panama taxes foreign source income at 0%, which is attractive for crypto businesses that operate internationally, but this does not mean there are no accounting or reporting obligations. The company still needs to keep proper books, file annual corporate obligations and maintain a registered agent.",
+     "Because there is no crypto-specific regulator, there is also no crypto-specific audit requirement. Whether an audit is needed depends on the company's size, its contracts and the demands of its banks, exchanges and investors. Many Panama crypto companies choose a voluntary audit to satisfy counterparties, especially when opening accounts with regulated financial institutions or negotiating with institutional partners. A voluntary audit can also help demonstrate substance if the company's tax position is ever questioned.",
+     "Panama's territorial tax system means the source of income matters. Income from activities carried out outside Panama is generally not subject to Panamanian income tax, while Panama source income is taxable. An auditor or accountant familiar with both crypto and Panamanian tax rules can help document where activity occurs and how revenue should be classified. Founders should not assume that a 0% headline rate removes the need for records."
+    ]
+   ],
+   [
+    "How to prepare for a crypto audit in any of the three jurisdictions",
+    [
+     "Preparation starts with record keeping. Maintain a complete ledger that maps every on-chain transaction to an internal accounting entry, with timestamps, wallet addresses, asset types and counterparties. Reconcile wallet balances to the ledger at least monthly, and document who controls each private key or signing authority. If client funds are held, keep them clearly separated and be ready to show the auditor how segregation is enforced.",
+     "Valuation is another common problem area. Tokens held on the balance sheet may need to be valued at fair value or at cost depending on the applicable accounting framework, and the treatment can change with market conditions. Revenue from trading, staking, lending and fee income may each follow different recognition rules. A written accounting policy, reviewed by your auditor before year end, prevents last minute disagreements.",
+     "Finally, treat the audit as a regulatory exercise as well as a financial one. Supervisors in Estonia and Lithuania will expect the audit to support capital and safeguarding requirements where relevant, while Panama counterparties will use it to assess credibility. Choosing an audit firm with crypto experience, agreeing the scope in advance and setting a realistic timeline are the three decisions that most often determine whether the process runs smoothly."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Do all crypto companies in Estonia need an audit?",
+    "No. The statutory audit obligation in Estonia is generally triggered by company size thresholds under accounting law, not by holding a crypto licence. However, MiCA-authorised CASPs often need audited or reviewed financial information to demonstrate regulatory capital and client asset safeguarding, and banks or investors may require an audit regardless of the legal threshold."
+   ],
+   [
+    "What are the MiCA capital tiers for crypto asset service providers?",
+    "MiCA sets minimum initial capital requirements in three tiers: EUR 50,000, EUR 125,000 and EUR 150,000, depending on the class of services provided. Class 1 services such as certain advisory and order transmission activities fall at the lowest tier, while dealing on own account, operating a trading platform and custody services fall at the higher tiers. These are minimums and supervisors may require more."
+   ],
+   [
+    "Is an audit mandatory for a Lithuanian crypto licence holder?",
+    "Not automatically. Lithuania's statutory audit rules are based on company size thresholds, so a small crypto firm may not require a full audit. In practice, however, licensed or registered crypto companies often need audited statements for banking, institutional partnerships or MiCA authorisation, so the commercial requirement can be stronger than the legal one."
+   ],
+   [
+    "Does Panama require an audit for crypto companies?",
+    "Panama does not issue a dedicated crypto licence and does not impose a crypto-specific audit requirement. Whether an audit is needed depends on the company's size, contracts and the expectations of banks, exchanges and investors. Many Panama crypto companies choose a voluntary audit to satisfy counterparties and demonstrate substance."
+   ],
+   [
+    "What does a crypto audit typically cover?",
+    "A crypto audit usually covers wallet ownership and control, reconciliation between on-chain activity and the internal ledger, valuation of tokens, revenue recognition for trading, staking and lending, segregation of client assets, and where relevant regulatory capital and safeguarding arrangements. The exact scope depends on the licence and the services offered."
+   ],
+   [
+    "How long does it take to set up a Panama company for crypto activity?",
+    "A Panama Sociedad Anonima can typically be incorporated in around two to three weeks. Panama taxes foreign source income at 0%, but the company still needs to keep proper books, meet annual corporate obligations and maintain a registered agent. An audit is not part of the incorporation process."
+   ],
+   [
+    "Can I use the same auditor across Estonia, Lithuania and Panama?",
+    "Sometimes, but not always. The audit must generally be performed under the rules of the jurisdiction where the company is incorporated or regulated, and the auditor may need local qualifications or registration. International networks can coordinate across countries, but each entity usually needs an auditor recognised in its own jurisdiction."
+   ],
+   [
+    "How much should I budget for a crypto audit?",
+    "Costs vary widely by jurisdiction, company size and complexity. A small company audit may be modest, while an audit involving on-chain verification, client asset safeguarding and regulatory capital can be significantly higher. Founders should request quotes from firms with crypto experience and budget management time as well as fees."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ],
+   [
+    "Crypto license cost",
+    "/cost/"
+   ]
+  ],
+  "labels": []
  }
 ]
