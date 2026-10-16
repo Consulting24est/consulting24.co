@@ -31477,5 +31477,216 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "how-to-answer-a-regulator-s-request-for-information-without-delaying-your-licenc",
+  "title": "How to answer a regulator's request for information without delaying your licence",
+  "keyword": "How to answer a",
+  "landing": "/es/",
+  "lede": "A regulator's request for information can feel like a test of your patience, but it is really a test of your processes. Answer it well and your licence application keeps moving; answer it poorly and you add weeks or months to your timeline.",
+  "sections": [
+   [
+    "Why regulators ask for information (and why speed matters)",
+    [
+     "During a licensing review, a regulator such as a national competent authority under MiCA or a financial supervision body in an offshore jurisdiction will often send a request for information. This is not a sign that your application is failing. It is a normal part of the review process. The regulator needs to clarify something in your business plan, verify a document, or test whether your compliance framework is actually operational. The faster and more clearly you respond, the faster the file moves to the next stage.",
+     "Many applicants lose time not because the request was difficult, but because the response was slow or incomplete. A delayed answer can push your file to the back of the queue. In some jurisdictions, a regulator may pause the clock on your application until it receives a satisfactory response. That pause can turn a four week review into a three month wait. Treat every request as a priority, even if it looks minor."
+    ]
+   ],
+   [
+    "First 48 hours: triage the request and assign an owner",
+    [
+     "When the request arrives, do not forward it to a general inbox. Within the first few hours, read it carefully and list every single question or document the regulator has asked for. Regulators often bundle several points into one paragraph. If you answer only the obvious question and miss the sub-point, you will likely receive a follow-up request, which costs another cycle. Create a checklist and number each item.",
+     "Assign one person as the response owner. This person does not need to write every answer, but they must track every item to completion. In a small team, that might be your compliance officer or an external consultant. The owner should confirm receipt with the regulator within one business day if the regulator has not specified a deadline. A short acknowledgement shows you are engaged and gives you a little breathing room to prepare a full answer.",
+     "Set an internal deadline that is earlier than the regulator's deadline. If the regulator gives you ten business days, aim to submit in seven. This buffer absorbs internal delays, such as waiting for a director's signature or a translated document. It also leaves time for a quality check before submission."
+    ]
+   ],
+   [
+    "How to draft answers that reduce follow-up questions",
+    [
+     "Answer the question that was asked, not the question you wish had been asked. If the regulator asks how you will monitor transactions for suspicious activity, do not send your entire AML policy. Send a concise explanation of the monitoring system, the thresholds you use, and who reviews alerts. Attach the relevant policy section only if it directly supports your answer. Long, unfocused responses create more work for the reviewer and increase the chance of another request.",
+     "Use plain language and structure. Number your answers to match the regulator's numbering. For each item, state the answer first, then provide supporting detail. If a question requires a document, attach it with a clear file name, such as 'AML_Policy_2026.pdf' rather than 'document1.pdf'. If a document is in a language other than the regulator's working language, include a certified translation. Missing translations are a common cause of delay.",
+     "Where you do not know the answer, say so and explain how you will find out. Regulators generally prefer an honest 'we are confirming this with our banking partner and will provide an update by Friday' over a vague or inaccurate statement. If you need more time, ask for a specific extension before the deadline passes. A polite request for an extension is almost always better than a late, incomplete response."
+    ]
+   ],
+   [
+    "Common mistakes that delay a licence",
+    [
+     "One of the most frequent mistakes is sending documents that are inconsistent with earlier submissions. If your business plan says you will serve retail clients in three countries, but your AML risk assessment mentions only one, the regulator will ask why. Before you submit, cross-check your answers against your original application and any previous correspondence. Consistency builds credibility.",
+     "Another mistake is copying and pasting generic answers from a template or another jurisdiction. MiCA, for example, has specific requirements for CASPs, including capital tiers of EUR 50,000, 125,000, or 150,000 depending on the services you provide. A generic answer that ignores these specifics signals that you have not read the relevant rules. Regulators notice this and will probe further.",
+     "A third mistake is failing to keep a record of what you sent and when. If a follow-up request arrives six weeks later, you need to know exactly what you said previously. Maintain a simple log with the date, the items requested, the documents provided, and the date of submission. This log becomes your defence if there is any dispute about timelines."
+    ]
+   ],
+   [
+    "When to bring in an external licensing consultant",
+    [
+     "If the request involves complex areas such as prudential requirements, governance, or cross-border passporting, an external consultant who has handled similar requests can save you time. They know the regulator's typical concerns and can help you frame answers that pre-empt follow-up questions. This is especially useful if your internal team is small or if you are applying in a jurisdiction where you have limited experience.",
+     "A consultant can also act as a buffer. They can communicate with the regulator on your behalf, manage deadlines, and ensure that translations and formatting meet expectations. For founders who are also running the business, this delegation reduces the risk of the request sitting unanswered while you focus on product or fundraising.",
+     "However, do not hand over the process entirely. You remain responsible for the accuracy of every statement. Review every draft before it is submitted. The consultant's role is to improve speed and clarity, not to replace your judgement."
+    ]
+   ],
+   [
+    "After you submit: follow up and prepare for the next round",
+    [
+     "Once you submit your response, confirm receipt with the regulator if you have not received an automatic acknowledgement. Then wait. Do not send daily emails asking for an update. If the regulator gave a timeline for review, respect it. If that timeline passes without word, a single polite follow-up is appropriate. Use that follow-up to reiterate your willingness to provide further information.",
+     "In many cases, a request for information is followed by another request. This does not mean you did something wrong. It often means the regulator is working through its checklist. Keep your response owner in place and keep your document log updated. The second request is usually narrower and faster to answer if your first response was well organised.",
+     "Finally, treat the entire exchange as part of building a relationship with the regulator. Clear, timely, and honest communication during the application phase sets the tone for how you will interact once licensed. A regulator that trusts your responses is less likely to escalate minor issues later."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "How quickly should I respond to a regulator's request for information?",
+    "Acknowledge receipt within one business day. Aim to submit a full response within seven business days if the regulator allows ten, or sooner if the deadline is shorter. Always check the specific deadline in the request and ask for an extension before it passes if you need more time."
+   ],
+   [
+    "What if I do not understand what the regulator is asking?",
+    "Do not guess. Ask a clarifying question in writing, referencing the specific item number. A short email that asks for clarification is better than submitting an answer that misses the point. If you have an external consultant, they can often help interpret the request based on experience with that regulator."
+   ],
+   [
+    "Can a request for information delay my licence application?",
+    "Yes, if you respond late or incompletely. Many regulators pause the review clock until they receive a satisfactory response. A well-organised, timely answer keeps the file moving. A poor answer can add weeks or months."
+   ],
+   [
+    "Should I send my entire compliance manual or just the relevant sections?",
+    "Send only what is asked for. If the regulator requests your AML policy, send the policy. If they ask how you monitor transactions, send a concise explanation with the relevant policy excerpt. Overloading the reviewer with unnecessary documents slows the process."
+   ],
+   [
+    "Do I need to translate documents for the regulator?",
+    "If the regulator's working language is not the language of your document, yes. Certified translations are often required. Missing translations are a common cause of delay, so check the requirement early and budget time for translation."
+   ],
+   [
+    "What if my answer changes something in my original application?",
+    "Be transparent. Explain the change and why it is necessary. Regulators expect some evolution, but they do not like surprises. If the change is material, such as a shift in target market or services, provide a clear rationale and any supporting documents."
+   ],
+   [
+    "How many follow-up requests should I expect?",
+    "It varies by jurisdiction and the complexity of your application. One or two rounds of follow-up questions are common. A well-prepared first response can reduce the number and scope of subsequent requests."
+   ],
+   [
+    "Should I hire a consultant to handle the response?",
+    "If the request is complex, or if your team lacks experience with that regulator, a consultant can help. They can draft responses, manage deadlines, and reduce follow-up questions. For straightforward requests, you may handle it internally. For more guidance, see https://www.consulting24.co/es/."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "business-continuity-and-ict-risk-under-dora-for-crypto-service-providers",
+  "title": "Business continuity and ICT risk under DORA for crypto service providers",
+  "keyword": "Business continuity and ICT",
+  "landing": "/es/",
+  "lede": "For crypto service providers, operational resilience is no longer a voluntary best practice but a regulatory expectation under the EU's Digital Operational Resilience Act (DORA). This post explains how DORA applies to CASPs and what business continuity and ICT risk management require in practice.",
+  "sections": [
+   [
+    "Why DORA matters for crypto service providers",
+    [
+     "The Digital Operational Resilience Act (DORA) has applied across the EU since January 2025, and by 2026 it is fully embedded in supervisory practice. It creates a single framework for ICT risk management, incident reporting, resilience testing, and third-party risk oversight for financial entities. Crypto asset service providers (CASPs) authorised under MiCA fall within scope, as do many other fintech and financial firms. DORA is not optional guidance; it is binding regulation with supervisory expectations attached.",
+     "For crypto businesses, DORA reinforces what many already know: downtime, hacks, and failed integrations can destroy customer trust and trigger regulatory action. Unlike traditional finance, crypto firms often rely on a complex web of cloud providers, blockchain nodes, API vendors, and wallet infrastructure. DORA requires you to map those dependencies, assess their criticality, and ensure you can keep operating through disruption.",
+     "If you are preparing a MiCA licence application or already hold one, DORA compliance should be treated as part of your operational backbone. Supervisors will expect evidence of board-level accountability, documented policies, and tested recovery plans. Consulting24 works with founders to align MiCA and DORA obligations without duplicating effort."
+    ]
+   ],
+   [
+    "What business continuity and ICT risk mean under DORA",
+    [
+     "Business continuity under DORA is about maintaining critical or important functions during and after disruption. For a CASP, critical functions might include order execution, custody of client assets, fiat on and off ramping, and customer onboarding. ICT risk is the subset of operational risk related to technology: network failures, cyber attacks, software bugs, data corruption, and third-party outages. DORA treats these as interconnected, so your continuity plan must be built on a clear understanding of your ICT assets and dependencies.",
+     "The regulation requires a documented ICT risk management framework, approved by the management body, that covers identification, protection, detection, response, and recovery. It also requires a business continuity policy with recovery time objectives (RTOs) and recovery point objectives (RPOs) for each critical function. You must test your plans at least annually, and more often for critical functions, and update them after significant changes or incidents.",
+     "In practice, this means you need an up-to-date asset inventory, a business impact analysis, and a tested disaster recovery plan. Many crypto firms already have some of these elements, but DORA raises the bar on documentation, board oversight, and evidence. If your current plan is a slide deck from a year ago, it will not pass supervisory scrutiny."
+    ]
+   ],
+   [
+    "Incident reporting and resilience testing",
+    [
+     "DORA introduces a harmonised incident reporting regime. Major ICT-related incidents must be reported to the relevant competent authority in stages: an initial notification, an intermediate report, and a final report. The exact timelines are set in regulatory technical standards, but they are tight, often within hours for the initial notification. For crypto firms, this means you need a clear incident classification process and a reporting workflow that can be activated immediately.",
+     "Resilience testing is another pillar. DORA requires a risk-based testing programme, including vulnerability assessments and scenario-based tests. Some entities will be required to perform threat-led penetration testing (TLPT) every three years, depending on size and risk profile. Crypto providers with significant trading volumes or custody services should expect to be in scope for advanced testing. Even if not, regular penetration tests and tabletop exercises are expected.",
+     "The key is to integrate testing into your development and operations cycles. DORA is not a one-off audit; it is an ongoing cycle of assess, test, improve. Document every test, every finding, and every remediation action. Supervisors will ask for evidence, not intentions."
+    ]
+   ],
+   [
+    "Third-party risk and cloud concentration",
+    [
+     "Crypto firms are heavy users of third-party services: cloud infrastructure, blockchain analytics, KYC providers, payment processors, and custody technology. DORA requires you to manage ICT third-party risk throughout the lifecycle of the relationship. That starts with due diligence before onboarding, includes contractual requirements, and continues with ongoing monitoring and exit planning.",
+     "Contracts with critical ICT providers must include specific clauses on service levels, audit rights, incident reporting, data location, and termination assistance. If a provider is deemed critical, you may need to maintain a exit strategy that allows you to switch or bring the service in-house without disrupting critical functions. Cloud concentration risk is a particular focus: if too much of your stack relies on a single provider, you need to demonstrate how you would cope with an outage.",
+     "For many crypto startups, renegotiating contracts with large cloud vendors is unrealistic. Instead, focus on what you can control: document your dependencies, test failover to alternative regions or providers where feasible, and maintain a pragmatic exit plan. Supervisors understand that not every provider is replaceable overnight, but they expect you to have thought it through."
+    ]
+   ],
+   [
+    "Practical steps to align with DORA",
+    [
+     "Start with a gap analysis against DORA's five pillars: ICT risk management, incident management, resilience testing, third-party risk, and information sharing. Map your existing policies and controls to each requirement. Identify what is missing, what is undocumented, and what needs board approval. This exercise often reveals that you are doing more than you think, but your evidence is scattered.",
+     "Next, formalise your business continuity and disaster recovery plans. Define critical functions, set RTOs and RPOs, and assign owners. Run a tabletop exercise with your team, including scenarios like a cloud region outage, a ransomware attack, or a failed upgrade. Document the results and fix the gaps. Repeat at least annually.",
+     "Finally, embed DORA into your governance. The management body is accountable, so ensure they receive regular reporting on ICT risk, incidents, and testing outcomes. If you are applying for a MiCA licence, align your DORA documentation with your application to avoid duplication. Consulting24 helps crypto founders build these frameworks efficiently, with a focus on what supervisors actually look for. For more details, visit https://www.consulting24.co/es/."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Does DORA apply to crypto asset service providers?",
+    "Yes. DORA applies to a broad range of financial entities, including CASPs authorised under MiCA. If you provide crypto services in the EU, you likely fall within scope, either directly or through your authorisation."
+   ],
+   [
+    "What are the main DORA requirements for business continuity?",
+    "You must have a documented business continuity policy, define recovery time and recovery point objectives for critical functions, test your plans at least annually, and ensure board-level oversight. The plan must cover ICT disruptions and be updated after significant changes."
+   ],
+   [
+    "How quickly must I report a major ICT incident under DORA?",
+    "DORA requires an initial notification shortly after classifying an incident as major, followed by an intermediate and a final report. The exact timelines are set in regulatory technical standards, but initial notification is typically within hours, not days."
+   ],
+   [
+    "What is threat-led penetration testing (TLPT) and does my crypto firm need it?",
+    "TLPT is an advanced, intelligence-led penetration test that simulates real threat actors. Not all firms are required to perform it; the requirement depends on size, risk profile, and supervisory assessment. However, all firms must have a risk-based testing programme that includes vulnerability assessments and scenario testing."
+   ],
+   [
+    "How does DORA affect my relationships with cloud providers?",
+    "DORA requires you to manage ICT third-party risk, including due diligence, contractual safeguards, ongoing monitoring, and exit strategies for critical providers. You must also assess concentration risk and demonstrate how you would maintain critical functions if a provider fails."
+   ],
+   [
+    "Can I use my existing MiCA compliance work for DORA?",
+    "There is overlap, especially in governance, risk management, and outsourcing. However, DORA has specific requirements on incident reporting, resilience testing, and third-party risk that go beyond MiCA. You should map your MiCA documentation to DORA and fill the gaps."
+   ],
+   [
+    "What happens if my crypto firm does not comply with DORA?",
+    "Non-compliance can lead to supervisory measures, including fines, restrictions on business activities, and in serious cases, withdrawal of authorisation. Competent authorities have powers to enforce DORA, and they are increasingly coordinating with MiCA supervisors."
+   ],
+   [
+    "How can Consulting24 help with DORA compliance?",
+    "Consulting24 assists crypto founders with MiCA licensing and DORA readiness. We help you build practical, documented frameworks for ICT risk, business continuity, incident response, and third-party oversight, aligned with supervisory expectations. Visit https://www.consulting24.co/es/ to learn more."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
  }
 ]
