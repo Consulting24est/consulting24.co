@@ -131,6 +131,12 @@
    "feed": "eba",
    "title": "EBA E-mail alert 14 October, 2026",
    "published": false
+  },
+  "https://www.esma.europa.eu/press-news/esma-news/new-qas-available-27": {
+   "date": "2026-10-17T08:35:00+00:00",
+   "feed": "esma",
+   "title": "New Q&As available",
+   "published": true
   }
  }
 }

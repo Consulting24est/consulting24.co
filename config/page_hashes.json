@@ -84,8 +84,8 @@
 "lastmod": "2026-08-05"
 },
 "https://www.consulting24.co/blog/": {
-"hash": "820ffdc0b8aaef0c1d47fde9cd94bdba",
-"lastmod": "2026-10-16"
+"hash": "cf8197516d2fa5aa22905ed1b46afaf5",
+"lastmod": "2026-10-17"
 },
 "https://www.consulting24.co/blog/abu-dhabi-crypto-license-requirements-checklist-for-2026/": {
 "hash": "5b8aba7b05dcc40567fc93652138ac26",
@@ -3964,8 +3964,8 @@
 "lastmod": "2026-09-21"
 },
 "https://www.consulting24.co/news/": {
-"hash": "df6291e0222456ccd62e2376fe2c9943",
-"lastmod": "2026-10-09"
+"hash": "a54940778fc54013eebe3aacedd91f23",
+"lastmod": "2026-10-17"
 },
 "https://www.consulting24.co/news/esma-flags-market-risks-masked-by-investor-optimism/": {
 "hash": "4c270ad998b623957337878e4782a169",
@@ -11990,5 +11990,9 @@
 "https://www.consulting24.co/news/esma-sets-expectations-on-services-for-unauthorised-stablecoins/": {
 "hash": "512f46996f610c43b713c1600671c221",
 "lastmod": "2026-10-09"
+},
+"https://www.consulting24.co/news/esma-publishes-new-q-as-on-casp-payment-accounts-crowdfunding-fees-and-ccp/": {
+"hash": "4f11441b2457f0c3f07f747368ac0655",
+"lastmod": "2026-10-17"
 }
 }
