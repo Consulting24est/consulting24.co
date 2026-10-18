@@ -31797,5 +31797,225 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "marketing-rules-for-crypto-services-in-the-eu-what-mica-allows-in-promotions",
+  "title": "Marketing rules for crypto services in the EU: what MiCA allows in promotions",
+  "keyword": "Marketing rules for crypto",
+  "landing": "/ar/",
+  "lede": "MiCA did not just license crypto service providers; it rewrote the rulebook for how they may advertise. For founders promoting crypto services to EU clients in 2026, the gap between a compliant campaign and a supervisory letter is often one badly worded claim.",
+  "sections": [
+   [
+    "Why marketing became a regulated activity under MiCA",
+    [
+     "Before MiCA, crypto promotions in the EU sat in an awkward space. National financial promotion rules applied unevenly, and many token issuers or exchanges treated advertising as a purely commercial decision. MiCA changed that by building communication obligations directly into the obligations of crypto-asset service providers (CASPs) and issuers of asset-referenced and e-money tokens. Marketing is now part of the licensed perimeter, not an afterthought to it.",
+     "The practical consequence is that a promotion can be non-compliant even when the underlying product is fully licensed. Supervisors look at what the client was told, how it was told, and whether the message was fair, clear and not misleading. If your firm is authorised in one member state and markets to clients in another, the host regulator can act on the promotion as well. Marketing rules for crypto therefore belong in the compliance manual, not only in the growth team's playbook.",
+     "For founders weighing where to build, this matters early. A CASP authorisation under MiCA carries minimum own funds requirements of EUR 50,000, 125,000 or 150,000 depending on the activity class, and the marketing obligations attach to the authorised entity. Firms that plan to outsource promotion to affiliates or influencers should decide up front who is accountable for each message."
+    ]
+   ],
+   [
+    "Fair, clear and not misleading: the core standard",
+    [
+     "The central marketing standard under MiCA is that communications must be fair, clear and not misleading. In practice this means promotions should be identifiable as marketing, should not disguise risk as opportunity, and should present the nature and risks of the crypto-asset or service in a way a retail client can understand. Supervisors are less interested in elegant copy than in whether a reasonable reader could be misled about returns, safety or regulatory status.",
+     "Risk warnings deserve particular care. MiCA requires that marketing communications include clear and prominent risk information where relevant, and that warnings are not buried in footnotes or hidden behind a click. A common failure is a landing page that leads with yield figures and mentions volatility in grey 8-point text at the bottom. Another is implying that authorisation by a national regulator means the product is safe or that losses are protected; MiCA authorisation is not a deposit guarantee and should never be presented as one.",
+     "Claims about past performance, expected returns or 'guaranteed' outcomes are high-risk territory. Where performance figures appear, they should be balanced, sourced and accompanied by the caveat that past performance does not predict future results. Firms should also avoid implying that a token is a regulated financial instrument when it is not, or that a service is available in jurisdictions where the entity holds no permission."
+    ]
+   ],
+   [
+    "Who is allowed to promote, and where",
+    [
+     "MiCA ties marketing to the authorised entity. A CASP may promote its services across the EU under passporting, but the communication must remain consistent with its authorisation and with the rules of the member states where it targets clients. White-label arrangements, introducer programmes and affiliate networks are permitted in principle, but the licensed firm remains responsible for what its partners publish. Contracts should give the CASP approval rights and the ability to pull non-compliant material quickly.",
+     "Influencer marketing is where many founders get caught. Paying a creator to describe your platform is a financial promotion, and the disclosure of that paid relationship must be obvious. Regulators across the EU have become more assertive about social media promotions that omit risk information or present trading as easy income. A sensible approach is a short approved briefing pack, mandatory disclosure language, and a rule that creators may not make claims the CASP itself could not make.",
+     "Cross-border targeting is a separate question from where the server sits. Language, currency, local payment methods and geo-targeted ads all signal intent to serve a market. If you are not authorised to serve clients in a particular member state, do not run campaigns that appear to invite them."
+    ]
+   ],
+   [
+    "Token issuers, white papers and public communications",
+    [
+     "Issuers of asset-referenced tokens and e-money tokens face their own communication duties. The white paper must be fair, clear and not misleading, and marketing material must be consistent with it. A promotion that promises a stable value, a fixed yield or a redemption guarantee beyond what the white paper and the reserve arrangements support is a compliance problem regardless of how it is labelled.",
+     "For other crypto-assets, MiCA's white paper regime applies in defined cases, and national rules may add requirements. Even where a full MiCA white paper is not triggered, general consumer protection and unfair commercial practices law still apply. Founders should treat every public statement about reserves, audits, custody or listing as a regulated communication and route it through the same review process.",
+     "Consistency is the test supervisors apply most readily. If the website says one thing about reserves and a founder's interview says another, the mismatch itself becomes the finding. Build a single approved messaging document and require that spokespeople, agencies and community managers draw from it."
+    ]
+   ],
+   [
+    "A practical review process for crypto promotions",
+    [
+     "A workable marketing control framework has four parts: pre-approval, record keeping, monitoring and remediation. Pre-approval means a named compliance reviewer signs off on campaigns, landing pages, influencer briefs and paid ads before publication. Record keeping means you can show what was published, when, to whom and who approved it. Monitoring covers ongoing channels such as social media and community forums, where unscripted statements can create exposure. Remediation means a documented path to withdraw material and correct the record.",
+     "Localisation adds friction but cannot be skipped. Translations should be reviewed by someone who understands both the product and the local regulatory expectations, because risk warnings translated poorly can lose their meaning. Where a member state has additional national marketing requirements, the local review should confirm them rather than assume the MiCA baseline is enough.",
+     "Founders should also decide how marketing interacts with client onboarding. Promotions that invite users to 'start trading in minutes' can conflict with suitability and appropriateness checks, and with the expectation that clients understand the risks. Aligning the promise in the ad with the reality of the onboarding journey reduces both regulatory and reputational risk."
+    ]
+   ],
+   [
+    "Jurisdiction choices and how they shape marketing",
+    [
+     "Where you are licensed determines what you may say and to whom. An EU CASP authorisation opens passported marketing across the member states, subject to MiCA and national rules. Alternative structures exist, but they come with limits. Panama, for example, has no dedicated crypto licence; founders typically incorporate a Sociedad Anonima, benefit from 0% tax on foreign-source income, and can complete setup in roughly 2 to 3 weeks. That structure does not confer the right to market regulated crypto services to EU retail clients as a CASP.",
+     "The marketing consequence is straightforward. An offshore entity can serve clients where local law permits, but promotions aimed at the EU that offer services requiring MiCA authorisation create exposure for the firm and for any EU-facing partners. Founders sometimes try to bridge this with disclaimers, but a disclaimer does not convert an unauthorised offer into a permitted one.",
+     "The sensible sequence is to decide the target market first, then the licence, then the campaign. If the EU is the market, budget for MiCA authorisation and for the marketing controls that come with it. If the plan is to test demand from a Panama or similar structure, keep the promotion honest about the entity, its permissions and the absence of EU authorisation, and avoid language that implies otherwise."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Does MiCA regulate crypto advertising directly?",
+    "Yes, in substance. MiCA places communication and marketing obligations on CASPs and on issuers of certain tokens, requiring communications to be fair, clear and not misleading, with risk information presented prominently. National supervisors enforce these obligations, and general consumer protection law applies alongside MiCA."
+   ],
+   [
+    "Can we use influencers to promote our crypto platform in the EU?",
+    "Generally yes, but the licensed entity remains accountable. Paid relationships must be clearly disclosed, creators must not make claims the firm could not make itself, and the CASP should approve briefs and monitor output. Undisclosed or misleading influencer posts are a common enforcement trigger."
+   ],
+   [
+    "What risk warnings must appear in a crypto promotion?",
+    "MiCA requires clear and prominent risk information where relevant, not buried in footnotes. Warnings should address the volatility of crypto-assets, the possibility of total loss, and the fact that authorisation is not a deposit guarantee. The exact wording depends on the product and the member state, so local review is advisable."
+   ],
+   [
+    "Can we advertise expected returns on a crypto product?",
+    "Claims about returns are high-risk. Promotions should avoid implying guaranteed or stable outcomes unless the product genuinely supports them and the white paper is consistent. Where performance figures appear, they should be balanced, sourced and accompanied by the standard caveat that past performance does not predict future results."
+   ],
+   [
+    "Do MiCA marketing rules apply if we are based outside the EU?",
+    "They apply to promotions targeting EU clients for services that require MiCA authorisation, regardless of where the entity is incorporated. An offshore structure such as a Panama Sociedad Anonima does not create permission to offer regulated crypto services to EU retail clients. Targeting signals include language, currency and geo-targeted advertising."
+   ],
+   [
+    "How much capital does a MiCA CASP need?",
+    "MiCA sets minimum own funds requirements of EUR 50,000, 125,000 or 150,000 depending on the class of activities the firm provides. The applicable tier depends on the services offered, and firms should confirm the classification with their adviser before applying."
+   ],
+   [
+    "Is a Panama company a substitute for a MiCA licence?",
+    "No. Panama has no dedicated crypto licence; founders typically incorporate a Sociedad Anonima, which offers 0% tax on foreign-source income and setup in roughly 2 to 3 weeks. That structure can support an international business where local law permits, but it does not authorise marketing regulated crypto services to EU clients as a CASP."
+   ],
+   [
+    "How should we document marketing compliance?",
+    "Keep a record of each campaign, its approval, the reviewer, the target market and the published material. Monitor social and community channels, and have a documented process for withdrawing non-compliant content and correcting statements. This record is usually the first thing a supervisor asks for."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "launching-a-stablecoin-in-2026-emt-vs-art-and-where-to-incorporate",
+  "title": "Launching a stablecoin in 2026: EMT vs ART and where to incorporate",
+  "keyword": "Launching a stablecoin in",
+  "landing": "/ar/",
+  "lede": "Launching a stablecoin in 2026 means choosing between two MiCA categories, EMT and ART, and then deciding where the issuing entity should sit. The answers shape your capital, your reserve rules and your access to EU customers.",
+  "sections": [
+   [
+    "EMT vs ART: the distinction that decides your licence path",
+    [
+     "Under MiCA, an e-money token (EMT) is a crypto-asset that purports to maintain a stable value by referencing the value of one official currency. In practice this means a single-fiat token, typically a euro or dollar stablecoin. An asset-referenced token (ART) is a crypto-asset that references any other value or right, or a combination of them, including one or more official currencies. A token pegged to a basket, to a commodity such as gold, or to a mix of assets falls into the ART category.",
+     "The distinction matters because it changes who can issue the token and under what conditions. EMT issuance is reserved for credit institutions and electronic money institutions (EMIs), so most founders reach the market by becoming an EMI or by partnering with one. ART issuance is open to other legal persons, but it comes with a heavier authorisation process, a mandatory white paper approved by the regulator, and stricter governance expectations. Choosing the wrong category early can cost months of rework.",
+     "The practical question is what your token references. If the answer is a single official currency, plan for the EMT route. If you need a basket, a yield-bearing structure or a commodity link, plan for an ART. Founders sometimes assume an ART is the more flexible option and therefore easier, but the opposite is often true in day-to-day supervision."
+    ]
+   ],
+   [
+    "Capital requirements and reserve rules you should budget for",
+    [
+     "EU CASP capital tiers are set at EUR 50,000, EUR 125,000 and EUR 150,000 depending on the activity class, with the highest tier applying to firms operating a trading platform or dealing on own account. For EMT and ART issuers the capital picture is more nuanced: EMT issuers follow the EMI regime, while ART issuers face own-funds requirements that scale with the size of the reserve of assets. Treat the published tiers as a floor, not a full budget, and expect the reserve and safeguarding obligations to dominate your cost model.",
+     "Reserve rules are where stablecoin projects most often underestimate effort. EMT issuers must safeguard funds received in exchange for the token, and ART issuers must hold a reserve of assets that is segregated, adequately diversified and managed to cover the claims of token holders. Custody, audit and redemption mechanics all need documented processes before you approach a regulator.",
+     "Build a realistic budget that covers legal authorisation, regulatory capital, reserve custody, independent audit, ongoing reporting and compliance staffing. For a small EMT issuer in the EU, total first-year costs commonly land in the low to mid six figures in euros, and ART authorisations tend to sit higher because of the white paper and reserve complexity. These are ranges, not quotes; your regulator and business model will move the number."
+    ]
+   ],
+   [
+    "Where to incorporate: the EU, Estonia and the case for Panama",
+    [
+     "If your target market is the EU, incorporating inside the union is usually the cleanest route. MiCA is in force across the EU in 2026, and a CASP authorisation from one national regulator can be passported into other member states. Estonia has a developed fintech and crypto supervisory culture and a familiar company form, which makes it a frequent choice for founders who want an EU-facing base with a credible regulator.",
+     "Panama takes a different approach. There is no dedicated crypto licence, so a stablecoin project typically incorporates a Sociedad Anonima, a flexible corporate vehicle that can be set up in roughly two to three weeks. Panama applies 0% tax on foreign-source income, which is attractive for a holding or treasury entity, but it does not give you MiCA authorisation. A Panama company serving EU customers still needs to think carefully about whether its activity triggers MiCA obligations, and most founders use Panama alongside an EU entity rather than instead of one.",
+     "The common structure is a Panama or similar offshore holding company for treasury and group functions, with an Estonian or other EU operating company that holds the EMI or ART authorisation and faces EU customers. This separates investor-facing and group-level activity from the regulated activity, but it must be documented properly. Regulators look through structures that appear designed to avoid supervision, so get the intercompany arrangements and governance right from the start."
+    ]
+   ],
+   [
+    "The authorisation process, step by step",
+    [
+     "Start with a legal characterisation memo that fixes your token as an EMT or ART and maps every function against MiCA. From there, the route diverges. An EMT path usually means an EMI authorisation application, which involves a business plan, programme of operations, governance arrangements, safeguarding policies, AML and CTF procedures, and evidence of initial capital. An ART path adds a crypto-asset white paper that must be notified to and approved by the competent authority before publication.",
+     "Expect the regulator to test your reserve management, redemption rights and complaint handling in detail. Token holders have a right to redeem at par, and the process for doing so must be clear, timely and documented. If you plan to distribute through exchanges or other intermediaries, map those relationships and confirm their own authorisation status, because responsibility does not end at your own perimeter.",
+     "Timelines vary by jurisdiction and by the quality of the file you submit. A well-prepared EMI application in Estonia might take several months, and ART authorisations can run longer because of the white paper review. Plan for dialogue with the regulator rather than a single submission, and budget for remediation if your first file has gaps."
+    ]
+   ],
+   [
+    "Common mistakes and how to avoid them",
+    [
+     "The most frequent error is treating the licence as the finish line. Authorisation brings ongoing obligations: reserve reporting, governance updates, outsourcing rules and consumer protection. Founders who under-resource compliance after launch often face supervisory attention within the first year. Build a compliance function before you need it, not after.",
+     "A second mistake is choosing a jurisdiction for tax reasons alone. Panama's 0% tax on foreign-source income is genuinely useful for a group holding company, but it does not substitute for EU authorisation if you serve EU customers. Founders who incorporate only offshore and then market into the EU can find themselves in a difficult position when a regulator asks who is supervising the issuer.",
+     "A third mistake is a vague token design. If your white paper or business plan is ambiguous about what the token references, the regulator will ask, and the answer may push you from EMT into ART or back again. Settle the design, the reserve and the redemption mechanics before you file, and get independent legal review of the characterisation."
+    ]
+   ],
+   [
+    "A practical decision framework for founders",
+    [
+     "Ask three questions in order. First, what does the token reference? A single official currency points to EMT; anything else points to ART. Second, who are your customers? If they are in the EU, you need a MiCA-compliant issuer, which usually means an EU entity with the right authorisation. Third, where should the group sit? An EU operating company plus an offshore holding structure is a common and defensible answer, provided the arrangements are documented and the regulated activity stays with the authorised entity.",
+     "If you are still deciding, a short scoping exercise is worth more than a long build. Map the token, the reserve, the target market and the group structure on one page, then test each element against MiCA and against your chosen jurisdiction. This is the point where experienced counsel saves the most money, because a category error caught early is cheap to fix and expensive to discover during authorisation.",
+     "Consulting24 works with founders on exactly this sequence: characterisation, jurisdiction selection, incorporation and the authorisation file. If you are launching a stablecoin in 2026, start with the structure and the category, then let the licence follow."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "What is the difference between an EMT and an ART under MiCA?",
+    "An EMT references a single official currency and is issued by credit institutions or EMIs. An ART references any other value or right, or a combination of values, and can be issued by other legal persons subject to authorisation and an approved white paper."
+   ],
+   [
+    "Can I issue an EMT without being a bank or EMI?",
+    "No. EMT issuance is reserved for credit institutions and electronic money institutions. Most founders either obtain an EMI authorisation or partner with an existing EMI."
+   ],
+   [
+    "What are the EU CASP capital tiers?",
+    "The tiers are EUR 50,000, EUR 125,000 and EUR 150,000 depending on activity class, with the highest tier for trading platforms and dealing on own account. EMT and ART issuers face separate capital and reserve requirements that should be assessed case by case."
+   ],
+   [
+    "Does Panama have a crypto licence?",
+    "No. Panama has no dedicated crypto licence. Projects typically incorporate a Sociedad Anonima, which can be set up in roughly two to three weeks, and Panama applies 0% tax on foreign-source income. This does not provide MiCA authorisation."
+   ],
+   [
+    "Can a Panama company serve EU customers with a stablecoin?",
+    "Serving EU customers generally brings the activity within MiCA, so a Panama entity alone is usually not enough. Most founders pair an offshore holding company with an EU operating company that holds the relevant authorisation."
+   ],
+   [
+    "How long does authorisation take?",
+    "Timelines vary by jurisdiction and file quality. An EMI application in Estonia might take several months, and ART authorisations can run longer because of white paper review. Plan for regulator dialogue rather than a single submission."
+   ],
+   [
+    "What reserve rules apply to stablecoin issuers?",
+    "EMT issuers must safeguard funds received in exchange for the token. ART issuers must hold a segregated, adequately diversified reserve of assets covering token holder claims. Both need documented custody, audit and redemption processes."
+   ],
+   [
+    "Where should I incorporate if I want EU passporting?",
+    "An EU entity authorised by a national regulator is the usual route, since MiCA authorisation can be passported across member states. Estonia is a common base, often combined with an offshore holding company for group treasury."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
  }
 ]
