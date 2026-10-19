@@ -32017,5 +32017,225 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "tokenised-real-world-assets-licensing-questions-before-the-first-issuance",
+  "title": "Tokenised real-world assets: licensing questions before the first issuance",
+  "keyword": "Tokenised real-world assets: licensing",
+  "landing": "/es/",
+  "lede": "Tokenised real-world assets: licensing is the question founders most often defer until after the token is designed, and it is the one that most often reshapes the design. Before the first issuance, the legal character of the underlying asset and the rights attached to the token decide which regime, if any, you are operating under.",
+  "sections": [
+   [
+    "Why the licensing question comes before the token design",
+    [
+     "Founders typically start with the asset, then the chain, then the market, and leave regulation for the term sheet. With tokenised real-world assets that order is expensive. Whether a token is a security, a unit in a collective investment scheme, an electronic money token, an asset-referenced token, or a purely contractual claim changes who may issue it, who may distribute it, and which supervisory authority has an interest. A structure that works for one classification can be unsellable under another.",
+     "The practical consequence is that the licensing analysis should sit in the same room as the tokenomics. Redemption rights, transfer restrictions, custody arrangements and the identity of the issuer are all facts that regulators read as evidence of the instrument's legal nature. Changing them late means re-papering the issuance, re-onboarding distributors and, in some cases, restarting the regulatory clock.",
+     "This is also where jurisdiction selection happens. An issuer targeting EU investors in 2026 is working inside MiCA for crypto-asset services and inside existing securities law for anything that qualifies as a financial instrument. An issuer targeting offshore or Latin American investors may be working with far lighter regimes, but with correspondingly narrower access to European capital and banking."
+    ]
+   ],
+   [
+    "Classifying the token: security, fund unit, EMT, ART or something else",
+    [
+     "The first question is whether the token confers a financial claim. If it represents a share, a debt instrument, a unit in a fund, or a derivative on an underlying, it will usually fall under securities or markets legislation rather than MiCA's crypto-asset rules, and MiCA expressly carves financial instruments out of its scope. Tokenised real estate, invoice receivables and commodity claims sit closer to the line and need a fact-specific reading of the rights the holder actually has.",
+     "Where the token is not a financial instrument, MiCA's categories matter. A token referencing a single official currency is likely an electronic money token, and an issuer of one is generally an electronic money institution or credit institution. A token referencing a basket or other value is likely an asset-referenced token, with its own authorisation route and a white paper regime for smaller issuances. Utility and other crypto-assets that are neither fall under the general white paper and conduct rules.",
+     "Classification is not a labelling exercise. Regulators look at economic substance: does the holder expect a return, does the issuer manage the underlying, is there a redemption promise at par, and who bears the risk of the asset. Write the answers down before instructing counsel, because those answers become the spine of the licensing file."
+    ]
+   ],
+   [
+    "MiCA in 2026: what a CASP authorisation actually requires",
+    [
+     "MiCA has been fully applicable across the EU since the end of 2024 and national transition windows have closed, so a firm providing crypto-asset services to EU clients in 2026 generally needs authorisation as a crypto-asset service provider from a national competent authority. The passport then allows services across the single market, which is the main reason issuers accept the compliance burden.",
+     "Capital requirements for CASPs are set by activity class in three tiers: EUR 50,000, EUR 125,000 and EUR 150,000, with the higher tiers applying to services such as operating a trading platform or dealing on own account. These are minimum own-funds figures and not a budget for the project; governance, custody, complaints handling, outsourcing and AML controls all carry real cost. The authorisation file is substantive and typically takes several months, longer where the business model is novel.",
+     "For tokenised real-world assets the CASP question is often about distribution rather than issuance. If you place tokens, operate a venue, receive and transmit orders, or provide custody and portfolio management, you are likely in scope. If you only issue and sell your own token to a defined investor group, the analysis moves to prospectus and securities rules instead. Many projects need both conversations at once."
+    ]
+   ],
+   [
+    "Offshore and non-EU routes: Panama and comparable jurisdictions",
+    [
+     "Panama has no dedicated crypto licence. Founders commonly incorporate a Sociedad Anonima, which can be established in roughly two to three weeks, and the jurisdiction applies 0% tax on foreign-source income. That makes it a workable holding and issuance vehicle for projects whose investors and activity sit outside the EU, but it is not a passport and it does not by itself make a tokenised security offering lawful in the markets where you sell.",
+     "The realistic use of a Panama structure is as an issuer or treasury entity alongside regulated activity elsewhere. If you market to EU retail investors, MiCA and securities law follow the investor, not the incorporation certificate. If you serve non-EU investors under private placement or professional-investor exemptions, document the exemptions carefully and keep the marketing consistent with them.",
+     "Other jurisdictions offer their own trade-offs, and the choice should follow the investor base and the underlying asset rather than the lowest fee. Where the asset is real estate or receivables, local property, transfer and tax law in the asset's jurisdiction often constrains the token structure more than the crypto regime does."
+    ]
+   ],
+   [
+    "The pre-issuance checklist: what to settle before the first token",
+    [
+     "Before the first issuance, confirm who the issuer is and where it is licensed, what legal claim the token holder has, and how redemption works if it works at all. Confirm whether a white paper, prospectus or offering memorandum is required and who approves it. Confirm the custody chain for the underlying asset and for the tokens, including segregation and insolvency remoteness.",
+     "Then map the distribution. Identify every intermediary, whether they are authorised, and what they are permitted to say. Marketing is where most early projects create exposure, because a public post can convert a private placement into a public offer. AML and KYC obligations, sanctions screening and record keeping should be live before the first investor, not after.",
+     "Finally, build the file. A regulator's first request will be for the classification reasoning, the governance map, the conflicts policy and the evidence behind your capital and safeguarding arrangements. Projects that can produce this quickly spend their time on growth; projects that cannot spend months answering questions."
+    ]
+   ],
+   [
+    "How Consulting24 approaches tokenised RWA licensing",
+    [
+     "Consulting24, operated by X24Consulting OU in Estonia under founder Mardo Soo, works with crypto founders on exactly this pre-issuance stage. The engagement usually starts with a classification memo and a jurisdiction comparison, then moves to the authorisation file or the offshore structure depending on the investor base. The aim is a defensible position rather than a maximal one.",
+     "Because the same team sees both EU authorisations and offshore incorporations, the advice tends to be practical about sequencing: what must be in place for the first close, what can follow, and what would force a redesign if left late. Founders can review the firm's services at https://www.consulting24.co/es/ and request an initial scoping call.",
+     "Nothing in this article is legal advice for a specific structure. Tokenised real-world assets vary too much for templates, and the classification of any single instrument should be confirmed with counsel in the relevant jurisdiction before issuance."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Do tokenised real-world assets need a licence in the EU?",
+    "It depends on the rights the token confers. If it is a financial instrument, securities and markets rules apply. If it is a crypto-asset that is neither a financial instrument nor an EMT or ART, MiCA's issuance and white paper rules apply, and any crypto-asset services you provide may require CASP authorisation. If it is an EMT or ART, the issuer needs the corresponding authorisation."
+   ],
+   [
+    "What are the MiCA CASP capital tiers?",
+    "MiCA sets minimum own funds by activity class at EUR 50,000, EUR 125,000 and EUR 150,000, with the higher tiers for services such as operating a trading platform or dealing on own account. These are regulatory minimums and should be treated as a floor rather than a full budget."
+   ],
+   [
+    "Does Panama issue a crypto licence?",
+    "No. Panama has no dedicated crypto licence regime. Founders typically incorporate a Sociedad Anonima, which can be set up in around two to three weeks, and the jurisdiction applies 0% tax on foreign-source income. That structure does not provide an EU passport and does not remove the obligations that apply in the markets where you actually sell."
+   ],
+   [
+    "Can a Panama company sell tokens to EU investors?",
+    "Marketing to EU investors brings the relevant EU rules into play regardless of where the issuer is incorporated. Whether a particular offering is lawful depends on the instrument, the exemptions relied on and the way it is promoted. The incorporation jurisdiction is not a shield."
+   ],
+   [
+    "Is a tokenised real estate token a security?",
+    "Often it is closer to a security or a fund unit than to a generic crypto-asset, because the holder typically expects income or a share in the asset. The answer turns on the specific rights, the role of the issuer in managing the property and any redemption promise. Confirm with counsel before designing the sale."
+   ],
+   [
+    "What is the difference between an EMT and an ART?",
+    "An electronic money token generally references a single official currency and is issued by an electronic money or credit institution. An asset-referenced token references another value or a basket and follows a separate authorisation route with its own white paper requirements. The distinction drives both the issuer eligibility and the disclosure obligations."
+   ],
+   [
+    "How long does CASP authorisation take?",
+    "It varies by national competent authority and by the complexity of the business model. Straightforward applications can complete in a few months; novel models, multiple service classes or weak governance files take longer. Plan the timeline before committing to a launch date."
+   ],
+   [
+    "What should be ready before the first issuance?",
+    "At minimum: a documented classification rationale, an identified and licensed issuer, a clear statement of holder rights and redemption, the required white paper or offering document, custody and segregation arrangements for the underlying and the tokens, an authorised distribution map, and live AML and marketing controls."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "staking-as-a-service-which-licence-category-it-falls-under-in-the-eu",
+  "title": "Staking-as-a-service: which licence category it falls under in the EU",
+  "keyword": "Staking-as-a-service: which licence category",
+  "landing": "/",
+  "lede": "Staking-as-a-service sits at the crossroads of custody, portfolio management and transfer services under MiCA, and the licence category depends on how you hold and control client assets. Here is how EU CASPs should classify a staking business in 2026.",
+  "sections": [
+   [
+    "Why staking-as-a-service has no standalone MiCA category",
+    [
+     "MiCA regulates crypto-asset service providers through a closed list of ten service categories: custody and administration, operation of a trading platform, exchange of crypto-assets for funds or other crypto-assets, execution of orders, placement, transfer services, reception and transmission of orders, advice, portfolio management, and transfer services on behalf of clients. Staking is not on that list as a separate item. The European Securities and Markets Authority and national competent authorities have therefore treated staking-as-a-service as a bundle of regulated activities, and the provider must map each element of its service to the closest listed category.",
+     "In practice, a staking provider that takes client crypto into its own wallets, pools it, runs validators and returns rewards is almost always performing custody and administration of crypto-assets on behalf of clients. That is the anchor authorisation. Where the provider also moves assets between wallets, hot and cold storage, or between the client and the validator infrastructure, transfer services on behalf of clients may also apply. If the firm decides which assets to stake on a discretionary basis, portfolio management enters the picture.",
+     "The classification matters because each category carries its own organisational, conduct and capital obligations. A firm that assumes it only needs a narrow authorisation and later discovers that its staking flow triggers custody and transfer obligations faces remediation, possible supervisory action and a capital shortfall. The safer approach is to document the exact asset flow, who holds the private keys at each step, and whether any discretion is exercised, then match that map to the MiCA categories before filing."
+    ]
+   ],
+   [
+    "Custody and administration: the default anchor for staking providers",
+    [
+     "Custody and administration of crypto-assets on behalf of clients is defined around safekeeping and control of crypto-assets, including private keys. A staking-as-a-service provider that receives client assets into omnibus or segregated wallets and controls the keys used for signing validator transactions is providing custody. The fact that assets are locked in a proof-of-stake protocol does not remove them from custody; it changes the risk profile and the operational controls required.",
+     "Custody authorisation brings segregation of client assets, safekeeping arrangements, a custody policy, and liability rules for loss of client crypto-assets. For staking, the provider should also address slashing risk, validator downtime, key management across validator and withdrawal keys, and how rewards are calculated and distributed. National competent authorities will expect the custody policy to describe staking mechanics explicitly rather than treating staking as an add-on outside the custody perimeter.",
+     "Some providers try to structure staking so that the client retains key control and the provider only operates infrastructure. That model may reduce custody exposure, but it can shift the analysis toward transfer services or technical service provision, and it still requires a clear contractual allocation of slashing and operational risk. The classification should follow the actual control model, not the marketing label."
+    ]
+   ],
+   [
+    "Portfolio management and advice: when discretion or recommendations change the category",
+    [
+     "If the staking service includes discretionary decisions about which assets to stake, when to rebalance, or how to allocate across validators and networks on the client's behalf, the provider is likely providing portfolio management of crypto-assets. That category requires a mandate, a suitability assessment where relevant, and a documented investment policy. Discretion is the trigger; a purely mechanical staking instruction from the client does not usually amount to portfolio management.",
+     "Advice is a separate category. General information about staking rewards, network mechanics or validator performance is normally not personal advice. But a recommendation to a specific client to stake a specific asset, or to move from one staking strategy to another, can fall within advice on crypto-assets. Firms should separate generic educational content from personalised recommendations and keep records that show which side of the line a communication sits on.",
+     "Many staking-as-a-service models combine custody with an execution-like flow, where the client instructs the provider to stake and the provider executes. That is not automatically portfolio management, but the boundary is fact-specific. A written service description, client mandate and decision log are the practical tools that let a supervisor see which category applies."
+    ]
+   ],
+   [
+    "Capital tiers and how staking activity affects them",
+    [
+     "MiCA sets minimum own funds for CASPs in three tiers: EUR 50,000, EUR 125,000 and EUR 150,000, depending on the class of services provided. The lowest tier applies to certain narrower service classes, the middle tier to others, and the highest tier to providers offering the broadest set of services, including custody and trading platform operation. The exact tier depends on the combination of authorised activities, so a staking provider authorised for custody plus transfer services should expect a higher requirement than a provider authorised for a single narrow service.",
+     "Capital is only one part of the prudential picture. CASPs also face fixed overheads requirements and, depending on the national implementation, ongoing own funds tests linked to activity. A staking business with significant validator infrastructure, slashing exposure and client asset volumes should model its capital needs against the authorised category set rather than the minimum headline figure.",
+     "Because the tier structure is activity-based, adding a service later can move a firm into a higher tier. Providers planning to expand from pure staking infrastructure into custody, transfer or portfolio management should build the capital plan around the target authorisation, not the initial one. Consulting24 regularly reviews these combinations for founders before they file."
+    ]
+   ],
+   [
+    "Panama as an alternative structure for non-EU staking businesses",
+    [
+     "Founders serving non-EU clients sometimes ask whether they need a MiCA authorisation at all. If the service is not offered into the EU, MiCA does not apply, and a Panama Sociedad Anonima is a common holding and operating vehicle. Panama has no dedicated crypto licence regime, so the company is incorporated under general corporate law and the activity is governed by its corporate purpose and commercial contracts. Setup typically takes around two to three weeks.",
+     "Panama taxes foreign-source income at 0%, which is attractive for a staking business whose revenue arises outside Panama, but the territorial rule requires careful structuring and local tax advice. A Panama entity does not passport into the EU. If the firm later markets to EU clients or solicits them actively, MiCA's reverse solicitation limits and national rules become relevant, and a European authorisation may be needed.",
+     "The practical choice is often between a Panama operating company for global clients and an EU CASP entity for European business. Running both requires clear separation of branding, contracts and client onboarding to avoid creating the impression that the Panama entity is authorised in the EU. Consulting24 supports founders on both sides of that structure."
+    ]
+   ],
+   [
+    "Practical steps to classify and licence a staking service",
+    [
+     "Start with an asset-flow map. Identify every wallet, key, smart contract and validator involved, note who controls each, and mark where client assets are commingled or segregated. From that map, list the MiCA categories that plausibly apply: custody, transfer services, portfolio management, advice, and possibly exchange or execution if the service converts rewards or assets. The output is a category matrix with a rationale for each inclusion and exclusion.",
+     "Next, align governance and documentation to the selected categories. That means a custody policy covering staking and slashing, a transfer services procedure, a suitability process if portfolio management is included, and client agreements that allocate staking risk clearly. Prepare the capital plan against the highest plausible tier and stress it for slashing events and validator downtime.",
+     "Finally, engage the national competent authority early with a clear description of the model. Supervisors respond better to a precise category analysis than to a broad claim that staking is unregulated. Consulting24 helps founders prepare the classification memo, the policies and the authorisation file so the staking service is described accurately from the first submission."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Is staking-as-a-service a regulated activity under MiCA?",
+    "MiCA does not list staking as a separate service. The activity is regulated to the extent it involves one or more listed crypto-asset services, most commonly custody and administration of crypto-assets on behalf of clients, and sometimes transfer services or portfolio management."
+   ],
+   [
+    "Which MiCA category usually applies to a staking provider?",
+    "Custody and administration is the usual anchor when the provider holds client assets or controls the keys used for staking. Transfer services may apply where the provider moves assets on the client's behalf, and portfolio management applies where staking decisions are discretionary."
+   ],
+   [
+    "Does staking trigger portfolio management authorisation?",
+    "Only if the provider makes discretionary decisions about which assets to stake, when to rebalance or how to allocate on the client's behalf. A mechanical staking instruction executed by the provider generally does not amount to portfolio management."
+   ],
+   [
+    "What are the MiCA capital tiers for CASPs?",
+    "The minimum own funds tiers are EUR 50,000, EUR 125,000 and EUR 150,000, depending on the class of services authorised. A staking provider authorised for custody plus other services should expect a higher tier than a single narrow service."
+   ],
+   [
+    "Can a staking provider operate in the EU without a MiCA licence?",
+    "Only in limited circumstances, such as serving clients who approach the firm on their own initiative under reverse solicitation rules. Active marketing or solicitation of EU clients generally requires authorisation."
+   ],
+   [
+    "Does Panama have a crypto staking licence?",
+    "Panama has no dedicated crypto licence. A staking business is typically set up as a Sociedad Anonima under general corporate law, with a corporate purpose covering the activity and contracts governing client relationships. Setup usually takes around two to three weeks."
+   ],
+   [
+    "How is a Panama staking company taxed?",
+    "Panama applies a territorial tax system, and foreign-source income is generally taxed at 0%. The treatment of staking rewards depends on where the activity is deemed to arise, so local tax advice is essential before relying on that position."
+   ],
+   [
+    "What documents should a staking provider prepare before filing?",
+    "At minimum: an asset-flow and key-control map, a category classification memo, a custody policy covering staking and slashing, transfer and client asset procedures, client agreements, and a capital plan tested against the target authorisation tier."
+   ]
+  ],
+  "related": [
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ],
+   [
+    "Crypto license cost",
+    "/cost/"
+   ]
+  ],
+  "labels": []
  }
 ]
