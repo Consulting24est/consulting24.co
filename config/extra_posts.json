@@ -32237,5 +32237,115 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "crypto-payment-gateway-for-merchants-licensing-map-across-panama-eu-and-uae",
+  "title": "Crypto payment gateway for merchants: licensing map across Panama, EU and UAE",
+  "keyword": "Crypto payment gateway for",
+  "landing": "/panama-crypto-license/",
+  "lede": "A crypto payment gateway for merchants looks simple on the product side and complicated on the licensing side: the same checkout button can trigger a full EU CASP authorisation, a UAE VARA or ADGM permission, or no dedicated crypto licence at all in Panama. This map sets out what each jurisdiction actually requires in 2026 and where founders tend to misjudge the exposure.",
+  "sections": [
+   [
+    "Why a payment gateway is a regulated activity, not just software",
+    [
+     "A crypto payment gateway for merchants usually does more than display a QR code. It receives customer funds or stablecoins, converts between crypto and fiat, settles to the merchant, and often holds a balance in custody between transaction and payout. Regulators look at those functions, not at the label on the website. Where the gateway takes custody, executes transfers on behalf of clients, or exchanges one asset for another, it is typically providing crypto-asset services that require authorisation in the EU and the UAE.",
+     "The practical consequence is that the same technical product can fall inside or outside a licensing perimeter depending on how it is structured. A pure non-custodial router that never touches client funds is treated very differently from a gateway that operates a pooled merchant wallet. Founders should map each function in the flow, custody, exchange, transfer, settlement, before choosing a jurisdiction, because the licensing answer follows the function, not the marketing description.",
+     "This is also where the choice of establishment matters. A gateway serving EU merchants from an Estonian or Cypriot entity needs a MiCA authorisation to passport across the bloc. A gateway serving UAE merchants from Dubai needs the relevant virtual asset service provider permission. A gateway incorporated in Panama but serving EU clients still faces the EU rules on the client side, so the Panama company alone does not remove the obligation. The jurisdiction of the entity and the jurisdiction of the customer both count."
+    ]
+   ],
+   [
+    "The EU under MiCA: CASP authorisation and capital tiers",
+    [
+     "MiCA is fully in force across the EU in 2026. A crypto payment gateway for merchants that provides custody, exchange of crypto for funds, or transfer services on behalf of clients is a crypto-asset service provider and needs authorisation from a national competent authority in one member state. Once authorised, the CASP can passport into other member states through the notification procedure. The application is substantial: governance, fit and proper management, safeguarding of client assets, complaint handling, outsourcing controls and an operational resilience file.",
+     "Capital requirements are set by activity class. The base tier for advisory-type services is EUR 50,000. The middle tier, which captures custody and reception and transmission of orders, is EUR 125,000. The top tier of EUR 150,000 applies to operating a trading platform, exchanging crypto for funds, or executing client orders. A payment gateway that custodies merchant balances and converts crypto to fiat will usually sit in the middle or top tier, and it must hold the higher amount if it combines classes. These are minimum own funds, not a one-off fee, and they must be maintained continuously.",
+     "Timelines are realistic rather than promotional. A well-prepared CASP application in a cooperative member state can take several months, and weaker files take longer or fail. Costs include legal drafting, local management, audit and ongoing compliance. For a gateway with modest volumes, the EU route is expensive, but it is the only lawful way to serve EU merchants at scale with a custody or exchange function. Founders sometimes ask whether a Panama entity can passport into the EU. It cannot. MiCA passporting is available only to EU-authorised CASPs."
+    ]
+   ],
+   [
+    "The UAE: VARA in Dubai and ADGM or FSRA alternatives",
+    [
+     "The UAE has no single federal crypto licence. Dubai's Virtual Assets Regulatory Authority regulates virtual asset activity in and from Dubai, excluding the DIFC, and a payment gateway handling client crypto will generally need a VARA category that covers broker-dealer or custody and exchange functions, depending on the exact flow. The Abu Dhabi Global Market, a separate financial free zone, offers its own virtual asset framework through FSRA, and the DIFC has its own regime. Each authority has its own rulebook, capital expectations and application process.",
+     "In practice, a crypto payment gateway for merchants in the UAE is often structured as a VARA-licensed entity in Dubai for the regional market, or as an ADGM entity where the founders want a common-law financial centre with an established regulator. Capital requirements vary by category and are set case by case within the rulebooks, so founders should budget for a regulated entity with local substance, compliance officers and audited controls rather than a light-touch registration. The UAE does not offer a zero-substance route for custody or exchange activity.",
+     "The UAE is attractive for payment businesses because of its banking depth, its stablecoin framework and its position between Asian and European markets. The trade-off is cost and process. Expect a multi-month application, a requirement for senior local management and a supervisory relationship that continues after licensing. Founders comparing the UAE with the EU should look at the customer base first: a gateway whose merchants are mostly in the GCC may find VARA or ADGM more proportionate than a full MiCA authorisation, while an EU-facing gateway will still need MiCA regardless of where the holding company sits."
+    ]
+   ],
+   [
+    "Panama: no dedicated crypto licence, but real structuring questions",
+    [
+     "Panama has no dedicated crypto or virtual asset service provider licence. That does not mean the activity is unregulated in every respect, but it does mean there is no crypto-specific authorisation to apply for. Founders typically incorporate a Sociedad Anonima, the standard Panamanian company form, and operate the gateway business through it. Setup is comparatively quick, often in the region of two to three weeks for a straightforward incorporation, and the territorial tax system means foreign-source income is generally subject to 0% Panamanian tax, subject to the facts and to advice on the specific structure.",
+     "The absence of a crypto licence is not the same as the absence of obligations. Anti-money laundering rules apply to obliged entities under Panamanian law, and banks and payment partners will conduct their own due diligence on the company, its owners and its flows. A gateway that custodies client funds or exchanges crypto for fiat should still build a compliance programme, even where no regulator is demanding one at the point of incorporation. The reputational and banking consequences of running a payment business without controls are real, and correspondent banks increasingly ask for evidence of a licensing analysis.",
+     "Panama works best as a holding and operating base for businesses whose customer base is outside the EU and outside the UAE, or as the corporate parent of licensed subsidiaries elsewhere. It is not a passport into MiCA and it does not substitute for VARA or ADGM permission when serving those markets. The honest framing is that Panama offers speed, cost efficiency and a familiar corporate form, while the licensing analysis for each customer market still has to be done. Founders should document that analysis before launch, not after a bank asks for it."
+    ]
+   ],
+   [
+    "How to choose: a decision framework for founders",
+    [
+     "Start with the customer, not the company. List the jurisdictions where merchants and payers are located, then mark which functions the gateway performs in each flow: custody, conversion, transfer, settlement. If EU merchants are material and the gateway custodies or exchanges, MiCA is on the table. If UAE merchants are material, look at VARA or ADGM. If the customer base is elsewhere, Panama may be the right base, with local advice on any market-specific rules. This function-by-market matrix is the single most useful document a founder can prepare before speaking to counsel.",
+     "Then look at the economics. MiCA capital tiers of EUR 50,000, 125,000 and 150,000 are minimum own funds, and the real cost includes local management, audit and compliance staff. UAE licensing carries similar substance expectations within its rulebooks. Panama is cheaper and faster at incorporation, but it does not remove the need for compliance and it does not open the EU or UAE markets. A gateway with a small EU pilot may be better served by partnering with an authorised CASP than by seeking its own licence too early.",
+     "Finally, plan for change. Licensing perimeters move, and a structure that is adequate at launch may need a licensed subsidiary once volumes grow. Many founders end up with a Panama or UAE holding company and an EU-authorised operating subsidiary, or a UAE-licensed entity serving the GCC with a separate EU CASP for Europe. Building the group with that optionality in mind, clean ownership records, audited accounts and a documented compliance function, makes later licensing far easier. Consulting24 works through this map with founders, including the Panama incorporation route, and can coordinate the EU and UAE licensing workstreams where they are needed."
+    ]
+   ],
+   [
+    "Common mistakes that delay or sink an application",
+    [
+     "The most frequent error is assuming that incorporating in a light-touch jurisdiction removes the need for licensing in the customer's jurisdiction. It does not. A Panama company marketing a crypto payment gateway for EU merchants still faces MiCA on the client side, and regulators increasingly coordinate. The second common error is undercapitalising: founders budget for the application fee and forget that the EUR 125,000 or EUR 150,000 own funds must be maintained, not just shown once. The third is thin local substance, particularly in the UAE, where an application without credible local management and compliance officers tends to stall.",
+     "A fourth mistake is describing the product inaccurately in the application. Regulators assess the actual flow of funds, so a gateway that says it is non-custodial while holding merchant balances between settlement cycles will be treated as custodial. Founders should write the flow diagram before the application and make the legal terms match it. A fifth is leaving AML and transaction monitoring until after licensing; in both the EU and the UAE these are assessed at application stage, and in Panama they matter for banking even without a crypto regulator.",
+     "The remedy is sequencing. Define the product and its functions, map the customer markets, choose the base jurisdiction, then build the compliance and capital plan around the licensing route that follows. Panama can be the fast first step for incorporation and group structure, while EU and UAE permissions are pursued where the customer base justifies them. Done in that order, the licensing map becomes a commercial plan rather than a surprise."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Does a crypto payment gateway need a licence in Panama?",
+    "Panama has no dedicated crypto or virtual asset service provider licence, so there is no crypto-specific authorisation to obtain. Founders typically incorporate a Sociedad Anonima, often within two to three weeks, and operate through it. AML obligations and banking due diligence still apply, and a Panama entity does not remove licensing requirements in the markets where the gateway's customers are located."
+   ],
+   [
+    "Can a Panama company serve EU merchants under MiCA?",
+    "No. MiCA passporting is available only to CASPs authorised by an EU national competent authority. A Panama company can hold the group or operate in unregulated markets, but serving EU clients with custody, exchange or transfer services requires an EU-authorised entity. The customer's location drives the obligation, not the company's place of incorporation."
+   ],
+   [
+    "What are the MiCA capital tiers for a CASP?",
+    "The minimum own funds are EUR 50,000 for the base class, EUR 125,000 for the middle class covering custody and reception and transmission of orders, and EUR 150,000 for the top class covering trading platforms, exchange of crypto for funds and execution of orders. A gateway that combines classes must meet the higher figure and maintain it continuously."
+   ],
+   [
+    "Which UAE regulator applies to a crypto payment gateway?",
+    "It depends on where the entity is established. VARA regulates virtual asset activity in and from Dubai, excluding the DIFC. ADGM has its own virtual asset framework through FSRA, and the DIFC has a separate regime. Each has its own categories, capital expectations and application process, so the choice should follow the target market and the desired legal system."
+   ],
+   [
+    "How long does a MiCA CASP authorisation take?",
+    "Timelines vary by member state and by the quality of the file. A well-prepared application can take several months, and incomplete files take longer or fail. Founders should plan for legal drafting, local management, audit and ongoing compliance, and should not treat the process as a formality."
+   ],
+   [
+    "Is a non-custodial gateway outside licensing?",
+    "Often it is treated more lightly, but the label must match the reality. If the gateway holds merchant balances between settlement cycles, converts crypto to fiat, or executes transfers on behalf of clients, regulators will generally treat it as providing regulated services. Document the actual flow of funds and make the legal terms consistent with it."
+   ],
+   [
+    "What tax applies to a Panama crypto company?",
+    "Panama operates a territorial tax system, and foreign-source income is generally subject to 0% Panamanian tax, subject to the facts and to professional advice on the specific structure. Founders should not assume this resolves tax in other jurisdictions where customers, staff or servers are located."
+   ],
+   [
+    "Can one group hold Panama, EU and UAE entities?",
+    "Yes, and many payment businesses do. A common pattern is a Panama or UAE holding company with an EU-authorised CASP subsidiary for European merchants and a VARA or ADGM entity for the GCC. Clean ownership records, audited accounts and a documented compliance function make each subsequent application easier."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
  }
 ]
