@@ -32567,5 +32567,225 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "crypto-fund-structures-for-a-first-time-manager-panama-cayman-and-estonia-compar",
+  "title": "Crypto fund structures for a first-time manager: Panama, Cayman and Estonia compared",
+  "keyword": "Crypto fund structures for",
+  "landing": "/estonia-crypto-license/",
+  "lede": "Choosing a legal home for your first crypto fund is a decision about cost, credibility and who you can sell to. Panama, Cayman and Estonia each solve a different part of that problem, and the right answer depends on where your investors sit and what you plan to trade.",
+  "sections": [
+   [
+    "What a first-time crypto manager actually needs from a fund structure",
+    [
+     "Before comparing jurisdictions, separate the questions a fund vehicle has to answer. Who are the investors, and are they retail, professional or institutional? What will the fund hold: tokens on its own balance sheet, derivatives, or stakes in early-stage projects? Does the manager need a licence to market, or only to operate? And what does the annual compliance bill look like relative to a first fund of perhaps USD 2 to 20 million?",
+     "Most first-time managers underestimate the ongoing cost of regulated structures. Audit, administration, directors, registered office, AML officer and legal counsel can add up to a five or six figure annual sum in established offshore centres, before any licensing fees. In the EU, add prudential capital that must sit in the licensed entity and cannot be spent on operations.",
+     "The three jurisdictions in this comparison sit on a spectrum. Panama is the lightest touch, with no dedicated crypto fund licence and a fast company formation. Cayman is the established offshore fund domicile that institutional allocators recognise. Estonia is an EU jurisdiction, which means MiCA, which means a real licence if you are marketing to EU clients. None is universally better; each is better for a particular investor base and strategy."
+    ]
+   ],
+   [
+    "Panama: speed and simplicity with a Sociedad Anonima",
+    [
+     "Panama has no dedicated crypto licence and no bespoke crypto fund regime. In practice, managers incorporate a Sociedad Anonima, a flexible corporate vehicle that can hold digital assets, and operate the fund through it. Formation is typically completed in around two to three weeks, and the corporate maintenance burden is modest compared with regulated fund domiciles.",
+     "The tax position is the main draw. Panama taxes territorial income, so income from foreign sources is generally outside the Panamanian tax net, and the corporate rate on local-source income is not the reason people go there. For a manager running a token portfolio from outside Panama, the structure can be tax-efficient, though the manager's own tax residence and the investors' positions still drive the outcome. Any claim of zero tax needs a caveat: it depends on facts, substance and where the income arises.",
+     "The trade-off is credibility and access. A Panama SA is not a recognised collective investment scheme in most institutional allocators' playbooks, and it does not give you a MiCA passport into the EU. It suits managers with a small circle of sophisticated or family investors, proprietary capital, or a holding structure for treasury and token positions. If you later want EU retail or professional clients, you will likely need a second, regulated vehicle."
+    ]
+   ],
+   [
+    "Cayman: the institutional default for offshore crypto funds",
+    [
+     "Cayman remains the most common offshore domicile for crypto hedge funds and venture vehicles. The standard build is an exempted limited partnership or a segregated portfolio company, often paired with a Cayman investment manager entity. Institutional investors, fund-of-funds and family offices have seen the structure many times, which shortens due diligence even when the underlying strategy is unfamiliar.",
+     "Cayman has been active on crypto specifically. Virtual asset service providers that fall within its regime need registration, and the Cayman Islands Monetary Authority supervises registered funds above certain thresholds. For a first fund, expect setup costs in the tens of thousands of dollars and annual running costs that scale with fund size and investor count. Audits are normal and expected by allocators.",
+     "The structure is not a licence to market anywhere. Cayman gives you a well-understood vehicle and a neutral tax position, but distribution into the EU, the UK or the US still depends on local rules and exemptions. For a manager whose investors are offshore or US taxable, Cayman is often the path of least resistance. For a manager whose investors are European, it is usually a complement to an EU vehicle rather than a substitute."
+    ]
+   ],
+   [
+    "Estonia: an EU home under MiCA",
+    [
+     "Estonia is the EU option, and in 2026 that means MiCA. A firm providing crypto-asset services to EU clients, including managing crypto portfolios and operating trading venues or custody, needs authorisation as a crypto-asset service provider from the Estonian Financial Supervision Authority. MiCA is directly applicable across the EU, so an Estonian CASP licence can be passported into other member states.",
+     "Capital requirements are set by activity class. The tiers are EUR 50,000, EUR 125,000 and EUR 150,000 depending on the services provided, with the highest tier applying to the fullest service combinations. That capital must be held in the licensed entity, so it is a real cost of entry, not a formality. Add fit-and-proper tests for management, governance, AML systems, safeguarding of client assets and ongoing reporting.",
+     "For fund managers, the picture is layered. MiCA governs crypto-asset services; collective investment schemes fall under other EU rules such as AIFMD, and the two can interact. A first-time manager may use an Estonian licensed entity as the distribution and service hub while the fund itself sits in a separate vehicle. Estonia's appeal is speed and a digital-first administration, but the compliance bar is EU-level and should be budgeted accordingly. Consulting24's guide to the Estonian crypto licence sets out the application path in detail."
+    ]
+   ],
+   [
+    "Comparing cost, timeline and investor fit side by side",
+    [
+     "On timeline, Panama is fastest at roughly two to three weeks for incorporation, with no licensing queue. Cayman fund formation typically takes several weeks to a few months depending on the administrator and auditor. Estonia is the longest, because a MiCA authorisation involves a full application, regulatory review and evidence of systems and capital; plan for months, not weeks, and expect questions.",
+     "On cost, Panama is the cheapest to establish and maintain, Cayman sits in the middle with higher annual audit and administration costs, and Estonia carries the highest upfront burden because of regulatory capital and licensing work. Those figures should be weighed against the revenue you can actually reach: an EU licence opens EU clients, while an unregulated Panama vehicle generally does not.",
+     "On investor fit, the mapping is fairly clean. Offshore and US investors with a tolerance for offshore structures tend to accept Cayman. A small group of sophisticated investors, proprietary capital or a treasury vehicle fits Panama. EU clients, or a strategy that needs a regulated counterparty, points to Estonia. Many managers end up with a combination: an EU licensed service entity plus an offshore fund vehicle, or a Panama holding company above a Cayman fund."
+    ]
+   ],
+   [
+    "How to choose, and the mistakes to avoid",
+    [
+     "Start with the investor list, not the jurisdiction. Write down every prospective investor, their residence, their tax status and whether they need a regulated product. That list usually eliminates one or two options immediately. Then check the marketing rules in each investor's home country, because the fund's domicile does not grant distribution rights.",
+     "Avoid the common errors. Do not assume a Panama company gives you a crypto licence; it does not. Do not assume a Cayman fund can be sold into the EU without a local route. Do not treat MiCA capital as working capital. And do not choose a structure you cannot afford to maintain for three years, since the first fund's economics are fragile and compliance costs are fixed.",
+     "A sensible sequence is to decide the investor base, then the fund vehicle, then the manager entity, then the licensing footprint. Get local advice on tax residence and substance before incorporating, and build the compliance budget into the fund's expense cap. The right structure is the one your investors recognise and your team can actually run."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Does Panama issue a crypto fund licence?",
+    "No. Panama has no dedicated crypto fund or crypto-asset licence. Managers typically incorporate a Sociedad Anonima and operate under general corporate and financial rules. If you need a regulated label for investors, Panama will not provide it."
+   ],
+   [
+    "How long does a Panama company take to set up?",
+    "Formation is usually completed in around two to three weeks. Timelines depend on document readiness, KYC and the registered agent, so treat that as a typical range rather than a guarantee."
+   ],
+   [
+    "Is a Cayman fund suitable for a first-time crypto manager?",
+    "Often yes, if your investors are offshore or US taxable and expect a familiar fund vehicle. Cayman is widely recognised by institutional allocators, but it does not give you an EU marketing passport, and annual audit and administration costs are meaningful."
+   ],
+   [
+    "What are the MiCA capital tiers for an Estonian CASP?",
+    "The EU tiers are EUR 50,000, EUR 125,000 and EUR 150,000 depending on the classes of crypto-asset services provided. The highest tier applies to the broadest service combinations. The capital must be held in the licensed entity."
+   ],
+   [
+    "Can I market a Cayman or Panama fund to EU investors?",
+    "Not automatically. Distribution into the EU depends on local implementation of EU rules and available exemptions. A Cayman or Panama vehicle does not carry a MiCA passport, so EU-facing marketing usually requires an EU-authorised entity or a compliant private placement route."
+   ],
+   [
+    "Is income in a Panama structure really tax free?",
+    "Panama taxes territorial income, so foreign-source income is generally outside its net. Whether your specific income is foreign-source depends on facts, substance and the manager's residence. Get local tax advice before relying on a zero-tax assumption."
+   ],
+   [
+    "Do I need both an EU licence and an offshore fund?",
+    "Many managers do. A common pattern is an EU-authorised service entity for distribution and regulated activity, paired with an offshore fund vehicle for the investment pool. The combination adds cost but widens the investor base."
+   ],
+   [
+    "Where can I read more about the Estonian crypto licence?",
+    "Consulting24's page at https://www.consulting24.co/estonia-crypto-license/ covers the MiCA application path, requirements and practical steps for Estonian authorisation."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Crypto license cost",
+    "/cost/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "exit-planning-for-a-licensed-crypto-company-selling-the-entity-vs-the-licence",
+  "title": "Exit planning for a licensed crypto company: selling the entity vs the licence",
+  "keyword": "Exit planning for a",
+  "landing": "/",
+  "lede": "Exit planning for a licensed crypto company starts with one structural question: what exactly is the buyer paying for, the corporate entity with its permissions and history, or the licence as a transferable asset? The answer shapes valuation, timeline and how much of the deal survives regulatory scrutiny.",
+  "sections": [
+   [
+    "Two exit routes, two very different transactions",
+    [
+     "In an entity sale, the buyer acquires the shares of your licensed company. Permissions, policies, client contracts, staff, bank relationships and regulatory history travel with the company. In practice this is the route most crypto buyers prefer, because it preserves continuity of authorisation and avoids a fresh application. The seller, however, is selling everything: legacy liabilities, past conduct and any compliance gaps the buyer's due diligence uncovers.",
+     "In a licence-focused transaction, the buyer acquires the permission itself, either through an asset deal where specified rights and records are carved out, or by applying afresh with your team and documentation as the template. Under MiCA, authorisations are granted to a specific legal person and are not freely tradable instruments, so a pure licence sale usually means the buyer must be authorised in its own name. That distinction matters enormously for deal structure and price.",
+     "The practical consequence is that most exits described as licence sales are really change-of-control transactions dressed in different language. Before you market the business, decide which route you are actually offering, because the buyer pool, the diligence pack and the regulatory notifications differ from the first conversation."
+    ]
+   ],
+   [
+    "What a MiCA-authorised entity is worth to a buyer",
+    [
+     "MiCA has applied across the EU since 2024 and national transitional windows have largely closed by 2026, so a fully authorised CASP is now a scarce asset. Buyers value three things: time saved versus a new application, the capital already committed, and the compliance infrastructure. EU CASP capital requirements sit in three tiers of EUR 50,000, 125,000 and 150,000 depending on the classes of service provided, so an entity authorised for custody, exchange and transfer services carries a higher regulatory cost base than a narrow advisory permission.",
+     "Valuation is rarely a clean multiple. Expect buyers to price the entity on the cost and delay of replicating it, then adjust for risk. A clean regulatory record, stable outsourced arrangements and reconciled client assets support a premium. Unresolved supervisory findings, weak safeguarding controls or a thin management team invite discounts or earn-outs tied to remediation.",
+     "Because figures vary widely by jurisdiction, service mix and client book, treat any headline number with caution. Ask your adviser for comparable transactions in your market rather than relying on generic benchmarks, and be ready to justify your price with a documented cost-to-replicate analysis."
+    ]
+   ],
+   [
+    "Due diligence is where exits fail",
+    [
+     "Buyers and their regulators will examine the target's conduct history closely. Expect requests covering client asset safeguarding, onboarding files, transaction monitoring alerts and their disposition, complaints, outsourcing contracts, IT security, and correspondence with the supervisory authority. Under MiCA, management and qualifying shareholders must meet fit and proper standards, so the buyer's own ownership chain will be reviewed as part of any change of control.",
+     "Sellers should run a vendor-style review of themselves six to twelve months before going to market. Fix the obvious problems: undocumented policies, gaps between written procedures and actual practice, unresolved client complaints, and any capital shortfall against the applicable tier. Remediation after a buyer appears is expensive and visible.",
+     "Prepare a structured data room and a short regulatory narrative explaining your permissions, your supervisory history and any known issues with the remediation already underway. Buyers respond better to disclosed problems than to surprises found late in diligence."
+    ]
+   ],
+   [
+    "Regulatory approvals and the change-of-control process",
+    [
+     "An entity sale almost always triggers a notification or approval requirement. Under MiCA, acquisitions of qualifying holdings in a CASP require assessment by the competent authority, and the buyer must demonstrate fitness, financial soundness and the absence of money laundering concerns. Timelines vary by national regulator and by the complexity of the buyer's group structure, so build regulatory conditionality into the sale agreement and the completion timetable.",
+     "Structure matters here. Share purchases, mergers, and sometimes significant asset transfers all attract different treatment. If the buyer intends to move clients or operations to another group company after completion, expect additional scrutiny of how client assets and records will be transferred and whether the target's permissions still fit the resulting business.",
+     "Engage the regulator early through your adviser, and keep communication factual. Regulators are more comfortable with a well-documented succession plan than with a late notification of a completed deal."
+    ]
+   ],
+   [
+    "When Panama is the alternative to a European exit",
+    [
+     "Some founders conclude that the cost of maintaining an EU-authorised entity outweighs the exit value. Panama offers a different path. There is no dedicated crypto licence, so the usual structure is a Sociedad Anonima, which can be established in roughly two to three weeks. Panama taxes foreign-source income at 0%, which is attractive for businesses serving clients outside the country, though local-source activity and substance requirements still need proper advice.",
+     "That route is not a substitute for MiCA authorisation if you serve EU clients. A Panama company does not confer EU permissions, and marketing into the EU without authorisation carries enforcement risk. It suits founders who are exiting the European market, restructuring around non-EU clients, or holding intellectual property and treasury functions alongside a separate licensed operating company.",
+     "For exit planning, the comparison is straightforward: a MiCA entity can be sold to a buyer who needs European permissions, while a Panama structure is generally sold as a business with contracts and operations rather than as a licence. Price the two options against the cost of staying authorised and the realistic buyer pool."
+    ]
+   ],
+   [
+    "Deal terms that protect both sides",
+    [
+     "Use a locked box or completion accounts mechanism deliberately. Locked box suits clean, well-documented entities and gives price certainty. Completion accounts suit businesses with volatile client balances or unsettled regulatory matters. Warranties should be backed by a clear disclosure letter, and escrow or deferred consideration is common where remediation is ongoing.",
+     "Regulatory conditionality, long-stop dates and reverse termination fees deserve attention. If approval is refused, who bears the cost? Sellers should also address key person retention, client consent requirements, and the treatment of any earn-out tied to post-completion compliance milestones.",
+     "Finally, plan the wind-down of your own involvement. Handover of regulatory relationships, staff and systems should be scheduled, and your personal exposure as a former director or shareholder should be considered before you sign."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Can I sell a MiCA licence on its own?",
+    "Not as a standalone instrument. MiCA authorisation is granted to a specific legal person and is not freely transferable. What buyers usually acquire is the authorised entity itself through a share purchase, or the business and records needed to support a fresh application. Any change of control in a CASP requires regulatory assessment."
+   ],
+   [
+    "Why do buyers prefer to buy the entity rather than apply afresh?",
+    "Buying an authorised entity saves the time, cost and uncertainty of a new application and preserves existing client relationships and bank arrangements. The trade-off is that the buyer inherits the target's history, so diligence on compliance and conduct is intense."
+   ],
+   [
+    "How long does regulatory approval for a change of control take?",
+    "It varies by national competent authority and by the complexity of the buyer's ownership structure. Expect several months at minimum, and plan the sale agreement around regulatory conditionality with realistic long-stop dates rather than assuming a fixed timetable."
+   ],
+   [
+    "What capital tier should I expect a buyer to check?",
+    "EU CASP capital requirements fall into three tiers of EUR 50,000, 125,000 and 150,000 depending on the classes of service provided. Buyers will verify that the target meets the tier applicable to its permissions and will price any shortfall or remediation into the deal."
+   ],
+   [
+    "Does Panama have a crypto licence I can sell?",
+    "No. Panama has no dedicated crypto licence. Founders typically incorporate a Sociedad Anonima, which can be set up in around two to three weeks, and benefit from 0% tax on foreign-source income subject to local rules and substance considerations. Such a company is sold as a business, not as a licence."
+   ],
+   [
+    "Can a Panama company serve EU clients after MiCA?",
+    "Serving EU clients generally requires MiCA authorisation from an EU regulator, and a Panama entity does not provide that. A Panama structure is better suited to non-EU operations, holding functions or founders exiting the European market. Take local and EU advice before marketing into Europe."
+   ],
+   [
+    "What documents should be in my data room?",
+    "At minimum: the authorisation and supervisory correspondence, ownership and group charts, policies and procedures, client asset safeguarding records, outsourcing and IT contracts, financial statements, capital calculations, complaints logs and staff fit and proper files. Add a short narrative of known issues and remediation."
+   ],
+   [
+    "How early should I start exit planning?",
+    "Begin preparation around twelve months before going to market. Use the first six months to remediate compliance gaps and reconcile capital, then assemble the data room and brief advisers. Starting late usually means accepting a discount or delaying completion."
+   ]
+  ],
+  "related": [
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ],
+   [
+    "Crypto license cost",
+    "/cost/"
+   ]
+  ],
+  "labels": []
  }
 ]
