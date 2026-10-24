@@ -32787,5 +32787,107 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "bank-de-risking-of-crypto-companies-how-to-build-a-banking-stack-that-survives",
+  "title": "Bank de-risking of crypto companies: how to build a banking stack that survives",
+  "keyword": "Bank de-risking of crypto",
+  "landing": "/es/",
+  "lede": "Bank de-risking of crypto companies is rarely about one bad transaction. It is the slow withdrawal of correspondent banking, payment rails and account access once a compliance team decides the residual risk outweighs the revenue. The founders who keep banking access are the ones who designed for that decision before it was made.",
+  "sections": [
+   [
+    "What bank de-risking of crypto actually looks like",
+    [
+     "De-risking is the commercial decision by a bank to exit a customer segment rather than price the risk. For crypto companies it rarely arrives as a dramatic closure. More often it appears as a refused new account, a payment provider quietly raising reserves, a correspondent bank in another country declining to process transfers tied to your name, or a renewal review that ends in a notice period. The pattern is familiar across the EU, the UK and offshore centres, and it tends to accelerate after enforcement actions elsewhere in the sector.",
+     "The root cause is usually not your own licence status. Banks assess the whole chain: who your customers are, where your counterparties sit, whether your flows can be explained to a correspondent bank two jurisdictions away, and whether your transaction monitoring produces evidence a regulator would accept. A licensed CASP with weak monitoring can be a harder client than an unlicensed software firm with clean, well-documented flows.",
+     "For founders, the practical implication is that banking access is a product you build, not a service you buy. Treat every account as a relationship that must be defended at each review cycle, and assume that at least one provider will exit you in any given year. The rest of this article sets out how to structure for that reality."
+    ]
+   ],
+   [
+    "Build redundancy before you need it",
+    [
+     "Single-bank dependency is the most common structural weakness we see. A company with one IBAN, one card processor and one on-ramp partner has no negotiating position and no continuity plan. Aim for at least two banking relationships in different jurisdictions, plus a payment institution or EMI as a buffer layer, so that a single exit does not halt operations. Diversification costs money in fees and reconciliation effort, and it is cheaper than a frozen payroll.",
+     "Segregate flows by purpose. Operating accounts for salaries, rent and vendors should be kept institutionally separate from client money and settlement flows. Where client funds are held, use segregated accounts and clear safeguarding documentation, because commingling is one of the fastest routes to a risk committee rejection. Keep a documented list of every account, its purpose, its signatories and its fallback, reviewed quarterly.",
+     "Finally, rehearse the exit. Write a short playbook covering how you would move settlement, notify customers and reroute payouts within days if a provider gives notice. Institutions that can demonstrate a tested continuity plan are treated differently in onboarding conversations, because the bank can see you are not asking it to underwrite your operational fragility."
+    ]
+   ],
+   [
+    "Make your compliance file readable by a bank",
+    [
+     "Bank onboarding teams are not regulators, and they are not crypto specialists. They need to explain you to their own credit and compliance committees in a few pages. Prepare a standing due diligence pack: corporate structure with ownership chart, licences and registrations, AML and CTF policies, the risk assessment methodology, transaction monitoring and screening tools with tuning evidence, customer onboarding and enhanced due diligence procedures, and a summary of your typical flows by corridor and volume band.",
+     "Evidence beats assertion. Instead of stating that monitoring is risk-based, show thresholds, alert volumes, false positive rates and how alerts are closed. Instead of saying you serve only low-risk customers, show the geographic and product mix with the reasoning behind each restriction. If you operate under MiCA, include your authorisation class and the capital tier you maintain, since EU CASP capital requirements sit at EUR 50,000, 125,000 or 150,000 depending on the activity class, and a bank will want to see that your balance sheet matches your licence.",
+     "Keep the pack current and version-controlled. A stale policy document discovered during a review does more damage than a gap you disclosed yourself. Where you have weaknesses, present them with a remediation timeline; banks are more comfortable with a known, managed gap than with a surprise."
+    ]
+   ],
+   [
+    "Jurisdiction and licensing choices that banks can price",
+    [
+     "Where you are licensed and where your entities sit shapes how a bank scores you. A MiCA-authorised CASP in the EU gives a bank a familiar supervisory framework, passported access and a named regulator, which is generally easier to underwrite than an offshore structure with no equivalent. That does not mean offshore is unbankable, but it usually requires a stronger narrative and, often, a regulated EU or UK entity in front of the flows.",
+     "Panama illustrates the trade-off. There is no dedicated crypto licence; founders incorporate a Sociedad Anonima, benefit from 0% tax on foreign-source income, and can complete setup in roughly two to three weeks. That structure can work well for a holding company or for businesses whose activity falls outside licensed regimes, but a bank will ask what the entity actually does, who supervises it, and why the structure exists. Expect to pair it with substantive substance, real management presence and, where relevant, a licensed operating subsidiary.",
+     "The lesson is to align the licensing map with the banking map. Decide which entity contracts with customers, which holds client money, which employs staff and which holds the licence, then approach banks that are comfortable with that specific combination. Approaching a conservative correspondent bank with an offshore front entity and no supervisory anchor is a predictable rejection."
+    ]
+   ],
+   [
+    "Managing the relationship through reviews and exits",
+    [
+     "Bank relationships are lost at reviews more often than at onboarding. Prepare for periodic reviews as a scheduled project: refresh the due diligence pack, pre-empt questions about volume changes, and explain new corridors or products before the bank discovers them in the data. Sudden unexplained growth is a red flag; growth that arrives with a written explanation and supporting monitoring evidence is a business update.",
+     "Build relationships at the right level. Your day-to-day contact is rarely the decision maker. Ask for introductions to compliance and relationship management leads, attend industry events where bank crypto teams are present, and keep a record of who has approved what. When a review escalates, having a named sponsor inside the institution materially changes the outcome.",
+     "When an exit happens, respond calmly and quickly. Confirm notice periods in writing, agree an orderly wind-down, and avoid public disputes that make you harder to bank elsewhere. Then feed the lessons into your next application: what the bank asked for, what it could not get, and what you will change. Consulting24 works with founders on exactly this cycle, from MiCA authorisation and capital planning to banking introductions and remediation of the compliance file, and the on-site page at https://www.consulting24.co/es/ is a reasonable starting point for a structured review."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Why do banks de-risk crypto companies even when they are licensed?",
+    "Licensing addresses supervisory risk, not the bank's own exposure. Banks weigh correspondent relationships, reputational risk, the quality of your monitoring evidence and the jurisdictions in your flow chain. A licensed firm with weak documentation can still fail a risk committee, and a single correspondent bank refusing to touch crypto-related flows can force a local bank to exit the segment regardless of your individual profile."
+   ],
+   [
+    "How many banking relationships should a crypto company maintain?",
+    "As a working rule, at least two banking relationships in different jurisdictions plus a payment institution or EMI as a buffer. The right number depends on your volume and corridors, but the principle is that no single provider exit should stop payroll, settlement or customer payouts. Budget for the extra fees and reconciliation work as a cost of continuity."
+   ],
+   [
+    "What documents should be in a bank-ready compliance pack?",
+    "A corporate structure and ownership chart, licences and registrations, AML and CTF policies, the risk assessment methodology, evidence of transaction monitoring and screening including tuning and alert handling, customer onboarding and enhanced due diligence procedures, and a summary of flows by corridor and volume band. Keep it version-controlled and refresh it before each review."
+   ],
+   [
+    "Does MiCA authorisation make banking easier?",
+    "It generally helps, because banks get a familiar supervisory framework, a named regulator and passported access. It is not a guarantee. Banks will still assess your monitoring, your capital position and your counterparties. Under MiCA, EU CASP capital requirements sit at EUR 50,000, 125,000 or 150,000 depending on activity class, and a bank will expect your balance sheet to match the class you hold."
+   ],
+   [
+    "Can a Panama company get a bank account for crypto activity?",
+    "It can, but the path is narrower. Panama has no dedicated crypto licence, so you incorporate a Sociedad Anonima, which typically takes around two to three weeks, and benefit from 0% tax on foreign-source income. Banks will ask what the entity does, who supervises it and why the structure exists, so expect to add substance, documented policies and often a licensed operating entity in a regulated jurisdiction."
+   ],
+   [
+    "What should we do when a bank gives notice?",
+    "Confirm the notice period and wind-down terms in writing, move settlement and payroll to a pre-arranged fallback, and communicate with customers before the deadline. Avoid public disputes that make you harder to bank elsewhere. Afterwards, document what the bank requested and could not obtain, and fix those gaps before your next application."
+   ],
+   [
+    "How do we explain rapid volume growth to a bank?",
+    "Proactively, before the bank sees it in the data. Provide a written explanation of the new corridors or products, the customer segments driving the growth, and the monitoring evidence showing the flows are understood. Unexplained growth is treated as a red flag; growth with a documented rationale and supporting data is treated as a business update."
+   ],
+   [
+    "How can a consultant help with bank de-risking?",
+    "A specialist can review your structure and licensing map against the banks you are targeting, prepare and stress-test the due diligence pack, identify gaps in monitoring evidence, and make introductions to institutions comfortable with your profile. Consulting24 advises founders on MiCA authorisation, capital tiers, offshore structures and banking strategy, and can run a structured review before your next application or renewal."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
  }
 ]

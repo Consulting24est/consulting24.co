@@ -137,6 +137,18 @@
    "feed": "esma",
    "title": "New Q&As available",
    "published": true
+  },
+  "https://www.mfsa.mt/publication/micars-transitional-period-ends-amlas-guidance-on-aml-cft-risk/": {
+   "date": "2026-10-24T08:35:07+00:00",
+   "feed": "mfsa",
+   "title": "MiCAR’s Transitional Period Ends: AMLA’s Guidance on AML/CFT Risk",
+   "published": false
+  },
+  "https://www.fca.org.uk/news/speeches/market-integrity-digital-age": {
+   "date": "2026-10-24T08:35:12+00:00",
+   "feed": "fca",
+   "title": "Market integrity in a digital age",
+   "published": false
   }
  }
 }
