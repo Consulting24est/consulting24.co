@@ -1,6 +1,5 @@
 #!/bin/bash
 # Daily Consulting24 Blogger pipeline:
-#   0) import new AutoSEO articles into /blog/ (autoseo_pull.py)
 #   1) publish today's batch of Blogger posts (consulting24_blog.py)
 #   2) re-sync the site's /blog/ hub so EVERY Blogger guide is linked (link_blogger.py)
 #   3) commit + push so the new links deploy live to www.consulting24.co
@@ -9,12 +8,6 @@ set -u
 REPO=/Users/mardosoo/consulting24
 PY=/opt/homebrew/bin/python3
 cd "$REPO" || exit 1
-
-# 0) AutoSEO (getautoseo.com, "RSS/Feeds" integration): import newly published articles from its JSON
-#    feed into /blog/<slug>/ with the site template, build their hero sets / hub cards / sitemaps, then
-#    commit + push. Runs before the Blogger auth gate so it does not depend on Blogger being authorised.
-mkdir -p logs
-"$PY" scripts/autoseo_pull.py --commit > /dev/null 2>> logs/autoseo_pull.log || echo "[$(date '+%Y-%m-%d %H:%M:%S')] autoseo_pull nonzero" >> logs/autoseo_pull.log
 
 # Owner cap (Sept 2026): max 1-2 posts/day. Skip cleanly until Blogger is authorised on this machine
 # (one-time: python3 scripts/consulting24_blog.py --login).
