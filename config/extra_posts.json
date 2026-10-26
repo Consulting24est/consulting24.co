@@ -32889,5 +32889,219 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "crypto-friendly-payment-providers-in-2026-what-onboarding-really-requires",
+  "title": "Crypto-friendly payment providers in 2026: what onboarding really requires",
+  "keyword": "Crypto-friendly payment providers in",
+  "landing": "/ar/",
+  "lede": "Crypto-friendly payment providers in 2026 still ask harder questions than most founders expect, and the answers usually depend on where your entity is licensed rather than which blockchain you use. This guide explains what onboarding teams actually review, and how your licensing footprint shapes the outcome.",
+  "sections": [
+   [
+    "What crypto-friendly really means for a payment provider in 2026",
+    [
+     "A payment provider that markets itself as crypto-friendly is not abandoning due diligence. It is telling you that digital assets fall inside its risk appetite, subject to the same anti-money-laundering checks it applies to any merchant. In practice this means the provider will accept crypto-related revenue models, but only after it understands your licence, your ownership structure and the source of your funds.",
+     "Since MiCA became fully applicable, EU-based payment institutions and electronic money institutions treat crypto merchants through a clearer lens. A licensed crypto-asset service provider is easier to onboard than an unlicensed one, because the provider can point to a supervisory regime when its own auditor or bank asks questions. Expect the compliance team to check your CASP authorisation status, your home regulator and any passporting notifications before commercial terms are discussed.",
+     "The label also varies by provider type. Traditional PSPs that added crypto rails tend to be conservative and slow. Specialist crypto payment processors move faster but often carry lighter banking relationships, which can create settlement risk. The practical question is not whether a provider likes crypto, but whether its banking partners and auditors tolerate your specific business model."
+    ]
+   ],
+   [
+    "The documents and checks that decide your application",
+    [
+     "Onboarding typically begins with corporate documents: certificate of incorporation, articles, register extract, proof of registered address and a shareholder chart going up to ultimate beneficial owners. Providers then request identity and address verification for directors and anyone holding roughly 25 percent or more, though thresholds can be lower for higher-risk entities. Expect liveness checks, source-of-wealth questions and, for some jurisdictions, certified translations and apostilles.",
+     "The second layer is business-specific. You will be asked to describe your product, customer base, expected transaction volumes, average ticket size, corridors and the proportion of activity that touches crypto. Providers want to see a written AML policy, a risk assessment, know-your-customer procedures, transaction monitoring arrangements and a complaints process. A licensed CASP can usually supply these from its regulatory filings; an unlicensed structure has to build them from scratch.",
+     "The third layer is financial and technical. Providers may ask for audited accounts, bank statements, a description of custody arrangements and evidence of smart contract or wallet security controls. Some request a short video call with the compliance officer and a walkthrough of the customer journey. Applications that arrive as a complete package move faster than ones assembled in fragments over several weeks."
+    ]
+   ],
+   [
+    "How your licensing footprint changes the outcome",
+    [
+     "Payment providers price risk, and licensing is the clearest risk signal available. An entity authorised under MiCA as a CASP sits inside a regime that EU supervisors, banks and auditors already understand. That does not guarantee approval, but it removes the most common reason for rejection, which is uncertainty about who supervises you and what rules you follow.",
+     "Capital requirements are part of that signal. EU CASP authorisation carries minimum own funds of EUR 50,000, 125,000 or 150,000 depending on the class of services provided, with the highest tier applying to trading platforms and custody arrangements. A provider reviewing your application may not ask for the exact figure, but it will want to know that your capital is real, retained and proportionate to the activity you plan to run.",
+     "Outside the EU, the picture is more fragmented. Some jurisdictions offer dedicated crypto regimes, others rely on general financial services law, and a few have no specific framework at all. A Panama Sociedad Anonima, for example, can be incorporated in roughly two to three weeks and benefits from territorial taxation, with foreign-source income generally outside the local tax net. That structure can support certain business models, but a European payment provider will usually treat it as higher risk and ask more questions about substance, ownership and where decisions are actually made."
+    ]
+   ],
+   [
+    "Jurisdiction choices that shape onboarding",
+    [
+     "Founders often assume that a lighter licensing jurisdiction will speed up onboarding. In practice the opposite is common. Providers with EU banking partners apply enhanced due diligence to entities in jurisdictions without an equivalent supervisory regime, which means more documents, longer review times and sometimes a flat refusal for certain activities. The cost of a licence is often smaller than the cost of repeated rejections.",
+     "That said, not every business needs an EU licence on day one. If your customers are outside the EU and your payment flows do not touch European rails, a structure in a jurisdiction such as Panama may be commercially sensible, particularly where the tax treatment of foreign-source income matters. The key is to be honest in the application about what the entity does and does not do, and to avoid presenting a lightly regulated company as though it were supervised in Europe.",
+     "Where you plan to serve EU clients, MiCA authorisation in one member state with passporting is usually the cleanest route. It gives payment providers a single supervisory reference point and reduces the number of explanations required. Consulting24 works with founders on both paths and on the documentation that sits between them, including AML manuals, ownership charts and regulatory correspondence."
+    ]
+   ],
+   [
+    "Practical steps to shorten the review",
+    [
+     "Prepare a single onboarding pack before you approach any provider. It should contain corporate documents, ownership and control information, identity documents, a business description, a flow-of-funds diagram, your AML and KYC policies, and a summary of your licensing position. Keeping the pack current saves days on every subsequent application and makes it easier to answer follow-up questions consistently.",
+     "Be precise about volumes and corridors. Providers calibrate monitoring thresholds and reserve requirements from the figures you give, and inconsistencies between your application and your actual activity trigger reviews later. If you are pre-launch, say so and provide projections with the assumptions behind them. If you are migrating from another processor, provide statements showing historical volumes and chargeback or dispute rates.",
+     "Finally, expect the process to take weeks rather than days, and plan a fallback. Approval timelines vary widely by provider and by the complexity of the model, so having a second application in progress reduces the risk of a launch delay. The founders who move fastest are usually the ones whose licensing and documentation were settled before the first conversation."
+    ]
+   ],
+   [
+    "Where Consulting24 fits in",
+    [
+     "Consulting24, operated by X24Consulting OU in Estonia and led by founder Mardo Soo, advises crypto founders on licensing, entity structuring and the compliance documentation that payment providers request. The work typically starts with a review of your business model and target markets, followed by a recommendation on whether MiCA authorisation, an offshore structure or a combination is appropriate.",
+     "For founders taking the EU route, the team supports CASP applications, capital planning against the three own-funds tiers, and the policies and procedures that supervisors and payment providers both expect to see. For founders using structures such as a Panama Sociedad Anonima, the focus shifts to substance, documentation quality and clear disclosure of the regulatory position so that onboarding conversations start from an accurate baseline.",
+     "The relevant service page is available at https://www.consulting24.co/ar/. Founders who want a second opinion on their licensing footprint before approaching payment providers can use it to start the conversation."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Do payment providers require a crypto licence to onboard my business?",
+    "Not always, but a licence changes the conversation. Providers apply risk-based due diligence, and an entity supervised under a recognised regime such as MiCA is easier to approve than an unlicensed one. Some providers will accept unlicensed merchants for limited activities, usually with enhanced checks and lower volume limits."
+   ],
+   [
+    "What documents should I prepare before applying?",
+    "Typically corporate documents, register extracts, a shareholder chart to ultimate beneficial owners, identity and address verification for directors and major shareholders, a business description, a flow-of-funds diagram, AML and KYC policies, and evidence of your licensing position. Certified translations and apostilles may be needed depending on jurisdiction."
+   ],
+   [
+    "How long does onboarding usually take?",
+    "Timelines vary widely. A straightforward application from a licensed entity with complete documentation may move in a few weeks, while complex or cross-border models can take considerably longer. Planning for several weeks and running a backup application is prudent."
+   ],
+   [
+    "Does MiCA authorisation make onboarding easier?",
+    "In the EU it generally does. MiCA gives payment providers and their banks a clear supervisory reference point, and a CASP authorisation demonstrates that policies, capital and governance have been reviewed by a regulator. It does not guarantee approval, but it removes a common source of uncertainty."
+   ],
+   [
+    "What are the EU CASP capital requirements?",
+    "MiCA sets minimum own funds of EUR 50,000, 125,000 or 150,000 depending on the class of services provided, with the highest tier applying to activities such as operating a trading platform or providing custody. Providers may ask how your capital is maintained and whether it is proportionate to planned activity."
+   ],
+   [
+    "Can a Panama company get onboarded by a European payment provider?",
+    "It can, but expect enhanced due diligence. A Panama Sociedad Anonima can be incorporated in roughly two to three weeks and generally benefits from territorial taxation on foreign-source income, yet European providers will usually ask more about substance, ownership and decision-making. Clear disclosure of what the entity does and does not do helps."
+   ],
+   [
+    "What transaction information will providers ask for?",
+    "Expect questions on expected volumes, average ticket size, corridors, customer types and the share of activity involving crypto. Providers use these figures to set monitoring thresholds and reserves, so inconsistencies between your application and actual activity can trigger later reviews."
+   ],
+   [
+    "Should I apply to several providers at once?",
+    "Running two applications in parallel is common and reduces launch risk, provided you give consistent information to each. Keep a single onboarding pack and update it centrally so that answers, volumes and ownership details match across applications."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "second-jurisdiction-strategy-when-a-crypto-company-should-add-a-panama-or-eu-ent",
+  "title": "Second-jurisdiction strategy: when a crypto company should add a Panama or EU entity",
+  "keyword": "Second-jurisdiction strategy: when a",
+  "landing": "/panama-crypto-license/",
+  "lede": "A second jurisdiction is no longer a growth luxury for crypto companies; it is increasingly a licensing and banking necessity. The question is not whether to expand your corporate footprint, but when to add a Panama or EU entity, and in which order.",
+  "sections": [
+   [
+    "Why a single-entity structure stops working",
+    [
+     "Most crypto founders start with one company in one jurisdiction. That works while the business is small, the customer base is narrow, and banking relationships are simple. It stops working when you serve clients in the EU, when a payment provider asks for a local licence, or when your home regulator starts asking questions about activities conducted abroad. At that point a second entity is not about tax optimisation; it is about legal clarity.",
+     "The two most common triggers are market access and counterparty requirements. EU customers increasingly expect a MiCA-authorised CASP, and banks, custodians and liquidity providers apply their own jurisdictional filters before onboarding. A single offshore entity can find itself locked out of the very infrastructure it needs to grow. A second entity gives you a regulated front door for one market while keeping the original structure for activities that do not require it."
+    ]
+   ],
+   [
+    "The EU route: MiCA and the CASP capital tiers",
+    [
+     "MiCA is fully in force across the EU in 2026, and crypto-asset service providers need authorisation from a national competent authority before offering services in the Union. Authorisation is passportable, so one licence can serve all member states, which is why many founders treat the EU entity as their regulated core rather than a satellite. The trade-off is capital, governance, and ongoing supervision.",
+     "Initial capital requirements are set by activity class, with the familiar tiers of EUR 50,000, EUR 125,000 and EUR 150,000 depending on the services you provide. Custody and trading platform activities sit at the higher end; advisory and certain order-transmission models sit lower. Founders should budget beyond the minimum, because competent authorities assess own funds, professional indemnity cover, governance, outsourcing and wind-down planning. Expect a demanding application file and a supervisory relationship that continues after authorisation."
+    ]
+   ],
+   [
+    "The Panama route: speed, neutrality and no dedicated crypto licence",
+    [
+     "Panama does not issue a dedicated crypto licence. Companies operate through a Sociedad Anonima, a flexible corporate vehicle that can be established in roughly two to three weeks with the right documentation and local representation. Panama taxes territorial-source income, so foreign-source income is generally outside the scope of Panamanian income tax, which is why the jurisdiction appeals to founders with globally distributed revenue.",
+     "The absence of a crypto-specific regime cuts both ways. It means no licensing queue and no minimum capital tied to activity class, but it also means no regulatory badge that EU banks or institutional counterparties will recognise. Panama works best as a holding, treasury, IP or operational entity for activities that do not require a local licence, or as a complement to a regulated EU entity rather than a substitute for one. Founders should confirm their tax position in their own country of residence and take local Panamanian advice before relying on any assumption."
+    ]
+   ],
+   [
+    "When to add Panama first, and when to add the EU first",
+    [
+     "Add Panama first when your priority is speed and structural flexibility: you need a holding company for token treasury, a vehicle for non-EU clients, or a clean entity for a new product line while the regulated business matures. The two to three week setup and the absence of a licensing queue make it a practical first step for founders who are not yet ready to commit to a multi-month EU application.",
+     "Add the EU first when your revenue depends on European customers, when your banking or payment partners require a MiCA authorisation, or when you intend to raise institutional capital that expects a regulated entity in the structure. Many companies eventually run both: an EU CASP for passportable regulated services and a Panama entity for holding, treasury or non-EU operations. The sequencing should follow revenue, not fashion."
+    ]
+   ],
+   [
+    "Substance, governance and the risks of a paper structure",
+    [
+     "A second entity is not a filing exercise. Regulators and banks look for genuine substance: local directors or managers with real decision-making authority, a registered office that is more than a mailbox, proper books and records, and a clear allocation of activities between entities. A Panama company that exists only on paper, with no local management and no documented rationale, invites scrutiny from tax authorities in the founder's home country and from EU supervisors assessing group structure.",
+     "For the EU entity, substance requirements are explicit: governance arrangements, fit-and-proper management, outsourcing rules and conflict-of-interest policies. For Panama, the risks are more about transfer pricing, permanent establishment and controlled foreign company rules in the founder's home jurisdiction. Document why each entity exists, what it does, and how it is paid. That documentation is the difference between a defensible structure and an expensive correction."
+    ]
+   ],
+   [
+    "A practical sequencing checklist",
+    [
+     "Start with a map of activities by jurisdiction: who your customers are, where your servers and staff sit, which services you actually provide, and which counterparties impose licensing conditions. From that map, decide which services need a MiCA authorisation and which can sit in a Panama entity without triggering local licensing. Then model the capital, compliance and accounting cost of each option before committing.",
+     "Finally, build the structure in the order that matches your revenue timeline. If Europe is the near-term market, begin the CASP application early, because preparation and supervisory review take months. If speed and flexibility matter more, establish the Panama Sociedad Anonima first and plan the EU entity as the regulated front door once volumes justify it. Consulting24 advises founders on both routes and on how to connect them without creating unnecessary regulatory or tax exposure."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Does Panama issue a crypto licence?",
+    "No. Panama has no dedicated crypto licensing regime. Crypto businesses typically operate through a Sociedad Anonima, and whether a licence is required depends on the specific activity and on the rules of the jurisdictions where customers are located."
+   ],
+   [
+    "How long does it take to set up a Panama company?",
+    "A Sociedad Anonima can generally be incorporated in around two to three weeks, assuming documentation is complete and local representation is in place. Timelines can vary with bank account opening and KYC checks."
+   ],
+   [
+    "What are the MiCA capital requirements for a CASP?",
+    "Initial capital depends on the activity class, with tiers of EUR 50,000, EUR 125,000 and EUR 150,000. Custody and trading platform services sit at the higher tiers, while advisory and certain transmission models sit lower. Supervisors also assess own funds and governance beyond the minimum."
+   ],
+   [
+    "Can a Panama entity serve EU customers without a MiCA licence?",
+    "Serving EU clients with regulated crypto-asset services generally requires a MiCA authorisation, regardless of where the entity is incorporated. A Panama entity does not avoid that requirement, and EU supervisors look through offshore structures."
+   ],
+   [
+    "Should I add Panama or the EU entity first?",
+    "Add Panama first if you need speed, a holding or treasury vehicle, or a base for non-EU activity. Add the EU entity first if European revenue, banking partners or institutional investors require a MiCA-authorised CASP. Many companies eventually operate both."
+   ],
+   [
+    "Does Panama tax foreign-source income?",
+    "Panama applies a territorial tax system, so foreign-source income is generally outside the scope of Panamanian income tax. Founders should confirm their position under the tax rules of their own country of residence, including controlled foreign company and permanent establishment rules."
+   ],
+   [
+    "What substance does a second entity need?",
+    "Expect to show real decision-making, local management or directors, a genuine registered office, proper books and records, and a documented rationale for the structure. Paper entities attract scrutiny from tax authorities and from EU supervisors reviewing group arrangements."
+   ],
+   [
+    "How does Consulting24 help with a second-jurisdiction strategy?",
+    "Consulting24 advises crypto founders on entity selection, MiCA CASP applications, Panama incorporation and the interaction between the two. The team helps map activities, model capital and compliance costs, and document the structure so it holds up to regulatory and banking review."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
  }
 ]
