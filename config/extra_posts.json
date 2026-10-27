@@ -33103,5 +33103,225 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "the-one-page-crypto-licensing-decision-matrix-for-founders",
+  "title": "The one-page crypto licensing decision matrix for founders",
+  "keyword": "The one-page crypto licensing",
+  "landing": "/",
+  "lede": "Most crypto founders lose months to licensing indecision because they compare jurisdictions on vibes rather than on a small set of decision criteria. This one-page matrix reduces the choice to four questions you can answer before you spend a euro on legal fees.",
+  "sections": [
+   [
+    "Why a decision matrix beats a jurisdiction shopping list",
+    [
+     "Founders usually start licensing research by collecting names: Malta, Lithuania, Cyprus, Dubai, Panama, Switzerland. That list grows without bound and answers nothing, because each jurisdiction is optimised for a different business model. A matrix works the other way round. You fix the criteria that actually constrain you, then let the jurisdictions fall out of the comparison.",
+     "The criteria that matter most are rarely the ones founders discuss first. Marketing reach, who your customers are, where your banking sits, and whether you custody client assets drive the decision far more than headline tax rates. A licence that looks cheap but blocks your payment rails or your target market is not cheap.",
+     "The matrix below is deliberately short. Four questions, answered honestly, will usually narrow the field to two or three realistic options. Everything after that is execution: corporate structure, capital, local substance, and a compliance file that survives supervisory review."
+    ]
+   ],
+   [
+    "Question one: where are your customers, and do you need EU passporting",
+    [
+     "If you serve or market to retail clients in the EU, MiCA is the frame you operate in. MiCA is in force across the EU in 2026, and crypto-asset service providers need authorisation from a national competent authority in a member state. Authorisation in one member state gives you passporting rights across the bloc, which is the main reason founders accept the compliance burden.",
+     "The capital requirement depends on the activity class rather than on the country. EU CASP capital tiers are EUR 50,000, EUR 125,000, and EUR 150,000 depending on which services you provide, with the higher tiers applying to activities such as operating a trading platform or dealing on own account. Custody and exchange activities sit in the higher bands, while narrower advisory or transfer services can sit lower. Confirm your exact class with counsel before you budget.",
+     "If your customers are outside the EU and you do not market into it, the calculus changes completely. A non-EU structure can be legitimate and much lighter, provided you are disciplined about not soliciting EU clients and about the reverse solicitation limits. The matrix question is not where you want to be regulated, it is who you actually serve."
+    ]
+   ],
+   [
+    "Question two: do you hold client money or client crypto",
+    [
+     "Custody is the single biggest driver of licensing weight. If you hold client fiat or client private keys, supervisors will treat you as a custodian and expect segregation, safeguarding arrangements, capital, and governance to match. If you never touch client assets, a lighter authorisation route or a pure software model may be available.",
+     "This question also determines your banking story. Banks ask for your licence and your safeguarding policy before they open an account, and a custody model invites deeper due diligence. Founders who plan for this early spend less time in onboarding queues.",
+     "Be honest about the answer. A platform that routes orders but holds a float, or a wallet that briefly controls keys during a swap, is custody in substance even if the marketing says otherwise. Regulators look at substance, and so should your matrix."
+    ]
+   ],
+   [
+    "Question three: how much capital and local substance can you carry",
+    [
+     "Every serious regime prices its licence in two currencies: money and presence. In the EU, that means the capital tier plus local management, a registered office, and a compliance function that satisfies the national authority. Some member states are faster and more pragmatic than others, but none of them are free.",
+     "For founders who want a lean holding and operating structure outside the EU, Panama remains a common choice. Panama has no dedicated crypto licence, so the practical route is to incorporate a Sociedad Anonima and run the business through it. Setup typically takes two to three weeks, and the territorial tax system means 0 percent tax on foreign-source income for qualifying structures. That is attractive, but it is not a substitute for licensing where your customers require it.",
+     "The matrix rule is simple: match the regime to the revenue you expect in the first eighteen months. Over-licensing burns runway, under-licensing burns the company. A staged plan, starting with the lightest structure that legitimately covers your current activity, is usually the right answer."
+    ]
+   ],
+   [
+    "Question four: what does your go-to-market timeline allow",
+    [
+     "Authorisation timelines vary widely. EU CASP applications commonly run several months and can extend further if the file is incomplete or the authority asks follow-up questions. Panama incorporation is measured in weeks. That gap matters if you have a launch date, a token event, or a partner integration that cannot slip.",
+     "A useful pattern is to separate the corporate vehicle from the regulated activity. Incorporate early in the jurisdiction that fits your ownership and tax position, then pursue the licence your customer base requires in parallel. This lets you sign contracts, hire, and open banking conversations while the application is pending.",
+     "Do not let the timeline pressure you into misdescribing your business on an application. Supervisors compare the file against your website, your terms, and your actual flows. Inconsistency is the most common reason applications stall."
+    ]
+   ],
+   [
+    "Putting the matrix to work",
+    [
+     "Write your four answers on one page: customer geography, custody yes or no, capital and substance ceiling, and launch deadline. Then score each candidate jurisdiction against those four lines only. Anything that fails a line is out, regardless of how popular the jurisdiction is on social media.",
+     "For most founders the output is a two-track structure: an operating entity where the customers are, and a holding or treasury entity where the tax and ownership logic makes sense. The EU track carries MiCA authorisation and the applicable capital tier. The offshore track, often a Panama Sociedad Anonima, carries the holding and non-EU activity.",
+     "Run the matrix again whenever your business model changes, especially before you start marketing into a new region. Licensing decisions age quickly, and a structure that was correct at launch can become a liability after your first product expansion."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "What is the one-page crypto licensing decision matrix?",
+    "It is a short framework that reduces jurisdiction choice to four criteria: where your customers are, whether you hold client assets, how much capital and local substance you can support, and how soon you need to launch. Jurisdictions are then scored against those lines rather than against general reputation."
+   ],
+   [
+    "Do I need a MiCA licence to serve EU customers in 2026?",
+    "MiCA is in force across the EU in 2026, and crypto-asset service providers generally need authorisation from a national competent authority in a member state. Authorisation in one member state supports passporting across the bloc. Whether your specific activity falls inside the regime depends on the services you provide, so confirm the classification with counsel."
+   ],
+   [
+    "What are the EU CASP capital requirements?",
+    "EU CASP capital tiers are EUR 50,000, EUR 125,000, and EUR 150,000 depending on the activity class. Higher tiers generally apply to activities such as operating a trading platform or dealing on own account, while narrower service classes can sit at the lower tier. Your exact class should be confirmed before budgeting."
+   ],
+   [
+    "Does Panama have a crypto licence?",
+    "No. Panama has no dedicated crypto licence. Founders typically incorporate a Sociedad Anonima and operate through it, with the territorial tax system applying 0 percent tax on foreign-source income for qualifying structures. Setup usually takes two to three weeks. A Panama company does not remove any licensing obligation that applies where your customers are located."
+   ],
+   [
+    "Can I use a Panama company to serve EU clients without MiCA authorisation?",
+    "Generally no, if you are marketing to or serving EU clients. MiCA applies based on the activity and the client base, not only on where the company is incorporated. A Panama structure can hold the business and non-EU activity, but EU-facing services usually require an authorised EU entity."
+   ],
+   [
+    "How long does a MiCA authorisation take?",
+    "Timelines vary by member state and by the completeness of the application. In practice, founders should plan for several months, with extensions where the authority requests further information. A well-prepared compliance file and consistent public disclosures reduce the risk of delays."
+   ],
+   [
+    "What is the cheapest legitimate licensing path for a crypto startup?",
+    "There is no universal cheapest path, because cost depends on your customer base and whether you hold client assets. The lightest legitimate structure is usually one that matches your current activity and geography, with a plan to add authorisations as you expand. Starting with the narrowest scope that covers your real business is generally the most capital-efficient approach."
+   ],
+   [
+    "How often should I revisit my licensing structure?",
+    "Revisit it whenever your business model, target market, or custody arrangements change, and at least annually. Licensing decisions age quickly. A structure that was correct at launch can become a compliance risk after a product expansion or a new marketing campaign into a regulated region."
+   ]
+  ],
+  "related": [
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ],
+   [
+    "Crypto license cost",
+    "/cost/"
+   ]
+  ],
+  "labels": []
+ },
+ {
+  "slug": "case-study-structure-how-a-small-exchange-went-from-idea-to-licensed-in-90-days",
+  "title": "Case study structure: how a small exchange went from idea to licensed in 90 days",
+  "keyword": "Case study structure: how",
+  "landing": "/",
+  "lede": "A 90 day path from concept to a licensed crypto exchange is realistic only when the scope, jurisdiction and capital plan are fixed on day one. This case study structure shows how a small team sequenced entity setup, MiCA authorisation and banking so that each step fed the next rather than restarting it.",
+  "sections": [
+   [
+    "Why a case study structure matters for licensing timelines",
+    [
+     "Founders often read licensing timelines as marketing claims. A case study structure fixes the variables: what the company was, which activities it applied for, which regulator it approached, how much capital it held and who did the work. Once those are stated, a 90 day outcome can be checked rather than admired.",
+     "The structure used here follows five stages: scope and jurisdiction, entity and substance, capital and safeguarding, application drafting, and go live with banking. Each stage has an owner, a deliverable and a gate that must close before the next begins. When a gate slips, the plan shows exactly which downstream dates move.",
+     "The point is not to promise 90 days to every founder. It is to show which conditions make a compressed timeline possible and which conditions make it impossible, so you can judge your own position honestly before spending money."
+    ]
+   ],
+   [
+    "Stage one: scope the licence before choosing the country",
+    [
+     "The team in this example was three people with a spot trading product and a small user base outside the EU. The first decision was not where to incorporate but what the licence had to cover. Custody, exchange of crypto for fiat, and transfer services sit in different activity classes under MiCA, and the capital tier follows the class, not the company's ambition.",
+     "EU CASP capital requirements are set at EUR 50,000, 125,000 and 150,000 depending on the services provided, with higher tiers for certain combinations. A firm offering execution and custody together should expect the upper range. Scoping early prevented the classic error of applying narrowly, launching broadly and needing a variation within months.",
+     "For founders whose market is outside the EU, the calculus differs. Panama, for instance, has no dedicated crypto licence; a Sociedad Anonima can be formed in roughly two to three weeks, and foreign source income is taxed at 0 percent. That is a corporate structure, not a crypto authorisation, and it does not passport into the EU. The case study structure works because the team wrote down which of these two outcomes it actually needed."
+    ]
+   ],
+   [
+    "Stage two: entity, substance and the people file",
+    [
+     "With the activity scope fixed, the team chose an EU member state with an established financial regulator and a workable local cost base. Incorporation, share capital deposit and a registered office took under three weeks. The slower item was substance: a local director or compliance officer with relevant experience, and a documented governance map showing who approves what.",
+     "Regulators read the people file closely. Expect to supply CVs, criminal record checks, proof of residence, source of funds for shareholders and an organisational chart that names the money laundering reporting officer and the person responsible for safeguarding client assets. Missing documents are the most common cause of a stalled file, not weak business models.",
+     "The team built this pack in parallel with incorporation rather than after it. That single scheduling choice saved roughly two weeks, because the application could be filed complete instead of being patched after a first review letter."
+    ]
+   ],
+   [
+    "Stage three: capital, safeguarding and the banking conversation",
+    [
+     "Capital was arranged before the application went in. The team raised the required tier plus a buffer for operating costs during the review period, and documented the source of every contribution. Regulators increasingly ask how the firm will fund itself after authorisation, not only at the point of application.",
+     "Safeguarding was designed as a process, not a paragraph. Client crypto held in segregated wallets, fiat held in a segregated account at a credit institution, daily reconciliation, and a written policy on shortfalls and recovery. The team rehearsed the reconciliation with test data so the description in the application matched what the operations team could actually do.",
+     "Banking is the step founders underestimate. Several banks declined before one accepted, and each rejection cost days. Approaching banks with a completed application pack, a clear activity description and a named compliance contact shortened the final conversation considerably. Start this in week one, not week ten."
+    ]
+   ],
+   [
+    "Stage four: drafting, review and the decision",
+    [
+     "The application itself is a document set, not a form. Business plan, programme of operations, governance arrangements, complaint handling, outsourcing register, ICT and security policy, market abuse procedures and a wind down plan all had to be internally consistent. Reviewers notice when the business plan describes five services and the programme of operations describes three.",
+     "The team ran a mock review before filing, with an external reviewer playing the regulator and returning questions in writing. That exercise produced a list of around forty gaps, most of them wording rather than substance, and all were closed before submission. First review letters after filing were then narrow rather than fundamental.",
+     "Timelines vary by regulator and by file quality. In this case the authority moved from receipt to a decision inside the remaining weeks, but founders should treat any specific day count as an outcome of preparation rather than a published service level."
+    ]
+   ],
+   [
+    "Stage five: go live without breaking the licence",
+    [
+     "Authorisation is a starting line. The team launched with a limited product set matching exactly what was approved, then added features through documented change control. Client onboarding, complaints handling and transaction monitoring went live with named owners and monthly reporting to the board.",
+     "The 90 day figure covers idea to licence, not idea to scale. Marketing, liquidity and revenue followed later. What the compressed timeline bought was a compliant base from which to raise, hire and expand without rebuilding the operating model.",
+     "If you want to test this structure against your own plan, the team at Consulting24 works through the same five stages with founders across EU and offshore jurisdictions. The useful first conversation is about scope and capital, because those two answers determine everything that follows."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "Is 90 days a realistic timeline for a crypto licence in the EU?",
+    "It is possible for a small, narrowly scoped applicant with capital in place, a complete people file and a regulator that is not overloaded. It is not typical. Treat 90 days as the best case for a well prepared file, and plan for longer if your activity scope is broad or your documentation is assembled after filing."
+   ],
+   [
+    "What are the MiCA capital tiers for a CASP?",
+    "The EU regime sets minimum own funds at EUR 50,000, 125,000 and 150,000 depending on the classes of crypto-asset service provided. Offering several services, particularly custody combined with trading, generally places a firm in a higher tier. Confirm your classification with the competent authority before you budget."
+   ],
+   [
+    "Can I start a crypto business in Panama instead of the EU?",
+    "Panama has no dedicated crypto licence. Founders typically incorporate a Sociedad Anonima, which can take around two to three weeks, and foreign source income is generally taxed at 0 percent. That structure does not provide EU authorisation or passporting, so it suits businesses serving non-EU clients rather than firms targeting the European market."
+   ],
+   [
+    "What documents slow down a licensing application most?",
+    "Incomplete ownership and management files are the usual culprit: missing source of funds evidence, unexplained gaps in employment history, and governance charts that do not name the money laundering reporting officer. Inconsistent business plans and programmes of operations also trigger review letters that add weeks."
+   ],
+   [
+    "When should I approach banks during the licensing process?",
+    "In week one. Banking is often the longest lead item and is outside your control. Approach several institutions early with a clear description of your activities, your application status and a named compliance contact, and expect rejections before an acceptance."
+   ],
+   [
+    "How should client assets be safeguarded under MiCA?",
+    "Client crypto and fiat should be held separately from the firm's own assets, with fiat at a credit institution or central bank and crypto in segregated wallets. You need written policies, daily reconciliation, and a documented plan for shortfalls and wind down. The application should describe the process your operations team actually runs."
+   ],
+   [
+    "Does a Panama company let me serve EU customers?",
+    "No. A Panama entity is not authorised under MiCA and cannot rely on passporting. Serving EU clients generally requires an authorised CASP, either through your own authorisation or through an arrangement with a licensed firm, depending on the services and how they are marketed."
+   ],
+   [
+    "What does Consulting24 do in this process?",
+    "Consulting24, founded by Mardo Soo and based in Estonia, works with crypto founders on jurisdiction and activity scoping, entity and substance setup, capital planning, application drafting and banking introductions. The work follows the same staged structure described in this case study, with gates before each filing step."
+   ]
+  ],
+  "related": [
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ],
+   [
+    "Crypto license cost",
+    "/cost/"
+   ]
+  ],
+  "labels": []
  }
 ]
