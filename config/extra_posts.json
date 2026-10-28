@@ -33323,5 +33323,107 @@
    ]
   ],
   "labels": []
+ },
+ {
+  "slug": "ten-questions-to-ask-a-crypto-licensing-consultant-before-paying-a-deposit",
+  "title": "Ten questions to ask a crypto licensing consultant before paying a deposit",
+  "keyword": "Ten questions to ask",
+  "landing": "/es/",
+  "lede": "Paying a deposit to a crypto licensing consultant is a decision you cannot reverse quickly, so the questions you ask beforehand matter more than the fee you negotiate. Here are ten questions that separate advisers who understand MiCA and Panama from those who are improvising.",
+  "sections": [
+   [
+    "Why the deposit conversation reveals the consultant",
+    [
+     "Most crypto founders start with a budget and a deadline, then look for someone to confirm both. A licensing consultant who accepts the brief without challenging either is not advising you. Before any deposit changes hands, the conversation should already be testing your assumptions about which licence you need, which jurisdiction fits your product, and whether your timeline is realistic given how supervisory authorities actually process applications.",
+     "The deposit itself is a useful stress test. Ask what it covers, what triggers the next invoice, and what happens if the regulator rejects the application or asks for information your business cannot supply. Consultants who cannot answer these points in writing before payment are unlikely to handle them well afterwards, when your money is already committed and your launch date is slipping.",
+     "The primary keyword for this article is 'Ten questions to ask', and that framing is deliberate. A structured list keeps the conversation comparable across firms, so you can weigh answers side by side instead of being persuaded by the most confident voice in the room."
+    ]
+   ],
+   [
+    "Questions one to three: scope, jurisdiction and licence class",
+    [
+     "First, ask which specific licence or registration your activity requires and why. Under MiCA, which is fully in force across the EU in 2026, a crypto-asset service provider authorisation covers defined services such as custody, operation of a trading platform, exchange, transfer, portfolio management and advice. A consultant should map your product to those categories in writing, not describe the regime in general terms.",
+     "Second, ask which jurisdictions they are genuinely recommending and which they are ruling out. A firm that proposes Panama for every client, or the EU for every client, is selling a template. Panama has no dedicated crypto licence, so the usual route is incorporating a Sociedad Anonima, which can be done in roughly two to three weeks and which generally benefits from a territorial tax system with 0% tax on foreign-source income. That structure suits some business models and fails others, and the consultant should say which yours is.",
+     "Third, ask which MiCA capital tier applies to you. EU CASP capital requirements sit at EUR 50,000, EUR 125,000 or EUR 150,000 depending on the class of services provided, and the classification follows the services you actually offer rather than the ones you hope to add later. A consultant who cannot explain which tier your planned services fall into, and what changes if you add services, has not done the analysis."
+    ]
+   ],
+   [
+    "Questions four to six: process, evidence and track record",
+    [
+     "Fourth, ask for a written process map with owners and dependencies. Who drafts the white paper, who prepares the governance and AML documentation, who liaises with the regulator, and which tasks sit with your team. Vague assurances about a 'turnkey' process are a warning sign, because authorisation depends heavily on evidence your company must generate itself, including policies, controls and management fitness.",
+     "Fifth, ask what evidence they will require from you and how long that evidence takes to assemble. MiCA applications are judged on substance: governance arrangements, conflict of interest controls, complaints handling, safekeeping of client assets and, where relevant, prudential safeguards. A realistic adviser will tell you that document preparation often takes longer than the regulator's review, and will give you a range rather than a single optimistic number.",
+     "Sixth, ask for references from clients in a comparable position, and ask what went wrong on those engagements. Every application has friction, whether a request for further information, a change of scope or a delay in a third country. A consultant who claims a flawless record is either new to the work or not being straight with you."
+    ]
+   ],
+   [
+    "Questions seven to nine: fees, liability and exit",
+    [
+     "Seventh, ask for a full fee schedule, not a headline number. Deposits should be tied to defined deliverables, and you should know the cost of each phase, what is included, what is billed separately, and whether third-party costs such as legal opinions, translations, notarisation or local representation are passed through at cost or marked up. Ask specifically what happens if the regulator requests additional work outside the original scope.",
+     "Eighth, ask who is liable if the application fails because of the consultant's error, and get the answer in the engagement letter. Professional indemnity cover, a defined refund policy and a clear limitation of liability clause are standard in serious advisory firms. If the contract is silent on failure, the commercial risk sits entirely with you.",
+     "Ninth, ask how the engagement ends. You should own your documents, your application file and your correspondence with the regulator, and you should be able to move to another adviser without losing access to them. Ask for confirmation that there is no lock-in beyond the current phase and that handover is included rather than billed as an extra."
+    ]
+   ],
+   [
+    "Question ten: what the consultant would do differently",
+    [
+     "Tenth, ask what they would change about your plan if they were spending their own money. This question exposes whether you are talking to an adviser or an order-taker. A good answer might be that you should launch under a lighter regime first, that your product mix pushes you into a higher MiCA capital tier than you assumed, or that a Panama Sociedad Anonima is the right holding structure but not the right regulated entity for EU-facing services.",
+     "It is also the moment to test how the consultant handles uncertainty. Timelines for regulatory approvals vary by authority, by the completeness of the file and by the volume of applications in the queue, so ranges are more honest than dates. A consultant who gives you a range, explains the variables and tells you which milestones are within their control is more useful than one who promises a fixed approval date.",
+     "If the answers to these ten questions are specific, documented and consistent, a deposit is a reasonable next step. If they are general, verbal and optimistic, keep your money and keep asking. For founders who want to compare notes on jurisdiction and process, the team at Consulting24 publishes further guidance at https://www.consulting24.co/es/."
+    ]
+   ]
+  ],
+  "faqs": [
+   [
+    "How much deposit should a crypto licensing consultant ask for?",
+    "There is no standard figure, and you should be cautious of any firm that quotes a single global deposit regardless of scope. A deposit is usually tied to a defined first phase, such as a feasibility assessment or document drafting, and should be a fraction of the total engagement. Ask for a phased schedule so that larger payments follow delivered work rather than preceding it."
+   ],
+   [
+    "What is the first question I should ask about MiCA?",
+    "Ask which specific crypto-asset services your business will provide and therefore which authorisation scope applies. MiCA regulates defined services, and the scope determines your documentation, governance and capital obligations. A consultant should map your product to those categories in writing rather than describing the regulation in general terms."
+   ],
+   [
+    "Which MiCA capital tier applies to my business?",
+    "EU CASP capital requirements are set at EUR 50,000, EUR 125,000 or EUR 150,000 depending on the class of services provided. The tier follows the services you actually offer, so adding custody or operating a trading platform can move you up. Ask the consultant to state your tier and to explain what would change it."
+   ],
+   [
+    "Do I need a crypto licence in Panama?",
+    "Panama has no dedicated crypto licensing regime of the kind found in the EU. The common route is to incorporate a Sociedad Anonima, which typically takes around two to three weeks, and the jurisdiction generally applies a territorial tax system with 0% tax on foreign-source income. Whether that structure fits depends on where your customers, staff and banking relationships are, so treat it as a structuring question rather than a licence purchase."
+   ],
+   [
+    "Can a consultant guarantee approval of my application?",
+    "No credible adviser can guarantee a regulatory outcome, because the decision rests with the supervisory authority. What a good consultant can offer is a documented process, a realistic assessment of weaknesses in your file, and a clear description of what is within their control. Treat any guarantee of approval as a reason to look elsewhere."
+   ],
+   [
+    "What should the engagement letter cover before I pay?",
+    "It should define the scope and deliverables for each phase, the fee schedule and any third-party costs, the assumptions the plan depends on, the refund and liability position if the application fails, and your ownership of documents and correspondence. If any of these are missing, ask for them to be added before transferring funds."
+   ],
+   [
+    "How long does a MiCA authorisation usually take?",
+    "Timelines vary by authority, by the completeness of the application and by the volume of files in the queue, so ranges are more honest than fixed dates. In practice, document preparation often consumes as much time as regulatory review. Ask the consultant to separate the work they control from the work the regulator controls when they give you a timeline."
+   ],
+   [
+    "How can I tell whether a consultant is genuinely experienced?",
+    "Ask for references from clients with a similar product and jurisdiction, and ask what went wrong on those engagements. Experienced advisers discuss friction openly, including requests for further information and scope changes. They also ask you difficult questions about your business model before quoting a fee, which is a better signal than a polished pitch deck."
+   ]
+  ],
+  "related": [
+   [
+    "Panama crypto company (EUR 6,000)",
+    "/"
+   ],
+   [
+    "Compare all jurisdictions",
+    "/jurisdictions/"
+   ],
+   [
+    "Lithuania MiCA CASP",
+    "/lithuania-crypto-license/"
+   ],
+   [
+    "Estonia crypto license",
+    "/estonia-crypto-license/"
+   ]
+  ],
+  "labels": []
  }
 ]
