@@ -149,6 +149,24 @@
    "feed": "fca",
    "title": "Market integrity in a digital age",
    "published": false
+  },
+  "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-latest-edition-its-newsletter-45": {
+   "date": "2026-10-31T09:32:41+00:00",
+   "feed": "esma",
+   "title": "ESMA publishes latest edition of its newsletter",
+   "published": true
+  },
+  "https://www.fca.org.uk/news/press-releases/brits-nearly-twice-likely-spot-pressure-tactics-horror-films-investment-red-flags": {
+   "date": "2026-10-31T09:32:45+00:00",
+   "feed": "fca",
+   "title": "Brits nearly twice as likely to spot pressure tactics in horror films as investment red flags",
+   "published": false
+  },
+  "https://www.fca.org.uk/news/press-releases/fca-stops-htxs-crypto-promotions": {
+   "date": "2026-10-31T09:32:48+00:00",
+   "feed": "fca",
+   "title": "FCA stops HTX's crypto promotions",
+   "published": false
   }
  }
 }

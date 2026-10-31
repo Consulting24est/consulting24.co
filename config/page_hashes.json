@@ -3964,8 +3964,8 @@
 "lastmod": "2026-09-21"
 },
 "https://www.consulting24.co/news/": {
-"hash": "a54940778fc54013eebe3aacedd91f23",
-"lastmod": "2026-10-17"
+"hash": "3eca4083364b7a6e3ef4dfb5f373bb7b",
+"lastmod": "2026-10-31"
 },
 "https://www.consulting24.co/news/esma-flags-market-risks-masked-by-investor-optimism/": {
 "hash": "4c270ad998b623957337878e4782a169",
@@ -11994,5 +11994,9 @@
 "https://www.consulting24.co/news/esma-publishes-new-q-as-on-casp-payment-accounts-crowdfunding-fees-and-ccp/": {
 "hash": "4f11441b2457f0c3f07f747368ac0655",
 "lastmod": "2026-10-17"
+},
+"https://www.consulting24.co/news/esma-publishes-spotlight-on-markets-newsletter-for-september-and-october-2026/": {
+"hash": "f2a8b19af7ab6a78dd84c585b549c1e8",
+"lastmod": "2026-10-31"
 }
 }
