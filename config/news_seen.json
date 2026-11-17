@@ -185,6 +185,18 @@
    "feed": "esma",
    "title": "EU seeks nominations for stakeholder group on tokenisation standards in finance",
    "published": false
+  },
+  "https://www.mfsa.mt/publication/circular-on-regulatory-own-funds-capital-adequacy-and-prudential-expectations-applicable-to-fund-managers-and-investment-firms/": {
+   "date": "2026-11-17T09:32:34+00:00",
+   "feed": "mfsa",
+   "title": "European Tokenisation Standards Group (ETSG) – Call for Nominations",
+   "published": false
+  },
+  "https://www.fca.org.uk/news/blogs/what-were-learning-firms-engaging-our-innovation-services": {
+   "date": "2026-11-17T09:32:39+00:00",
+   "feed": "fca",
+   "title": "What we’re learning from firms engaging with our innovation services",
+   "published": false
   }
  }
 }
