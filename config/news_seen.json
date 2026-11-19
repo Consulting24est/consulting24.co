@@ -197,6 +197,18 @@
    "feed": "fca",
    "title": "What we’re learning from firms engaging with our innovation services",
    "published": false
+  },
+  "https://www.mfsa.mt/news-item/mfsa-warning-malta-global-crypto-bank/": {
+   "date": "2026-11-19T09:32:53+00:00",
+   "feed": "mfsa",
+   "title": "MFSA Warning – Malta Global Crypto Bank",
+   "published": false
+  },
+  "https://www.fca.org.uk/news/press-releases/uk-financial-watchdogs-clarify-cyber-expectations-attacks-rise": {
+   "date": "2026-11-19T09:32:58+00:00",
+   "feed": "fca",
+   "title": "UK financial watchdogs clarify cyber expectations as attacks rise",
+   "published": false
   }
  }
 }
