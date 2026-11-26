@@ -227,6 +227,18 @@
    "feed": "fca",
    "title": "The courage to change",
    "published": false
+  },
+  "https://www.eba.europa.eu/node/20237": {
+   "date": "2026-11-26T09:32:39+00:00",
+   "feed": "eba",
+   "title": "EBA E-mail alert 25 November, 2026",
+   "published": false
+  },
+  "https://www.sec.gov/newsroom/press-releases/2026-118-sec-investor-advisory-committee-host-dec-3-virtual-meeting": {
+   "date": "2026-11-26T09:32:39+00:00",
+   "feed": "sec",
+   "title": "SEC Investor Advisory Committee to Host Dec. 3 Virtual Meeting",
+   "published": false
   }
  }
 }
