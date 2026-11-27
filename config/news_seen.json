@@ -239,6 +239,12 @@
    "feed": "sec",
    "title": "SEC Investor Advisory Committee to Host Dec. 3 Virtual Meeting",
    "published": false
+  },
+  "https://www.fca.org.uk/news/statements/payments-authorities-mou-review-2026": {
+   "date": "2026-11-27T09:32:36+00:00",
+   "feed": "fca",
+   "title": "Authorities complete 2026 review of payments Memorandum of Understanding",
+   "published": true
   }
  }
 }
